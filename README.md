@@ -2,7 +2,15 @@
 
 Requires Python 3.6+.
 
+```bash
+pip install -r requirements.txt
+```
 
-## Milestones (TODO) 
+## Running
 
-Milestone 1: [A single end-to-end extraction run](https://github.com/atlasml/sota-extractor/milestone/1)
+To see the example predictions:
+
+```bash
+python -m extractor.predict
+```
+
