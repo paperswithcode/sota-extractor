@@ -202,7 +202,7 @@ class TaskDb:
                         task.synonyms.append(row[1])
 
     @staticmethod
-    def tasks_with_sota():
+    def tasks_with_sota() -> List[Task]:
         """
         Extract all tasks with SOTA tables.
         This includes both the top-level and subtasks
@@ -216,6 +216,22 @@ class TaskDb:
             find_sota_tasks(task, sota_tasks)
 
         return sota_tasks
+
+    @staticmethod
+    def datasets_with_sota() -> List[Dataset]:
+        """
+        Extract all datasets with SOTA tables.
+        This includes both the top-level and subtasks
+
+        :return:
+        """
+
+        sota_datasets = []
+
+        for task in TaskDb.tasks.values():
+            find_sota_datasets(task, sota_datasets)
+
+        return sota_datasets
 
 
 def find_sota_tasks(task:Task, out:List):
@@ -244,3 +260,31 @@ def find_sota_tasks(task:Task, out:List):
 
     for subtask in task.subtasks:
         find_sota_tasks(subtask, out)
+
+
+def find_sota_datasets(task:Task, out:List):
+    """
+    Get all the datasets with a SOTA table
+
+    These datasets will be added into the "out" output list
+
+    :param task:
+    :param out:
+    :return:
+    """
+
+    # check if the dataset has sota tables
+    add = False
+    for d in task.datasets:
+        if d.sota_rows:
+            out.append(d)
+
+        for sd in d.subdatasets:
+            if sd.sota_rows:
+                out.append(sd)
+
+    if add:
+        out.append(task)
+
+    for subtask in task.subtasks:
+        find_sota_datasets(subtask, out)

@@ -8,8 +8,6 @@ task = TaskDb.get_task("Part-of-speech tagging")
 # FIXME: second table is for reference only
 # task.datasets[0].subdatasets = [task.datasets[0].subdatasets[0]]
 
-query = task.task.lower()
-
 pred = [a for a in arxiv if article_matches(a, task, stemmer)]
 
 tp, fn, fp = eval_task(pred, task)
