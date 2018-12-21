@@ -1,4 +1,5 @@
 import json
+import csv
 from typing import Dict, Tuple, List
 
 class Link:
@@ -134,6 +135,8 @@ class Task:
                 if subt_d:
                     self.subtasks.append(Task(subt_d, parent=self))
 
+        self.synonyms = []
+
 
 class TaskDb:
     tasks = {}
@@ -141,12 +144,19 @@ class TaskDb:
     @staticmethod
     def get_task(name:str):
         """
-        Get a top-level task by name
+        Get a task or subtask by name
 
         :param name:
         :return:
         """
-        return TaskDb.tasks[name]
+        if name in TaskDb.tasks:
+            return TaskDb.tasks[name]
+        else:
+            for t in TaskDb.tasks.values():
+                for subtask in t.subtasks:
+                    if subtask.task == name:
+                        return subtask
+        return None
 
     @staticmethod
     def add_task(name:str, task:Task):
@@ -173,6 +183,23 @@ class TaskDb:
                 for t in task_list:
                     TaskDb.add_task(t["task"], Task(t))
 
+
+    @staticmethod
+    def load_synonyms(csv_files: List[str]):
+        """
+        Load task synonyms from input files
+
+        :param csv_files:
+        :return:
+        """
+
+        for csv_file in csv_files:
+            with open(csv_file, newline='') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    task = TaskDb.get_task(row[0])
+                    if task is not None:
+                        task.synonyms.append(row[1])
 
     @staticmethod
     def tasks_with_sota():

@@ -1,13 +1,17 @@
 import re
 import gzip
+
+
 from extractor.taskdb import *
 from nltk.stem.snowball import SnowballStemmer
+from nltk.stem.porter import PorterStemmer
 
 # load the tasks and arxiv metadata
 
-stemmer = SnowballStemmer("english")
+stemmer = PorterStemmer()
 
 TaskDb.load_tasks(["data/tasks/nlpprogress.json"])
+TaskDb.load_synonyms(["data/tasks/synonyms.csv"])
 with gzip.open("data/arxiv_metadata.json.gz") as f:
     arxiv = json.load(f)
 

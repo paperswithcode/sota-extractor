@@ -15,14 +15,23 @@ def article_matches(paper:Dict, task:Task, stemmer):
     :return:
     """
 
-    t = task.task.lower()
-    ts = stemmer.stem(task.task)
     title = paper["title_lower"]
     abstract = paper["abstract_lower"]
     title_stem = paper["title_stem"]
     abstract_stem = paper["abstract_stem"]
 
-    matches_paper = t in title or t in abstract or ts in title_stem or ts in abstract_stem
+    all_task_names = [task.task]
+    all_task_names.extend(task.synonyms)
+
+    matches_paper = False
+    for task_name in all_task_names:
+        task_name_lower = task_name.lower()
+        task_name_stem = stemmer.stem(task_name)
+
+        matches_paper = matches_paper or task_name_lower in title
+        matches_paper = matches_paper or task_name_lower in abstract
+        #matches_paper = matches_paper or task_name_stem in title_stem
+        #matches_paper = matches_paper or task_name_stem in abstract_stem
 
     contains_sota = "state-of-the-art" in abstract or "state-of-art" in abstract or \
         "state of the art" in abstract or "state of art" in abstract or "sota" in abstract
