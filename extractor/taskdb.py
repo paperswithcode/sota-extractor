@@ -140,10 +140,23 @@ class TaskDb:
 
     @staticmethod
     def get_task(name:str):
+        """
+        Get a top-level task by name
+
+        :param name:
+        :return:
+        """
         return TaskDb.tasks[name]
 
     @staticmethod
     def add_task(name:str, task:Task):
+        """
+        Add a top-level task by name
+
+        :param name:
+        :param task:
+        :return:
+        """
         TaskDb.tasks[name] = task
 
     @staticmethod
@@ -159,3 +172,48 @@ class TaskDb:
                 task_list = json.load(f)
                 for t in task_list:
                     TaskDb.add_task(t["task"], Task(t))
+
+
+    @staticmethod
+    def tasks_with_sota():
+        """
+        Extract all tasks with SOTA tables.
+        This includes both the top-level and subtasks
+
+        :return:
+        """
+
+        sota_tasks = []
+
+        for task in TaskDb.tasks.values():
+            find_sota_tasks(task, sota_tasks)
+
+        return sota_tasks
+
+
+def find_sota_tasks(task:Task, out:List):
+    """
+    Get all the tasks with a SOTA table
+
+    These tasks will be added into the "out" output list
+
+    :param task:
+    :param out:
+    :return:
+    """
+
+    # check if the dataset has sota tables
+    add = False
+    for d in task.datasets:
+        if d.sota_rows:
+            add = True
+
+        for sd in d.subdatasets:
+            if sd.sota_rows:
+                add = True
+
+    if add:
+        out.append(task)
+
+    for subtask in task.subtasks:
+        find_sota_tasks(subtask, out)

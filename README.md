@@ -8,9 +8,9 @@ pip install -r requirements.txt
 
 ## Running
 
-To see the example predictions:
+To evaluate the predictions for all tasks:
 
 ```bash
-python -m extractor.predict
+python -m extractor.eval_all
 ```
 
