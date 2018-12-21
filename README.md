@@ -14,3 +14,5 @@ To evaluate the predictions for all tasks:
 python -m extractor.eval_all
 ```
 
+The most current report can be seen here: [eval_all_report.csv](eval_all_report.csv).
+
