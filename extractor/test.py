@@ -4,7 +4,7 @@ from extractor.predict import article_matches
 from extractor.eval import eval_task
 
 # choose a task, and make predictions
-task = TaskDb.get_task("Common sense")
+task = TaskDb.get_task("Sentence Compression")
 # FIXME: second table is for reference only
 # task.datasets[0].subdatasets = [task.datasets[0].subdatasets[0]]
 

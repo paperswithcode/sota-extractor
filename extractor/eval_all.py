@@ -7,7 +7,7 @@ import pandas
 
 sota_tasks = TaskDb.tasks_with_sota()
 
-df = pandas.DataFrame(columns=['task', 'tp', 'fn', 'fp', 'precision', 'recall'])
+df = pandas.DataFrame(columns=['task', 'parent', 'tp', 'fn', 'fp', 'precision', 'recall'])
 
 for task in sota_tasks:
     pred = [a for a in arxiv if article_matches(a, task, stemmer)]
@@ -20,8 +20,13 @@ for task in sota_tasks:
     if len(tp) / (len(tp)+len(fn)) != 0:
         recal = len(tp) / (len(tp)+len(fn))
 
+    parent = ""
+    if task.parent:
+        parent = task.parent.task
+
     df = df.append({
         "task": task.task,
+        "parent": parent,
         "tp": len(tp),
         "fn": len(fn),
         "fp": len(fp),
@@ -30,7 +35,8 @@ for task in sota_tasks:
     }, ignore_index=True)
 
 df = df.append({
-    "task": "Total",
+    "task": "",
+    "parent": "Total",
     "tp": round(df["tp"].mean(),2),
     "fn": round(df["fn"].mean(),2),
     "fp": round(df["fp"].mean(),2),
