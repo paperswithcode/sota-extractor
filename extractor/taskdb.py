@@ -277,14 +277,14 @@ def find_sota_datasets(task:Task, out:List):
     add = False
     for d in task.datasets:
         if d.sota_rows:
-            out.append(d)
+            add = True
 
         for sd in d.subdatasets:
             if sd.sota_rows:
-                out.append(sd)
+                add = True
 
-    if add:
-        out.append(task)
+        if add:
+            out.append(d)
 
     for subtask in task.subtasks:
         find_sota_datasets(subtask, out)
