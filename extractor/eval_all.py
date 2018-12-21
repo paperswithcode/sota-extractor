@@ -25,8 +25,8 @@ for task in sota_tasks:
         "tp": len(tp),
         "fn": len(fn),
         "fp": len(fp),
-        "precision": prec,
-        "recall": recal,
+        "precision": round(prec,2),
+        "recall": round(recal,2),
     }, ignore_index=True)
 
 df = df.append({
@@ -34,8 +34,8 @@ df = df.append({
     "tp": df["tp"].mean(),
     "fn": df["fn"].mean(),
     "fp": df["fp"].mean(),
-    "precision": df["precision"].mean(),
-    "recall": df["recall"].mean()
+    "precision": round(df["precision"].mean(),2),
+    "recall": round(df["recall"].mean(),2),
 }, ignore_index=True)
 
 print("Writing report into `eval_all_report.csv`")
