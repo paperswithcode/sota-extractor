@@ -31,9 +31,9 @@ for task in sota_tasks:
 
 df = df.append({
     "task": "Total",
-    "tp": df["tp"].mean(),
-    "fn": df["fn"].mean(),
-    "fp": df["fp"].mean(),
+    "tp": round(df["tp"].mean(),2),
+    "fn": round(df["fn"].mean(),2),
+    "fp": round(df["fp"].mean(),2),
     "precision": round(df["precision"].mean(),2),
     "recall": round(df["recall"].mean(),2),
 }, ignore_index=True)
