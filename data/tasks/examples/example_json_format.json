@@ -1,5 +1,5 @@
 {
-  "task": ["Dialogue"],
+  "task": "Dialogue",
   "description": "Dialogue is notoriously hard to evaluate. Past approaches have used human evaluation.",
   "subtasks": [
     {
@@ -27,7 +27,7 @@
             }
           ],
           "sota": {
-            "metrics": "accuracy",
+            "metrics": ["accuracy"],
             "rows": [
               {
                 "model_name": "CRF-ASN (Chen et al., 2018)",

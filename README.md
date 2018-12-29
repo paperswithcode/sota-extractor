@@ -6,6 +6,12 @@ Requires Python 3.6+.
 pip install -r requirements.txt
 ```
 
+## Getting the data
+
+The data is kept in the [data](data/) directory. 
+
+The scrapers and the JSON format spec are in [scrapers](scrapers/README.md) directory. 
+
 ## Running
 
 To evaluate the predictions for all tasks:
