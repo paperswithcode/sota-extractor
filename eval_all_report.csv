@@ -1,41 +1,41 @@
 ,task,parent,tp,fn,fp,precision,recall
-0,Common sense,,2,7,13,0.13,0.22
-1,Summarization,,9,13,130,0.06,0.41
-2,Sentence Compression,Summarization,0,3,10,0.0,0.0
-3,Hypernym Discovery,Taxonomy Learning,0,23,1,0.0,0.0
-4,Dialogue act classification,Dialogue,4,1,4,0.5,0.8
-5,Dialogue state tracking,Dialogue,4,3,10,0.29,0.57
-6,Chunking,Shallow syntax,0,4,24,0.0,0.0
-7,Coreference resolution,,2,1,22,0.08,0.67
-8,Sentiment analysis,,6,16,122,0.05,0.27
-9,Aspect-based sentiment analysis,Sentiment analysis,1,2,6,0.14,0.33
-10,Subjectivity analysis,,0,5,1,0.0,0.0
-11,Semantic role labeling,,3,2,19,0.14,0.6
-12,Constituency parsing,,3,6,8,0.27,0.33
-13,Word Sense Disambiguation,,1,15,22,0.04,0.06
-14,Text classification,,8,10,78,0.09,0.44
-15,Grammatical Error Correction,,11,1,5,0.69,0.92
-16,Dependency parsing,,7,5,48,0.13,0.58
-17,Semantic textual similarity,,0,3,9,0.0,0.0
-18,Paraphrase identification,Semantic textual similarity,1,3,9,0.1,0.25
-19,AMR parsing,Semantic parsing,0,3,6,0.0,0.0
-20,SQL parsing,Semantic parsing,1,26,4,0.2,0.04
+0,Common sense,,2,7,32,0.06,0.22
+1,Summarization,,17,8,361,0.04,0.68
+2,Sentence Compression,Summarization,0,3,33,0.0,0.0
+3,Hypernym Discovery,Taxonomy Learning,0,23,3,0.0,0.0
+4,Dialogue act classification,Dialogue,5,0,8,0.38,1.0
+5,Dialogue state tracking,Dialogue,6,3,19,0.24,0.67
+6,Chunking,Shallow syntax,2,2,54,0.04,0.5
+7,Coreference resolution,,4,1,93,0.04,0.8
+8,Sentiment analysis,,13,15,336,0.04,0.46
+9,Aspect-based sentiment analysis,Sentiment analysis,2,1,11,0.15,0.67
+10,Subjectivity analysis,,0,5,2,0.0,0.0
+11,Semantic role labeling,,5,2,84,0.06,0.71
+12,Constituency parsing,,7,4,30,0.19,0.64
+13,Word Sense Disambiguation,,1,15,85,0.01,0.06
+14,Text classification,,16,10,179,0.08,0.62
+15,Grammatical Error Correction,,17,0,21,0.45,1.0
+16,Dependency parsing,,13,4,171,0.07,0.76
+17,Semantic textual similarity,,0,3,32,0.0,0.0
+18,Paraphrase identification,Semantic textual similarity,1,3,23,0.04,0.25
+19,AMR parsing,Semantic parsing,1,2,22,0.04,0.33
+20,SQL parsing,Semantic parsing,2,26,6,0.25,0.07
 21,Open Knowledge Graph Canonicalization,Information Extraction,0,3,0,0.0,0.0
-22,CCG supertagging,,0,5,2,0.0,0.0
-23,Named entity recognition,,4,16,63,0.06,0.2
-24,Lexical Normalization,,0,4,0,0.0,0.0
-25,Temporal Information Extraction,Temporal Processing,0,4,1,0.0,0.0
+22,CCG supertagging,,1,4,3,0.25,0.2
+23,Named entity recognition,,12,12,196,0.06,0.5
+24,Lexical Normalization,,0,4,3,0.0,0.0
+25,Temporal Information Extraction,Temporal Processing,2,2,11,0.15,0.5
 26,Timex normalisation,Temporal Processing,0,5,0,0.0,0.0
-27,Reading comprehension,Question answering,7,14,59,0.11,0.33
-28,Open-domain Question Answering,Question answering,0,12,6,0.0,0.0
-29,Relationship Extraction,,0,5,55,0.0,0.0
-30,Sentiment analysis,Domain adaptation,3,1,123,0.02,0.75
-31,Part-of-speech tagging,,8,7,49,0.14,0.53
-32,Machine translation,,10,6,218,0.04,0.62
-33,Natural language inference,,2,4,32,0.06,0.33
+27,Reading comprehension,Question answering,15,12,129,0.1,0.56
+28,Open-domain Question Answering,Question answering,0,12,13,0.0,0.0
+29,Relationship Extraction,,0,5,172,0.0,0.0
+30,Sentiment analysis,Domain adaptation,4,1,341,0.01,0.8
+31,Part-of-speech tagging,,15,4,168,0.08,0.79
+32,Machine translation,,18,6,824,0.02,0.75
+33,Natural language inference,,3,3,83,0.03,0.5
 34,Multimodal Emotion Recognition,Multimodal,0,4,1,0.0,0.0
-35,Multimodal Sentiment Analysis,Multimodal,0,2,5,0.0,0.0
-36,Word Level Models,Language modeling,14,4,227,0.06,0.78
-37,Character Level Models,Language modeling,7,13,228,0.03,0.35
-38,Stance detection,,0,2,16,0.0,0.0
-39,,Total,3.03,6.74,41.95,0.09,0.27
+35,Multimodal Sentiment Analysis,Multimodal,1,1,8,0.11,0.5
+36,Word Level Models,Language modeling,28,4,536,0.05,0.88
+37,Character Level Models,Language modeling,11,9,545,0.02,0.55
+38,Stance detection,,1,1,26,0.04,0.5
+39,,Total,5.77,5.87,119.59,0.08,0.42

@@ -23,7 +23,8 @@ def eval_task(predicted:List[Dict], task:Task):
     tp_sota = []
     for p in predicted:
         for s in all_sota:
-            if p["arxiv_id"] in s.paper_url or p["title_lower"] == s.paper_title.lower():
+            if (p["arxiv_id"] and s.paper_url and p["arxiv_id"] in s.paper_url) or \
+                    (p["title_lower"] and s.paper_title and p["title_lower"] == s.paper_title.lower()):
                 tp.append(p)
                 tp_sota.append(s)
 

@@ -12,8 +12,12 @@ stemmer = PorterStemmer()
 
 TaskDb.load_tasks(["data/tasks/nlpprogress.json"])
 TaskDb.load_synonyms(["data/tasks/synonyms.csv"])
-with gzip.open("data/arxiv_metadata.json.gz") as f:
+with gzip.open("data/arxiv_aclweb.json.gz") as f:
     arxiv = json.load(f)
+
+for a in arxiv:
+    if a["abstract"] is None:
+        a["abstract"] = ""
 
 # require and normalise arxiv titles
 arxiv = [a for a in arxiv if "title" in a and a["title"] is not None]
