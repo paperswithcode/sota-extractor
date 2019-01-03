@@ -1,10 +1,10 @@
 # Automatic SOTA (state-of-the-art) extraction
 
-Requires Python 3.6+.
+The purpose of this project is to aggregate public SOTA tables that are shared under one of the free licences. 
 
-```bash
-pip install -r requirements.txt
-```
+You can download the scrapped data, or run the scrappers yourself the get the latest data. 
+
+Data has been compiled in a consistent format over all sources. 
 
 ## Getting the data
 
@@ -60,17 +60,29 @@ A `SotaRow` object represents one line of the SOTA table, it has these fields:
 
 ## Running the scrapers
 
+### Installation
+
+Requires Python 3.6+.
+
+```bash
+pip install -r requirements.txt
+```
+
 ### NLP-progress
 
 [NLP-progress](https://github.com/sebastianruder/NLP-progress) is a hand-annotated collection of SOTA results from NLP tasks. 
 
 The scraper [is part of the NLP-progress project](https://github.com/sebastianruder/NLP-progress/pull/186).
 
+Licence: MIT
+
 ### EFF 
 
 EFF has annotated a set of SOTA results on a small number of tasks, and produced this [great report](https://www.eff.org/ai/metrics).
 
 Instructions are in the [scrapers/eff directory](scrapers/eff).
+
+Licence: CC-BY-SA-4
 
 ### SQuAD
 
@@ -82,8 +94,18 @@ To scrape the current content run:
 python -m scrapers.squad
 ```
 
+Licence: CC-BY-SA-4
 
-## Evaluating SOTA extraction
+### RedditSota
+
+The [RedditSota repository](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) lists the best method for a 
+
+Licence: Apache-2
+
+
+## Evaluating SOTA extraction performance
+
+This repository will also contain the automatic SOTA extraction pipeline in the future. The purpose of this pipeline is to automatically extract tasks, datasets and results from papers. 
 
 To evaluate the predictions for all tasks:
 
