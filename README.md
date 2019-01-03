@@ -1,14 +1,16 @@
 # Automatic SOTA (state-of-the-art) extraction
 
-The purpose of this project is to aggregate public SOTA tables that are shared under one of the free licences. 
+Aggregate public SOTA tables that are shared under **a free licences**. 
 
-You can download the scrapped data, or run the scrappers yourself the get the latest data. 
+Download the scrapped data or run the scrappers yourself the get the latest data. 
 
-Data has been compiled in a consistent format over all sources. 
+In the future, we are planning to automate the process of extracting tasks, datasets and results from papers. 
 
 ## Getting the data
 
-The data is kept in the [data](data/) directory. 
+The data is kept in the [data](data/) directory.
+ 
+The data has been parsed into a consistent JSON format, described below. 
 
 ## JSON format description
 
@@ -103,11 +105,11 @@ The [RedditSota repository](https://github.com/RedditSota/state-of-the-art-resul
 Licence: Apache-2
 
 
-## Evaluating SOTA extraction performance
+## Evaluating the SOTA extraction performance
 
-This repository will also contain the automatic SOTA extraction pipeline in the future. The purpose of this pipeline is to automatically extract tasks, datasets and results from papers. 
+In the future, this repository will also contain the automatic SOTA extraction pipeline. The aim is to automatically extract tasks, datasets and results from papers. 
 
-To evaluate the predictions for all tasks:
+To evaluate the current prediction performance for all tasks:
 
 ```bash
 python -m extractor.eval_all
