@@ -100,7 +100,7 @@ Licence: CC-BY-SA-4
 
 ### RedditSota
 
-The [RedditSota repository](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) lists the best method for a 
+The [RedditSota repository](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) lists the best method for a variety of tasks across all of ML. 
 
 Licence: Apache-2
 
