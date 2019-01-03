@@ -102,6 +102,12 @@ Licence: CC-BY-SA-4
 
 The [RedditSota repository](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) lists the best method for a variety of tasks across all of ML. 
 
+To scrape the current content run:
+
+```bash
+python -m scrapers.redditsota
+```
+
 Licence: Apache-2
 
 
