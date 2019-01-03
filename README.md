@@ -8,7 +8,7 @@ In the future, we are planning to automate the process of extracting tasks, data
 
 ## Getting the data
 
-The data is kept in the [data](data/) directory.
+The data is kept in the [data](data/) directory. All data is shared under the [CC-BY-SA-4](https://creativecommons.org/licenses/by-sa/4.0/) licence. 
  
 The data has been parsed into a consistent JSON format, described below. 
 
