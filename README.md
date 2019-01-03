@@ -23,6 +23,7 @@ A `Task` consists of the following fields:
 - `description` - short description of the task, in markdown (string)
 - `subtasks` - a list of zero or more `Task` objects that are children to this task (list)
 - `datasets` - a list of zero or more `Dataset` objects on which the tasks are evaluated (list)
+- `source_link` - an optional `Link` object to the original source of the task
 
 #### `Dataset`
 

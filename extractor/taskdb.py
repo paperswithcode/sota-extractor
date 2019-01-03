@@ -175,6 +175,9 @@ class Task:
                     self.subtasks.append(Task(subt_d, parent=self))
 
         self.synonyms = []
+        self.source_link = None
+        if "source_link" in d:
+            self.source_link = Link(d["source_link"])
 
     def to_dict(self) -> Dict:
         return {
@@ -184,6 +187,7 @@ class Task:
             "datasets": [d.to_dict() for d in self.datasets],
             "subtasks": [t.to_dict() for t in self.subtasks],
             "synonyms": self.synonyms,
+            "source_link": self.source_link.to_dict() if self.source_link else None,
         }
 
 

@@ -56,6 +56,7 @@ if len(sota_tabels) == 2:
 
     task = Task({"task": "Question answering"})
     task.datasets = [dataset2, dataset1]
+    task.source_link = Link({"title": "SQuAD Leaderboard", "url": URL})
 
     # scrape the evaluation values on the two datasets
     dataset2.sota_metrics = ["EM", "F1"]
