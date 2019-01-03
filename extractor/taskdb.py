@@ -19,6 +19,12 @@ class Link:
         if "url" in d:
             self.url = d["url"]
 
+    def to_dict(self) -> Dict:
+        return {
+            "title": self.title,
+            "url": self.url,
+        }
+
 class SotaRow:
     def __init__(self, d: Dict):
         """
@@ -55,6 +61,17 @@ class SotaRow:
                     self.model_links.append(Link(model_d))
 
         self.metrics = d["metrics"]
+
+    def to_dict(self) -> Dict:
+        return {
+            "model_name": self.model_name,
+            "paper_title": self.paper_title,
+            "paper_url": self.paper_url,
+            "paper_date": self.paper_date,
+            "code_links": [l.to_dict() for l in self.code_links],
+            "model_links": [l.to_dict() for l in self.model_links],
+            "metrics": self.metrics,
+        }
 
 
 class Dataset:
@@ -104,6 +121,28 @@ class Dataset:
                 if link_d:
                     self.dataset_links.append(Link(link_d))
 
+    def to_dict(self) -> Dict:
+        o = {}
+        if self.parent:
+            o["subdataset"] = self.dataset
+        else:
+            o["dataset"] = self.dataset
+
+        o["description"] = self.description
+        if self.sota_metrics:
+            o["sota"] = {
+                "metrics": self.sota_metrics,
+                "sota_rows": [m.to_dict() for m in self.sota_rows]
+            }
+
+        if self.subdatasets:
+            o["subdatasets"] = [d.to_dict() for d in self.subdatasets]
+
+        o["dataset_links"] = [l.to_dict() for l in self.dataset_links]
+        o["dataset_citations"] = [l.to_dict() for l in self.dataset_citations]
+
+        return o
+
 
 class Task:
     def __init__(self, d:Dict, parent=None):
@@ -136,6 +175,16 @@ class Task:
                     self.subtasks.append(Task(subt_d, parent=self))
 
         self.synonyms = []
+
+    def to_dict(self) -> Dict:
+        return {
+            "task": self.task,
+            "description": self.description,
+            "categories": self.categories,
+            "datasets": [d.to_dict() for d in self.datasets],
+            "subtasks": [t.to_dict() for t in self.subtasks],
+            "synonyms": self.synonyms,
+        }
 
 
 class TaskDb:
@@ -232,6 +281,28 @@ class TaskDb:
             find_sota_datasets(task, sota_datasets)
 
         return sota_datasets
+
+    @staticmethod
+    def export() -> List[Dict]:
+        """
+        Export the whole of TaskDB into a list of tasks in Dict format
+
+        :return:
+        """
+        return [task.to_dict() for task in TaskDb.tasks.values()]
+
+
+    @staticmethod
+    def export_to_json(json_filename:str):
+        """
+        Export the whole of TaskDB into a JSON file
+
+        :param json_filename:
+        :return:
+        """
+
+        with open(json_filename, "w") as f:
+            json.dump(TaskDb.export(), f, indent=2)
 
 
 def find_sota_tasks(task:Task, out:List):

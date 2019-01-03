@@ -1,2 +1,5 @@
 nltk==3.4
 pandas==0.23.4
+beautifulsoup4==4.7.0
+soupsieve==1.6.1
+lxml==4.2.6

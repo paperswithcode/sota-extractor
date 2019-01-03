@@ -1,0 +1,2535 @@
+[
+  {
+    "task": "Question answering",
+    "description": "",
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "SQuAD2.0",
+        "description": "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.",
+        "sota": {
+          "metrics": [
+            "EM",
+            "F1"
+          ],
+          "sota_rows": [
+            {
+              "model_name": "Human Performance",
+              "paper_title": "(Rajpurkar & Jia et al. '18)",
+              "paper_url": "http://arxiv.org/abs/1606.05250",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "86.831",
+                "F1": "89.452"
+              }
+            },
+            {
+              "model_name": "BERT finetune baseline (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.536",
+                "F1": "86.096"
+              }
+            },
+            {
+              "model_name": "Lunet + Verifier + BERT (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.469",
+                "F1": "86.043"
+              }
+            },
+            {
+              "model_name": "Lunet + Verifier + BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.995",
+                "F1": "86.035"
+              }
+            },
+            {
+              "model_name": "PAML+BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.577",
+                "F1": "85.603"
+              }
+            },
+            {
+              "model_name": "AoA + DA + BERT (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.374",
+                "F1": "85.310"
+              }
+            },
+            {
+              "model_name": "BERT finetune baseline (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.126",
+                "F1": "84.820"
+              }
+            },
+            {
+              "model_name": "Candi-Net+BERT (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.126",
+                "F1": "84.624"
+              }
+            },
+            {
+              "model_name": "AoA + DA + BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.178",
+                "F1": "84.251"
+              }
+            },
+            {
+              "model_name": "Candi-Net+BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.659",
+                "F1": "83.562"
+              }
+            },
+            {
+              "model_name": "BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.005",
+                "F1": "83.061"
+              }
+            },
+            {
+              "model_name": "NEXYS_BASE (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.779",
+                "F1": "82.912"
+              }
+            },
+            {
+              "model_name": "Candi-Net+BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.388",
+                "F1": "82.908"
+              }
+            },
+            {
+              "model_name": "PwP+BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.117",
+                "F1": "83.189"
+              }
+            },
+            {
+              "model_name": "L6Net + BERT (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.181",
+                "F1": "82.259"
+              }
+            },
+            {
+              "model_name": "BERT+AC(single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.052",
+                "F1": "81.174"
+              }
+            },
+            {
+              "model_name": "SLQA+BERT (single model)",
+              "paper_title": "http://www.aclweb.org/anthology/P18-1158",
+              "paper_url": "http://www.aclweb.org/anthology/P18-1158",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.003",
+                "F1": "80.209"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.721",
+                "F1": "79.611"
+              }
+            },
+            {
+              "model_name": "MIR-MRC(F-Net) (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.791",
+                "F1": "77.988"
+              }
+            },
+            {
+              "model_name": "nlnet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.272",
+                "F1": "77.052"
+              }
+            },
+            {
+              "model_name": "{Anonymous} (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.234",
+                "F1": "76.790"
+              }
+            },
+            {
+              "model_name": "MMIPN",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.505",
+                "F1": "76.424"
+              }
+            },
+            {
+              "model_name": "YARCS (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.670",
+                "F1": "75.507"
+              }
+            },
+            {
+              "model_name": "BERT+Answer Verifier (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.666",
+                "F1": "75.457"
+              }
+            },
+            {
+              "model_name": "RNANetSimple (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.580",
+                "F1": "75.075"
+              }
+            },
+            {
+              "model_name": "Unet (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1810.06638",
+              "paper_url": "https://arxiv.org/abs/1810.06638",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.417",
+                "F1": "74.869"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
+              "paper_title": "https://arxiv.org/abs/1808.05759",
+              "paper_url": "https://arxiv.org/abs/1808.05759",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.767",
+                "F1": "74.295"
+              }
+            },
+            {
+              "model_name": "SLQA+ (single model)",
+              "paper_title": "http://www.aclweb.org/anthology/P18-1158",
+              "paper_url": "http://www.aclweb.org/anthology/P18-1158",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.462",
+                "F1": "74.434"
+              }
+            },
+            {
+              "model_name": "SAN (ensemble model)",
+              "paper_title": "https://arxiv.org/abs/1712.03556",
+              "paper_url": "https://arxiv.org/abs/1712.03556",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.316",
+                "F1": "73.704"
+              }
+            },
+            {
+              "model_name": "RNANetSimple (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.718",
+                "F1": "73.403"
+              }
+            },
+            {
+              "model_name": "Multi-Level Attention Fusion(MLAF) (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "69.476",
+                "F1": "72.857"
+              }
+            },
+            {
+              "model_name": "Unet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "69.262",
+                "F1": "72.642"
+              }
+            },
+            {
+              "model_name": "FusionNet++ (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1711.07341",
+              "paper_url": "https://arxiv.org/abs/1711.07341",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.300",
+                "F1": "72.484"
+              }
+            },
+            {
+              "model_name": "DocQA + NeurQuRI (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.766",
+                "F1": "71.662"
+              }
+            },
+            {
+              "model_name": "SAN (single model)",
+              "paper_title": "https://arxiv.org/abs/1712.03556",
+              "paper_url": "https://arxiv.org/abs/1712.03556",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.653",
+                "F1": "71.439"
+              }
+            },
+            {
+              "model_name": "ARRR (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.653",
+                "F1": "71.124"
+              }
+            },
+            {
+              "model_name": "BiDAF++ with pair2vec (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.021",
+                "F1": "71.583"
+              }
+            },
+            {
+              "model_name": "VS^3-NET (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.897",
+                "F1": "70.884"
+              }
+            },
+            {
+              "model_name": "KACTEIL-MRC(GFN-Net) (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.213",
+                "F1": "70.878"
+              }
+            },
+            {
+              "model_name": "KakaoNet2 (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "65.719",
+                "F1": "69.381"
+              }
+            },
+            {
+              "model_name": "abcNet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "65.256",
+                "F1": "69.206"
+              }
+            },
+            {
+              "model_name": "BiDAF++ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "65.651",
+                "F1": "68.866"
+              }
+            },
+            {
+              "model_name": "BSAE AddText (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "63.338",
+                "F1": "67.422"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention + ELMo (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "63.372",
+                "F1": "66.251"
+              }
+            },
+            {
+              "model_name": "eeAttNet (single model)",
+              "paper_title": "https://www.bbdservice.com",
+              "paper_url": "https://www.bbdservice.com",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "63.327",
+                "F1": "66.633"
+              }
+            },
+            {
+              "model_name": "Tree-LSTM + BiDAF + ELMo (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "57.707",
+                "F1": "62.341"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "59.332",
+                "F1": "62.305"
+              }
+            },
+            {
+              "model_name": "BiDAF-No-Answer (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "59.174",
+                "F1": "62.093"
+              }
+            }
+          ]
+        },
+        "dataset_links": [],
+        "dataset_citations": []
+      },
+      {
+        "dataset": "SQuAD1.1",
+        "description": "Previous version of the SQuAD2.0 dataset with 50,000 question-answer pairs.",
+        "sota": {
+          "metrics": [
+            "EM",
+            "F1"
+          ],
+          "sota_rows": [
+            {
+              "model_name": "Human Performance",
+              "paper_title": "(Rajpurkar et al. '16)",
+              "paper_url": "http://arxiv.org/abs/1606.05250",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.304",
+                "F1": "91.221"
+              }
+            },
+            {
+              "model_name": "BERT (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1810.04805",
+              "paper_url": "https://arxiv.org/abs/1810.04805",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "87.433",
+                "F1": "93.160"
+              }
+            },
+            {
+              "model_name": "BERT (single model)",
+              "paper_title": "https://arxiv.org/abs/1810.04805",
+              "paper_url": "https://arxiv.org/abs/1810.04805",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "85.083",
+                "F1": "91.835"
+              }
+            },
+            {
+              "model_name": "nlnet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "85.356",
+                "F1": "91.202"
+              }
+            },
+            {
+              "model_name": "nlnet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "85.954",
+                "F1": "91.677"
+              }
+            },
+            {
+              "model_name": "QANet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "84.454",
+                "F1": "90.490"
+              }
+            },
+            {
+              "model_name": "r-net (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "84.003",
+                "F1": "90.147"
+              }
+            },
+            {
+              "model_name": "QANet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.877",
+                "F1": "89.737"
+              }
+            },
+            {
+              "model_name": "nlnet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.468",
+                "F1": "90.133"
+              }
+            },
+            {
+              "model_name": "MARS (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.982",
+                "F1": "89.796"
+              }
+            },
+            {
+              "model_name": "MARS (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.185",
+                "F1": "89.547"
+              }
+            },
+            {
+              "model_name": "r-net+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.650",
+                "F1": "88.493"
+              }
+            },
+            {
+              "model_name": "MARS (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.587",
+                "F1": "88.880"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + A2D (ensemble model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.849",
+                "F1": "88.764"
+              }
+            },
+            {
+              "model_name": "Hybrid AoA Reader (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.482",
+                "F1": "89.281"
+              }
+            },
+            {
+              "model_name": "QANet (single)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.471",
+                "F1": "89.306"
+              }
+            },
+            {
+              "model_name": "QANet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.744",
+                "F1": "89.045"
+              }
+            },
+            {
+              "model_name": "MARS (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "83.122",
+                "F1": "89.224"
+              }
+            },
+            {
+              "model_name": "SLQA+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.440",
+                "F1": "88.607"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader (ensemble model)",
+              "paper_title": "https://arxiv.org/abs/1705.02798",
+              "paper_url": "https://arxiv.org/abs/1705.02798",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.283",
+                "F1": "88.533"
+              }
+            },
+            {
+              "model_name": "QANet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.209",
+                "F1": "88.608"
+              }
+            },
+            {
+              "model_name": "AttentionReader+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.790",
+                "F1": "88.163"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + A2D (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.538",
+                "F1": "88.130"
+              }
+            },
+            {
+              "model_name": "r-net (ensemble)",
+              "paper_title": "http://aka.ms/rnet",
+              "paper_url": "http://aka.ms/rnet",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "82.136",
+                "F1": "88.126"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + A2D + DA (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.401",
+                "F1": "88.122"
+              }
+            },
+            {
+              "model_name": "r-net (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.391",
+                "F1": "88.170"
+              }
+            },
+            {
+              "model_name": "KACTEIL-MRC(GF-Net+) (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.496",
+                "F1": "87.557"
+              }
+            },
+            {
+              "model_name": "QANet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.929",
+                "F1": "87.773"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention + ELMo (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "81.003",
+                "F1": "87.432"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + A2D (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.919",
+                "F1": "87.492"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + A2D (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.489",
+                "F1": "87.454"
+              }
+            },
+            {
+              "model_name": "AVIQA+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.615",
+                "F1": "87.311"
+              }
+            },
+            {
+              "model_name": "DNET (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.164",
+                "F1": "86.721"
+              }
+            },
+            {
+              "model_name": "Hybrid AoA Reader (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.027",
+                "F1": "87.288"
+              }
+            },
+            {
+              "model_name": "EAZI+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.426",
+                "F1": "86.912"
+              }
+            },
+            {
+              "model_name": "SLQA+",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.436",
+                "F1": "87.021"
+              }
+            },
+            {
+              "model_name": "{EAZI} (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.436",
+                "F1": "86.912"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention + ELMo + A2D (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.996",
+                "F1": "86.711"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader (single model)",
+              "paper_title": "https://arxiv.org/abs/1705.02798",
+              "paper_url": "https://arxiv.org/abs/1705.02798",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.545",
+                "F1": "86.654"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "80.027",
+                "F1": "86.612"
+              }
+            },
+            {
+              "model_name": "MAMCN+ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.692",
+                "F1": "86.727"
+              }
+            },
+            {
+              "model_name": "r-net+ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.901",
+                "F1": "86.536"
+              }
+            },
+            {
+              "model_name": "SLQA+ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.199",
+                "F1": "86.590"
+              }
+            },
+            {
+              "model_name": "SAN (ensemble model)",
+              "paper_title": "https://arxiv.org/abs/1712.03556",
+              "paper_url": "https://arxiv.org/abs/1712.03556",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.608",
+                "F1": "86.496"
+              }
+            },
+            {
+              "model_name": "Interactive AoA Reader+ (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.083",
+                "F1": "86.450"
+              }
+            },
+            {
+              "model_name": "FusionNet (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1711.07341",
+              "paper_url": "https://arxiv.org/abs/1711.07341",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.978",
+                "F1": "86.016"
+              }
+            },
+            {
+              "model_name": "MDReader",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "79.031",
+                "F1": "86.006"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.999",
+                "F1": "86.151"
+              }
+            },
+            {
+              "model_name": "WDNet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.926",
+                "F1": "85.810"
+              }
+            },
+            {
+              "model_name": "DCN+ (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1711.00106",
+              "paper_url": "https://arxiv.org/abs/1711.00106",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.852",
+                "F1": "85.996"
+              }
+            },
+            {
+              "model_name": "KACTEIL-MRC(GF-Net+) (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.664",
+                "F1": "85.780"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention + ELMo (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.580",
+                "F1": "85.833"
+              }
+            },
+            {
+              "model_name": "KakaoNet (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.401",
+                "F1": "85.724"
+              }
+            },
+            {
+              "model_name": "SLQA(ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.328",
+                "F1": "85.682"
+              }
+            },
+            {
+              "model_name": "Conductor-net (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1710.10504",
+              "paper_url": "https://arxiv.org/abs/1710.10504",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.433",
+                "F1": "85.517"
+              }
+            },
+            {
+              "model_name": "MDReader0",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.171",
+                "F1": "85.543"
+              }
+            },
+            {
+              "model_name": "BiDAF++ with pair2vec (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.223",
+                "F1": "85.535"
+              }
+            },
+            {
+              "model_name": "MEMEN  (single model)",
+              "paper_title": "https://arxiv.org/abs/1707.09098",
+              "paper_url": "https://arxiv.org/abs/1707.09098",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.234",
+                "F1": "85.344"
+              }
+            },
+            {
+              "model_name": "aviqa (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.496",
+                "F1": "85.469"
+              }
+            },
+            {
+              "model_name": "test",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "78.087",
+                "F1": "85.348"
+              }
+            },
+            {
+              "model_name": "Interactive AoA Reader (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.845",
+                "F1": "85.297"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.436",
+                "F1": "85.130"
+              }
+            },
+            {
+              "model_name": "AttentionReader+ (single)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.342",
+                "F1": "84.925"
+              }
+            },
+            {
+              "model_name": "BiDAF++ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.573",
+                "F1": "84.858"
+              }
+            },
+            {
+              "model_name": "RaSoR + TR + LM (single model)",
+              "paper_title": "https://arxiv.org/abs/1712.03609",
+              "paper_url": "https://arxiv.org/abs/1712.03609",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.583",
+                "F1": "84.163"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.489",
+                "F1": "84.735"
+              }
+            },
+            {
+              "model_name": "DNET (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.646",
+                "F1": "84.905"
+              }
+            },
+            {
+              "model_name": "Conductor-net (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1710.10504",
+              "paper_url": "https://arxiv.org/abs/1710.10504",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.996",
+                "F1": "84.630"
+              }
+            },
+            {
+              "model_name": "{gqa} (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.090",
+                "F1": "83.931"
+              }
+            },
+            {
+              "model_name": "Jenga (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "77.237",
+                "F1": "84.466"
+              }
+            },
+            {
+              "model_name": "MARS (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.859",
+                "F1": "84.739"
+              }
+            },
+            {
+              "model_name": "SAN (single model)",
+              "paper_title": "https://arxiv.org/abs/1712.03556",
+              "paper_url": "https://arxiv.org/abs/1712.03556",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.828",
+                "F1": "84.396"
+              }
+            },
+            {
+              "model_name": "r-net (single model)",
+              "paper_title": "http://aka.ms/rnet",
+              "paper_url": "http://aka.ms/rnet",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.461",
+                "F1": "84.265"
+              }
+            },
+            {
+              "model_name": "FRC (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.240",
+                "F1": "84.599"
+              }
+            },
+            {
+              "model_name": "VS^3-NET (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.775",
+                "F1": "84.491"
+              }
+            },
+            {
+              "model_name": "Conductor-net (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.146",
+                "F1": "83.991"
+              }
+            },
+            {
+              "model_name": "FusionNet (single model)",
+              "paper_title": "https://arxiv.org/abs/1711.07341",
+              "paper_url": "https://arxiv.org/abs/1711.07341",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.968",
+                "F1": "83.900"
+              }
+            },
+            {
+              "model_name": "KAR (single model)",
+              "paper_title": "https://arxiv.org/abs/1809.03449",
+              "paper_url": "https://arxiv.org/abs/1809.03449",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "76.125",
+                "F1": "83.538"
+              }
+            },
+            {
+              "model_name": "smarnet (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.989",
+                "F1": "83.475"
+              }
+            },
+            {
+              "model_name": "Interactive AoA Reader+ (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.821",
+                "F1": "83.843"
+              }
+            },
+            {
+              "model_name": "AVIQA-v2 (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.926",
+                "F1": "83.305"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.950",
+                "F1": "83.294"
+              }
+            },
+            {
+              "model_name": "RaSoR + TR (single model)",
+              "paper_title": "https://arxiv.org/abs/1712.03609",
+              "paper_url": "https://arxiv.org/abs/1712.03609",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.789",
+                "F1": "83.261"
+              }
+            },
+            {
+              "model_name": "DCN+ (single model)",
+              "paper_title": "https://arxiv.org/abs/1711.00106",
+              "paper_url": "https://arxiv.org/abs/1711.00106",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.087",
+                "F1": "83.081"
+              }
+            },
+            {
+              "model_name": "SSR-BiDAF",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.541",
+                "F1": "82.477"
+              }
+            },
+            {
+              "model_name": "Mixed model (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.265",
+                "F1": "82.769"
+              }
+            },
+            {
+              "model_name": "Conductor-net (single model)",
+              "paper_title": "https://arxiv.org/abs/1710.10504",
+              "paper_url": "https://arxiv.org/abs/1710.10504",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.405",
+                "F1": "82.742"
+              }
+            },
+            {
+              "model_name": "two-attention-self-attention (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.223",
+                "F1": "82.716"
+              }
+            },
+            {
+              "model_name": "MEMEN (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1707.09098",
+              "paper_url": "https://arxiv.org/abs/1707.09098",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.370",
+                "F1": "82.658"
+              }
+            },
+            {
+              "model_name": "ReasoNet (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1609.05284",
+              "paper_url": "https://arxiv.org/abs/1609.05284",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "75.034",
+                "F1": "82.552"
+              }
+            },
+            {
+              "model_name": "eeAttNet (single model)",
+              "paper_title": "https://www.bbdservice.com",
+              "paper_url": "https://www.bbdservice.com",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.604",
+                "F1": "82.501"
+              }
+            },
+            {
+              "model_name": "DCN+ (single model)",
+              "paper_title": "https://arxiv.org/abs/1711.00106",
+              "paper_url": "https://arxiv.org/abs/1711.00106",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.866",
+                "F1": "82.806"
+              }
+            },
+            {
+              "model_name": "Jenga (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.373",
+                "F1": "82.845"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.489",
+                "F1": "82.312"
+              }
+            },
+            {
+              "model_name": "SLQA (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.489",
+                "F1": "82.815"
+              }
+            },
+            {
+              "model_name": "Mnemonic Reader (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1705.02798",
+              "paper_url": "https://arxiv.org/abs/1705.02798",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.268",
+                "F1": "82.371"
+              }
+            },
+            {
+              "model_name": "S^3-Net (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.121",
+                "F1": "82.342"
+              }
+            },
+            {
+              "model_name": "Interactive AoA Reader (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.639",
+                "F1": "81.931"
+              }
+            },
+            {
+              "model_name": "SEDT (ensemble model)",
+              "paper_title": "https://arxiv.org/abs/1703.00572",
+              "paper_url": "https://arxiv.org/abs/1703.00572",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.090",
+                "F1": "81.761"
+              }
+            },
+            {
+              "model_name": "Jenga (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.303",
+                "F1": "81.754"
+              }
+            },
+            {
+              "model_name": "Conductor-net (single)",
+              "paper_title": "https://arxiv.org/abs/1710.10504",
+              "paper_url": "https://arxiv.org/abs/1710.10504",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.240",
+                "F1": "81.933"
+              }
+            },
+            {
+              "model_name": "SEDT+BiDAF (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1703.00572",
+              "paper_url": "https://arxiv.org/abs/1703.00572",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.723",
+                "F1": "81.530"
+              }
+            },
+            {
+              "model_name": "BiDAF (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1611.01603",
+              "paper_url": "https://arxiv.org/abs/1611.01603",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.744",
+                "F1": "81.525"
+              }
+            },
+            {
+              "model_name": "Multi-Perspective Matching (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1612.04211",
+              "paper_url": "https://arxiv.org/abs/1612.04211",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.765",
+                "F1": "81.257"
+              }
+            },
+            {
+              "model_name": "SSAE (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "74.080",
+                "F1": "81.665"
+              }
+            },
+            {
+              "model_name": "jNet (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1703.04617",
+              "paper_url": "https://arxiv.org/abs/1703.04617",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "73.010",
+                "F1": "81.517"
+              }
+            },
+            {
+              "model_name": "Conductor-net (single)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.590",
+                "F1": "81.415"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.831",
+                "F1": "80.622"
+              }
+            },
+            {
+              "model_name": "two-attention-self-attention (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.600",
+                "F1": "81.011"
+              }
+            },
+            {
+              "model_name": "T-gating (ensemble)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.758",
+                "F1": "81.001"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention (single model)",
+              "paper_title": "https://arxiv.org/abs/1710.10723",
+              "paper_url": "https://arxiv.org/abs/1710.10723",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.139",
+                "F1": "81.048"
+              }
+            },
+            {
+              "model_name": "S^3-Net (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.908",
+                "F1": "81.023"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.831",
+                "F1": "80.622"
+              }
+            },
+            {
+              "model_name": "AVIQA (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "72.485",
+                "F1": "80.550"
+              }
+            },
+            {
+              "model_name": "attention+self-attention (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.698",
+                "F1": "80.462"
+              }
+            },
+            {
+              "model_name": "Dynamic Coattention Networks (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1611.01604",
+              "paper_url": "https://arxiv.org/abs/1611.01604",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.625",
+                "F1": "80.383"
+              }
+            },
+            {
+              "model_name": "smarnet (single model)",
+              "paper_title": "https://arxiv.org/abs/1710.02772",
+              "paper_url": "https://arxiv.org/abs/1710.02772",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.415",
+                "F1": "80.160"
+              }
+            },
+            {
+              "model_name": "QFASE",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.898",
+                "F1": "79.989"
+              }
+            },
+            {
+              "model_name": "M-NET (single)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.016",
+                "F1": "79.835"
+              }
+            },
+            {
+              "model_name": "MAMCN (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.985",
+                "F1": "79.939"
+              }
+            },
+            {
+              "model_name": "Mnemonic Reader (single model)",
+              "paper_title": "https://arxiv.org/abs/1705.02798",
+              "paper_url": "https://arxiv.org/abs/1705.02798",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.995",
+                "F1": "80.146"
+              }
+            },
+            {
+              "model_name": "AttReader (single)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.373",
+                "F1": "79.725"
+              }
+            },
+            {
+              "model_name": "jNet (single model)",
+              "paper_title": "https://arxiv.org/abs/1703.04617",
+              "paper_url": "https://arxiv.org/abs/1703.04617",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.607",
+                "F1": "79.821"
+              }
+            },
+            {
+              "model_name": "Ruminating Reader (single model)",
+              "paper_title": "https://arxiv.org/abs/1704.07415",
+              "paper_url": "https://arxiv.org/abs/1704.07415",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.639",
+                "F1": "79.456"
+              }
+            },
+            {
+              "model_name": "Document Reader (single model)",
+              "paper_title": "https://arxiv.org/abs/1704.00051",
+              "paper_url": "https://arxiv.org/abs/1704.00051",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.733",
+                "F1": "79.353"
+              }
+            },
+            {
+              "model_name": "FastQAExt",
+              "paper_title": "https://arxiv.org/abs/1703.04816",
+              "paper_url": "https://arxiv.org/abs/1703.04816",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.849",
+                "F1": "78.857"
+              }
+            },
+            {
+              "model_name": "RaSoR (single model)",
+              "paper_title": "https://arxiv.org/abs/1611.01436",
+              "paper_url": "https://arxiv.org/abs/1611.01436",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.849",
+                "F1": "78.741"
+              }
+            },
+            {
+              "model_name": "ReasoNet (single model)",
+              "paper_title": "https://arxiv.org/abs/1609.05284",
+              "paper_url": "https://arxiv.org/abs/1609.05284",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.555",
+                "F1": "79.364"
+              }
+            },
+            {
+              "model_name": "Multi-Perspective Matching (single model)",
+              "paper_title": "https://arxiv.org/abs/1612.04211",
+              "paper_url": "https://arxiv.org/abs/1612.04211",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "70.387",
+                "F1": "78.784"
+              }
+            },
+            {
+              "model_name": "SimpleBaseline (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "69.600",
+                "F1": "78.236"
+              }
+            },
+            {
+              "model_name": "SSR-BiDAF",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "69.443",
+                "F1": "78.358"
+              }
+            },
+            {
+              "model_name": "SEDT+BiDAF (single model)",
+              "paper_title": "https://arxiv.org/abs/1703.00572",
+              "paper_url": "https://arxiv.org/abs/1703.00572",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.478",
+                "F1": "77.971"
+              }
+            },
+            {
+              "model_name": "PQMN (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.331",
+                "F1": "77.783"
+              }
+            },
+            {
+              "model_name": "T-gating (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.132",
+                "F1": "77.569"
+              }
+            },
+            {
+              "model_name": "BiDAF (single model)",
+              "paper_title": "https://arxiv.org/abs/1611.01603",
+              "paper_url": "https://arxiv.org/abs/1611.01603",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.974",
+                "F1": "77.323"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.478",
+                "F1": "77.220"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.425",
+                "F1": "77.077"
+              }
+            },
+            {
+              "model_name": "FastQA",
+              "paper_title": "https://arxiv.org/abs/1703.04816",
+              "paper_url": "https://arxiv.org/abs/1703.04816",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.436",
+                "F1": "77.070"
+              }
+            },
+            {
+              "model_name": "SEDT (single model)",
+              "paper_title": "https://arxiv.org/abs/1703.00572",
+              "paper_url": "https://arxiv.org/abs/1703.00572",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "68.163",
+                "F1": "77.527"
+              }
+            },
+            {
+              "model_name": "Match-LSTM with Ans-Ptr (Boundary) (ensemble)",
+              "paper_title": "https://arxiv.org/abs/1608.07905",
+              "paper_url": "https://arxiv.org/abs/1608.07905",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.901",
+                "F1": "77.022"
+              }
+            },
+            {
+              "model_name": "FABIR (Single Model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.744",
+                "F1": "77.605"
+              }
+            },
+            {
+              "model_name": "AllenNLP BiDAF (single model)",
+              "paper_title": "http://allennlp.org/",
+              "paper_url": "http://allennlp.org/",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.618",
+                "F1": "77.151"
+              }
+            },
+            {
+              "model_name": "Iterative Co-attention Network",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "67.502",
+                "F1": "76.786"
+              }
+            },
+            {
+              "model_name": "newtest",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "66.527",
+                "F1": "75.787"
+              }
+            },
+            {
+              "model_name": "Dynamic Coattention Networks (single model)",
+              "paper_title": "https://arxiv.org/abs/1611.01604",
+              "paper_url": "https://arxiv.org/abs/1611.01604",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "66.233",
+                "F1": "75.896"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "65.992",
+                "F1": "75.469"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "64.796",
+                "F1": "74.272"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by ravioncodalab",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "64.439",
+                "F1": "73.921"
+              }
+            },
+            {
+              "model_name": "Match-LSTM with Bi-Ans-Ptr (Boundary)",
+              "paper_title": "https://arxiv.org/abs/1608.07905",
+              "paper_url": "https://arxiv.org/abs/1608.07905",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "64.744",
+                "F1": "73.743"
+              }
+            },
+            {
+              "model_name": "Attentive CNN context with LSTM",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "63.306",
+                "F1": "73.463"
+              }
+            },
+            {
+              "model_name": "Fine-Grained Gating",
+              "paper_title": "https://arxiv.org/abs/1611.01724",
+              "paper_url": "https://arxiv.org/abs/1611.01724",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "62.446",
+                "F1": "73.327"
+              }
+            },
+            {
+              "model_name": "OTF dict+spelling (single)",
+              "paper_title": "https://arxiv.org/abs/1706.00286",
+              "paper_url": "https://arxiv.org/abs/1706.00286",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "64.083",
+                "F1": "73.056"
+              }
+            },
+            {
+              "model_name": "OTF spelling (single)",
+              "paper_title": "https://arxiv.org/abs/1706.00286",
+              "paper_url": "https://arxiv.org/abs/1706.00286",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "62.897",
+                "F1": "72.016"
+              }
+            },
+            {
+              "model_name": "OTF spelling+lemma (single)",
+              "paper_title": "https://arxiv.org/abs/1706.00286",
+              "paper_url": "https://arxiv.org/abs/1706.00286",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "62.604",
+                "F1": "71.968"
+              }
+            },
+            {
+              "model_name": "Dynamic Chunk Reader",
+              "paper_title": "https://arxiv.org/abs/1610.09996",
+              "paper_url": "https://arxiv.org/abs/1610.09996",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "62.499",
+                "F1": "70.956"
+              }
+            },
+            {
+              "model_name": "Match-LSTM with Ans-Ptr (Boundary)",
+              "paper_title": "https://arxiv.org/abs/1608.07905",
+              "paper_url": "https://arxiv.org/abs/1608.07905",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "60.474",
+                "F1": "70.695"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by Will_Wu",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "59.058",
+                "F1": "69.436"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by null",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "58.764",
+                "F1": "69.276"
+              }
+            },
+            {
+              "model_name": "Match-LSTM with Ans-Ptr (Sentence)",
+              "paper_title": "https://arxiv.org/abs/1608.07905",
+              "paper_url": "https://arxiv.org/abs/1608.07905",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "54.505",
+                "F1": "67.748"
+              }
+            },
+            {
+              "model_name": "Unnamed submission by minjoon",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "52.533",
+                "F1": "62.757"
+              }
+            }
+          ]
+        },
+        "dataset_links": [],
+        "dataset_citations": []
+      }
+    ],
+    "subtasks": [],
+    "synonyms": []
+  }
+]
