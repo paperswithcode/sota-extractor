@@ -82,7 +82,11 @@ Licence: MIT
 
 EFF has annotated a set of SOTA results on a small number of tasks, and produced this [great report](https://www.eff.org/ai/metrics).
 
-Instructions are in the [scrapers/eff directory](scrapers/eff).
+To convert the current content run:
+
+```bash
+python -m scrapers.eff
+```
 
 Licence: CC-BY-SA-4
 
