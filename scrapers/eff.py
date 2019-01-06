@@ -15,6 +15,7 @@ j = json.loads(json_raw.text)
 
 for problem in j["problems"]:
     task = Task({"task": problem["name"]})
+    task.source_link = Link({"title": "Progress of AI Research", "url": "https://github.com/AI-metrics/AI-metrics"})
 
     datasets = []
     for metric in problem["metrics"]:

@@ -64,7 +64,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Superhuman mastery of arbitrary abstract strategy games",
@@ -73,7 +76,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Play an arbitrary abstract game, first learning the rules",
@@ -82,7 +88,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Solve technical problems with clear constraints (proofs, circuit design, aerofoil design, etc)",
@@ -91,7 +100,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Know how to prevent an autonomous AI agent from reproducing itself an unbounded number of times",
@@ -100,7 +112,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Transfer of learning within simple arcade game paradigms",
@@ -109,7 +124,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Train machine learning systems on private user data, without transferring sensitive facts into the model",
@@ -118,7 +136,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Recognise events in videos",
@@ -127,7 +148,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Avoiding reward hacking",
@@ -136,7 +160,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Drawing pictures",
@@ -230,7 +257,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Correctly identify when an answer to a classification problem is uncertain",
@@ -239,7 +269,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Deploy automated defensive security tools to protect valuable systems",
@@ -248,7 +281,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Scalable supervision of a learning system",
@@ -257,7 +293,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Pedestrian, bicycle & obstacle detection",
@@ -266,7 +305,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Given desired circuit characteristics, and many examples, design new circuits to spec",
@@ -275,7 +317,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "One shot learning: ingest important truths from a single example",
@@ -284,7 +329,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Language comprehension and question-answering",
@@ -1694,7 +1742,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Given examples of proofs, find correct proofs of simple mathematical theorems",
@@ -1703,7 +1754,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Games that require language comprehension",
@@ -1712,7 +1766,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Games that require both understanding and speaking a language",
@@ -1721,7 +1778,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Learn a several tasks without undermining performance on a first task, avoiding catastrophic forgetting",
@@ -1730,7 +1790,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Train ML classifiers in a manner that corrects for the impact of omitted-variable bias on certain groups",
@@ -1739,7 +1802,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Given an arbitrary technical problem, solve it as well as a typical professional in that field",
@@ -1748,7 +1814,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Writing software from specifications",
@@ -1757,7 +1826,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Translation between human langauges",
@@ -2138,7 +2210,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Fairness in machine learning towards people with a preference for privacy",
@@ -2147,7 +2222,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Safe exploration",
@@ -2156,7 +2234,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Speech Recognition",
@@ -3011,7 +3092,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Turing test for casual conversation",
@@ -3199,7 +3283,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Write computer programs from specifications",
@@ -3290,7 +3377,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Transfer learning: apply relevant knowledge from a prior setting to a new slightly different one",
@@ -3299,7 +3389,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Play real-time computer & video games",
@@ -3308,7 +3401,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Extract major numerical results or progress claims from a STEM paper",
@@ -3317,7 +3413,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Abstract strategy games",
@@ -3326,7 +3425,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Cooperative inverse reinforcement learning of objective functions",
@@ -3335,7 +3437,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Provide mathematical or technical explanations of decisions from classifiers",
@@ -3344,7 +3449,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Image classification",
@@ -5768,7 +5876,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Read a scientific or technical paper, and comprehend its contents",
@@ -5777,7 +5888,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Answering Science Exam Questions",
@@ -5899,7 +6013,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Conduct arbitrary sustained, probing conversation",
@@ -5908,7 +6025,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Vision",
@@ -5917,7 +6037,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Building systems that solve a wide range of diverse problems, rather than just specific ones",
@@ -5926,7 +6049,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Modify arbitrary ML systems in order to be able to provide comprehensible human explanations of their decisions",
@@ -5935,7 +6061,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Learning the rules of complex strategy games from examples",
@@ -5944,7 +6073,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Know how to build general AI agents that will behave as expected",
@@ -5953,7 +6085,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Build systems which can recognise and avoid biases decision making",
@@ -5962,7 +6097,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Function correctly in novel environments (robustness to distributional change)",
@@ -5971,7 +6109,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Detect security-related bugs in codebases",
@@ -5980,7 +6121,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Simple video games",
@@ -19381,7 +19525,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Playing abstract games with extensive hints",
@@ -19822,7 +19969,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Accurate modelling of human language.",
@@ -20234,7 +20384,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Games that require inventing novel language, forms of speech, or communication",
@@ -20243,7 +20396,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Resistance to adversarial examples",
@@ -20252,7 +20408,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Parse and implement complex conditional expressions",
@@ -20261,7 +20420,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Image comprehension",
@@ -20775,7 +20937,10 @@
     ],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Be able to generate complex scene e.g. a baboon receiving their degree at convocatoin.",
@@ -20784,7 +20949,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Solve vaguely or under-constrained technical problems",
@@ -20793,7 +20961,10 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   },
   {
     "task": "Avoiding undesirable side effects",
@@ -20802,6 +20973,9 @@
     "datasets": [],
     "subtasks": [],
     "synonyms": [],
-    "source_link": null
+    "source_link": {
+      "title": "Progress of AI Research",
+      "url": "https://github.com/AI-metrics/AI-metrics"
+    }
   }
 ]
