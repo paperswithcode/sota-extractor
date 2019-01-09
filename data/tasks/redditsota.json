@@ -13,7 +13,7 @@
           "metrics": [
             "Perplexity"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
@@ -90,7 +90,7 @@
           "metrics": [
             "Perplexity"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
@@ -182,7 +182,7 @@
           "metrics": [
             "BLEU"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "UNSUPERVISED MACHINE TRANSLATION\nUSING MONOLINGUAL CORPORA ONLY",
@@ -227,7 +227,7 @@
           "metrics": [
             "BLEU"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
@@ -256,7 +256,7 @@
           "metrics": [
             "BLEU"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
@@ -356,7 +356,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Dynamic Routing Between Capsules",
@@ -405,7 +405,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "High-Performance Neural Networks for Visual Object Classification",
@@ -434,7 +434,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "ShakeDrop regularization",
@@ -511,7 +511,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "ShakeDrop regularization",
@@ -572,7 +572,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Random Erasing Data Augmentation",
@@ -601,7 +601,7 @@
           "metrics": [
             "Test Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Dynamic Routing Between Capsules",
@@ -646,7 +646,7 @@
           "metrics": [
             "Top-1 Error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Learning Transferable Architectures for Scalable Image Recognition",
@@ -722,7 +722,7 @@
           "metrics": [
             "Average Precision"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Mask R-CNN",
@@ -778,7 +778,7 @@
           "metrics": [
             "Overall score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge",
@@ -836,7 +836,7 @@
           "metrics": [
             "WER"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "",
               "paper_title": "The Microsoft 2017 Conversational Speech Recognition System",

@@ -11,7 +11,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Ghosal et al.",
               "paper_title": "A hierarchical approach for speech-instrumental-song classification | SpringerLink",
@@ -177,7 +177,7 @@
           "metrics": [
             "Model Entropy"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "NICE",
               "paper_title": "NICE: Non-linear Independent Components Estimation",
@@ -346,7 +346,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "MemNN-AM+NG+NL (1k + strong supervision)",
               "paper_title": "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks",
@@ -436,7 +436,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "MemN2N-PE+LS+RN",
               "paper_title": "End-To-End Memory Networks",
@@ -520,7 +520,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SW+D+RTE",
               "paper_title": "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text",
@@ -577,7 +577,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SW+D+RTE",
               "paper_title": "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text",
@@ -645,7 +645,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "AS reader (greedy)",
               "paper_title": "Text Understanding with the Attention Sum Reader Network",
@@ -779,7 +779,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "AS reader (avg)",
               "paper_title": "Text Understanding with the Attention Sum Reader Network",
@@ -891,7 +891,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Impatient reader",
               "paper_title": "Teaching Machines to Read and Comprehend",
@@ -1069,7 +1069,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Attentive reader",
               "paper_title": "Teaching Machines to Read and Comprehend",
@@ -1170,7 +1170,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Dynamic Coattention Networks (ensemble)",
               "paper_title": "Dynamic Coattention Networks For Question Answering",
@@ -1458,7 +1458,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Dynamic Coattention Networks (ensemble)",
               "paper_title": "Dynamic Coattention Networks For Question Answering",
@@ -1843,7 +1843,7 @@
           "metrics": [
             "BLEU score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "PBMT",
               "paper_title": "Edinburgh\u2019s phrase-based machine translation systems for WMT-14",
@@ -1988,7 +1988,7 @@
           "metrics": [
             "BLEU score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "PBMT",
               "paper_title": "Edinburgh\u2019s phrase-based machine translation systems for WMT-14",
@@ -2122,7 +2122,7 @@
           "metrics": [
             "BLEU score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "S2Tree+5gram NPLM",
               "paper_title": "Edinburgh's Syntax-Based Systems at WMT 2015",
@@ -2179,7 +2179,7 @@
           "metrics": [
             "BLEU score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "GRU BPE90k",
               "paper_title": "The QT21/HimL Combined Machine Translation System",
@@ -2251,7 +2251,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CD-DNN",
               "paper_title": null,
@@ -2572,7 +2572,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "HMM-(SAT)GMM",
               "paper_title": "Kaldi ASR",
@@ -2640,7 +2640,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "HMM-(SAT)GMM",
               "paper_title": "Kaldi ASR",
@@ -2697,7 +2697,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CNN over RAW speech (wav)",
               "paper_title": null,
@@ -2754,7 +2754,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "test-set on open vocabulary (i.e. harder), model = HMM-DNN + pNorm*",
               "paper_title": null,
@@ -2789,7 +2789,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "HMM-DNN +sMBR",
               "paper_title": null,
@@ -2912,7 +2912,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "HMM-TDNNtrained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD",
               "paper_title": null,
@@ -2947,7 +2947,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CNN + Bi-RNN + CTC (speech to letters)",
               "paper_title": "Deep Speech: Scaling up end-to-end speech recognition",
@@ -2982,7 +2982,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CNN + Bi-RNN + CTC (speech to letters)",
               "paper_title": "Deep Speech: Scaling up end-to-end speech recognition",
@@ -3017,7 +3017,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "(first, modern) HMM-DBN",
               "paper_title": null,
@@ -3109,7 +3109,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Rose 2014",
               "paper_title": "AISB - The Society for the Study of Artificial Intelligence and Simulation of Behaviour - Loebner Prize",
@@ -3300,7 +3300,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "LPN",
               "paper_title": "Latent Predictor Networks for Code Generation",
@@ -3324,7 +3324,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "LPN",
               "paper_title": "Latent Predictor Networks for Code Generation",
@@ -3466,7 +3466,7 @@
           "metrics": [
             "Error rate"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "NEC UIUC",
               "paper_title": "ImageNet Large Scale Visual Recognition Competition 2010 (ILSVRC2010)",
@@ -3578,7 +3578,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "STF",
               "paper_title": "Semantic Texton Forests for Image Categorization and Segmentation",
@@ -3723,7 +3723,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "STF",
               "paper_title": "Semantic Texton Forests for Image Categorization and Segmentation",
@@ -3868,7 +3868,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Receptive Field Learning",
               "paper_title": "Beyond Spatial Pyramids: Receptive Field Learning for Pooled Image Features",
@@ -4277,7 +4277,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Hierarchical Kernel Descriptors",
               "paper_title": "Object Recognition with Hierarchical Kernel Descriptors",
@@ -4895,7 +4895,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Convolutional neural networks applied to house numbers digit classification",
               "paper_title": "Convolutional neural networks applied to house numbers digit classification",
@@ -5095,7 +5095,7 @@
           "metrics": [
             "Percentage error"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Shape contexts",
               "paper_title": "Shape matching and object recognition using shape contexts",
@@ -5658,7 +5658,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Receptive Fields",
               "paper_title": "Selecting Receptive Fields in Deep Networks ",
@@ -5905,7 +5905,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Aristo (ALL)",
               "paper_title": "Combining Retrieval, Statistics, and Inference to Answer Elementary Science Questions",
@@ -6138,7 +6138,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -6371,7 +6371,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -6604,7 +6604,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -6837,7 +6837,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -7070,7 +7070,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -7303,7 +7303,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -7536,7 +7536,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -7769,7 +7769,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -8002,7 +8002,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -8246,7 +8246,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -8435,7 +8435,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -8668,7 +8668,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -8901,7 +8901,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -9145,7 +9145,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -9378,7 +9378,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -9611,7 +9611,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -9844,7 +9844,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -10077,7 +10077,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -10310,7 +10310,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -10554,7 +10554,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -10787,7 +10787,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -11097,7 +11097,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -11374,7 +11374,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -11607,7 +11607,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -11873,7 +11873,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -12095,7 +12095,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -12328,7 +12328,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -12550,7 +12550,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -12783,7 +12783,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -13016,7 +13016,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -13238,7 +13238,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -13559,7 +13559,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -13781,7 +13781,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -14014,7 +14014,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -14258,7 +14258,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -14524,7 +14524,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -14801,7 +14801,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -15034,7 +15034,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -15267,7 +15267,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -15500,7 +15500,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -15744,7 +15744,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -15988,7 +15988,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -16221,7 +16221,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -16454,7 +16454,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -16687,7 +16687,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -16920,7 +16920,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -17153,7 +17153,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -17463,7 +17463,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -17696,7 +17696,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -17929,7 +17929,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "SARSA",
               "paper_title": "Investigating Contingency Awareness Using Atari 2600 Games",
@@ -18162,7 +18162,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -18351,7 +18351,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN hs",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -18573,7 +18573,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN hs",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -18762,7 +18762,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -18984,7 +18984,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -19173,7 +19173,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -19351,7 +19351,7 @@
           "metrics": [
             "Score"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "DQN noop",
               "paper_title": "Deep Reinforcement Learning with Double Q-learning",
@@ -19542,7 +19542,7 @@
           "metrics": [
             "ELO rating"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Novag Super Constellation 6502 4 MHz",
               "paper_title": "Swedish Chess Computer Association - Wikipedia",
@@ -19986,7 +19986,7 @@
           "metrics": [
             "Perplexity"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "KN5+RNNME ensemble",
               "paper_title": null,
@@ -20175,7 +20175,7 @@
           "metrics": [
             "Model Entropy"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "RNN",
               "paper_title": null,
@@ -20320,7 +20320,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "GA + feat.",
               "paper_title": "Broad Context Language Modeling as Reading Comprehension",
@@ -20437,7 +20437,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "LSTM Q+I",
               "paper_title": "VQA: Visual Question Answering",
@@ -20581,7 +20581,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "LSTM Q+I",
               "paper_title": "VQA: Visual Question Answering",
@@ -20676,7 +20676,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Dualnet ensemble",
               "paper_title": "VQA: Visual Question Answering",
@@ -20733,7 +20733,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Dualnet ensemble",
               "paper_title": "VQA: Visual Question Answering",
@@ -20790,7 +20790,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CMN",
               "paper_title": "Modeling Relationships in Referential Expressions with Compositional Modular Networks",
@@ -20814,7 +20814,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "CMN",
               "paper_title": "Modeling Relationships in Referential Expressions with Compositional Modular Networks",
@@ -20838,7 +20838,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "MCB+Att.",
               "paper_title": "Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding",
@@ -20873,7 +20873,7 @@
           "metrics": [
             "Percentage correct"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "MCB",
               "paper_title": "Making the V in VQA Matter: Elevating the Role of Image Understanding in Visual Question Answering",

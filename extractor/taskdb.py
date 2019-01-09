@@ -132,7 +132,7 @@ class Dataset:
         if self.sota_metrics:
             o["sota"] = {
                 "metrics": self.sota_metrics,
-                "sota_rows": [m.to_dict() for m in self.sota_rows]
+                "rows": [m.to_dict() for m in self.sota_rows]
             }
 
         if self.subdatasets:

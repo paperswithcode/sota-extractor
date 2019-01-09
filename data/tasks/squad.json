@@ -12,7 +12,7 @@
             "EM",
             "F1"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Human Performance",
               "paper_title": "(Rajpurkar & Jia et al. '18)",
@@ -218,15 +218,15 @@
               }
             },
             {
-              "model_name": "Unnamed submission by null",
-              "paper_title": "",
-              "paper_url": "",
+              "model_name": "ARSG-BERT (single model)",
+              "paper_title": "https://active.ai",
+              "paper_url": "https://active.ai",
               "paper_date": null,
               "code_links": [],
               "model_links": [],
               "metrics": {
-                "EM": "76.721",
-                "F1": "79.611"
+                "EM": "74.746",
+                "F1": "78.227"
               }
             },
             {
@@ -326,18 +326,6 @@
               }
             },
             {
-              "model_name": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
-              "paper_title": "https://arxiv.org/abs/1808.05759",
-              "paper_url": "https://arxiv.org/abs/1808.05759",
-              "paper_date": null,
-              "code_links": [],
-              "model_links": [],
-              "metrics": {
-                "EM": "71.767",
-                "F1": "74.295"
-              }
-            },
-            {
               "model_name": "SLQA+ (single model)",
               "paper_title": "http://www.aclweb.org/anthology/P18-1158",
               "paper_url": "http://www.aclweb.org/anthology/P18-1158",
@@ -347,6 +335,18 @@
               "metrics": {
                 "EM": "71.462",
                 "F1": "74.434"
+              }
+            },
+            {
+              "model_name": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
+              "paper_title": "https://arxiv.org/abs/1808.05759",
+              "paper_url": "https://arxiv.org/abs/1808.05759",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "71.767",
+                "F1": "74.295"
               }
             },
             {
@@ -482,6 +482,18 @@
               }
             },
             {
+              "model_name": "EBB-Net (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "66.610",
+                "F1": "70.303"
+              }
+            },
+            {
               "model_name": "KakaoNet2 (single model)",
               "paper_title": "",
               "paper_url": "",
@@ -530,18 +542,6 @@
               }
             },
             {
-              "model_name": "BiDAF + Self Attention + ELMo (single model)",
-              "paper_title": "",
-              "paper_url": "",
-              "paper_date": null,
-              "code_links": [],
-              "model_links": [],
-              "metrics": {
-                "EM": "63.372",
-                "F1": "66.251"
-              }
-            },
-            {
               "model_name": "eeAttNet (single model)",
               "paper_title": "https://www.bbdservice.com",
               "paper_url": "https://www.bbdservice.com",
@@ -551,6 +551,18 @@
               "metrics": {
                 "EM": "63.327",
                 "F1": "66.633"
+              }
+            },
+            {
+              "model_name": "BiDAF + Self Attention + ELMo (single model)",
+              "paper_title": "",
+              "paper_url": "",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "EM": "63.372",
+                "F1": "66.251"
               }
             },
             {
@@ -602,7 +614,7 @@
             "EM",
             "F1"
           ],
-          "sota_rows": [
+          "rows": [
             {
               "model_name": "Human Performance",
               "paper_title": "(Rajpurkar et al. '16)",
