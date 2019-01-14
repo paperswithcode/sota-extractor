@@ -1,6 +1,6 @@
 [
   {
-    "task": "Detection of Instrumentals musical tracks",
+    "task": "Music Autotagging",
     "description": "",
     "categories": [],
     "datasets": [
@@ -70,7 +70,7 @@
     }
   },
   {
-    "task": "Superhuman mastery of arbitrary abstract strategy games",
+    "task": "Abstract Strategy Games",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -82,7 +82,7 @@
     }
   },
   {
-    "task": "Play an arbitrary abstract game, first learning the rules",
+    "task": "Abstract Strategy Games with Rule Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -94,7 +94,7 @@
     }
   },
   {
-    "task": "Solve technical problems with clear constraints (proofs, circuit design, aerofoil design, etc)",
+    "task": "Constrained Problem Solving",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -106,7 +106,7 @@
     }
   },
   {
-    "task": "Know how to prevent an autonomous AI agent from reproducing itself an unbounded number of times",
+    "task": "Restricted Reproduction",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -118,7 +118,7 @@
     }
   },
   {
-    "task": "Transfer of learning within simple arcade game paradigms",
+    "task": "Arcade Game Transfer Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -130,7 +130,7 @@
     }
   },
   {
-    "task": "Train machine learning systems on private user data, without transferring sensitive facts into the model",
+    "task": "Privacy Preserving Machine Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -142,7 +142,7 @@
     }
   },
   {
-    "task": "Recognise events in videos",
+    "task": "Video Activity Recognition",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -154,7 +154,7 @@
     }
   },
   {
-    "task": "Avoiding reward hacking",
+    "task": "Reward Hacking Avoidance",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -166,7 +166,7 @@
     }
   },
   {
-    "task": "Drawing pictures",
+    "task": "Image Generation",
     "description": "",
     "categories": [],
     "datasets": [
@@ -263,7 +263,7 @@
     }
   },
   {
-    "task": "Correctly identify when an answer to a classification problem is uncertain",
+    "task": "Classification Under Uncertainty",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -275,7 +275,7 @@
     }
   },
   {
-    "task": "Deploy automated defensive security tools to protect valuable systems",
+    "task": "Automated Security",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -287,7 +287,7 @@
     }
   },
   {
-    "task": "Scalable supervision of a learning system",
+    "task": "Scalable Supervised Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -299,7 +299,7 @@
     }
   },
   {
-    "task": "Pedestrian, bicycle & obstacle detection",
+    "task": "Pedestrian Detection",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -311,7 +311,7 @@
     }
   },
   {
-    "task": "Given desired circuit characteristics, and many examples, design new circuits to spec",
+    "task": "Automated Circuit Design",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -323,7 +323,7 @@
     }
   },
   {
-    "task": "One shot learning: ingest important truths from a single example",
+    "task": "One-Shot Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -335,7 +335,7 @@
     }
   },
   {
-    "task": "Language comprehension and question-answering",
+    "task": "Question Answering",
     "description": "",
     "categories": [],
     "datasets": [
@@ -1748,7 +1748,7 @@
     }
   },
   {
-    "task": "Given examples of proofs, find correct proofs of simple mathematical theorems",
+    "task": "Mathematical Proofs",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1760,7 +1760,7 @@
     }
   },
   {
-    "task": "Games that require language comprehension",
+    "task": "Language Games",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1772,7 +1772,7 @@
     }
   },
   {
-    "task": "Games that require both understanding and speaking a language",
+    "task": "Spoken Language Games",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1784,7 +1784,7 @@
     }
   },
   {
-    "task": "Learn a several tasks without undermining performance on a first task, avoiding catastrophic forgetting",
+    "task": "Catastrophic Forgetting Avoidance",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1796,7 +1796,7 @@
     }
   },
   {
-    "task": "Train ML classifiers in a manner that corrects for the impact of omitted-variable bias on certain groups",
+    "task": "Omitted-Variable Bias Correction",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1808,7 +1808,7 @@
     }
   },
   {
-    "task": "Given an arbitrary technical problem, solve it as well as a typical professional in that field",
+    "task": "Artificial General Intelligence",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1820,7 +1820,7 @@
     }
   },
   {
-    "task": "Writing software from specifications",
+    "task": "Code Generation",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -1832,7 +1832,7 @@
     }
   },
   {
-    "task": "Translation between human langauges",
+    "task": "Machine Translation",
     "description": "",
     "categories": [],
     "datasets": [
@@ -2216,7 +2216,7 @@
     }
   },
   {
-    "task": "Fairness in machine learning towards people with a preference for privacy",
+    "task": "Privacy Fairness",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -2228,7 +2228,7 @@
     }
   },
   {
-    "task": "Safe exploration",
+    "task": "Safe Exploration",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3098,7 +3098,7 @@
     }
   },
   {
-    "task": "Turing test for casual conversation",
+    "task": "Casual Conversation Turing Test",
     "description": "",
     "categories": [],
     "datasets": [
@@ -3289,7 +3289,7 @@
     }
   },
   {
-    "task": "Write computer programs from specifications",
+    "task": "Automated Software Engineering",
     "description": "",
     "categories": [],
     "datasets": [
@@ -3383,7 +3383,7 @@
     }
   },
   {
-    "task": "Transfer learning: apply relevant knowledge from a prior setting to a new slightly different one",
+    "task": "Transfer Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3395,7 +3395,7 @@
     }
   },
   {
-    "task": "Play real-time computer & video games",
+    "task": "Video Games",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3407,7 +3407,7 @@
     }
   },
   {
-    "task": "Extract major numerical results or progress claims from a STEM paper",
+    "task": "Scientific Result Extraction",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3419,7 +3419,7 @@
     }
   },
   {
-    "task": "Abstract strategy games",
+    "task": "Objective Function Reinforcement Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3431,7 +3431,7 @@
     }
   },
   {
-    "task": "Cooperative inverse reinforcement learning of objective functions",
+    "task": "Explainable Machine Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -3443,19 +3443,7 @@
     }
   },
   {
-    "task": "Provide mathematical or technical explanations of decisions from classifiers",
-    "description": "",
-    "categories": [],
-    "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
-    "source_link": {
-      "title": "Progress of AI Research",
-      "url": "https://github.com/AI-metrics/AI-metrics"
-    }
-  },
-  {
-    "task": "Image classification",
+    "task": "Image Classification",
     "description": "",
     "categories": [],
     "datasets": [
@@ -5882,7 +5870,7 @@
     }
   },
   {
-    "task": "Read a scientific or technical paper, and comprehend its contents",
+    "task": "Scientific Paper Comprehension",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -5894,7 +5882,7 @@
     }
   },
   {
-    "task": "Answering Science Exam Questions",
+    "task": "Scientific Question Answering",
     "description": "",
     "categories": [],
     "datasets": [
@@ -6019,7 +6007,7 @@
     }
   },
   {
-    "task": "Conduct arbitrary sustained, probing conversation",
+    "task": "Automated Interrogation",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6043,7 +6031,7 @@
     }
   },
   {
-    "task": "Building systems that solve a wide range of diverse problems, rather than just specific ones",
+    "task": "Strategy Game Rule Learning",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6055,7 +6043,7 @@
     }
   },
   {
-    "task": "Modify arbitrary ML systems in order to be able to provide comprehensible human explanations of their decisions",
+    "task": "Predictable Artificial General Intelligence",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6067,7 +6055,7 @@
     }
   },
   {
-    "task": "Learning the rules of complex strategy games from examples",
+    "task": "Bias Avoidance",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6079,7 +6067,7 @@
     }
   },
   {
-    "task": "Know how to build general AI agents that will behave as expected",
+    "task": "Functional Robustness",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6091,7 +6079,7 @@
     }
   },
   {
-    "task": "Build systems which can recognise and avoid biases decision making",
+    "task": "Security Bug Detection",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -6103,31 +6091,7 @@
     }
   },
   {
-    "task": "Function correctly in novel environments (robustness to distributional change)",
-    "description": "",
-    "categories": [],
-    "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
-    "source_link": {
-      "title": "Progress of AI Research",
-      "url": "https://github.com/AI-metrics/AI-metrics"
-    }
-  },
-  {
-    "task": "Detect security-related bugs in codebases",
-    "description": "",
-    "categories": [],
-    "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
-    "source_link": {
-      "title": "Progress of AI Research",
-      "url": "https://github.com/AI-metrics/AI-metrics"
-    }
-  },
-  {
-    "task": "Simple video games",
+    "task": "Simple Video Games",
     "description": "",
     "categories": [],
     "datasets": [
@@ -19531,7 +19495,7 @@
     }
   },
   {
-    "task": "Playing abstract games with extensive hints",
+    "task": "Abstract Games with Hints",
     "description": "",
     "categories": [],
     "datasets": [
@@ -19975,7 +19939,7 @@
     }
   },
   {
-    "task": "Accurate modelling of human language.",
+    "task": "Language Modelling",
     "description": "",
     "categories": [],
     "datasets": [
@@ -20390,7 +20354,7 @@
     }
   },
   {
-    "task": "Games that require inventing novel language, forms of speech, or communication",
+    "task": "Language Creation Games",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -20402,7 +20366,7 @@
     }
   },
   {
-    "task": "Resistance to adversarial examples",
+    "task": "Adversarial Defense",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -20414,7 +20378,7 @@
     }
   },
   {
-    "task": "Parse and implement complex conditional expressions",
+    "task": "Conditional Expression Parsing",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -20426,7 +20390,7 @@
     }
   },
   {
-    "task": "Image comprehension",
+    "task": "Visual Question Answering",
     "description": "",
     "categories": [],
     "datasets": [
@@ -20943,7 +20907,7 @@
     }
   },
   {
-    "task": "Be able to generate complex scene e.g. a baboon receiving their degree at convocatoin.",
+    "task": "Complex Conditional Image Generation",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -20955,7 +20919,7 @@
     }
   },
   {
-    "task": "Solve vaguely or under-constrained technical problems",
+    "task": "Underconstrained Problem Solving",
     "description": "",
     "categories": [],
     "datasets": [],
@@ -20967,7 +20931,7 @@
     }
   },
   {
-    "task": "Avoiding undesirable side effects",
+    "task": "Side Effect Mitigation",
     "description": "",
     "categories": [],
     "datasets": [],
