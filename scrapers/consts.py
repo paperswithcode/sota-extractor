@@ -47,7 +47,7 @@ EFF_TASK_CONVERSION['Function correctly in novel environments (robustness to dis
 EFF_TASK_CONVERSION['Detect security-related bugs in codebases'] = 'Security Bug Detection'
 EFF_TASK_CONVERSION['Simple video games'] = 'Simple Video Games'
 EFF_TASK_CONVERSION['Playing abstract games with extensive hints'] = 'Abstract Games with Hints'
-EFF_TASK_CONVERSION['Accurate modelling of human language.'] = 'Language Modeling'
+EFF_TASK_CONVERSION['Accurate modelling of human language.'] = 'Language Modelling'
 EFF_TASK_CONVERSION['Games that require inventing novel language, forms of speech, or communication'] = 'Language Creation Games'
 EFF_TASK_CONVERSION['Resistance to adversarial examples'] = 'Adversarial Defense'
 EFF_TASK_CONVERSION['Parse and implement complex conditional expressions'] = 'Conditional Expression Parsing'
