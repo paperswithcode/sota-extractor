@@ -6,6 +6,10 @@
       {
         "task": "Hypernym Discovery",
         "description": "Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word \u201cdog\u201d, some valid hypernyms would be \u201ccanine\u201d, \u201cmammal\u201d or \u201canimal\u201d.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "SemEval 2018",
@@ -281,7 +285,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Natural language inference",
@@ -406,7 +414,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Semantic parsing",
@@ -415,6 +427,10 @@
       {
         "task": "AMR parsing",
         "description": "Each AMR is a single rooted, directed graph. AMRs include PropBank semantic roles, within-sentence coreference, named entities and types, modality, negation, questions, quantities, and so on. [See](https://amr.isi.edu/index.html).",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "LDC2014T12:",
@@ -546,6 +562,10 @@
       {
         "task": "SQL parsing",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "ATIS",
@@ -1128,7 +1148,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Information Extraction",
@@ -1137,6 +1161,10 @@
       {
         "task": "Open Knowledge Graph Canonicalization",
         "description": "Open Information Extraction approaches leads to creation of large Knowledge bases (KB) from the web. The problem with such methods is that their entities and relations are not canonicalized, which leads to storage of redundant and ambiguous facts. For example, an Open KB storing *\\<Barack Obama, was born in, Honolulu\\>* and *\\<Obama, took birth in, Honolulu\\>* doesn't know that *Barack Obama* and *Obama* mean the same entity. Similarly, *took birth in* and *was born in* also refer to the same relation. Problem of Open KB canonicalization involves identifying groups of equivalent entities and relations in the KB.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Datasets",
@@ -1201,7 +1229,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "CCG supertagging",
@@ -1268,7 +1300,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Lexical Normalization",
@@ -1340,7 +1376,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Dialogue",
@@ -1349,6 +1389,10 @@
       {
         "task": "Dialogue act classification",
         "description": "Dialogue act classification is the task of classifying an utterance with respect to the fuction it serves in a dialogue, i.e. the act the speaker is performing. Dialogue acts are a type of speech acts (for Speech Act Theory, see [Austin (1975)](http://www.hup.harvard.edu/catalog.php?isbn=9780674411524) and [Searle (1969)](https://www.cambridge.org/core/books/speech-acts/D2D7B03E472C8A390ED60B86E08640E7)).",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Switchboard corpus",
@@ -1448,6 +1492,10 @@
       {
         "task": "Dialogue state tracking",
         "description": "Dialogue state tacking consists of determining at each turn of a dialogue the\nfull representation of what the user wants at that point in the dialogue,\nwhich contains a goal constraint, a set of requested slots, and the user's dialogue act.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Second dialogue state tracking challenge",
@@ -1569,7 +1617,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Relationship Extraction",
@@ -1655,7 +1707,7 @@
               ]
             },
             {
-              "model_name": null,
+              "model_name": "",
               "metrics": {
                 "P@10%": "39.9+",
                 "P@30%": "-"
@@ -1681,7 +1733,11 @@
   },
   {
     "task": "FewRel",
-    "description": "The Few-Shot Relation Classification Dataset (FewRel) is a different setting from the previous datasets. This dataset consists of 70K sentences expressing 100 relations annotated by crowdworkers on Wikipedia corpus. The few-shot learning task follows the N-way K-shot meta learning setting. It is both the largest supervised relation classification dataset as well as the largest few-shot learning dataset till now. \n\nThe public leaderboard is available on the [FewRel website](http://zhuhao.me/fewrel).\n\n[Go back to the README](../README.md)"
+    "description": "The Few-Shot Relation Classification Dataset (FewRel) is a different setting from the previous datasets. This dataset consists of 70K sentences expressing 100 relations annotated by crowdworkers on Wikipedia corpus. The few-shot learning task follows the N-way K-shot meta learning setting. It is both the largest supervised relation classification dataset as well as the largest few-shot learning dataset till now. \n\nThe public leaderboard is available on the [FewRel website](http://zhuhao.me/fewrel).\n\n[Go back to the README](../README.md)",
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Word Sense Disambiguation",
@@ -1979,7 +2035,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Multimodal",
@@ -1988,6 +2048,10 @@
       {
         "task": "Multimodal Emotion Recognition",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "IEMOCAP",
@@ -2057,11 +2121,19 @@
       },
       {
         "task": "Multimodal Metaphor Recognition",
-        "description": "[Mohammad et. al, 2016](http://www.aclweb.org/anthology/S16-2003) created a dataset of verb-noun pairs from WordNet that had multiple senses. They annoted these pairs for metaphoricity (metaphor or not a metaphor). Dataset is in English.\n\n| Model                                                        |                            F1 Score                             | Paper / Source                                               | Code        |\n| ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ | ----------- |\n| 5-layer convolutional network (Krizhevsky et al., 2012), Word2Vec | 0.75 | [Shutova et. al, 2016](http://www.aclweb.org/anthology/N16-1020) | Unavailable |\n\n[Tsvetkov  et. al, 2014](http://www.aclweb.org/anthology/P14-1024) created a dataset of adjective-noun pairs that they then annotated for metaphoricity. Dataset is in English.\n\n| Model                                                        |                            F1 Score                             | Paper / Source                                               | Code        |\n| ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ | ----------- |\n| 5-layer convolutional network (Krizhevsky et al., 2012), Word2Vec | 0.79 | [Shutova et. al, 2016](http://www.aclweb.org/anthology/N16-1020) | Unavailable |"
+        "description": "[Mohammad et. al, 2016](http://www.aclweb.org/anthology/S16-2003) created a dataset of verb-noun pairs from WordNet that had multiple senses. They annoted these pairs for metaphoricity (metaphor or not a metaphor). Dataset is in English.\n\n| Model                                                        |                            F1 Score                             | Paper / Source                                               | Code        |\n| ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ | ----------- |\n| 5-layer convolutional network (Krizhevsky et al., 2012), Word2Vec | 0.75 | [Shutova et. al, 2016](http://www.aclweb.org/anthology/N16-1020) | Unavailable |\n\n[Tsvetkov  et. al, 2014](http://www.aclweb.org/anthology/P14-1024) created a dataset of adjective-noun pairs that they then annotated for metaphoricity. Dataset is in English.\n\n| Model                                                        |                            F1 Score                             | Paper / Source                                               | Code        |\n| ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ | ----------- |\n| 5-layer convolutional network (Krizhevsky et al., 2012), Word2Vec | 0.79 | [Shutova et. al, 2016](http://www.aclweb.org/anthology/N16-1020) | Unavailable |",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       },
       {
         "task": "Multimodal Sentiment Analysis",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "MOSI",
@@ -2102,7 +2174,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Summarization",
@@ -2419,11 +2495,19 @@
     "subtasks": [
       {
         "task": "Webis-TLDR-17 Corpus",
-        "description": "This [dataset](https://zenodo.org/record/1168855) contains 3 Million pairs of content and self-written summaries mined from Reddit. It is one of the first large-scale summarization dataset from the social media domain. For more details, refer to [TL;DR: Mining Reddit to Learn Automatic Summarization](https://aclweb.org/anthology/W17-4508)"
+        "description": "This [dataset](https://zenodo.org/record/1168855) contains 3 Million pairs of content and self-written summaries mined from Reddit. It is one of the first large-scale summarization dataset from the social media domain. For more details, refer to [TL;DR: Mining Reddit to Learn Automatic Summarization](https://aclweb.org/anthology/W17-4508)",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       },
       {
         "task": "Sentence Compression",
         "description": "Sentence compression produces a shorter sentence by removing redundant information,\npreserving the grammatically and the important content of the original sentence.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Google Dataset",
@@ -2483,7 +2567,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Machine translation",
@@ -2645,11 +2733,19 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Automatic speech recognition (ASR)",
-    "description": "Automatic speech recognition is the task of automatically recognizing speech. You \ncan find a repository tracking the state-of-the-art [here](https://github.com/syhw/wer_are_we)."
+    "description": "Automatic speech recognition is the task of automatically recognizing speech. You \ncan find a repository tracking the state-of-the-art [here](https://github.com/syhw/wer_are_we).",
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Text classification",
@@ -2951,7 +3047,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Question answering",
@@ -2990,6 +3090,10 @@
       {
         "task": "Reading comprehension",
         "description": "Most current question answering datasets frame the task as reading comprehension where the question is about a paragraph\nor document and the answer often is a span in the document. The Machine Reading group\nat UCL also provides an [overview of reading comprehension tasks](https://uclmr.github.io/ai4exams/data.html).",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "CliCR",
@@ -3048,7 +3152,7 @@
               ],
               "rows": [
                 {
-                  "model_name": null,
+                  "model_name": "",
                   "metrics": {
                     "CNN": "77.9",
                     "Daily Mail": "80.9"
@@ -3057,7 +3161,7 @@
                   "paper_url": "http://aclweb.org/anthology/P17-1168"
                 },
                 {
-                  "model_name": null,
+                  "model_name": "",
                   "metrics": {
                     "CNN": "76.9",
                     "Daily Mail": "79.6"
@@ -3066,7 +3170,7 @@
                   "paper_url": "https://arxiv.org/pdf/1611.01603.pdf"
                 },
                 {
-                  "model_name": null,
+                  "model_name": "",
                   "metrics": {
                     "CNN": "74.4",
                     "Daily Mail": "-"
@@ -3437,6 +3541,10 @@
       {
         "task": "Open-domain Question Answering",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "DuReader",
@@ -3646,7 +3754,7 @@
                   ]
                 },
                 {
-                  "model_name": null,
+                  "model_name": "",
                   "metrics": {
                     "Unigram Acc": "46.8",
                     "N-gram F1": "53.4",
@@ -3674,7 +3782,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Entity Linking",
@@ -3682,15 +3794,27 @@
     "subtasks": [
       {
         "task": "Task",
-        "description": "Entity Linking (EL) is the task of recognizing (cf. [Named Entity Recognition](named_entity_recognition.md)) and disambiguating (Named Entity Disambiguation) named entities to a knowledge base (e.g. Wikidata, DBpedia, or YAGO). It is sometimes also simply known as Named Entity Recognition and Disambiguation.\n\nEL can be split into two classes of approaches:\n* *End-to-End*: processing a piece of text to extract the entities (i.e. Named Entity Recognition) and then disambiguate these extracted entities to the correct entry in a given knowledge base (e.g. Wikidata, DBpedia, YAGO).\n* *Disambiguation-Only*: contrary to the first approach, this one directly takes gold standard named entities as input and only disambiguates them to the correct entry in a given knowledge base.\n\nExample:\n\n| Barack | Obama | was | born | in | Hawa\u00ef |\n| --- | ---| --- | --- | --- | --- |\n| https://en.wikipedia.org/wiki/Barack_Obama | https://en.wikipedia.org/wiki/Barack_Obama | O | O | O | https://en.wikipedia.org/wiki/Hawaii |\n\nMore in details can be found in this [survey](http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf)."
+        "description": "Entity Linking (EL) is the task of recognizing (cf. [Named Entity Recognition](named_entity_recognition.md)) and disambiguating (Named Entity Disambiguation) named entities to a knowledge base (e.g. Wikidata, DBpedia, or YAGO). It is sometimes also simply known as Named Entity Recognition and Disambiguation.\n\nEL can be split into two classes of approaches:\n* *End-to-End*: processing a piece of text to extract the entities (i.e. Named Entity Recognition) and then disambiguate these extracted entities to the correct entry in a given knowledge base (e.g. Wikidata, DBpedia, YAGO).\n* *Disambiguation-Only*: contrary to the first approach, this one directly takes gold standard named entities as input and only disambiguates them to the correct entry in a given knowledge base.\n\nExample:\n\n| Barack | Obama | was | born | in | Hawa\u00ef |\n| --- | ---| --- | --- | --- | --- |\n| https://en.wikipedia.org/wiki/Barack_Obama | https://en.wikipedia.org/wiki/Barack_Obama | O | O | O | https://en.wikipedia.org/wiki/Hawaii |\n\nMore in details can be found in this [survey](http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf).",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       },
       {
         "task": "Current SOTA",
-        "description": "[Raiman][Raiman] is the current SOTA in Cross-lingual Entity Linking. They construct a type system, and use it to constrain the outputs of a neural network to respect the symbolic structure. They achieve this by reformulating the design problem into a mixed integer problem: create a type system and subsequently train a neural network with it. They propose a 2-step algorithm: 1) heuristic search or stochastic optimization over discrete variables that define a type system\ninformed by an Oracle and a Learnability heuristic, 2) gradient descent to fit classifier parameters. They apply DeepType to the problem of Entity Linking on three standard datasets (i.e. WikiDisamb30, CoNLL (YAGO), TAC KBP 2010) and find that it outperforms all existing solutions by a wide margin, including approaches that rely on a human-designed type system or recent deep learning-based entity embeddings, while explicitly using symbolic information lets it integrate new entities without retraining."
+        "description": "[Raiman][Raiman] is the current SOTA in Cross-lingual Entity Linking. They construct a type system, and use it to constrain the outputs of a neural network to respect the symbolic structure. They achieve this by reformulating the design problem into a mixed integer problem: create a type system and subsequently train a neural network with it. They propose a 2-step algorithm: 1) heuristic search or stochastic optimization over discrete variables that define a type system\ninformed by an Oracle and a Learnability heuristic, 2) gradient descent to fit classifier parameters. They apply DeepType to the problem of Entity Linking on three standard datasets (i.e. WikiDisamb30, CoNLL (YAGO), TAC KBP 2010) and find that it outperforms all existing solutions by a wide margin, including approaches that rely on a human-designed type system or recent deep learning-based entity embeddings, while explicitly using symbolic information lets it integrate new entities without retraining.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       },
       {
         "task": "Evaluation",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Metrics",
@@ -3714,9 +3838,17 @@
       },
       {
         "task": "References",
-        "description": "[Hoffart] Johannes Hoffart, Mohamed Amir Yosef, Ilaria Bordino, Hagen F\u00fcrstenau, Manfred Pinkal, Marc Spaniol, Bilyana Taneva, Stefan Thater, and Gerhard Weikum. Robust Disambiguation of Named Entities in Text. EMNLP 2011. http://www.aclweb.org/anthology/D11-1072\n\n[CoNLL] Erik F Tjong Kim Sang and Fien De Meulder. Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition. CoNLL 2003. http://www.aclweb.org/anthology/W03-0419.pdf\n\n[Usbeck] Usbeck et al. GERBIL - General Entity Annotator Benchmarking Framework. WWW 2015. http://svn.aksw.org/papers/2015/WWW_GERBIL/public.pdf\n\n[Go back to the README](../README.md)\n\n[Sil]: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16501/16101 \"Neural Cross-Lingual Entity Linking\"\n[Shen]: http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf \"Entity Linking with a Knowledge Base: Issues, Techniques, and Solutions\"\n[AIDACoNLLYAGO]: https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/downloads/ \"AIDA CoNLL-YAGO Dataset\"\n[YAGO2]: http://yago-knowledge.org/ \"YAGO2\"\n[Wikipedia]: https://en.wikipedia.org/ \"Wikipedia\"\n[Freebase]: http://wiki.freebase.com/wiki/Machine_ID \"Freebase\"\n[Radhakrishnan]: http://aclweb.org/anthology/N18-1167 \"ELDEN: Improved Entity Linking using Densified Knowledge Graphs\"\n[Le]: https://arxiv.org/abs/1804.10637\n[NIF]: http://persistence.uni-leipzig.org/nlp2rdf/ \"NLP Interchange Formt\"\n[SpotlightEvaluation]: http://apps.yovisto.com/labs/ner-benchmarks/data/dbpedia-spotlight-nif.ttl \"GERBIL DBpedia Spotlight Dataset\"\n[Cornolti]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/40749.pdf \"A Framework for Benchmarking Entity-Annotation Systems\"\n[GERBIL]: http://aksw.org/Projects/GERBIL.html \"General Entity Annotator Benchmarking framework\"\n[AKSW]: http://aksw.org/About.html \"Agile Knowledge Engineering and Semantic Web\"\n[Hachey]: http://benhachey.info/pubs/hachey-aij12-evaluating.pdf \"Evaluating Entity Linking with Wikipedia\"\n[Raiman]: https://arxiv.org/pdf/1802.01021.pdf \"DeepType: Multilingual Entity Linking by Neural Type System Evolution\""
+        "description": "[Hoffart] Johannes Hoffart, Mohamed Amir Yosef, Ilaria Bordino, Hagen F\u00fcrstenau, Manfred Pinkal, Marc Spaniol, Bilyana Taneva, Stefan Thater, and Gerhard Weikum. Robust Disambiguation of Named Entities in Text. EMNLP 2011. http://www.aclweb.org/anthology/D11-1072\n\n[CoNLL] Erik F Tjong Kim Sang and Fien De Meulder. Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition. CoNLL 2003. http://www.aclweb.org/anthology/W03-0419.pdf\n\n[Usbeck] Usbeck et al. GERBIL - General Entity Annotator Benchmarking Framework. WWW 2015. http://svn.aksw.org/papers/2015/WWW_GERBIL/public.pdf\n\n[Go back to the README](../README.md)\n\n[Sil]: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16501/16101 \"Neural Cross-Lingual Entity Linking\"\n[Shen]: http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/TKDE14-entitylinking.pdf \"Entity Linking with a Knowledge Base: Issues, Techniques, and Solutions\"\n[AIDACoNLLYAGO]: https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/downloads/ \"AIDA CoNLL-YAGO Dataset\"\n[YAGO2]: http://yago-knowledge.org/ \"YAGO2\"\n[Wikipedia]: https://en.wikipedia.org/ \"Wikipedia\"\n[Freebase]: http://wiki.freebase.com/wiki/Machine_ID \"Freebase\"\n[Radhakrishnan]: http://aclweb.org/anthology/N18-1167 \"ELDEN: Improved Entity Linking using Densified Knowledge Graphs\"\n[Le]: https://arxiv.org/abs/1804.10637\n[NIF]: http://persistence.uni-leipzig.org/nlp2rdf/ \"NLP Interchange Formt\"\n[SpotlightEvaluation]: http://apps.yovisto.com/labs/ner-benchmarks/data/dbpedia-spotlight-nif.ttl \"GERBIL DBpedia Spotlight Dataset\"\n[Cornolti]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/40749.pdf \"A Framework for Benchmarking Entity-Annotation Systems\"\n[GERBIL]: http://aksw.org/Projects/GERBIL.html \"General Entity Annotator Benchmarking framework\"\n[AKSW]: http://aksw.org/About.html \"Agile Knowledge Engineering and Semantic Web\"\n[Hachey]: http://benhachey.info/pubs/hachey-aij12-evaluating.pdf \"Evaluating Entity Linking with Wikipedia\"\n[Raiman]: https://arxiv.org/pdf/1802.01021.pdf \"DeepType: Multilingual Entity Linking by Neural Type System Evolution\"",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Part-of-speech tagging",
@@ -3738,6 +3870,20 @@
               "paper_title": "Morphosyntactic Tagging with a Meta-BiLSTM Model over Context Sensitive Token Encodings",
               "paper_url": "https://arxiv.org/abs/1805.08237",
               "code_links": []
+            },
+            {
+              "model_name": "Flair embeddings",
+              "metrics": {
+                "Accuracy": "97.85"
+              },
+              "paper_title": "Contextual String Embeddings for Sequence Labeling",
+              "paper_url": "http://aclweb.org/anthology/C18-1139",
+              "code_links": [
+                {
+                  "title": "Flair framework",
+                  "url": "https://github.com/zalandoresearch/flair"
+                }
+              ]
             },
             {
               "model_name": "Char Bi-LSTM",
@@ -3906,7 +4052,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Grammatical Error Correction",
@@ -4141,7 +4291,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Relation Prediction",
@@ -4149,11 +4303,19 @@
     "subtasks": [
       {
         "task": "Task",
-        "description": "Relation Prediction is the task of recognizing a named relation between two named semantic entities. The common test setup is to hide one entity from the relation triplet, asking the system to recover it based on the other entity and the relation type.\n\nFor example, given the triple \\<*Roman Jakobson*, *born-in-city*, *?*\\>, the system is required to replace the question mark with *Moscow*.\n\nRelation Prediction datasets are typically extracted from two types of resources: \n* *Knowledge Bases*: KBs such as [FreeBase](https://developers.google.com/freebase/) contain hundreds or thousands of relation types pertaining to world-knowledge obtained autmoatically or semi-automatically from various resources on millions of entities. These relations include *born-in*, *nationality*, *is-in* (for geographical entities), *part-of* (for organizations, among others), and more.\n* *Semantic Graphs*: SGs such as [WordNet](https://wordnet.princeton.edu/) are often manually-curated resources of semantic concepts, restricted to more \"linguistic\" relations compared to free real-world knowledge. The most common semantic relation is *hypernym*, also known as the *is-a* relation (example: \\<*cat*, *hypernym*, *feline*\\>)."
+        "description": "Relation Prediction is the task of recognizing a named relation between two named semantic entities. The common test setup is to hide one entity from the relation triplet, asking the system to recover it based on the other entity and the relation type.\n\nFor example, given the triple \\<*Roman Jakobson*, *born-in-city*, *?*\\>, the system is required to replace the question mark with *Moscow*.\n\nRelation Prediction datasets are typically extracted from two types of resources: \n* *Knowledge Bases*: KBs such as [FreeBase](https://developers.google.com/freebase/) contain hundreds or thousands of relation types pertaining to world-knowledge obtained autmoatically or semi-automatically from various resources on millions of entities. These relations include *born-in*, *nationality*, *is-in* (for geographical entities), *part-of* (for organizations, among others), and more.\n* *Semantic Graphs*: SGs such as [WordNet](https://wordnet.princeton.edu/) are often manually-curated resources of semantic concepts, restricted to more \"linguistic\" relations compared to free real-world knowledge. The most common semantic relation is *hypernym*, also known as the *is-a* relation (example: \\<*cat*, *hypernym*, *feline*\\>).",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       },
       {
         "task": "Evaluation",
         "description": "Evaluation in Relation Prediction hinges on a list of ranked candidates given by the system to the test instance. The metrics below are derived from the location of correct candidate(s) in that list.\n\nA common action performed before evaluation on a given list is *filtering*, where the list is cleaned of entities whose corresponding triples exist in the knowledge graph. Unless specified otherwise, results here are from filtered lists.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Metrics",
@@ -4171,9 +4333,17 @@
       },
       {
         "task": "Resources",
-        "description": "[OpenKE](http://aclweb.org/anthology/D18-2024) is an open toolkit for relational learning which provides a standard training and testing framework. Currently, the implemented models in OpenKE include TransE, TransH, TransR, TransD, RESCAL, DistMult, ComplEx and HolE.\n\n[KRLPapers](https://github.com/thunlp/KRLPapers) is a must-read paper list for relational learning.\n\n[Back to README](../README.md)"
+        "description": "[OpenKE](http://aclweb.org/anthology/D18-2024) is an open toolkit for relational learning which provides a standard training and testing framework. Currently, the implemented models in OpenKE include TransE, TransH, TransR, TransD, RESCAL, DistMult, ComplEx and HolE.\n\n[KRLPapers](https://github.com/thunlp/KRLPapers) is a must-read paper list for relational learning.\n\n[Back to README](../README.md)",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Semantic role labeling",
@@ -4240,7 +4410,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Temporal Processing",
@@ -4249,6 +4423,10 @@
       {
         "task": "Document Dating (Time-stamping)",
         "description": "Document Dating is the problem of automatically predicting the date of a document based on its content. Date of a document, also referred to as the Document Creation Time (DCT), is at the core of many important tasks, such as, information retrieval, temporal reasoning, text summarization, event detection, and analysis of historical text, among others. \n\nFor example, in the following document, the correct creation year is 1999. This can be inferred by the presence of terms *1995* and *Four years after*.\n\n*Swiss adopted that form of taxation in 1995. The concession was approved by the govt last September. Four years after, the IOC\u2026.*",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Datasets",
@@ -4287,6 +4465,10 @@
       {
         "task": "Temporal Information Extraction",
         "description": "Temporal information extraction is the identification of chunks/tokens corresponding to temporal intervals, and the extraction and determination of the temporal relations between those. The entities extracted may be temporal expressions (timexes), eventualities (events), or auxiliary signals that support the interpretation of an entity or relation. Relations may be temporal links (tlinks), describing the order of events and times, or subordinate links (slinks) describing modality and other subordinative activity, or aspectual links (alinks) around the various influences aspectuality has on event structure.\n\nThe markup scheme used for temporal information extraction is well-described in the ISO-TimeML standard, and also on [www.timeml.org](http://www.timeml.org).\n\n```\n<?xml version=\"1.0\" ?>\n\n<TimeML xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd\">\n<TEXT>\n\n\n PRI20001020.2000.0127 \n NEWS STORY \n <TIMEX3 tid=\"t0\" type=\"TIME\" value=\"2000-10-20T20:02:07.85\">10/20/2000 20:02:07.85</TIMEX3> \n\n\n The Navy has changed its account of the attack on the USS Cole in Yemen.\n Officials <TIMEX3 tid=\"t1\" type=\"DATE\" value=\"PRESENT_REF\" temporalFunction=\"true\" anchorTimeID=\"t0\">now</TIMEX3> say the ship was hit <TIMEX3 tid=\"t2\" type=\"DURATION\" value=\"PT2H\">nearly two hours </TIMEX3>after it had docked.\n Initially the Navy said the explosion occurred while several boats were helping\n the ship to tie up. The change raises new questions about how the attackers\n were able to get past the Navy security.\n\n\n <TIMEX3 tid=\"t3\" type=\"TIME\" value=\"2000-10-20T20:02:28.05\">10/20/2000 20:02:28.05</TIMEX3> \n\n\n\n<TLINK timeID=\"t2\" relatedToTime=\"t0\" relType=\"BEFORE\"/>\n</TEXT>\n</TimeML>\n```\n\nTo avoid leaking knowledge about temporal structure, train, dev and test splits must be made at document level for temporal information extraction.",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "TimeBank",
@@ -4359,6 +4541,10 @@
       {
         "task": "Timex normalisation",
         "description": "Temporal expression normalisation is the grounding of a lexicalisation of a time to a calendar date or other formal temporal representation.\n\nExample:\n<TIMEX3 tid=\"t0\" type=\"TIME\" value=\"2000-10-18T21:01:00.65\">10/18/2000 21:01:00.65</TIMEX3>\nDozens of Palestinians were wounded in\nscattered clashes in the West Bank and Gaza Strip, <TIMEX3 tid=\"t1\" type=\"DATE\" value=\"2000-10-18\" temporalFunction=\"true\" anchorTimeID=\"t0\">Wednesday</TIMEX3>,\ndespite the Sharm el-Sheikh truce accord. \n\nChuck Rich reports on entertainment <TIMEX3 tid=\"t11\" type=\"SET\" value=\"XXXX-WXX-7\">every Saturday</TIMEX3>",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "TimeBank",
@@ -4440,7 +4626,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Stance detection",
@@ -4487,7 +4677,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Domain adaptation",
@@ -4496,6 +4690,10 @@
       {
         "task": "Sentiment analysis",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Multi-Domain Sentiment Dataset",
@@ -4572,84 +4770,178 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Language modeling",
-    "description": "Language modeling is the task of predicting the next word or character in a document.\n\n\\* Indicates models using dynamic evaluation.",
+    "description": "Language modeling is the task of predicting the next word or character in a document.\n\n\\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https://arxiv.org/pdf/1709.07432))",
     "subtasks": [
       {
         "task": "Word Level Models",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Penn Treebank",
-            "description": "A common evaluation dataset for language modeling ist the Penn Treebank,\nas pre-processed by [Mikolov et al. (2010)](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf).\nThe dataset consists of 929k training words, 73k validation words, and\n82k test words. As part of the pre-processing, words were lower-cased, numbers\nwere replaced with N, newlines were replaced with `<eos>`,\nand all other punctuation was removed. The vocabulary is\nthe most frequent 10k words with the rest of the tokens replaced by an `<unk>` token.\nModels are evaluated based on perplexity, which is the average\nper-word log-probability (lower is better).",
+            "description": "A common evaluation dataset for language modeling ist the Penn Treebank,\nas pre-processed by [Mikolov et al., (2010)](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf).\nThe dataset consists of 929k training words, 73k validation words, and\n82k test words. As part of the pre-processing, words were lower-cased, numbers\nwere replaced with N, newlines were replaced with `<eos>`,\nand all other punctuation was removed. The vocabulary is\nthe most frequent 10k words with the rest of the tokens replaced by an `<unk>` token.\nModels are evaluated based on perplexity, which is the average\nper-word log-probability (lower is better).",
             "dataset_links": [
               {
-                "title": "Mikolov et al. (2010)",
+                "title": "Mikolov et al., (2010)",
                 "url": "2010)](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf"
               }
             ],
             "sota": {
               "metrics": [
                 "Validation perplexity",
-                "Test perplexity"
+                "Test perplexity",
+                "Number of params"
               ],
               "rows": [
+                {
+                  "model_name": "AWD-LSTM-DOC x5",
+                  "metrics": {
+                    "Validation perplexity": "48.63",
+                    "Test perplexity": "47.17",
+                    "Number of params": "185M"
+                  },
+                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
+                  "paper_url": "https://arxiv.org/abs/1808.10143",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/nttcslab-nlp/doc_lm"
+                    }
+                  ]
+                },
                 {
                   "model_name": "AWD-LSTM-MoS + dynamic eval",
                   "metrics": {
                     "Validation perplexity": "48.33",
-                    "Test perplexity": "47.69"
+                    "Test perplexity": "47.69",
+                    "Number of params": "22M"
                   },
                   "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953"
+                  "paper_url": "https://arxiv.org/abs/1711.03953",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/zihangdai/mos"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM + dynamic eval",
                   "metrics": {
                     "Validation perplexity": "51.6",
-                    "Test perplexity": "51.1"
+                    "Test perplexity": "51.1",
+                    "Number of params": "24M"
                   },
                   "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432"
+                  "paper_url": "https://arxiv.org/abs/1709.07432",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/dynamic-evaluation"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM + continuous cache pointer",
                   "metrics": {
                     "Validation perplexity": "53.9",
-                    "Test perplexity": "52.8"
+                    "Test perplexity": "52.8",
+                    "Number of params": "24M"
                   },
                   "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182"
+                  "paper_url": "https://arxiv.org/abs/1708.02182",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM-DOC",
                   "metrics": {
                     "Validation perplexity": "54.12",
-                    "Test perplexity": "52.38"
+                    "Test perplexity": "52.38",
+                    "Number of params": "23M"
                   },
                   "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143"
+                  "paper_url": "https://arxiv.org/abs/1808.10143",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/nttcslab-nlp/doc_lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM-MoS",
                   "metrics": {
                     "Validation perplexity": "56.54",
-                    "Test perplexity": "54.44"
+                    "Test perplexity": "54.44",
+                    "Number of params": "22M"
                   },
                   "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953"
+                  "paper_url": "https://arxiv.org/abs/1711.03953",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/zihangdai/mos"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Transformer-XL",
+                  "metrics": {
+                    "Validation perplexity": "56.72",
+                    "Test perplexity": "54.55",
+                    "Number of params": "24M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
+                {
+                  "model_name": "AWD-LSTM 3-layer with Fraternal dropout",
+                  "metrics": {
+                    "Validation perplexity": "58.9",
+                    "Test perplexity": "56.8",
+                    "Number of params": "24M"
+                  },
+                  "paper_title": "Fraternal dropout",
+                  "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/kondiz/fraternal-dropout"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM",
                   "metrics": {
                     "Validation perplexity": "60.0",
-                    "Test perplexity": "57.3"
+                    "Test perplexity": "57.3",
+                    "Number of params": "24M"
                   },
                   "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182"
+                  "paper_url": "https://arxiv.org/abs/1708.02182",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 }
               ]
             }
@@ -4666,69 +4958,144 @@
             "sota": {
               "metrics": [
                 "Validation perplexity",
-                "Test perplexity"
+                "Test perplexity",
+                "Number of params"
               ],
               "rows": [
                 {
                   "model_name": "AWD-LSTM-MoS + dynamic eval",
                   "metrics": {
                     "Validation perplexity": "42.41",
-                    "Test perplexity": "40.68"
+                    "Test perplexity": "40.68",
+                    "Number of params": "35M"
                   },
                   "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953"
+                  "paper_url": "https://arxiv.org/abs/1711.03953",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/zihangdai/mos"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM + dynamic eval",
                   "metrics": {
                     "Validation perplexity": "46.4",
-                    "Test perplexity": "44.3"
+                    "Test perplexity": "44.3",
+                    "Number of params": "33M"
                   },
                   "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432"
+                  "paper_url": "https://arxiv.org/abs/1709.07432",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/dynamic-evaluation"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM + continuous cache pointer",
                   "metrics": {
                     "Validation perplexity": "53.8",
-                    "Test perplexity": "52.0"
+                    "Test perplexity": "52.0",
+                    "Number of params": "33M"
                   },
                   "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182"
+                  "paper_url": "https://arxiv.org/abs/1708.02182",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "AWD-LSTM-DOC x5",
+                  "metrics": {
+                    "Validation perplexity": "54.19",
+                    "Test perplexity": "53.09",
+                    "Number of params": "185M"
+                  },
+                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
+                  "paper_url": "https://arxiv.org/abs/1808.10143",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/nttcslab-nlp/doc_lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM-DOC",
                   "metrics": {
                     "Validation perplexity": "60.29",
-                    "Test perplexity": "58.03"
+                    "Test perplexity": "58.03",
+                    "Number of params": "37M"
                   },
                   "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143"
+                  "paper_url": "https://arxiv.org/abs/1808.10143",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/nttcslab-nlp/doc_lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM-MoS",
                   "metrics": {
                     "Validation perplexity": "63.88",
-                    "Test perplexity": "61.45"
+                    "Test perplexity": "61.45",
+                    "Number of params": "35M"
                   },
                   "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953"
+                  "paper_url": "https://arxiv.org/abs/1711.03953",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/zihangdai/mos"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "AWD-LSTM 3-layer with Fraternal dropout",
+                  "metrics": {
+                    "Validation perplexity": "66.8",
+                    "Test perplexity": "64.1",
+                    "Number of params": "34M"
+                  },
+                  "paper_title": "Fraternal dropout",
+                  "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/kondiz/fraternal-dropout"
+                    }
+                  ]
                 },
                 {
                   "model_name": "AWD-LSTM",
                   "metrics": {
                     "Validation perplexity": "68.6",
-                    "Test perplexity": "65.8"
+                    "Test perplexity": "65.8",
+                    "Number of params": "33M"
                   },
                   "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182"
+                  "paper_url": "https://arxiv.org/abs/1708.02182",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 }
               ]
             }
           },
           {
             "dataset": "WikiText-103",
-            "description": "[WikiText-103](https://arxiv.org/abs/1609.07843) The WikiText-103 corpus contains 267,735 unique words and each word occurs at least three times in the training set.\n\n{% include table.html\n  results=site.data.language_modeling.Word_Level.WikiText_103\n  scores='Validation perplexity,Test perplexity' %}",
+            "description": "[WikiText-103](https://arxiv.org/abs/1609.07843) The WikiText-103 corpus contains 267,735 unique words and each word occurs at least three times in the training set.",
             "dataset_links": [
               {
                 "title": "WikiText-103",
@@ -4738,14 +5105,54 @@
             "sota": {
               "metrics": [
                 "Validation perplexity",
-                "Test perplexity"
+                "Test perplexity",
+                "Number of params"
               ],
               "rows": [
+                {
+                  "model_name": "Transformer-XL Large",
+                  "metrics": {
+                    "Validation perplexity": "18.2",
+                    "Test perplexity": "18.9",
+                    "Number of params": "257M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
+                {
+                  "model_name": "Transformer with tied adaptive embeddings",
+                  "metrics": {
+                    "Validation perplexity": "19.8",
+                    "Test perplexity": "20.5",
+                    "Number of params": "247M"
+                  },
+                  "paper_title": "Adaptive Input Representations for Neural Language Modeling",
+                  "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
+                  "code_links": [
+                    {
+                      "title": "Link",
+                      "url": "https://github.com/AranKomat/adapinp"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Transformer-XL Standard",
+                  "metrics": {
+                    "Validation perplexity": "23.1",
+                    "Test perplexity": "24.0",
+                    "Number of params": "151M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
                 {
                   "model_name": "LSTM + Hebbian + Cache + MbPA",
                   "metrics": {
                     "Validation perplexity": "29.0",
-                    "Test perplexity": "29.2"
+                    "Test perplexity": "29.2",
+                    "Number of params": ""
                   },
                   "paper_title": "Fast Parametric Learning with Activation Memorization",
                   "paper_url": "http://arxiv.org/abs/1803.10049",
@@ -4755,7 +5162,8 @@
                   "model_name": "LSTM + Hebbian",
                   "metrics": {
                     "Validation perplexity": "34.1",
-                    "Test perplexity": "34.3"
+                    "Test perplexity": "34.3",
+                    "Number of params": ""
                   },
                   "paper_title": "Fast Parametric Learning with Activation Memorization",
                   "paper_url": "http://arxiv.org/abs/1803.10049",
@@ -4765,7 +5173,8 @@
                   "model_name": "LSTM",
                   "metrics": {
                     "Validation perplexity": "36.0",
-                    "Test perplexity": "36.4"
+                    "Test perplexity": "36.4",
+                    "Number of params": ""
                   },
                   "paper_title": "Fast Parametric Learning with Activation Memorization",
                   "paper_url": "http://arxiv.org/abs/1803.10049",
@@ -4775,17 +5184,35 @@
                   "model_name": "Gated CNN",
                   "metrics": {
                     "Validation perplexity": "-",
-                    "Test perplexity": "37.2"
+                    "Test perplexity": "37.2",
+                    "Number of params": ""
                   },
                   "paper_title": "Language modeling with gated convolutional networks",
                   "paper_url": "https://arxiv.org/abs/1612.08083",
                   "code_links": []
                 },
                 {
+                  "model_name": "Neural cache model",
+                  "metrics": {
+                    "Validation perplexity": "-",
+                    "Test perplexity": "40.8",
+                    "Number of params": ""
+                  },
+                  "paper_title": "Improving Neural Language Models with a Continuous Cache",
+                  "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
+                  "code_links": [
+                    {
+                      "title": "Link",
+                      "url": "https://github.com/kaishengtai/torch-ntm"
+                    }
+                  ]
+                },
+                {
                   "model_name": "Temporal CNN",
                   "metrics": {
                     "Validation perplexity": "-",
-                    "Test perplexity": "45.2"
+                    "Test perplexity": "45.2",
+                    "Number of params": ""
                   },
                   "paper_title": "Convolutional sequence modeling revisited",
                   "paper_url": "https://openreview.net/forum?id=BJEX-H1Pf",
@@ -4795,11 +5222,140 @@
                   "model_name": "LSTM",
                   "metrics": {
                     "Validation perplexity": "-",
-                    "Test perplexity": "48.7"
+                    "Test perplexity": "48.7",
+                    "Number of params": ""
                   },
-                  "paper_title": "Neural turing machines",
-                  "paper_url": "https://arxiv.org/abs/1410.5401",
+                  "paper_title": "Improving Neural Language Models with a Continuous Cache",
+                  "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
+                  "code_links": [
+                    {
+                      "title": "Link",
+                      "url": "https://github.com/kaishengtai/torch-ntm"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "dataset": "1B Words / Google Billion Word benchmark",
+            "description": "[The One-Billion Word benchmark](https://arxiv.org/pdf/1312.3005.pdf) is a large dataset derived from a news-commentary site.\nThe dataset consists of 829,250,940 tokens over a vocabulary of 793,471 words.\nImportantly, sentences in this model are shuffled and hence context is limited.",
+            "dataset_links": [
+              {
+                "title": "The One-Billion Word benchmark",
+                "url": "https://arxiv.org/pdf/1312.3005.pdf"
+              }
+            ],
+            "sota": {
+              "metrics": [
+                "Test perplexity",
+                "Number of params"
+              ],
+              "rows": [
+                {
+                  "model_name": "Transformer-XL Large",
+                  "metrics": {
+                    "Test perplexity": "23.5",
+                    "Number of params": "0.46B"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
                   "code_links": []
+                },
+                {
+                  "model_name": "10 LSTM+CNN inputs + SNM10-SKIP",
+                  "metrics": {
+                    "Test perplexity": "23.7",
+                    "Number of params": "43B?"
+                  },
+                  "paper_title": "Exploring the Limits of Language Modeling",
+                  "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/rafaljozefowicz/lm"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Transformer with shared adaptive embeddings",
+                  "metrics": {
+                    "Test perplexity": "24.1",
+                    "Number of params": "0.46B"
+                  },
+                  "paper_title": "Adaptive Input Representations for Neural Language Modeling",
+                  "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
+                  "code_links": [
+                    {
+                      "title": "Link",
+                      "url": "https://github.com/AranKomat/adapinp"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Big LSTM+CNN inputs",
+                  "metrics": {
+                    "Test perplexity": "30.0",
+                    "Number of params": "1.04B"
+                  },
+                  "paper_title": "Exploring the Limits of Language Modeling",
+                  "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
+                  "code_links": []
+                },
+                {
+                  "model_name": "Gated CNN-14Bottleneck",
+                  "metrics": {
+                    "Test perplexity": "31.9",
+                    "Number of params": "?"
+                  },
+                  "paper_title": "Language Modeling with Gated Convolutional Networks",
+                  "paper_url": "https://arxiv.org/pdf/1612.08083.pdf",
+                  "code_links": []
+                },
+                {
+                  "model_name": "BIGLSTM baseline",
+                  "metrics": {
+                    "Test perplexity": "35.1",
+                    "Number of params": "0.151B"
+                  },
+                  "paper_title": "Factorization tricks for LSTM networks",
+                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/okuchaiev/f-lm"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "BIG F-LSTM F512",
+                  "metrics": {
+                    "Test perplexity": "36.3",
+                    "Number of params": "0.052B"
+                  },
+                  "paper_title": "Factorization tricks for LSTM networks",
+                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/okuchaiev/f-lm"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "BIG G-LSTM G-8",
+                  "metrics": {
+                    "Test perplexity": "39.4",
+                    "Number of params": "0.035B"
+                  },
+                  "paper_title": "Factorization tricks for LSTM networks",
+                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/okuchaiev/f-lm"
+                    }
+                  ]
                 }
               ]
             }
@@ -4809,10 +5365,14 @@
       {
         "task": "Character Level Models",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Hutter Prize",
-            "description": "[The Hutter Prize](http://prize.hutter1.net) Wikipedia dataset, also known as enwik8, is a byte-level dataset consisting of the\nfirst 100 million bytes of a Wikipedia XML dump. For simplicity we shall refer to it as a character-level dataset.\nWithin these 100 million bytes are 205 unique tokens.",
+            "description": "[The Hutter Prize](http://prize.hutter1.net) Wikipedia dataset, also known as enwiki8, is a byte-level dataset consisting of the\nfirst 100 million bytes of a Wikipedia XML dump. For simplicity we shall refer to it as a character-level dataset.\nWithin these 100 million bytes are 205 unique tokens.",
             "dataset_links": [
               {
                 "title": "The Hutter Prize",
@@ -4826,13 +5386,44 @@
               ],
               "rows": [
                 {
-                  "model_name": "Character Transformer Model",
+                  "model_name": "24-layer Transformer-XL",
+                  "metrics": {
+                    "Bit per Character (BPC)": "0.99",
+                    "Number of params": "277M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
+                {
+                  "model_name": "18-layer Transformer-XL",
+                  "metrics": {
+                    "Bit per Character (BPC)": "1.03",
+                    "Number of params": "88M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
+                {
+                  "model_name": "12-layer Transformer-XL",
+                  "metrics": {
+                    "Bit per Character (BPC)": "1.06",
+                    "Number of params": "41M"
+                  },
+                  "paper_title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+                  "paper_url": "https://openreview.net/pdf?id=HJePno0cYm",
+                  "code_links": []
+                },
+                {
+                  "model_name": "64-layer Character Transformer Model",
                   "metrics": {
                     "Bit per Character (BPC)": "1.06",
                     "Number of params": "235M"
                   },
                   "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444"
+                  "paper_url": "https://arxiv.org/abs/1808.04444",
+                  "code_links": []
                 },
                 {
                   "model_name": "mLSTM + dynamic eval",
@@ -4841,25 +5432,38 @@
                     "Number of params": "46M"
                   },
                   "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432"
+                  "paper_url": "https://arxiv.org/abs/1709.07432",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/dynamic-evaluation"
+                    }
+                  ]
                 },
                 {
-                  "model_name": "3 layer AWD-LSTM",
+                  "model_name": "12-layer Character Transformer Model",
+                  "metrics": {
+                    "Bit per Character (BPC)": "1.11",
+                    "Number of params": "44M"
+                  },
+                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+                  "paper_url": "https://arxiv.org/abs/1808.04444",
+                  "code_links": []
+                },
+                {
+                  "model_name": "3-layer AWD-LSTM",
                   "metrics": {
                     "Bit per Character (BPC)": "1.232",
                     "Number of params": "47M"
                   },
                   "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240"
-                },
-                {
-                  "model_name": "Large FS-LSTM-4",
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.245",
-                    "Number of params": "47M"
-                  },
-                  "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639"
+                  "paper_url": "https://arxiv.org/abs/1803.08240",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "Large mLSTM +emb +WN +VD",
@@ -4868,16 +5472,28 @@
                     "Number of params": "46M"
                   },
                   "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959"
+                  "paper_url": "https://arxiv.org/abs/1609.07959",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/mLSTM"
+                    }
+                  ]
                 },
                 {
-                  "model_name": "FS-LSTM-4",
+                  "model_name": "Large FS-LSTM-4",
                   "metrics": {
-                    "Bit per Character (BPC)": "1.277",
-                    "Number of params": "27M"
+                    "Bit per Character (BPC)": "1.245",
+                    "Number of params": "47M"
                   },
                   "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639"
+                  "paper_url": "https://arxiv.org/abs/1705.08639",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/amujika/Fast-Slow-LSTM"
+                    }
+                  ]
                 },
                 {
                   "model_name": "Large RHN",
@@ -4886,7 +5502,28 @@
                     "Number of params": "46M"
                   },
                   "paper_title": "Recurrent Highway Networks",
-                  "paper_url": "https://arxiv.org/abs/1607.03474"
+                  "paper_url": "https://arxiv.org/abs/1607.03474",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/jzilly/RecurrentHighwayNetworks"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "FS-LSTM-4",
+                  "metrics": {
+                    "Bit per Character (BPC)": "1.277",
+                    "Number of params": "27M"
+                  },
+                  "paper_title": "Fast-Slow Recurrent Neural Networks",
+                  "paper_url": "https://arxiv.org/abs/1705.08639",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/amujika/Fast-Slow-LSTM"
+                    }
+                  ]
                 }
               ]
             }
@@ -4907,13 +5544,24 @@
               ],
               "rows": [
                 {
-                  "model_name": "Character Transformer Model",
+                  "model_name": "64-layer Character Transformer Model",
                   "metrics": {
                     "Bit per Character (BPC)": "1.13",
                     "Number of params": "235M"
                   },
                   "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444"
+                  "paper_url": "https://arxiv.org/abs/1808.04444",
+                  "code_links": []
+                },
+                {
+                  "model_name": "12-layer Character Transformer Model",
+                  "metrics": {
+                    "Bit per Character (BPC)": "1.18",
+                    "Number of params": "44M"
+                  },
+                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+                  "paper_url": "https://arxiv.org/abs/1808.04444",
+                  "code_links": []
                 },
                 {
                   "model_name": "mLSTM + dynamic eval",
@@ -4922,7 +5570,13 @@
                     "Number of params": "45M"
                   },
                   "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432"
+                  "paper_url": "https://arxiv.org/abs/1709.07432",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/dynamic-evaluation"
+                    }
+                  ]
                 },
                 {
                   "model_name": "Large mLSTM +emb +WN +VD",
@@ -4931,7 +5585,13 @@
                     "Number of params": "45M"
                   },
                   "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959"
+                  "paper_url": "https://arxiv.org/abs/1609.07959",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/mLSTM"
+                    }
+                  ]
                 },
                 {
                   "model_name": "Large RHN",
@@ -4940,7 +5600,13 @@
                     "Number of params": "46M"
                   },
                   "paper_title": "Recurrent Highway Networks",
-                  "paper_url": "https://arxiv.org/abs/1607.03474"
+                  "paper_url": "https://arxiv.org/abs/1607.03474",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/jzilly/RecurrentHighwayNetworks"
+                    }
+                  ]
                 },
                 {
                   "model_name": "LayerNorm HM-LSTM",
@@ -4949,7 +5615,8 @@
                     "Number of params": "35M"
                   },
                   "paper_title": "Hierarchical Multiscale Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1609.01704"
+                  "paper_url": "https://arxiv.org/abs/1609.01704",
+                  "code_links": []
                 },
                 {
                   "model_name": "BN LSTM",
@@ -4958,7 +5625,13 @@
                     "Number of params": "16M"
                   },
                   "paper_title": "Recurrent Batch Normalization",
-                  "paper_url": "https://arxiv.org/abs/1603.09025"
+                  "paper_url": "https://arxiv.org/abs/1603.09025",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/cooijmanstim/recurrent-batch-normalization"
+                    }
+                  ]
                 },
                 {
                   "model_name": "Unregularised mLSTM",
@@ -4967,7 +5640,13 @@
                     "Number of params": "45M"
                   },
                   "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959"
+                  "paper_url": "https://arxiv.org/abs/1609.07959",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/benkrause/mLSTM"
+                    }
+                  ]
                 }
               ]
             }
@@ -4988,22 +5667,34 @@
               ],
               "rows": [
                 {
-                  "model_name": "3 layer AWD-LSTM",
+                  "model_name": "3-layer AWD-LSTM",
                   "metrics": {
                     "Bit per Character (BPC)": "1.175",
                     "Number of params": "13.8M"
                   },
                   "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240"
+                  "paper_url": "https://arxiv.org/abs/1803.08240",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 },
                 {
-                  "model_name": "6 layer QRNN",
+                  "model_name": "6-layer QRNN",
                   "metrics": {
                     "Bit per Character (BPC)": "1.187",
                     "Number of params": "13.8M"
                   },
                   "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240"
+                  "paper_url": "https://arxiv.org/abs/1803.08240",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/salesforce/awd-lstm-lm"
+                    }
+                  ]
                 },
                 {
                   "model_name": "FS-LSTM-4",
@@ -5012,7 +5703,13 @@
                     "Number of params": "27M"
                   },
                   "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639"
+                  "paper_url": "https://arxiv.org/abs/1705.08639",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/amujika/Fast-Slow-LSTM"
+                    }
+                  ]
                 },
                 {
                   "model_name": "FS-LSTM-2",
@@ -5021,7 +5718,13 @@
                     "Number of params": "27M"
                   },
                   "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639"
+                  "paper_url": "https://arxiv.org/abs/1705.08639",
+                  "code_links": [
+                    {
+                      "title": "Official",
+                      "url": "https://github.com/amujika/Fast-Slow-LSTM"
+                    }
+                  ]
                 },
                 {
                   "model_name": "NASCell",
@@ -5030,23 +5733,29 @@
                     "Number of params": "16.3M"
                   },
                   "paper_title": "Neural Architecture Search with Reinforcement Learning",
-                  "paper_url": "https://arxiv.org/abs/1611.01578"
+                  "paper_url": "https://arxiv.org/abs/1611.01578",
+                  "code_links": []
                 },
                 {
-                  "model_name": "2-Layer Norm HyperLSTM",
+                  "model_name": "2-layer Norm HyperLSTM",
                   "metrics": {
                     "Bit per Character (BPC)": "1.219",
                     "Number of params": "14.4M"
                   },
                   "paper_title": "HyperNetworks",
-                  "paper_url": "https://arxiv.org/abs/1609.09106"
+                  "paper_url": "https://arxiv.org/abs/1609.09106",
+                  "code_links": []
                 }
               ]
             }
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Semantic textual similarity",
@@ -5054,7 +5763,7 @@
     "datasets": [
       {
         "dataset": "SentEval",
-        "description": "[SentEval](https://arxiv.org/abs/1803.05449) is an evaluation toolkit for evaluating sentence\nrepresentations. It includes 17 downstream tasks, including common semantic textual similarity\ntasks. The semantic textual similarity (STS) benchmark tasks from 2012-2016 (STS12, STS13, STS14, STS15, STS16, STSB) measure the relatedness\nof two sentences based on the cosine similarity of the two representations. The evaluation criterion is Pearson correlation.\n\nThe SICK relatedness (SICK-R) task trains a linear model to output a score from 1 to 5 indicating the relatedness of two sentences. For\nthe same dataset (SICK-E) can be treated as a binary classification problem using the entailment labels.\nThe evaluation metric for SICK-R is Pearson correlation and classification accuracy for SICK-E.\n\nThe Microsoft Research Paraphrase Corpus (MRPC) corpus is a paraphrase identification dataset, where systems\naim to identify if two sentences are paraphrases of each other. The evaluation metric is classification accuracy and F1.\n\nThe data can be downloaded from [here](https://github.com/facebookresearch/SentEval).",
+        "description": "[SentEval](https://arxiv.org/abs/1803.05449) is an evaluation toolkit for evaluating sentence\nrepresentations. It includes 17 downstream tasks, including common semantic textual similarity\ntasks. The semantic textual similarity (STS) benchmark tasks from 2012-2016 (STS12, STS13, STS14, STS15, STS16, STSB) measure the relatedness\nof two sentences based on the cosine similarity of the two representations. The evaluation criterion is Pearson correlation.\n\nThe SICK relatedness (SICK-R) task trains a linear model to output a score from 1 to 5 indicating the relatedness of two sentences. For\nthe same dataset (SICK-E) can be treated as a three-class classification problem using the entailment labels (classes are 'entailment', 'contradiction', and 'neutral').\nThe evaluation metric for SICK-R is Pearson correlation and classification accuracy for SICK-E.\n\nThe Microsoft Research Paraphrase Corpus (MRPC) corpus is a paraphrase identification dataset, where systems\naim to identify if two sentences are paraphrases of each other. The evaluation metric is classification accuracy and F1.\n\nThe data can be downloaded from [here](https://github.com/facebookresearch/SentEval).",
         "dataset_links": [
           {
             "title": "SentEval",
@@ -5127,6 +5836,10 @@
       {
         "task": "Paraphrase identification",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Quora Question Pairs",
@@ -5202,7 +5915,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Common sense",
@@ -5333,7 +6050,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Constituency parsing",
@@ -5436,7 +6157,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Sentiment analysis",
@@ -5715,6 +6440,10 @@
       {
         "task": "Aspect-based sentiment analysis",
         "description": "",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Sentihood",
@@ -5838,7 +6567,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Shallow syntax",
@@ -5847,6 +6580,10 @@
       {
         "task": "Chunking",
         "description": "Chunking, also known as shallow parsing, identifies continuous spans of tokens that form syntactic units such as noun phrases or verb phrases.\n\nExample:\n\n| Vinken | , | 61 | years | old |\n| --- | ---| --- | --- | --- |\n| B-NLP| I-NP | I-NP | I-NP | I-NP |",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        },
         "datasets": [
           {
             "dataset": "Penn Treebank",
@@ -5862,6 +6599,14 @@
                 "F1 score"
               ],
               "rows": [
+                {
+                  "model_name": "Flair embeddings",
+                  "metrics": {
+                    "F1 score": "96.72"
+                  },
+                  "paper_title": "Contextual String Embeddings for Sequence Labeling",
+                  "paper_url": "http://aclweb.org/anthology/C18-1139"
+                },
                 {
                   "model_name": "JMT",
                   "metrics": {
@@ -5901,9 +6646,17 @@
       },
       {
         "task": "Resolving the Scope and focus of negation",
-        "description": "Scope of negation is the part of the meaning that is negated and focus the part of the scope that is most prominently negated (Huddleston and Pullum 2002).\n\nExample:\n\n`[John had] never [said %as much% before].`\n\nScope is enclosed in square brackets and focus marked between % signs.\n\nThe [CD-SCO (Conan Doyle Scope) dataset](https://www.clips.uantwerpen.be/sem2012-st-neg/data.html) is for scope detection.\n The [PB-FOC (PropBank Focus) dataset](https://www.clips.uantwerpen.be/sem2012-st-neg/data.html) is for focus detection.\nThe public leaderboard is available on the [*SEM Shared Task 2012 website](https://www.clips.uantwerpen.be/sem2012-st-neg/results.html).\n\n[Go back to the README](../README.md)"
+        "description": "Scope of negation is the part of the meaning that is negated and focus the part of the scope that is most prominently negated (Huddleston and Pullum 2002).\n\nExample:\n\n`[John had] never [said %as much% before].`\n\nScope is enclosed in square brackets and focus marked between % signs.\n\nThe [CD-SCO (Conan Doyle Scope) dataset](https://www.clips.uantwerpen.be/sem2012-st-neg/data.html) is for scope detection.\n The [PB-FOC (PropBank Focus) dataset](https://www.clips.uantwerpen.be/sem2012-st-neg/data.html) is for focus detection.\nThe public leaderboard is available on the [*SEM Shared Task 2012 website](https://www.clips.uantwerpen.be/sem2012-st-neg/results.html).\n\n[Go back to the README](../README.md)",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Coreference resolution",
@@ -5962,7 +6715,11 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Dependency parsing",
@@ -6166,9 +6923,17 @@
     "subtasks": [
       {
         "task": "Penn Treebank",
-        "description": "As with supervised parsing, models are evaluated against the Penn Treebank. The most common evaluation setup is to use\ngold POS-tags as input and to evaluate systems using the unlabeled attachment score (also called 'directed dependency\naccuracy').\n  \n| Model           | UAS | Paper / Source |  \n| ------------- | :-----:| ---- | \n| Iterative reranking (Le & Zuidema, 2015) | 66.2 | [Unsupervised Dependency Parsing - Let\u2019s Use Supervised Parsers](http://www.aclweb.org/anthology/N15-1067) |\n| Combined System (Spitkovsky et al., 2013) | 64.4 | [Breaking Out of Local Optima with Count Transforms and Model Recombination - A Study in Grammar Induction](http://www.aclweb.org/anthology/D13-1204) |\n| Tree Substitution Grammar DMV (Blunsom & Cohn, 2010) | 55.7 | [Unsupervised Induction of Tree Substitution Grammars for Dependency Parsing](http://www.aclweb.org/anthology/D10-1117) |\n| Shared Logistic Normal DMV (Cohen & Smith, 2009) | 41.4 | [Shared Logistic Normal Distributions for Soft Parameter Tying in Unsupervised Grammar Induction](http://www.aclweb.org/anthology/N09-1009) |\n| DMV (Klein & Manning, 2004) | 35.9 | [Corpus-Based Induction of Syntactic Structure - Models of Dependency and Constituency](http://www.aclweb.org/anthology/P04-1061) |\n\n[Go back to the README](../README.md)"
+        "description": "As with supervised parsing, models are evaluated against the Penn Treebank. The most common evaluation setup is to use\ngold POS-tags as input and to evaluate systems using the unlabeled attachment score (also called 'directed dependency\naccuracy').\n  \n| Model           | UAS | Paper / Source |  \n| ------------- | :-----:| ---- | \n| Iterative reranking (Le & Zuidema, 2015) | 66.2 | [Unsupervised Dependency Parsing - Let\u2019s Use Supervised Parsers](http://www.aclweb.org/anthology/N15-1067) |\n| Combined System (Spitkovsky et al., 2013) | 64.4 | [Breaking Out of Local Optima with Count Transforms and Model Recombination - A Study in Grammar Induction](http://www.aclweb.org/anthology/D13-1204) |\n| Tree Substitution Grammar DMV (Blunsom & Cohn, 2010) | 55.7 | [Unsupervised Induction of Tree Substitution Grammars for Dependency Parsing](http://www.aclweb.org/anthology/D10-1117) |\n| Shared Logistic Normal DMV (Cohen & Smith, 2009) | 41.4 | [Shared Logistic Normal Distributions for Soft Parameter Tying in Unsupervised Grammar Induction](http://www.aclweb.org/anthology/N09-1009) |\n| DMV (Klein & Manning, 2004) | 35.9 | [Corpus-Based Induction of Syntactic Structure - Models of Dependency and Constituency](http://www.aclweb.org/anthology/P04-1061) |\n\n[Go back to the README](../README.md)",
+        "source_link": {
+          "title": "NLP-progress",
+          "url": "https://github.com/sebastianruder/NLP-progress"
+        }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Multi-task learning",
@@ -6206,7 +6971,11 @@
           }
         ]
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   },
   {
     "task": "Named entity recognition",
@@ -6387,6 +7156,15 @@
           ],
           "rows": [
             {
+              "model_name": "Flair embeddings",
+              "metrics": {
+                "F1": "50.20",
+                "F1 (surface form)": ""
+              },
+              "paper_title": "Contextual String Embeddings for Sequence Labeling](http://aclweb.org/anthology/C18-1139) / [Flair framework",
+              "paper_url": "http://aclweb.org/anthology/C18-1139) / [Flair framework](https://github.com/zalandoresearch/flair"
+            },
+            {
               "model_name": "Aguilar et al.",
               "metrics": {
                 "F1": "45.55",
@@ -6425,6 +7203,20 @@
             "F1"
           ],
           "rows": [
+            {
+              "model_name": "Flair embeddings",
+              "metrics": {
+                "F1": "89.71"
+              },
+              "paper_title": "Contextual String Embeddings for Sequence Labeling",
+              "paper_url": "http://aclweb.org/anthology/C18-1139",
+              "code_links": [
+                {
+                  "title": "Official",
+                  "url": "https://github.com/zalandoresearch/flair"
+                }
+              ]
+            },
             {
               "model_name": "CVT + Multi-Task",
               "metrics": {
@@ -6502,6 +7294,10 @@
           ]
         }
       }
-    ]
+    ],
+    "source_link": {
+      "title": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress"
+    }
   }
 ]
