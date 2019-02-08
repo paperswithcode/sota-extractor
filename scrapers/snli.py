@@ -37,6 +37,8 @@ for row in rows:
             paper_title = "A Fast Unified Model for Parsing and Sentence Understanding"
         elif paper_url == "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf":
             paper_title = "Improving Language Understanding by Generative Pre-Training"
+        elif paper_url == "https://pdfs.semanticscholar.org/adc1/84fcb04107f95e35ea1b07ef9aad749da8d7.pdf":
+            paper_title = "Deep Fusion LSTMs for Text Semantic Matching"
         else:
             paper_title = a.text
 

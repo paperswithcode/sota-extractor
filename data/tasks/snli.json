@@ -393,7 +393,7 @@
             },
             {
               "model_name": "100D DF-LSTM",
-              "paper_title": "Pengfei Liu et al. '16a",
+              "paper_title": "Deep Fusion LSTMs for Text Semantic Matching",
               "paper_url": "https://pdfs.semanticscholar.org/adc1/84fcb04107f95e35ea1b07ef9aad749da8d7.pdf",
               "paper_date": null,
               "code_links": [],
