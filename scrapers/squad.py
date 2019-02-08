@@ -54,7 +54,7 @@ if len(sota_tabels) == 2:
     dataset2 = Dataset({"dataset": "SQuAD2.0", "description": "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."})
     dataset1 = Dataset({"dataset": "SQuAD1.1", "description": "Previous version of the SQuAD2.0 dataset with 50,000 question-answer pairs."})
 
-    task = Task({"task": "Question answering"})
+    task = Task({"task": "Question Answering"})
     task.datasets = [dataset2, dataset1]
     task.source_link = Link({"title": "SQuAD Leaderboard", "url": URL})
 

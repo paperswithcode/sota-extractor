@@ -3,6 +3,8 @@ from extractor.taskdb import *
 import requests
 import json
 
+from .consts import EFF_TASK_CONVERSION
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--out", default="data/tasks/eff.json", help="Output JSON filename to use")
 args = parser.parse_args()
@@ -14,7 +16,14 @@ json_raw = requests.get(URL)
 j = json.loads(json_raw.text)
 
 for problem in j["problems"]:
-    task = Task({"task": problem["name"]})
+
+    if problem["name"] in EFF_TASK_CONVERSION:
+        problem_name = EFF_TASK_CONVERSION[problem["name"]]
+    else:
+        problem_name = problem["name"]
+
+    task = Task({"task": problem_name})
+
     task.source_link = Link({"title": "Progress of AI Research", "url": "https://github.com/AI-metrics/AI-metrics"})
 
     datasets = []
