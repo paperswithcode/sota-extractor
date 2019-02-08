@@ -114,6 +114,18 @@ python -m scrapers.redditsota
 
 Licence: Apache-2
 
+### SNLI
+
+The [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/) is an active project
+for Natural Language Inference.  
+
+To scrape the current content run:
+
+```bash
+python -m scrapers.snli
+```
+
+Licence: CC-BY-SA
 
 ## Evaluating the SOTA extraction performance
 

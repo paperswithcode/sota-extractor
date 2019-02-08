@@ -1,0 +1,859 @@
+[
+  {
+    "task": "Natural Language Inference",
+    "description": "",
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "SNLI",
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Train Accuracy",
+            "Parameters"
+          ],
+          "rows": [
+            {
+              "model_name": "Unlexicalized features (Feature-based)",
+              "paper_title": "A large annotated corpus for learning natural language inference",
+              "paper_url": "http://nlp.stanford.edu/pubs/snli_paper.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "50.4",
+                "Train Accuracy": "49.4",
+                "Parameters": ""
+              }
+            },
+            {
+              "model_name": "+ Unigram and bigram features (Feature-based)",
+              "paper_title": "A large annotated corpus for learning natural language inference",
+              "paper_url": "http://nlp.stanford.edu/pubs/snli_paper.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "78.2",
+                "Train Accuracy": "99.7",
+                "Parameters": ""
+              }
+            },
+            {
+              "model_name": "100D LSTM encoders (Sentence vector-based)",
+              "paper_title": "A large annotated corpus for learning natural language inference",
+              "paper_url": "http://nlp.stanford.edu/pubs/snli_paper.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "77.6",
+                "Train Accuracy": "84.8",
+                "Parameters": "220k"
+              }
+            },
+            {
+              "model_name": "300D LSTM encoders (Sentence vector-based)",
+              "paper_title": "A Fast Unified Model for Parsing and Sentence Understanding",
+              "paper_url": "https://www.nyu.edu/projects/bowman/spinn.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "80.6",
+                "Train Accuracy": "83.9",
+                "Parameters": "3.0m"
+              }
+            },
+            {
+              "model_name": "1024D GRU encoders w/ unsupervised 'skip-thoughts' pre-training (Sentence vector-based)",
+              "paper_title": "Vendrov et al. '15",
+              "paper_url": "http://arxiv.org/pdf/1511.06361v3.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "81.4",
+                "Train Accuracy": "98.8",
+                "Parameters": "15m"
+              }
+            },
+            {
+              "model_name": "300D Tree-based CNN encoders (Sentence vector-based)",
+              "paper_title": "Mou et al. '15",
+              "paper_url": "http://arxiv.org/pdf/1512.08422.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "82.1",
+                "Train Accuracy": "83.3",
+                "Parameters": "3.5m"
+              }
+            },
+            {
+              "model_name": "300D SPINN-PI encoders (Sentence vector-based)",
+              "paper_title": "A Fast Unified Model for Parsing and Sentence Understanding",
+              "paper_url": "https://www.nyu.edu/projects/bowman/spinn.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "83.2",
+                "Train Accuracy": "89.2",
+                "Parameters": "3.7m"
+              }
+            },
+            {
+              "model_name": "600D (300+300) BiLSTM encoders (Sentence vector-based)",
+              "paper_title": "Yang Liu et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1605.09090v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "83.3",
+                "Train Accuracy": "86.4",
+                "Parameters": "2.0m"
+              }
+            },
+            {
+              "model_name": "300D NTI-SLSTM-LSTM encoders (Sentence vector-based)",
+              "paper_title": "Munkhdalai & Yu '16b",
+              "paper_url": "http://arxiv.org/pdf/1607.04492v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "83.4",
+                "Train Accuracy": "82.5",
+                "Parameters": "4.0m"
+              }
+            },
+            {
+              "model_name": "600D (300+300) BiLSTM encoders with intra-attention (Sentence vector-based)",
+              "paper_title": "Yang Liu et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1605.09090v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "84.2",
+                "Train Accuracy": "84.5",
+                "Parameters": "2.8m"
+              }
+            },
+            {
+              "model_name": "4096D BiLSTM with max-pooling (Sentence vector-based)",
+              "paper_title": "Conneau et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1705.02364.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "84.5",
+                "Train Accuracy": "85.6",
+                "Parameters": "40m"
+              }
+            },
+            {
+              "model_name": "300D NSE encoders (Sentence vector-based)",
+              "paper_title": "Munkhdalai & Yu '16a",
+              "paper_url": "http://arxiv.org/pdf/1607.04315.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "84.6",
+                "Train Accuracy": "86.2",
+                "Parameters": "3.0m"
+              }
+            },
+            {
+              "model_name": "600D (300+300) Deep Gated Attn. BiLSTM encoders (code) (Sentence vector-based)",
+              "paper_title": "Qian Chen et al. '17",
+              "paper_url": "http://arxiv.org/pdf/1708.01353.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.5",
+                "Train Accuracy": "90.5",
+                "Parameters": "12m"
+              }
+            },
+            {
+              "model_name": "300D Directional self-attention network encoders (code) (Sentence vector-based)",
+              "paper_title": "Tao Shen et al. '17",
+              "paper_url": "http://arxiv.org/pdf/1709.04696.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.6",
+                "Train Accuracy": "91.1",
+                "Parameters": "2.4m"
+              }
+            },
+            {
+              "model_name": "300D Gumbel TreeLSTM encoders (Sentence vector-based)",
+              "paper_title": "Jihun Choi et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1707.02786.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.6",
+                "Train Accuracy": "91.2",
+                "Parameters": "2.9m"
+              }
+            },
+            {
+              "model_name": "300D Residual stacked encoders (Sentence vector-based)",
+              "paper_title": "Nie and Bansal '17",
+              "paper_url": "https://arxiv.org/pdf/1708.02312.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.7",
+                "Train Accuracy": "89.8",
+                "Parameters": "9.7m"
+              }
+            },
+            {
+              "model_name": "1200D REGMAPR (Base+Reg) (Sentence vector-based)",
+              "paper_title": "Anonymous '18",
+              "paper_url": "https://openreview.net/forum?id=rylNzLFEkm",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.9",
+                "Train Accuracy": "\u2013",
+                "Parameters": "\u2013"
+              }
+            },
+            {
+              "model_name": "300D CAFE (no cross-sentence attention) (Sentence vector-based)",
+              "paper_title": "Yi Tay et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1801.00102.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.9",
+                "Train Accuracy": "87.3",
+                "Parameters": "3.7m"
+              }
+            },
+            {
+              "model_name": "600D Gumbel TreeLSTM encoders (Sentence vector-based)",
+              "paper_title": "Jihun Choi et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1707.02786.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.0",
+                "Train Accuracy": "93.1",
+                "Parameters": "10m"
+              }
+            },
+            {
+              "model_name": "600D Residual stacked encoders (Sentence vector-based)",
+              "paper_title": "Nie and Bansal '17",
+              "paper_url": "https://arxiv.org/pdf/1708.02312.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.0",
+                "Train Accuracy": "91.0",
+                "Parameters": "29m"
+              }
+            },
+            {
+              "model_name": "300D Reinforced Self-Attention Network (Sentence vector-based)",
+              "paper_title": "Tao Shen et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1801.10296.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.3",
+                "Train Accuracy": "92.6",
+                "Parameters": "3.1m"
+              }
+            },
+            {
+              "model_name": "Distance-based Self-Attention Network (Sentence vector-based)",
+              "paper_title": "Im and Cho '17",
+              "paper_url": "https://arxiv.org/pdf/1712.02047.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.3",
+                "Train Accuracy": "89.6",
+                "Parameters": "4.7m"
+              }
+            },
+            {
+              "model_name": "Densely-Connected Recurrent and Co-Attentive Network (encoder) (Sentence vector-based)",
+              "paper_title": "Seonhoon Kim et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1805.11360.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.5",
+                "Train Accuracy": "91.4",
+                "Parameters": "5.6m"
+              }
+            },
+            {
+              "model_name": "600D Hierarchical BiLSTM with Max Pooling (HBMP, code) (Sentence vector-based)",
+              "paper_title": "Talman et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1808.08762.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.6",
+                "Train Accuracy": "89.9",
+                "Parameters": "22m"
+              }
+            },
+            {
+              "model_name": "600D BiLSTM with generalized pooling (Sentence vector-based)",
+              "paper_title": "Qian Chen et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1806.09828.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.6",
+                "Train Accuracy": "94.9",
+                "Parameters": "65m"
+              }
+            },
+            {
+              "model_name": "512D Dynamic Meta-Embeddings (Sentence vector-based)",
+              "paper_title": "Kiela et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1804.07983.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.7",
+                "Train Accuracy": "91.6",
+                "Parameters": "9m"
+              }
+            },
+            {
+              "model_name": "600D Dynamic Self-Attention Model (Sentence vector-based)",
+              "paper_title": "Deunsol Yoon et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1808.07383.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.8",
+                "Train Accuracy": "87.3",
+                "Parameters": "2.1m"
+              }
+            },
+            {
+              "model_name": "2400D Multiple-Dynamic Self-Attention Model (Sentence vector-based)",
+              "paper_title": "Deunsol Yoon et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1808.07383.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "87.4",
+                "Train Accuracy": "89.0",
+                "Parameters": "7.0m"
+              }
+            },
+            {
+              "model_name": "100D LSTMs w/ word-by-word attention (Other neural network)",
+              "paper_title": "Rockt\u00e4schel  et al. '15",
+              "paper_url": "http://arxiv.org/pdf/1509.06664v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "83.5",
+                "Train Accuracy": "85.3",
+                "Parameters": "250k"
+              }
+            },
+            {
+              "model_name": "100D DF-LSTM (Other neural network)",
+              "paper_title": "Pengfei Liu et al. '16a",
+              "paper_url": "https://pdfs.semanticscholar.org/adc1/84fcb04107f95e35ea1b07ef9aad749da8d7.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "84.6",
+                "Train Accuracy": "85.2",
+                "Parameters": "320k"
+              }
+            },
+            {
+              "model_name": "600D (300+300) BiLSTM encoders with intra-attention and symbolic preproc. (Other neural network)",
+              "paper_title": "Yang Liu et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1605.09090v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.0",
+                "Train Accuracy": "85.9",
+                "Parameters": "2.8m"
+              }
+            },
+            {
+              "model_name": "50D stacked TC-LSTMs (Other neural network)",
+              "paper_title": "Pengfei Liu et al. '16b",
+              "paper_url": "https://arxiv.org/pdf/1605.05573v2.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.1",
+                "Train Accuracy": "86.7",
+                "Parameters": "190k"
+              }
+            },
+            {
+              "model_name": "300D MMA-NSE encoders with attention (Other neural network)",
+              "paper_title": "Munkhdalai & Yu '16a",
+              "paper_url": "http://arxiv.org/pdf/1607.04315.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.4",
+                "Train Accuracy": "86.9",
+                "Parameters": "3.2m"
+              }
+            },
+            {
+              "model_name": "300D mLSTM word-by-word attention model (Other neural network)",
+              "paper_title": "Wang & Jiang '15",
+              "paper_url": "http://arxiv.org/pdf/1512.08849v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.1",
+                "Train Accuracy": "92.0",
+                "Parameters": "1.9m"
+              }
+            },
+            {
+              "model_name": "300D LSTMN with deep attention fusion (Other neural network)",
+              "paper_title": "Jianpeng Cheng et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1601.06733.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "85.7",
+                "Train Accuracy": "87.3",
+                "Parameters": "1.7m"
+              }
+            },
+            {
+              "model_name": "450D LSTMN with deep attention fusion (Other neural network)",
+              "paper_title": "Jianpeng Cheng et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1601.06733.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.3",
+                "Train Accuracy": "88.5",
+                "Parameters": "3.4m"
+              }
+            },
+            {
+              "model_name": "200D decomposable attention model (Other neural network)",
+              "paper_title": "Parikh et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1606.01933v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.3",
+                "Train Accuracy": "89.5",
+                "Parameters": "380k"
+              }
+            },
+            {
+              "model_name": "200D decomposable attention model with intra-sentence attention (Other neural network)",
+              "paper_title": "Parikh et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1606.01933v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "86.8",
+                "Train Accuracy": "90.5",
+                "Parameters": "580k"
+              }
+            },
+            {
+              "model_name": "300D Full tree matching NTI-SLSTM-LSTM w/ global attention (Other neural network)",
+              "paper_title": "Munkhdalai & Yu '16b",
+              "paper_url": "http://arxiv.org/pdf/1607.04492v1.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "87.3",
+                "Train Accuracy": "88.5",
+                "Parameters": "3.2m"
+              }
+            },
+            {
+              "model_name": "BiMPM (Other neural network)",
+              "paper_title": "Zhiguo Wang et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1702.03814.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "87.5",
+                "Train Accuracy": "90.9",
+                "Parameters": "1.6m"
+              }
+            },
+            {
+              "model_name": "300D re-read LSTM (Other neural network)",
+              "paper_title": "Lei Sha et al. '16",
+              "paper_url": "https://www.aclweb.org/anthology/C/C16/C16-1270.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "87.5",
+                "Train Accuracy": "90.7",
+                "Parameters": "2.0m"
+              }
+            },
+            {
+              "model_name": "448D Densely Interactive Inference Network (DIIN, code) (Other neural network)",
+              "paper_title": "Yichen Gong et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1709.04348.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.0",
+                "Train Accuracy": "91.2",
+                "Parameters": "4.4m"
+              }
+            },
+            {
+              "model_name": "Biattentive Classification Network + CoVe + Char (Other neural network)",
+              "paper_title": "McCann et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1708.00107.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.1",
+                "Train Accuracy": "88.5",
+                "Parameters": "22m"
+              }
+            },
+            {
+              "model_name": "150D Multiway Attention Network (Other neural network)",
+              "paper_title": "Chuanqi Tan et al. '18",
+              "paper_url": "https://www.ijcai.org/proceedings/2018/0613.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.3",
+                "Train Accuracy": "94.5",
+                "Parameters": "14m"
+              }
+            },
+            {
+              "model_name": "Stochastic Answer Network (Other neural network)",
+              "paper_title": "Xiaodong Liu et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1804.07888.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.5",
+                "Train Accuracy": "93.3",
+                "Parameters": "3.5m"
+              }
+            },
+            {
+              "model_name": "450D DR-BiLSTM (Other neural network)",
+              "paper_title": "Ghaeini et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1802.05577.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.5",
+                "Train Accuracy": "94.1",
+                "Parameters": "7.5m"
+              }
+            },
+            {
+              "model_name": "300D CAFE (Other neural network)",
+              "paper_title": "Yi Tay et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1801.00102.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.5",
+                "Train Accuracy": "89.8",
+                "Parameters": "4.7m"
+              }
+            },
+            {
+              "model_name": "KIM (Other neural network)",
+              "paper_title": "Qian Chen et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1711.04289.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.6",
+                "Train Accuracy": "94.1",
+                "Parameters": "4.3m"
+              }
+            },
+            {
+              "model_name": "600D ESIM + 300D Syntactic TreeLSTM (code) (Other neural network)",
+              "paper_title": "Qian Chen et al. '16",
+              "paper_url": "http://arxiv.org/pdf/1609.06038v3.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.6",
+                "Train Accuracy": "93.5",
+                "Parameters": "7.7m"
+              }
+            },
+            {
+              "model_name": "ESIM + ELMo (Other neural network)",
+              "paper_title": "Peters et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1802.05365.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.7",
+                "Train Accuracy": "91.6",
+                "Parameters": "8.0m"
+              }
+            },
+            {
+              "model_name": "300D DMAN (Other neural network)",
+              "paper_title": "Boyuan Pan et al. '18",
+              "paper_url": "http://aclweb.org/anthology/P18-1091",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.8",
+                "Train Accuracy": "95.4",
+                "Parameters": "9.2m"
+              }
+            },
+            {
+              "model_name": "BiMPM Ensemble (Other neural network)",
+              "paper_title": "Zhiguo Wang et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1702.03814.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.8",
+                "Train Accuracy": "93.2",
+                "Parameters": "6.4m"
+              }
+            },
+            {
+              "model_name": "448D Densely Interactive Inference Network (DIIN, code) Ensemble (Other neural network)",
+              "paper_title": "Yichen Gong et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1709.04348.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.9",
+                "Train Accuracy": "92.3",
+                "Parameters": "17m"
+              }
+            },
+            {
+              "model_name": "Densely-Connected Recurrent and Co-Attentive Network (Other neural network)",
+              "paper_title": "Seonhoon Kim et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1805.11360.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "88.9",
+                "Train Accuracy": "93.1",
+                "Parameters": "6.7m"
+              }
+            },
+            {
+              "model_name": "SLRC (Other neural network)",
+              "paper_title": "Zhuosheng Zhang et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1809.02794.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.1",
+                "Train Accuracy": "89.1",
+                "Parameters": "6.1m"
+              }
+            },
+            {
+              "model_name": "KIM Ensemble (Other neural network)",
+              "paper_title": "Qian Chen et al. '17",
+              "paper_url": "https://arxiv.org/pdf/1711.04289.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.1",
+                "Train Accuracy": "93.6",
+                "Parameters": "43m"
+              }
+            },
+            {
+              "model_name": "450D DR-BiLSTM Ensemble (Other neural network)",
+              "paper_title": "Ghaeini et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1802.05577.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.3",
+                "Train Accuracy": "94.8",
+                "Parameters": "45m"
+              }
+            },
+            {
+              "model_name": "ESIM + ELMo Ensemble (Other neural network)",
+              "paper_title": "Peters et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1802.05365.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.3",
+                "Train Accuracy": "92.1",
+                "Parameters": "40m"
+              }
+            },
+            {
+              "model_name": "300D CAFE Ensemble (Other neural network)",
+              "paper_title": "Yi Tay et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1801.00102.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.3",
+                "Train Accuracy": "92.5",
+                "Parameters": "17.5m"
+              }
+            },
+            {
+              "model_name": "150D Multiway Attention Network Ensemble (Other neural network)",
+              "paper_title": "Chuanqi Tan et al. '18",
+              "paper_url": "https://www.ijcai.org/proceedings/2018/0613.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.4",
+                "Train Accuracy": "95.5",
+                "Parameters": "58m"
+              }
+            },
+            {
+              "model_name": "300D DMAN Ensemble (Other neural network)",
+              "paper_title": "Boyuan Pan et al. '18",
+              "paper_url": "http://aclweb.org/anthology/P18-1091",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.6",
+                "Train Accuracy": "96.1",
+                "Parameters": "79m"
+              }
+            },
+            {
+              "model_name": "Fine-Tuned LM-Pretrained Transformer (Other neural network)",
+              "paper_title": "Radford et al. '18",
+              "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "89.9",
+                "Train Accuracy": "96.6",
+                "Parameters": "85m"
+              }
+            },
+            {
+              "model_name": "Densely-Connected Recurrent and Co-Attentive Network Ensemble (Other neural network)",
+              "paper_title": "Seonhoon Kim et al. '18",
+              "paper_url": "https://arxiv.org/pdf/1805.11360.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "90.1",
+                "Train Accuracy": "95.0",
+                "Parameters": "53.3m"
+              }
+            },
+            {
+              "model_name": "MT-DNN (Other neural network)",
+              "paper_title": "Xiaodong Liu et al. '19",
+              "paper_url": "https://arxiv.org/pdf/1901.11504.pdf",
+              "paper_date": null,
+              "code_links": [],
+              "model_links": [],
+              "metrics": {
+                "Test Accuracy": "91.1",
+                "Train Accuracy": "96.8",
+                "Parameters": "110m"
+              }
+            }
+          ]
+        },
+        "dataset_links": [],
+        "dataset_citations": []
+      }
+    ],
+    "subtasks": [],
+    "synonyms": [],
+    "source_link": null
+  }
+]
