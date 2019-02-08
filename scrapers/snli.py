@@ -35,12 +35,17 @@ for row in rows:
             paper_title = "A large annotated corpus for learning natural language inference"
         elif paper_url == "https://www.nyu.edu/projects/bowman/spinn.pdf":
             paper_title = "A Fast Unified Model for Parsing and Sentence Understanding"
+        elif paper_url == "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf":
+            paper_title = "Improving Language Understanding by Generative Pre-Training"
         else:
             paper_title = a.text
 
         model_name = cells[1].text.strip()
-        if suffix:
-            model_name = "%s (%s)" % (model_name, suffix)
+        #if suffix:
+        #    model_name = "%s (%s)" % (model_name, suffix)
+
+        model_name = model_name.replace("(code)", "").strip()
+
         params = cells[2].text.strip()
         train_acc = cells[3].text.strip()
         test_acc = cells[4].text.strip()
@@ -51,8 +56,8 @@ for row in rows:
                 "paper_title": paper_title,
                 "paper_url": paper_url,
                 "metrics": {
-                    "Test Accuracy": test_acc,
-                    "Train Accuracy": train_acc,
+                    "% Test Accuracy": test_acc,
+                    "% Train Accuracy": train_acc,
                     "Parameters": params
                 }
             }
@@ -65,14 +70,18 @@ task = Task({
             "dataset": "SNLI",
             "sota": {
                 "metrics": [
-                    "Test Accuracy",
-                    "Train Accuracy",
+                    "% Test Accuracy",
+                    "% Train Accuracy",
                     "Parameters"
                 ],
                 "rows": sota_rows
             }
         }
-    ]
+    ],
+    "source_link": {
+        "title": "The Stanford Natural Language Inference (SNLI) Corpus",
+        "url": "https://nlp.stanford.edu/projects/snli/",
+    }
 })
 
 TaskDb.add_task("Natural Language Inference", task)
