@@ -1,9 +1,7 @@
 import re
+import json
 import gzip
-
-
-from extractor.taskdb import *
-from nltk.stem.snowball import SnowballStemmer
+from sota_extractor.taskdb import TaskDb
 from nltk.stem.porter import PorterStemmer
 
 # load the tasks and arxiv metadata

@@ -1,13 +1,12 @@
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
 
 
 def get_soup(url):
-    """
-    Get a BeautifulSoup object back from the a URL
+    """Get a BeautifulSoup object back from the a URL.
 
-    :param url: URL to scrape
-    :return:
+    Args:
+        url: URL to scrape.
     """
 
     r = requests.get(url)
@@ -17,4 +16,3 @@ def get_soup(url):
 
     data = r.text
     return BeautifulSoup(data, "lxml")
-

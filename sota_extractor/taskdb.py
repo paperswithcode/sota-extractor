@@ -1,13 +1,14 @@
 import json
 import csv
-from typing import Dict, Tuple, List
+from typing import Dict, List
+
 
 class Link:
-    def __init__(self, d:Dict):
-        """
-        Make a new Link to a URL from the dictionary of values
+    def __init__(self, d: Dict):
+        """Make a new Link to a URL from the dictionary of values.
 
-        :param d: a dictionary with the data (from the JSON)
+        Args:
+            d: A dictionary with the data (from the JSON).
         """
 
         self.title = ""
@@ -20,17 +21,15 @@ class Link:
             self.url = d["url"]
 
     def to_dict(self) -> Dict:
-        return {
-            "title": self.title,
-            "url": self.url,
-        }
+        return {"title": self.title, "url": self.url}
+
 
 class SotaRow:
     def __init__(self, d: Dict):
-        """
-        A row of the SOTA table
+        """Row of the SOTA table.
 
-        :param d: a dictionary with the data (from the JSON)
+        Args:
+            d: A dictionary with the data (from the JSON).
         """
 
         self.model_name = d["model_name"]
@@ -75,12 +74,13 @@ class SotaRow:
 
 
 class Dataset:
-    def __init__(self, d:Dict, parent=None):
-        """
-        Make a new Dataset instance from a dictionary of values
+    def __init__(self, d: Dict, parent=None):
+        """Make a new Dataset instance from a dictionary of values.
 
-        :param d: a dictionary with the data (from the JSON)
-        :param parent: The parent dataset if present, i.e if the dataset is a subdataset
+        Args:
+            d: A dictionary with the data (from the JSON).
+            parent: The parent dataset if present, i.e if the dataset is a
+                subdataset.
         """
         if "subdataset" in d:
             self.dataset = d["subdataset"]
@@ -132,7 +132,7 @@ class Dataset:
         if self.sota_metrics:
             o["sota"] = {
                 "metrics": self.sota_metrics,
-                "rows": [m.to_dict() for m in self.sota_rows]
+                "rows": [m.to_dict() for m in self.sota_rows],
             }
 
         if self.subdatasets:
@@ -145,12 +145,12 @@ class Dataset:
 
 
 class Task:
-    def __init__(self, d:Dict, parent=None):
-        """
-        Make a new Task from a dictionary of values
+    def __init__(self, d: Dict, parent=None):
+        """Make a new Task from a dictionary of values.
 
-        :param d: a dictionary with all the data (from the JSON)
-        :param parent: The parent Task (if any)
+        Args:
+            d: a dictionary with all the data (from the JSON).
+            parent: The parent Task (if any).
         """
         self.task = d["task"]
         self.description = ""
@@ -187,7 +187,9 @@ class Task:
             "datasets": [d.to_dict() for d in self.datasets],
             "subtasks": [t.to_dict() for t in self.subtasks],
             "synonyms": self.synonyms,
-            "source_link": self.source_link.to_dict() if self.source_link else None,
+            "source_link": self.source_link.to_dict()
+            if self.source_link
+            else None,
         }
 
 
@@ -195,13 +197,8 @@ class TaskDb:
     tasks = {}
 
     @staticmethod
-    def get_task(name:str):
-        """
-        Get a task or subtask by name
-
-        :param name:
-        :return:
-        """
+    def get_task(name: str):
+        """Get a task or subtask by name."""
         if name in TaskDb.tasks:
             return TaskDb.tasks[name]
         else:
@@ -212,42 +209,24 @@ class TaskDb:
         return None
 
     @staticmethod
-    def add_task(name:str, task:Task):
-        """
-        Add a top-level task by name
-
-        :param name:
-        :param task:
-        :return:
-        """
+    def add_task(name: str, task: Task):
+        """Add a top-level task by name."""
         TaskDb.tasks[name] = task
 
     @staticmethod
     def load_tasks(json_files: List[str]):
-        """
-        Load tasks from a list of paths to JSON Files
-
-        :param json_files:
-        :return:
-        """
+        """Load tasks from a list of paths to JSON Files."""
         for json_file in json_files:
             with open(json_file, "r") as f:
                 task_list = json.load(f)
                 for t in task_list:
                     TaskDb.add_task(t["task"], Task(t))
 
-
     @staticmethod
     def load_synonyms(csv_files: List[str]):
-        """
-        Load task synonyms from input files
-
-        :param csv_files:
-        :return:
-        """
-
+        """Load task synonyms from input files."""
         for csv_file in csv_files:
-            with open(csv_file, newline='') as f:
+            with open(csv_file, newline="") as f:
                 reader = csv.reader(f)
                 for row in reader:
                     task = TaskDb.get_task(row[0])
@@ -256,13 +235,10 @@ class TaskDb:
 
     @staticmethod
     def tasks_with_sota() -> List[Task]:
-        """
-        Extract all tasks with SOTA tables.
-        This includes both the top-level and subtasks
+        """Extract all tasks with SOTA tables.
 
-        :return:
+        This includes both the top-level and sub-tasks.
         """
-
         sota_tasks = []
 
         for task in TaskDb.tasks.values():
@@ -272,11 +248,9 @@ class TaskDb:
 
     @staticmethod
     def datasets_with_sota() -> List[Dataset]:
-        """
-        Extract all datasets with SOTA tables.
-        This includes both the top-level and subtasks
+        """Extract all datasets with SOTA tables.
 
-        :return:
+        This includes both the top-level and sub-tasks.
         """
 
         sota_datasets = []
@@ -288,38 +262,21 @@ class TaskDb:
 
     @staticmethod
     def export() -> List[Dict]:
-        """
-        Export the whole of TaskDB into a list of tasks in Dict format
-
-        :return:
-        """
+        """Export the whole of TaskDB into a list of tasks in Dict format."""
         return [task.to_dict() for task in TaskDb.tasks.values()]
 
-
     @staticmethod
-    def export_to_json(json_filename:str):
-        """
-        Export the whole of TaskDB into a JSON file
-
-        :param json_filename:
-        :return:
-        """
-
+    def export_to_json(json_filename: str):
+        """Export the whole of TaskDB into a JSON file."""
         with open(json_filename, "w") as f:
             json.dump(TaskDb.export(), f, indent=2)
 
 
-def find_sota_tasks(task:Task, out:List):
+def find_sota_tasks(task: Task, out: List):
+    """Get all the tasks with a SOTA table.
+
+    These tasks will be added into the "out" output list.
     """
-    Get all the tasks with a SOTA table
-
-    These tasks will be added into the "out" output list
-
-    :param task:
-    :param out:
-    :return:
-    """
-
     # check if the dataset has sota tables
     add = False
     for d in task.datasets:
@@ -337,15 +294,10 @@ def find_sota_tasks(task:Task, out:List):
         find_sota_tasks(subtask, out)
 
 
-def find_sota_datasets(task:Task, out:List):
-    """
-    Get all the datasets with a SOTA table
+def find_sota_datasets(task: Task, out: List):
+    """Get all the datasets with a SOTA table.
 
-    These datasets will be added into the "out" output list
-
-    :param task:
-    :param out:
-    :return:
+    These datasets will be added into the "out" output list.
     """
 
     # check if the dataset has sota tables

@@ -1,14 +1,14 @@
 import pprint
-from extractor.load import TaskDb, arxiv, stemmer
-from extractor.predict import article_matches
-from extractor.eval import eval_task
+from sota_extractor.load import TaskDb, arxiv
+from sota_extractor.predict import article_matches
+from sota_extractor.eval import eval_task
 
 # choose a task, and make predictions
 task = TaskDb.get_task("Part-of-speech tagging")
 # FIXME: second table is for reference only
 # task.datasets[0].subdatasets = [task.datasets[0].subdatasets[0]]
 
-pred = [a for a in arxiv if article_matches(a, task, stemmer)]
+pred = [a for a in arxiv if article_matches(a, task)]
 
 tp, fn, fp = eval_task(pred, task)
 print(len(tp), len(fn), len(fp))

@@ -1,0 +1,41 @@
+- repo: https://github.com/ambv/black
+  rev: stable
+  hooks:
+      - id: black
+        name: Format Python Code
+        language: python
+        entry: black
+        args:
+            - --target-version=py36
+            - --safe
+            - --line-length=79
+            - sota_extractor
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.1.0
+  hooks:
+      - id: requirements-txt-fixer
+        name: Requirements file fixer
+        language: python
+        args:
+            - requirements.txt
+            - requirements-dev.txt
+
+- repo: https://gitlab.com/pycqa/flake8
+  rev: 3.7.7
+  hooks:
+      - id: flake8
+        name: Flake8 Check
+        language: python
+        entry: flake8
+        args:
+            - sota_extractor
+
+- repo: https://github.com/pycqa/pydocstyle
+  rev: master
+  hooks:
+      - id: pydocstyle
+        name: Python Documentation Style Check
+        language: python
+        entry: pydocstyle
+        args:
+            - sota_extractor

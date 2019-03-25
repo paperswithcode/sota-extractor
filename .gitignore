@@ -1,2 +1,14 @@
+.coverage
 .idea
+.envrc
+.nltk_data
+.pytest_cache/
+.ipynb_checkpoints
+*.py[cod]
+
+# Virtual environment
+.venv
 venv
+
+# setup.py artifacts
+*.egg-info
