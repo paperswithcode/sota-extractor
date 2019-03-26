@@ -1,13 +1,13 @@
 [
   {
-    "task": "Language Modelling",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [
       {
         "dataset": "PTB",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -15,76 +15,93 @@
           ],
           "rows": [
             {
+              "code_links": [
+                {
+                  "title": "Tensorflow",
+                  "url": "https://github.com/openai/gpt-2"
+                }
+              ],
+              "metrics": {
+                "Perplexity": "35.76"
+              },
+              "model_links": [],
               "model_name": "",
-              "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
-              "paper_url": "https://arxiv.org/pdf/1711.03953.pdf",
               "paper_date": null,
+              "paper_title": "Language Models are Unsupervised Multitask Learners",
+              "paper_url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+            },
+            {
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/zihangdai/mos"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "47.69"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
+              "paper_url": "https://arxiv.org/pdf/1711.03953.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS",
-              "paper_url": "https://arxiv.org/pdf/1709.07432.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/benkrause/dynamic-evaluation"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "51.1"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS",
+              "paper_url": "https://arxiv.org/pdf/1709.07432.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "Averaged Stochastic Gradient  Descent  with Weight Dropped LSTM or QRNN",
-              "paper_url": "https://arxiv.org/pdf/1708.02182.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/salesforce/awd-lstm-lm"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "52.8"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Averaged Stochastic Gradient  Descent  with Weight Dropped LSTM or QRNN",
+              "paper_url": "https://arxiv.org/pdf/1708.02182.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "FRATERNAL DROPOUT",
-              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/kondiz/fraternal-dropout"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "56.8"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "FRATERNAL DROPOUT",
+              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "WikiText-2",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -92,91 +109,108 @@
           ],
           "rows": [
             {
+              "code_links": [
+                {
+                  "title": "Tensorflow",
+                  "url": "https://github.com/openai/gpt-2"
+                }
+              ],
+              "metrics": {
+                "Perplexity": "18.34"
+              },
+              "model_links": [],
               "model_name": "",
-              "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
-              "paper_url": "https://arxiv.org/pdf/1711.03953.pdf",
               "paper_date": null,
+              "paper_title": "Language Models are Unsupervised Multitask Learners",
+              "paper_url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+            },
+            {
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/zihangdai/mos"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "40.68"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL",
+              "paper_url": "https://arxiv.org/pdf/1711.03953.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS",
-              "paper_url": "https://arxiv.org/pdf/1709.07432.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/benkrause/dynamic-evaluation"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "44.3"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS",
+              "paper_url": "https://arxiv.org/pdf/1709.07432.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "Averaged Stochastic Gradient  Descent  with Weight Dropped LSTM or QRNN",
-              "paper_url": "https://arxiv.org/pdf/1708.02182.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/salesforce/awd-lstm-lm"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "52.0"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Averaged Stochastic Gradient  Descent  with Weight Dropped LSTM or QRNN",
+              "paper_url": "https://arxiv.org/pdf/1708.02182.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "FRATERNAL DROPOUT",
-              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/kondiz/fraternal-dropout"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Perplexity": "64.1"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "FRATERNAL DROPOUT",
+              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Language Modelling"
   },
   {
-    "task": "Machine Translation",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [
       {
         "dataset": "Multi30k-Task1(en-fr fr-en de-en en-de)",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -184,44 +218,45 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "UNSUPERVISED MACHINE TRANSLATION\nUSING MONOLINGUAL CORPORA ONLY",
-              "paper_url": "https://arxiv.org/pdf/1711.00043.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "BLEU": "(32.76 32.07 26.26 22.74)"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "UNSUPERVISED MACHINE TRANSLATION\nUSING MONOLINGUAL CORPORA ONLY",
+              "paper_url": "https://arxiv.org/pdf/1711.00043.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "UNSUPERVISED MACHINE TRANSLATION\nUSING MONOLINGUAL CORPORA ONLY",
-              "paper_url": "https://arxiv.org/pdf/1711.00043.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "BLEU": "(32.76 32.07 26.26 22.74)"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "UNSUPERVISED MACHINE TRANSLATION\nUSING MONOLINGUAL CORPORA ONLY",
+              "paper_url": "https://arxiv.org/pdf/1711.00043.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "WMT14(en-fr fr-en)",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -229,28 +264,29 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
-              "paper_url": "https://arxiv.org/pdf/1804.09057.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "BLEU": "(16.97 15.58)"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
+              "paper_url": "https://arxiv.org/pdf/1804.09057.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "WMT16 (de-en en-de)",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -258,99 +294,100 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
-              "paper_url": "https://arxiv.org/pdf/1804.09057.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "BLEU": "(14.62 10.86)"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Unsupervised Neural Machine Translation with Weight Sharing",
+              "paper_url": "https://arxiv.org/pdf/1804.09057.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Machine Translation"
   },
   {
-    "task": "Text Classification",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Text Classification"
   },
   {
-    "task": "Natural Language Inference",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Natural Language Inference"
   },
   {
-    "task": "Question Answering",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Question Answering"
   },
   {
-    "task": "Named entity recognition",
-    "description": "",
     "categories": [
       "NLP"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Named entity recognition"
   },
   {
-    "task": "Classification",
-    "description": "",
     "categories": [
       "Computer Vision"
     ],
     "datasets": [
       {
         "dataset": "MNIST",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -358,10 +395,6 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Dynamic Routing Between Capsules",
-              "paper_url": "https://arxiv.org/pdf/1710.09829.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Official Implementation",
@@ -388,18 +421,23 @@
                   "url": "https://github.com/loretoparisi/CapsNet"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "0.25\u00b10.005"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Dynamic Routing Between Capsules",
+              "paper_url": "https://arxiv.org/pdf/1710.09829.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "NORB",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -407,28 +445,29 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "High-Performance Neural Networks for Visual Object Classification",
-              "paper_url": "https://arxiv.org/pdf/1102.0183.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "2.53 \u00b1 0.40"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "High-Performance Neural Networks for Visual Object Classification",
+              "paper_url": "https://arxiv.org/pdf/1102.0183.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "CIFAR-10",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -436,76 +475,77 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "ShakeDrop regularization",
-              "paper_url": "https://openreview.net/pdf?id=S1NHaMW0b",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "2.31%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "ShakeDrop regularization",
+              "paper_url": "https://openreview.net/pdf?id=S1NHaMW0b"
             },
             {
-              "model_name": "",
-              "paper_title": "Aggregated Residual Transformations for Deep Neural Networks",
-              "paper_url": "https://arxiv.org/pdf/1611.05431.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "PyTorch",
                   "url": "https://github.com/facebookresearch/ResNeXt"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "3.58%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Aggregated Residual Transformations for Deep Neural Networks",
+              "paper_url": "https://arxiv.org/pdf/1611.05431.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "Random Erasing Data Augmentation",
-              "paper_url": "https://arxiv.org/abs/1708.04896",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/zhunzhong07/Random-Erasing"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "3.08%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Random Erasing Data Augmentation",
+              "paper_url": "https://arxiv.org/abs/1708.04896"
             },
             {
-              "model_name": "",
-              "paper_title": "EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks",
-              "paper_url": "https://arxiv.org/abs/1709.07634",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/D-X-Y/EraseReLU"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "3.56%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1709.07634"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "CIFAR-100",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -513,60 +553,61 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "ShakeDrop regularization",
-              "paper_url": "https://openreview.net/pdf?id=S1NHaMW0b",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "12.19%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "ShakeDrop regularization",
+              "paper_url": "https://openreview.net/pdf?id=S1NHaMW0b"
             },
             {
-              "model_name": "",
-              "paper_title": "Random Erasing Data Augmentation",
-              "paper_url": "https://arxiv.org/abs/1708.04896",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/zhunzhong07/Random-Erasing"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "17.73%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Random Erasing Data Augmentation",
+              "paper_url": "https://arxiv.org/abs/1708.04896"
             },
             {
-              "model_name": "",
-              "paper_title": "EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks",
-              "paper_url": "https://arxiv.org/abs/1709.07634",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/D-X-Y/EraseReLU"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "16.53%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1709.07634"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "Fashion-MNIST",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -574,28 +615,29 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Random Erasing Data Augmentation",
-              "paper_url": "https://arxiv.org/abs/1708.04896",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Pytorch",
                   "url": "https://github.com/zhunzhong07/Random-Erasing"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "3.65%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Random Erasing Data Augmentation",
+              "paper_url": "https://arxiv.org/abs/1708.04896"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "MultiMNIST",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -603,10 +645,6 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Dynamic Routing Between Capsules",
-              "paper_url": "https://arxiv.org/pdf/1710.09829.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "PyTorch",
@@ -629,94 +667,101 @@
                   "url": "https://github.com/loretoparisi/CapsNet"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Test Error": "5%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Dynamic Routing Between Capsules",
+              "paper_url": "https://arxiv.org/pdf/1710.09829.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       },
       {
         "dataset": "ImageNet-1k",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
+            "Test Error",
             "Top-1 Error"
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Learning Transferable Architectures for Scalable Image Recognition",
-              "paper_url": "https://arxiv.org/pdf/1707.07012.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Tensorflow",
                   "url": "https://github.com/tensorflow/models/tree/master/research/slim/nets/nasnet"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Top-1 Error": "17.3"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Learning Transferable Architectures for Scalable Image Recognition",
+              "paper_url": "https://arxiv.org/pdf/1707.07012.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "Squeeze-and-Excitation Networks",
-              "paper_url": "https://arxiv.org/pdf/1709.01507.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "CAFFE",
                   "url": "https://github.com/hujie-frank/SENet"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Top-1 Error": "18.68"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Squeeze-and-Excitation Networks",
+              "paper_url": "https://arxiv.org/pdf/1709.01507.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "Aggregated Residual Transformations for Deep Neural Networks",
-              "paper_url": "https://arxiv.org/pdf/1611.05431.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Torch",
                   "url": "https://github.com/facebookresearch/ResNeXt"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Top-1 Error": "20.4%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Aggregated Residual Transformations for Deep Neural Networks",
+              "paper_url": "https://arxiv.org/pdf/1611.05431.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Classification"
   },
   {
-    "task": "Instance Segmentation",
-    "description": "",
     "categories": [
       "Computer Vision"
     ],
     "datasets": [
       {
         "dataset": "COCO",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -724,10 +769,6 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Mask R-CNN",
-              "paper_url": "https://arxiv.org/pdf/1703.06870.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "Detectron (Official Version)",
@@ -746,33 +787,38 @@
                   "url": "https://github.com/CharlesShang/FastMaskRCNN"
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Average Precision": "37.1%"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Mask R-CNN",
+              "paper_url": "https://arxiv.org/pdf/1703.06870.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Instance Segmentation"
   },
   {
-    "task": "Visual Question Answering",
-    "description": "",
     "categories": [
       "Computer Vision"
     ],
     "datasets": [
       {
         "dataset": "VQA",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -780,57 +826,58 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge",
-              "paper_url": "https://arxiv.org/abs/1708.02711",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "Overall score": "69"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge",
+              "paper_url": "https://arxiv.org/abs/1708.02711"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Visual Question Answering"
   },
   {
-    "task": "Person Re-identification",
-    "description": "",
     "categories": [
       "Computer Vision"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Person Re-identification"
   },
   {
-    "task": "ASR",
-    "description": "",
     "categories": [
       "Speech"
     ],
     "datasets": [
       {
         "dataset": "Switchboard Hub5'00",
+        "dataset_citations": [],
+        "dataset_links": [],
         "description": "",
         "sota": {
           "metrics": [
@@ -838,62 +885,63 @@
           ],
           "rows": [
             {
-              "model_name": "",
-              "paper_title": "The Microsoft 2017 Conversational Speech Recognition System",
-              "paper_url": "https://arxiv.org/pdf/1708.06073.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "WER": "5.1"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "The Microsoft 2017 Conversational Speech Recognition System",
+              "paper_url": "https://arxiv.org/pdf/1708.06073.pdf"
             },
             {
-              "model_name": "",
-              "paper_title": "The CAPIO 2017 Conversational Speech Recognition System",
-              "paper_url": "https://arxiv.org/pdf/1801.00059.pdf",
-              "paper_date": null,
               "code_links": [
                 {
                   "title": "NOT FOUND",
                   "url": ""
                 }
               ],
-              "model_links": [],
               "metrics": {
                 "WER": "5.0"
-              }
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": null,
+              "paper_title": "The CAPIO 2017 Conversational Speech Recognition System",
+              "paper_url": "https://arxiv.org/pdf/1801.00059.pdf"
             }
           ]
         },
-        "dataset_links": [],
-        "dataset_citations": []
+        "subdatasets": []
       }
     ],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "ASR"
   },
   {
-    "task": "Computer Vision",
-    "description": "",
     "categories": [
       "Speech"
     ],
     "datasets": [],
-    "subtasks": [],
-    "synonyms": [],
+    "description": "",
     "source_link": {
       "title": "RedditSota",
       "url": "https://raw.githubusercontent.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/master/README.md"
-    }
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Computer Vision"
   }
 ]

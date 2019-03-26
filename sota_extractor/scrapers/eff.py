@@ -1,10 +1,14 @@
-import click
-from sota_extractor.scrapers.cli import cli
-from sota_extractor.taskdb import Task, Dataset, Link, SotaRow, TaskDb
-import requests
 import json
+import requests
 from sota_extractor.scrapers.consts import EFF_TASK_CONVERSION
-
+from sota_extractor.taskdb.v01 import (
+    Task,
+    Dataset,
+    Link,
+    SotaRow,
+    Sota,
+    TaskDB,
+)
 
 EFF_URL = (
     "https://raw.githubusercontent.com/AI-metrics/AI-metrics/master/"
@@ -12,20 +16,14 @@ EFF_URL = (
 )
 
 
-@cli.command()
-@click.option(
-    "-o",
-    "--output",
-    type=click.Path(exists=False),
-    required=False,
-    default="data/tasks/eff.json",
-    help="Output JSON filename to use.",
-)
 def eff(output):
     """Extract EFF SOTA tables."""
 
-    json_raw = requests.get(EFF_URL)
-    j = json.loads(json_raw.text)
+    response = requests.get(EFF_URL)
+    if response.status_code != 200:
+        raise Exception(f"Error: {response.status_code}")
+    j = json.loads(response.text)
+    taskdb = TaskDB()
 
     for problem in j["problems"]:
 
@@ -34,13 +32,11 @@ def eff(output):
         else:
             problem_name = problem["name"]
 
-        task = Task({"task": problem_name})
+        task = Task(name=problem_name)
 
         task.source_link = Link(
-            {
-                "title": "Progress of AI Research",
-                "url": "https://github.com/AI-metrics/AI-metrics",
-            }
+            title="Progress of AI Research",
+            url="https://github.com/AI-metrics/AI-metrics",
         )
 
         datasets = []
@@ -49,37 +45,32 @@ def eff(output):
                 measures = metric["measures"]
 
                 dataset = Dataset(
-                    {
-                        "dataset": metric["name"],
-                        "sota": {"metrics": [metric["scale"]]},
-                    }
+                    name=metric["name"],
+                    is_subdataset=False,
+                    sota=Sota(metrics=[metric["scale"]]),
                 )
 
                 for measure in measures:
                     sr = SotaRow(
-                        {
-                            "model_name": measure["name"],
-                            "paper_title": measure["papername"],
-                            "paper_url": measure["url"],
-                            "metrics": {metric["scale"]: measure["value"]},
-                        }
+                        model_name=measure["name"],
+                        paper_title=measure["papername"],
+                        paper_url=measure["url"],
+                        metrics={metric["scale"]: measure["value"]},
                     )
 
                     if measure["replicated_url"]:
                         sr.code_links.append(
                             Link(
-                                {
-                                    "title": "Replicated",
-                                    "url": measure["replicated_url"],
-                                }
+                                title="Replicated",
+                                url=measure["replicated_url"],
                             )
                         )
 
-                    dataset.sota_rows.append(sr)
+                    dataset.sota.rows.append(sr)
 
                 datasets.append(dataset)
 
         task.datasets = datasets
-        TaskDb.add_task(task.task, task)
+        taskdb.add_task(task)
 
-    TaskDb.export_to_json(output)
+    taskdb.export_to_json(output)

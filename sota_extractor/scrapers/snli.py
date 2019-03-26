@@ -1,22 +1,19 @@
-import click
-from sota_extractor.scrapers.cli import cli
 from sota_extractor.scrapers.utils import get_soup
-from sota_extractor.taskdb import Task, TaskDb
+from sota_extractor.taskdb.v01 import (
+    Link,
+    Task,
+    Dataset,
+    Sota,
+    SotaRow,
+    TaskDB,
+)
 
 SNLI_URL = "https://nlp.stanford.edu/projects/snli/"
 
 
-@cli.command()
-@click.option(
-    "-o",
-    "--output",
-    type=click.Path(exists=False),
-    required=False,
-    default="data/tasks/snli.json",
-    help="Output JSON filename to use.",
-)
 def snli(output):
     """Extract SNLI SOTA tables."""
+    taskdb = TaskDB()
     soup = get_soup(SNLI_URL)
 
     table = soup.findAll("table", attrs={"class": "newstuff"})[1]
@@ -77,41 +74,39 @@ def snli(output):
             test_acc = cells[4].text.strip()
 
             sota_rows.append(
-                {
-                    "model_name": model_name,
-                    "paper_title": paper_title,
-                    "paper_url": paper_url,
-                    "metrics": {
+                SotaRow(
+                    model_name=model_name,
+                    paper_title=paper_title,
+                    paper_url=paper_url,
+                    metrics={
                         "% Test Accuracy": test_acc,
                         "% Train Accuracy": train_acc,
                         "Parameters": params,
                     },
-                }
+                )
             )
 
     task = Task(
-        {
-            "task": "Natural Language Inference",
-            "datasets": [
-                {
-                    "dataset": "SNLI",
-                    "sota": {
-                        "metrics": [
-                            "% Test Accuracy",
-                            "% Train Accuracy",
-                            "Parameters",
-                        ],
-                        "rows": sota_rows,
-                    },
-                }
-            ],
-            "source_link": {
-                "title": "The Stanford Natural Language Inference (SNLI) "
-                "Corpus",
-                "url": "https://nlp.stanford.edu/projects/snli/",
-            },
-        }
+        name="Natural Language Inference",
+        datasets=[
+            Dataset(
+                name="SNLI",
+                is_subdataset=False,
+                sota=Sota(
+                    metrics=[
+                        "% Test Accuracy",
+                        "% Train Accuracy",
+                        "Parameters",
+                    ],
+                    rows=sota_rows,
+                ),
+            )
+        ],
+        source_link=Link(
+            title="The Stanford Natural Language Inference (SNLI) Corpus",
+            url="https://nlp.stanford.edu/projects/snli/",
+        ),
     )
 
-    TaskDb.add_task("Natural Language Inference", task)
-    TaskDb.export_to_json(output)
+    taskdb.add_task(task)
+    taskdb.export_to_json(output)

@@ -1,7 +1,5 @@
-import click
-from sota_extractor.scrapers.cli import cli
 from sota_extractor.scrapers.utils import get_soup
-from sota_extractor.taskdb import SotaRow, Dataset, Task, Link, TaskDb
+from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 SQUAD_URL = "https://rajpurkar.github.io/SQuAD-explorer/"
 
@@ -36,40 +34,23 @@ def get_sota_rows(table):
             if model.find("a"):
                 sota_rows.append(
                     SotaRow(
-                        {
-                            "model_name": model.find(
-                                text=True, recursive=False
-                            ),
-                            "paper_title": model.find("a").text,
-                            "paper_url": model.find("a")["href"],
-                            "metrics": {"EM": m_em, "F1": m_f1},
-                        }
+                        model_name=model.find(text=True, recursive=False),
+                        paper_title=model.find("a").text,
+                        paper_url=model.find("a")["href"],
+                        metrics={"EM": m_em, "F1": m_f1},
                     )
                 )
             else:
                 sota_rows.append(
                     SotaRow(
-                        {
-                            "model_name": model.find(
-                                text=True, recursive=False
-                            ),
-                            "metrics": {"EM": m_em, "F1": m_f1},
-                        }
+                        model_name=model.find(text=True, recursive=False),
+                        metrics={"EM": m_em, "F1": m_f1},
                     )
                 )
 
     return sota_rows
 
 
-@cli.command()
-@click.option(
-    "-o",
-    "--output",
-    type=click.Path(exists=False),
-    required=False,
-    default="data/tasks/squad.json",
-    help="Output JSON filename to use.",
-)
 def squad(output):
     """Extract SQUAD SOTA tables."""
     soup = get_soup(SQUAD_URL)
@@ -77,31 +58,34 @@ def squad(output):
     sota_tabels = soup.findAll("table", attrs={"class": "performanceTable"})
 
     if len(sota_tabels) == 2:
+        taskdb = TaskDB()
         squad2 = sota_tabels[0]
         squad1 = sota_tabels[1]
 
         dataset2 = Dataset(
-            {"dataset": DATASET_2_NAME, "description": DATASET_2_DESCRIPTION}
+            name=DATASET_2_NAME,
+            is_subdataset=False,
+            description=DATASET_2_DESCRIPTION,
         )
         dataset1 = Dataset(
-            {"dataset": DATASET_1_NAME, "description": DATASET_1_DESCRIPTION}
+            name=DATASET_1_NAME,
+            is_subdataset=False,
+            description=DATASET_1_DESCRIPTION,
         )
 
-        task = Task({"task": "Question Answering"})
+        task = Task(name="Question Answering")
         task.datasets = [dataset2, dataset1]
-        task.source_link = Link(
-            {"title": "SQuAD Leaderboard", "url": SQUAD_URL}
-        )
+        task.source_link = Link(title="SQuAD Leaderboard", url=SQUAD_URL)
 
         # scrape the evaluation values on the two datasets
-        dataset2.sota_metrics = ["EM", "F1"]
-        dataset1.sota_metrics = ["EM", "F1"]
+        dataset2.sota.metrics = ["EM", "F1"]
+        dataset1.sota.metrics = ["EM", "F1"]
 
-        dataset2.sota_rows = get_sota_rows(squad2)
-        dataset1.sota_rows = get_sota_rows(squad1)
+        dataset2.sota.rows = get_sota_rows(squad2)
+        dataset1.sota.rows = get_sota_rows(squad1)
 
-        TaskDb.add_task("qa", task)
-        TaskDb.export_to_json(output)
+        taskdb.add_task(task)
+        taskdb.export_to_json(output)
 
     else:
-        click.secho("Got an unexpected number of SOTA tables.", fg="red")
+        raise Exception("Got an unexpected number of SOTA tables.")

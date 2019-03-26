@@ -1,6 +1,7 @@
 beautifulsoup4==4.7.1
 click==7.0
 lxml==4.3.2
+marshmallow==3.0.0rc4
 nltk==3.4
 pandas==0.24.2
 requests==2.21.0

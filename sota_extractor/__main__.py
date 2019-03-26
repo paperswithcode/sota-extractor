@@ -1,4 +1,4 @@
-from sota_extractor.scrapers import cli
+from sota_extractor.commands import cli
 
 
 if __name__ == "__main__":

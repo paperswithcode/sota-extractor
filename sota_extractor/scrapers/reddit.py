@@ -1,9 +1,14 @@
 import re
-import click
 import requests
 from bs4 import BeautifulSoup
-from sota_extractor.scrapers.cli import cli
-from sota_extractor.taskdb import Task, Dataset, Link, SotaRow, TaskDb
+from sota_extractor.taskdb.v01 import (
+    Task,
+    Dataset,
+    Link,
+    Sota,
+    SotaRow,
+    TaskDB,
+)
 
 REDITSOTA_URL = (
     "https://raw.githubusercontent.com/RedditSota/"
@@ -11,23 +16,14 @@ REDITSOTA_URL = (
 )
 
 
-@cli.command()
-@click.option(
-    "-o",
-    "--output",
-    type=click.Path(exists=False),
-    required=False,
-    default="data/tasks/redditsota.json",
-    help="Output JSON filename to use.",
-)
-def redditsota(output):
+def reddit(output):
     """Extract Reddit SOTA tables."""
+    taskdb = TaskDB()
     md = requests.get(REDITSOTA_URL).text
 
     # assumptions:
     # ### Category
     # #### Task
-
     md_lines = md.split("\n")
 
     category = None
@@ -104,10 +100,8 @@ def redditsota(output):
                         for code_a in c_code_a:
                             code_links.append(
                                 Link(
-                                    {
-                                        "title": code_a.text.strip(),
-                                        "url": code_a["href"],
-                                    }
+                                    title=code_a.text.strip(),
+                                    url=code_a["href"],
                                 )
                             )
 
@@ -122,23 +116,21 @@ def redditsota(output):
                         )
 
                 # Add the new task
-                t = Task({"task": task, "categories": [category]})
-                t.source_link = Link(
-                    {"title": "RedditSota", "url": REDITSOTA_URL}
-                )
+                t = Task(name=task, categories=[category])
+                t.source_link = Link(title="RedditSota", url=REDITSOTA_URL)
 
                 # Add datasets and perfomance on them
                 data_map = {}
                 for e in entries:
                     if len(e["dataset_names"]) == len(e["metrics"]):
-                        for i in range(len(e["dataset_names"])):
-                            dataset_name = e["dataset_names"][i]
+                        for j in range(len(e["dataset_names"])):
+                            dataset_name = e["dataset_names"][j]
                             # make sure the dataset exists
                             if dataset_name not in data_map:
                                 # collect all the metrics mentioned for this
                                 # dataset
                                 all_metrics = [
-                                    list(ee["metrics"][i].keys())
+                                    list(ee["metrics"][j].keys())
                                     for ee in entries
                                     if dataset_name in ee["dataset_names"]
                                 ]
@@ -149,10 +141,9 @@ def redditsota(output):
                                 ]
                                 all_metrics = list(set(all_metrics))
                                 dataset = Dataset(
-                                    {
-                                        "dataset": dataset_name,
-                                        "sota": {"metrics": all_metrics},
-                                    }
+                                    name=dataset_name,
+                                    is_subdataset=False,
+                                    sota=Sota(metrics=all_metrics),
                                 )
                                 data_map[dataset_name] = dataset
                                 t.datasets.append(dataset)
@@ -161,18 +152,16 @@ def redditsota(output):
 
                             # record the metric for this dataset
                             sr = SotaRow(
-                                {
-                                    "model_name": "",
-                                    "paper_title": e["paper_title"],
-                                    "paper_url": e["paper_url"],
-                                    "metrics": e["metrics"][i],
-                                }
+                                model_name="",
+                                paper_title=e["paper_title"],
+                                paper_url=e["paper_url"],
+                                metrics=e["metrics"][j],
+                                code_links=e["code_links"],
                             )
-                            sr.code_links = e["code_links"]
-                            dataset.sota_rows.append(sr)
+                            dataset.sota.rows.append(sr)
 
                 # add and reset the task
-                TaskDb.add_task(task, t)
+                taskdb.add_task(t)
                 task = None
 
-    TaskDb.export_to_json(output)
+    taskdb.export_to_json(output)
