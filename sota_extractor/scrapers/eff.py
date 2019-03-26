@@ -16,7 +16,7 @@ EFF_URL = (
 )
 
 
-def eff(output):
+def eff():
     """Extract EFF SOTA tables."""
 
     response = requests.get(EFF_URL)
@@ -73,4 +73,4 @@ def eff(output):
         task.datasets = datasets
         taskdb.add_task(task)
 
-    taskdb.export_to_json(output)
+    return taskdb.export()

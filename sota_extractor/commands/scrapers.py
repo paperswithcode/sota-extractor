@@ -1,3 +1,5 @@
+import io
+import json
 import click
 from sota_extractor import scrapers
 from sota_extractor.commands.cli import cli
@@ -15,7 +17,8 @@ from sota_extractor.commands.cli import cli
 def eff(output):
     """Extract EFF SOTA tables."""
     try:
-        scrapers.eff(output)
+        with io.open(output, "w") as f:
+            json.dump(scrapers.eff(), f)
     except Exception as e:
         click.secho(str(e), fg="red")
 
@@ -32,7 +35,8 @@ def eff(output):
 def reddit(output):
     """Extract Reddit SOTA tables."""
     try:
-        scrapers.reddit(output)
+        with io.open(output, "w") as f:
+            json.dump(scrapers.reddit(), f)
     except Exception as e:
         click.secho(str(e), fg="red")
 
@@ -48,7 +52,8 @@ def reddit(output):
 def snli(output):
     """Extract SNLI SOTA tables."""
     try:
-        scrapers.snli(output)
+        with io.open(output, "w") as f:
+            json.dump(scrapers.snli(), f)
     except Exception as e:
         click.secho(str(e), fg="red")
 
@@ -65,6 +70,7 @@ def snli(output):
 def squad(output):
     """Extract SQUAD SOTA tables."""
     try:
-        scrapers.squad(output)
+        with io.open(output, "w") as f:
+            json.dump(scrapers.squad(), f)
     except Exception as e:
         click.secho(str(e), fg="red")

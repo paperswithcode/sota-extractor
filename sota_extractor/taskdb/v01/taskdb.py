@@ -26,13 +26,27 @@ class TaskDB:
         """Add a top-level task by name."""
         self.tasks[task.name] = task
 
-    def load_tasks(self, json_files: List[str]):
-        """Load tasks from a list of paths to JSON Files."""
-        for json_file in json_files:
-            with io.open(json_file, "r") as f:
-                task_list = self.schema.load(json.load(f), many=True)
-                for task in task_list:
-                    self.add_task(task)
+    def load_tasks(
+        self, json_files: List[str] = None, json_data: List[Dict] = None
+    ):
+        """Load tasks from a files or from json data.
+
+        Args:
+            json_files: List of paths to json documents.
+            json_data: Json data - list of dictionaries representing tasks.
+        """
+        if json_files is None and json_data is None:
+            raise Exception("Either json_files or json_data must be supplied.")
+
+        if json_files is not None:
+            json_data = []
+            for json_file in json_files:
+                with io.open(json_file, "r") as f:
+                    json_data.extend(json.load(f))
+
+        task_list = self.schema.load(json_data, many=True)
+        for task in task_list:
+            self.add_task(task)
 
     def load_synonyms(self, csv_files: List[str]):
         """Load task synonyms from input files."""
