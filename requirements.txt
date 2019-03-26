@@ -1,5 +1,6 @@
 beautifulsoup4==4.7.1
 click==7.0
+dataclasses==0.6
 lxml==4.3.2
 marshmallow==3.0.0rc4
 nltk==3.4
