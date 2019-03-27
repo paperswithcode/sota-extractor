@@ -1,7 +1,8 @@
 import io
 import csv
-import json
 from typing import Dict, List, Optional
+from sota_extractor import serialization
+from sota_extractor.errors import ArgumentError
 from sota_extractor.taskdb.v01.models import Task, Dataset
 from sota_extractor.taskdb.v01.schemas import TaskSchema
 
@@ -26,30 +27,33 @@ class TaskDB:
         """Add a top-level task by name."""
         self.tasks[task.name] = task
 
-    def load_tasks(
-        self, json_files: List[str] = None, json_data: List[Dict] = None
-    ):
-        """Load tasks from a files or from json data.
+    def load_tasks(self, files: List[str] = None, data: List[Dict] = None):
+        """Load tasks from files or from data.
 
         Args:
-            json_files: List of paths to json documents.
-            json_data: Json data - list of dictionaries representing tasks.
+            files (List[str] | str): Path to a document or a list of paths to
+                documents.
+            data: Sota data - list of dictionaries representing tasks.
         """
-        if json_files is None and json_data is None:
-            raise Exception("Either json_files or json_data must be supplied.")
+        if files is None and data is None:
+            raise ArgumentError("Either 'files' or 'data' must be supplied.")
 
-        if json_files is not None:
-            json_data = []
-            for json_file in json_files:
-                with io.open(json_file, "r") as f:
-                    json_data.extend(json.load(f))
+        if isinstance(files, str):
+            files = [files]
 
-        task_list = self.schema.load(json_data, many=True)
+        if files is not None:
+            data = []
+            for file in files:
+                data.extend(serialization.load(file))
+
+        task_list = self.schema.load(data, many=True)
         for task in task_list:
             self.add_task(task)
 
     def load_synonyms(self, csv_files: List[str]):
         """Load task synonyms from input files."""
+        if isinstance(csv_files, str):
+            csv_files = [csv_files]
         for csv_file in csv_files:
             with io.open(csv_file, newline="") as f:
                 reader = csv.reader(f)
@@ -84,10 +88,9 @@ class TaskDB:
         """Export the whole of TaskDB into a list of tasks in Dict format."""
         return self.schema.dump(self.tasks.values(), many=True)
 
-    def export_to_json(self, json_filename: str):
-        """Export the whole of TaskDB into a JSON file."""
-        with io.open(json_filename, "w") as f:
-            json.dump(self.export(), f, indent=2, sort_keys=True)
+    def export_to_file(self, filename: str, fmt=serialization.Format.json):
+        """Export the whole of TaskDB into a file."""
+        serialization.dump(self.export(), filename=filename, fmt=fmt)
 
 
 def find_sota_tasks(task: Task, out: List):

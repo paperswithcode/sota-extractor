@@ -1,3 +1,5 @@
+from datetime import datetime
+from sota_extractor.errors import DataError
 from sota_extractor.scrapers.utils import get_soup
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
@@ -27,6 +29,11 @@ def get_sota_rows(table):
     for row in rows:
         cells = row.findAll("td")
         if len(cells) == 4:
+            date_span = cells[0].select_one("span.date")
+            if date_span is not None:
+                date = datetime.strptime(date_span.text, "%b %d, %Y")
+            else:
+                date = None
             model = cells[1]
             m_em = cells[2].text
             m_f1 = cells[3].text
@@ -37,6 +44,7 @@ def get_sota_rows(table):
                         model_name=model.find(text=True, recursive=False),
                         paper_title=model.find("a").text,
                         paper_url=model.find("a")["href"],
+                        paper_date=date,
                         metrics={"EM": m_em, "F1": m_f1},
                     )
                 )
@@ -58,7 +66,6 @@ def squad():
     sota_tabels = soup.findAll("table", attrs={"class": "performanceTable"})
 
     if len(sota_tabels) == 2:
-        taskdb = TaskDB()
         squad2 = sota_tabels[0]
         squad1 = sota_tabels[1]
 
@@ -84,7 +91,8 @@ def squad():
         dataset2.sota.rows = get_sota_rows(squad2)
         dataset1.sota.rows = get_sota_rows(squad1)
 
-        taskdb.add_task(task)
-        return taskdb.export()
+        tdb = TaskDB()
+        tdb.add_task(task)
+        return tdb.export()
     else:
-        raise Exception("Got an unexpected number of SOTA tables.")
+        raise DataError("Got an unexpected number of SOTA tables.")

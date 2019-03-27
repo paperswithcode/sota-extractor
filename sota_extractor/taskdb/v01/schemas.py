@@ -16,7 +16,7 @@ class SotaRowSchema(Schema):
     model_name = fields.String(required=True)
     paper_title = fields.String(missing="")
     paper_url = fields.String(missing="")
-    paper_date = fields.String(allow_none=True, missing=None)
+    paper_date = fields.Date(format="%Y-%m-%d", allow_none=True, missing=None)
     code_links = fields.Nested(LinkSchema, many=True, missing=list)
     model_links = fields.Nested(LinkSchema, many=True, missing=list)
     metrics = fields.Dict(keys=fields.String(), values=fields.Inferred())

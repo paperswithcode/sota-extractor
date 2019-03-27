@@ -1,22 +1,23 @@
 import re
-import json
-import gzip
 import click
 import pandas as pd
 from typing import List, Dict
 from nltk.stem.porter import PorterStemmer
+from sota_extractor import serialization
 from sota_extractor.commands.cli import cli
+from sota_extractor.errors import catch_errors
 from sota_extractor.taskdb.v01 import Task, TaskDB
 
 
-def load(taskdb):
+def load(tdb):
     # load the tasks and arxiv metadata
     stemmer = PorterStemmer()
 
-    taskdb.load_tasks(["data/tasks/nlpprogress.json"])
-    taskdb.load_synonyms(["data/tasks/synonyms.csv"])
-    with gzip.open("data/arxiv_aclweb.json.gz") as f:
-        arxiv = json.load(f)
+    tdb.load_tasks("data/tasks/nlpprogress.json")
+    tdb.load_synonyms(["data/tasks/synonyms.csv"])
+    arxiv = serialization.load(
+        "data/arxiv_aclweb.json.gz", fmt=serialization.Format.json_gz
+    )
 
     for a in arxiv:
         if a["abstract"] is None:
@@ -99,8 +100,8 @@ def article_matches(paper: Dict, task: Task):
     return matches_paper and contains_sota
 
 
-def eval_all(taskdb, arxiv):
-    sota_tasks = taskdb.tasks_with_sota()
+def eval_all(tdb, arxiv, output):
+    sota_tasks = tdb.tasks_with_sota()
 
     df = pd.DataFrame(
         columns=["task", "parent", "tp", "fn", "fp", "precision", "recall"]
@@ -147,8 +148,8 @@ def eval_all(taskdb, arxiv):
         ignore_index=True,
     )
 
-    click.echo("Writing report into `eval_all_report.csv`")
-    df.to_csv("eval_all_report.csv")
+    click.echo(f"Writing report into: {output}")
+    df.to_csv(output)
 
 
 @cli.command()
@@ -157,11 +158,12 @@ def eval_all(taskdb, arxiv):
     "--output",
     type=click.Path(exists=False),
     required=False,
-    default="data/tasks/eff.json",
-    help="Output JSON filename to use.",
+    default="data/eval_all_report.csv",
+    help="Output filename to use.",
 )
+@catch_errors
 def evaluate(output):
     """Evaluate."""
-    taskdb = TaskDB()
-    arxiv = load(taskdb)
-    eval_all(taskdb, arxiv)
+    tdb = TaskDB()
+    arxiv = load(tdb)
+    eval_all(tdb, arxiv, output)

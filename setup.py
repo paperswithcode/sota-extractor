@@ -8,6 +8,7 @@ setup(
     version="0.0.2",
     description="Automatic SOTA (state-of-the-art) extraction.",
     long_description=io.open("README.md", "r").read(),
+    long_description_content_type="text/markdown",
     platforms=["Windows", "POSIX", "MacOS"],
     classifiers=[
         "Intended Audience :: Developers",

@@ -18,7 +18,7 @@ REDITSOTA_URL = (
 
 def reddit():
     """Extract Reddit SOTA tables."""
-    taskdb = TaskDB()
+    tdb = TaskDB()
     md = requests.get(REDITSOTA_URL).text
 
     # assumptions:
@@ -161,7 +161,7 @@ def reddit():
                             dataset.sota.rows.append(sr)
 
                 # add and reset the task
-                taskdb.add_task(t)
+                tdb.add_task(t)
                 task = None
 
-    return taskdb.export()
+    return tdb.export()

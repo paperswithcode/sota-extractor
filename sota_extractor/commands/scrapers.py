@@ -1,8 +1,8 @@
-import io
-import json
 import click
 from sota_extractor import scrapers
+from sota_extractor import serialization
 from sota_extractor.commands.cli import cli
+from sota_extractor.errors import catch_errors
 
 
 @cli.command()
@@ -14,13 +14,10 @@ from sota_extractor.commands.cli import cli
     default="data/tasks/eff.json",
     help="Output JSON filename to use.",
 )
+@catch_errors
 def eff(output):
     """Extract EFF SOTA tables."""
-    try:
-        with io.open(output, "w") as f:
-            json.dump(scrapers.eff(), f)
-    except Exception as e:
-        click.secho(str(e), fg="red")
+    serialization.dump(scrapers.eff(), output)
 
 
 @cli.command()
@@ -32,13 +29,10 @@ def eff(output):
     default="data/tasks/redditsota.json",
     help="Output JSON filename to use.",
 )
+@catch_errors
 def reddit(output):
     """Extract Reddit SOTA tables."""
-    try:
-        with io.open(output, "w") as f:
-            json.dump(scrapers.reddit(), f)
-    except Exception as e:
-        click.secho(str(e), fg="red")
+    serialization.dump(scrapers.reddit(), output)
 
 
 @cli.command()
@@ -49,13 +43,10 @@ def reddit(output):
     required=False,
     default="data/tasks/snli.json",
 )
+@catch_errors
 def snli(output):
     """Extract SNLI SOTA tables."""
-    try:
-        with io.open(output, "w") as f:
-            json.dump(scrapers.snli(), f)
-    except Exception as e:
-        click.secho(str(e), fg="red")
+    serialization.dump(scrapers.snli(), output)
 
 
 @cli.command()
@@ -67,10 +58,7 @@ def snli(output):
     default="data/tasks/squad.json",
     help="Output JSON filename to use.",
 )
+@catch_errors
 def squad(output):
     """Extract SQUAD SOTA tables."""
-    try:
-        with io.open(output, "w") as f:
-            json.dump(scrapers.squad(), f)
-    except Exception as e:
-        click.secho(str(e), fg="red")
+    serialization.dump(scrapers.squad(), output)

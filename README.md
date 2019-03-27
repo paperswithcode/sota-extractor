@@ -137,5 +137,5 @@ To evaluate the current prediction performance for all tasks:
 python -m extractor.eval_all
 ```
 
-The most current report can be seen here: [eval_all_report.csv](eval_all_report.csv).
+The most current report can be seen here: [eval_all_report.csv](data/eval_all_report.csv).
 

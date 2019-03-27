@@ -13,7 +13,6 @@ SNLI_URL = "https://nlp.stanford.edu/projects/snli/"
 
 def snli():
     """Extract SNLI SOTA tables."""
-    taskdb = TaskDB()
     soup = get_soup(SNLI_URL)
 
     table = soup.findAll("table", attrs={"class": "newstuff"})[1]
@@ -107,6 +106,6 @@ def snli():
             url="https://nlp.stanford.edu/projects/snli/",
         ),
     )
-
-    taskdb.add_task(task)
-    return taskdb.export()
+    tdb = TaskDB()
+    tdb.add_task(task)
+    return tdb.export()

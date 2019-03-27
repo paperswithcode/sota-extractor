@@ -1,5 +1,6 @@
 import json
 import requests
+from sota_extractor.errors import HttpClientError
 from sota_extractor.scrapers.consts import EFF_TASK_CONVERSION
 from sota_extractor.taskdb.v01 import (
     Task,
@@ -21,9 +22,9 @@ def eff():
 
     response = requests.get(EFF_URL)
     if response.status_code != 200:
-        raise Exception(f"Error: {response.status_code}")
+        raise HttpClientError("Resource unavailable", response=response)
     j = json.loads(response.text)
-    taskdb = TaskDB()
+    tdb = TaskDB()
 
     for problem in j["problems"]:
 
@@ -71,6 +72,6 @@ def eff():
                 datasets.append(dataset)
 
         task.datasets = datasets
-        taskdb.add_task(task)
+        tdb.add_task(task)
 
-    return taskdb.export()
+    return tdb.export()

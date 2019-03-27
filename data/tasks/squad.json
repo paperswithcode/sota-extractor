@@ -57,7 +57,7 @@
               },
               "model_links": [],
               "model_name": "BERT + N-Gram Masking + Synthetic Self-Training (ensemble)",
-              "paper_date": null,
+              "paper_date": "2019-03-05",
               "paper_title": "https://github.com/google-research/bert",
               "paper_url": "https://github.com/google-research/bert"
             },
@@ -105,7 +105,7 @@
               },
               "model_links": [],
               "model_name": "BERT + N-Gram Masking + Synthetic Self-Training (single model)",
-              "paper_date": null,
+              "paper_date": "2019-03-05",
               "paper_title": "https://github.com/google-research/bert",
               "paper_url": "https://github.com/google-research/bert"
             },
@@ -117,7 +117,7 @@
               },
               "model_links": [],
               "model_name": "BERT + Synthetic Self-Training (ensemble)",
-              "paper_date": null,
+              "paper_date": "2019-01-10",
               "paper_title": "https://github.com/google-research/bert",
               "paper_url": "https://github.com/google-research/bert"
             },
@@ -273,7 +273,7 @@
               },
               "model_links": [],
               "model_name": "BERT + Synthetic Self-Training (single model)",
-              "paper_date": null,
+              "paper_date": "2019-01-10",
               "paper_title": "https://github.com/google-research/bert",
               "paper_url": "https://github.com/google-research/bert"
             },
@@ -681,7 +681,7 @@
               },
               "model_links": [],
               "model_name": "SLQA+BERT (single model)",
-              "paper_date": null,
+              "paper_date": "2018-11-06",
               "paper_title": "http://www.aclweb.org/anthology/P18-1158",
               "paper_url": "http://www.aclweb.org/anthology/P18-1158"
             },
@@ -705,7 +705,7 @@
               },
               "model_links": [],
               "model_name": "ARSG-BERT (single model)",
-              "paper_date": null,
+              "paper_date": "2018-12-19",
               "paper_title": "https://active.ai",
               "paper_url": "https://active.ai"
             },
@@ -801,7 +801,7 @@
               },
               "model_links": [],
               "model_name": "Unet (ensemble)",
-              "paper_date": null,
+              "paper_date": "2018-09-17",
               "paper_title": "https://arxiv.org/abs/1810.06638",
               "paper_url": "https://arxiv.org/abs/1810.06638"
             },
@@ -813,7 +813,7 @@
               },
               "model_links": [],
               "model_name": "SLQA+ (single model)",
-              "paper_date": null,
+              "paper_date": "2018-08-28",
               "paper_title": "http://www.aclweb.org/anthology/P18-1158",
               "paper_url": "http://www.aclweb.org/anthology/P18-1158"
             },
@@ -825,7 +825,7 @@
               },
               "model_links": [],
               "model_name": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
-              "paper_date": null,
+              "paper_date": "2018-08-15",
               "paper_title": "https://arxiv.org/abs/1808.05759",
               "paper_url": "https://arxiv.org/abs/1808.05759"
             },
@@ -849,7 +849,7 @@
               },
               "model_links": [],
               "model_name": "SAN (ensemble model)",
-              "paper_date": null,
+              "paper_date": "2018-09-14",
               "paper_title": "https://arxiv.org/abs/1712.03556",
               "paper_url": "https://arxiv.org/abs/1712.03556"
             },
@@ -885,7 +885,7 @@
               },
               "model_links": [],
               "model_name": "FusionNet++ (ensemble)",
-              "paper_date": null,
+              "paper_date": "2018-08-21",
               "paper_title": "https://arxiv.org/abs/1711.07341",
               "paper_url": "https://arxiv.org/abs/1711.07341"
             },
@@ -933,7 +933,7 @@
               },
               "model_links": [],
               "model_name": "SAN (single model)",
-              "paper_date": null,
+              "paper_date": "2018-08-21",
               "paper_title": "https://arxiv.org/abs/1712.03556",
               "paper_url": "https://arxiv.org/abs/1712.03556"
             },
@@ -1041,7 +1041,7 @@
               },
               "model_links": [],
               "model_name": "eeAttNet (single model)",
-              "paper_date": null,
+              "paper_date": "2018-08-14",
               "paper_title": "https://www.bbdservice.com",
               "paper_url": "https://www.bbdservice.com"
             },
@@ -1128,7 +1128,7 @@
               },
               "model_links": [],
               "model_name": "BERT (ensemble)",
-              "paper_date": null,
+              "paper_date": "2018-10-05",
               "paper_title": "https://arxiv.org/abs/1810.04805",
               "paper_url": "https://arxiv.org/abs/1810.04805"
             },
@@ -1176,7 +1176,7 @@
               },
               "model_links": [],
               "model_name": "BERT (single model)",
-              "paper_date": null,
+              "paper_date": "2018-10-05",
               "paper_title": "https://arxiv.org/abs/1810.04805",
               "paper_url": "https://arxiv.org/abs/1810.04805"
             },
@@ -1368,7 +1368,7 @@
               },
               "model_links": [],
               "model_name": "ARSG-BERT (single model)",
-              "paper_date": null,
+              "paper_date": "2018-12-17",
               "paper_title": "https://active.ai",
               "paper_url": "https://active.ai"
             },
@@ -1380,7 +1380,7 @@
               },
               "model_links": [],
               "model_name": "Reinforced Mnemonic Reader (ensemble model)",
-              "paper_date": null,
+              "paper_date": "2018-02-02",
               "paper_title": "https://arxiv.org/abs/1705.02798",
               "paper_url": "https://arxiv.org/abs/1705.02798"
             },
@@ -1488,7 +1488,7 @@
               },
               "model_links": [],
               "model_name": "r-net (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-12-17",
               "paper_title": "http://aka.ms/rnet",
               "paper_url": "http://aka.ms/rnet"
             },
@@ -1644,7 +1644,7 @@
               },
               "model_links": [],
               "model_name": "Reinforced Mnemonic Reader (single model)",
-              "paper_date": null,
+              "paper_date": "2018-01-29",
               "paper_title": "https://arxiv.org/abs/1705.02798",
               "paper_url": "https://arxiv.org/abs/1705.02798"
             },
@@ -1680,7 +1680,7 @@
               },
               "model_links": [],
               "model_name": "SAN (ensemble model)",
-              "paper_date": null,
+              "paper_date": "2017-12-05",
               "paper_title": "https://arxiv.org/abs/1712.03556",
               "paper_url": "https://arxiv.org/abs/1712.03556"
             },
@@ -1752,7 +1752,7 @@
               },
               "model_links": [],
               "model_name": "FusionNet (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-10-24",
               "paper_title": "https://arxiv.org/abs/1711.07341",
               "paper_url": "https://arxiv.org/abs/1711.07341"
             },
@@ -1764,7 +1764,7 @@
               },
               "model_links": [],
               "model_name": "DCN+ (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-10-22",
               "paper_title": "https://arxiv.org/abs/1711.00106",
               "paper_url": "https://arxiv.org/abs/1711.00106"
             },
@@ -1824,7 +1824,7 @@
               },
               "model_links": [],
               "model_name": "Conductor-net (ensemble)",
-              "paper_date": null,
+              "paper_date": "2018-01-02",
               "paper_title": "https://arxiv.org/abs/1710.10504",
               "paper_url": "https://arxiv.org/abs/1710.10504"
             },
@@ -1872,7 +1872,7 @@
               },
               "model_links": [],
               "model_name": "MEMEN  (single model)",
-              "paper_date": null,
+              "paper_date": "2018-01-03",
               "paper_title": "https://arxiv.org/abs/1707.09098",
               "paper_url": "https://arxiv.org/abs/1707.09098"
             },
@@ -1944,7 +1944,7 @@
               },
               "model_links": [],
               "model_name": "RaSoR + TR + LM (single model)",
-              "paper_date": null,
+              "paper_date": "2017-12-14",
               "paper_title": "https://arxiv.org/abs/1712.03609",
               "paper_url": "https://arxiv.org/abs/1712.03609"
             },
@@ -1980,7 +1980,7 @@
               },
               "model_links": [],
               "model_name": "Conductor-net (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-11-06",
               "paper_title": "https://arxiv.org/abs/1710.10504",
               "paper_url": "https://arxiv.org/abs/1710.10504"
             },
@@ -2028,7 +2028,7 @@
               },
               "model_links": [],
               "model_name": "SAN (single model)",
-              "paper_date": null,
+              "paper_date": "2017-11-01",
               "paper_title": "https://arxiv.org/abs/1712.03556",
               "paper_url": "https://arxiv.org/abs/1712.03556"
             },
@@ -2040,7 +2040,7 @@
               },
               "model_links": [],
               "model_name": "r-net (single model)",
-              "paper_date": null,
+              "paper_date": "2017-10-13",
               "paper_title": "http://aka.ms/rnet",
               "paper_url": "http://aka.ms/rnet"
             },
@@ -2088,7 +2088,7 @@
               },
               "model_links": [],
               "model_name": "FusionNet (single model)",
-              "paper_date": null,
+              "paper_date": "2017-09-08",
               "paper_title": "https://arxiv.org/abs/1711.07341",
               "paper_url": "https://arxiv.org/abs/1711.07341"
             },
@@ -2112,7 +2112,7 @@
               },
               "model_links": [],
               "model_name": "KAR (single model)",
-              "paper_date": null,
+              "paper_date": "2018-10-18",
               "paper_title": "https://arxiv.org/abs/1809.03449",
               "paper_url": "https://arxiv.org/abs/1809.03449"
             },
@@ -2148,7 +2148,7 @@
               },
               "model_links": [],
               "model_name": "RaSoR + TR (single model)",
-              "paper_date": null,
+              "paper_date": "2017-08-18",
               "paper_title": "https://arxiv.org/abs/1712.03609",
               "paper_url": "https://arxiv.org/abs/1712.03609"
             },
@@ -2160,7 +2160,7 @@
               },
               "model_links": [],
               "model_name": "DCN+ (single model)",
-              "paper_date": null,
+              "paper_date": "2017-10-23",
               "paper_title": "https://arxiv.org/abs/1711.00106",
               "paper_url": "https://arxiv.org/abs/1711.00106"
             },
@@ -2184,7 +2184,7 @@
               },
               "model_links": [],
               "model_name": "MEMEN (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-05-21",
               "paper_title": "https://arxiv.org/abs/1707.09098",
               "paper_url": "https://arxiv.org/abs/1707.09098"
             },
@@ -2220,7 +2220,7 @@
               },
               "model_links": [],
               "model_name": "DCN+ (single model)",
-              "paper_date": null,
+              "paper_date": "2017-07-10",
               "paper_title": "https://arxiv.org/abs/1711.00106",
               "paper_url": "https://arxiv.org/abs/1711.00106"
             },
@@ -2232,7 +2232,7 @@
               },
               "model_links": [],
               "model_name": "Conductor-net (single model)",
-              "paper_date": null,
+              "paper_date": "2018-01-02",
               "paper_title": "https://arxiv.org/abs/1710.10504",
               "paper_url": "https://arxiv.org/abs/1710.10504"
             },
@@ -2256,7 +2256,7 @@
               },
               "model_links": [],
               "model_name": "eeAttNet (single model)",
-              "paper_date": null,
+              "paper_date": "2018-08-14",
               "paper_title": "https://www.bbdservice.com",
               "paper_url": "https://www.bbdservice.com"
             },
@@ -2292,7 +2292,7 @@
               },
               "model_links": [],
               "model_name": "ReasoNet (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-03-09",
               "paper_title": "https://arxiv.org/abs/1609.05284",
               "paper_url": "https://arxiv.org/abs/1609.05284"
             },
@@ -2304,7 +2304,7 @@
               },
               "model_links": [],
               "model_name": "Mnemonic Reader (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-07-14",
               "paper_title": "https://arxiv.org/abs/1705.02798",
               "paper_url": "https://arxiv.org/abs/1705.02798"
             },
@@ -2352,7 +2352,7 @@
               },
               "model_links": [],
               "model_name": "SEDT (ensemble model)",
-              "paper_date": null,
+              "paper_date": "2017-07-29",
               "paper_title": "https://arxiv.org/abs/1703.00572",
               "paper_url": "https://arxiv.org/abs/1703.00572"
             },
@@ -2364,7 +2364,7 @@
               },
               "model_links": [],
               "model_name": "Conductor-net (single)",
-              "paper_date": null,
+              "paper_date": "2017-11-06",
               "paper_title": "https://arxiv.org/abs/1710.10504",
               "paper_url": "https://arxiv.org/abs/1710.10504"
             },
@@ -2400,7 +2400,7 @@
               },
               "model_links": [],
               "model_name": "BiDAF (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-02-22",
               "paper_title": "https://arxiv.org/abs/1611.01603",
               "paper_url": "https://arxiv.org/abs/1611.01603"
             },
@@ -2412,7 +2412,7 @@
               },
               "model_links": [],
               "model_name": "SEDT+BiDAF (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-04-22",
               "paper_title": "https://arxiv.org/abs/1703.00572",
               "paper_url": "https://arxiv.org/abs/1703.00572"
             },
@@ -2424,7 +2424,7 @@
               },
               "model_links": [],
               "model_name": "Multi-Perspective Matching (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-01-24",
               "paper_title": "https://arxiv.org/abs/1612.04211",
               "paper_url": "https://arxiv.org/abs/1612.04211"
             },
@@ -2436,7 +2436,7 @@
               },
               "model_links": [],
               "model_name": "jNet (ensemble)",
-              "paper_date": null,
+              "paper_date": "2017-05-01",
               "paper_title": "https://arxiv.org/abs/1703.04617",
               "paper_url": "https://arxiv.org/abs/1703.04617"
             },
@@ -2496,7 +2496,7 @@
               },
               "model_links": [],
               "model_name": "BiDAF + Self Attention (single model)",
-              "paper_date": null,
+              "paper_date": "2017-09-20",
               "paper_title": "https://arxiv.org/abs/1710.10723",
               "paper_url": "https://arxiv.org/abs/1710.10723"
             },
@@ -2556,7 +2556,7 @@
               },
               "model_links": [],
               "model_name": "Dynamic Coattention Networks (ensemble)",
-              "paper_date": null,
+              "paper_date": "2016-11-02",
               "paper_title": "https://arxiv.org/abs/1611.01604",
               "paper_url": "https://arxiv.org/abs/1611.01604"
             },
@@ -2568,7 +2568,7 @@
               },
               "model_links": [],
               "model_name": "smarnet (single model)",
-              "paper_date": null,
+              "paper_date": "2017-07-14",
               "paper_title": "https://arxiv.org/abs/1710.02772",
               "paper_url": "https://arxiv.org/abs/1710.02772"
             },
@@ -2616,7 +2616,7 @@
               },
               "model_links": [],
               "model_name": "Mnemonic Reader (single model)",
-              "paper_date": null,
+              "paper_date": "2017-07-14",
               "paper_title": "https://arxiv.org/abs/1705.02798",
               "paper_url": "https://arxiv.org/abs/1705.02798"
             },
@@ -2640,7 +2640,7 @@
               },
               "model_links": [],
               "model_name": "jNet (single model)",
-              "paper_date": null,
+              "paper_date": "2017-03-24",
               "paper_title": "https://arxiv.org/abs/1703.04617",
               "paper_url": "https://arxiv.org/abs/1703.04617"
             },
@@ -2652,7 +2652,7 @@
               },
               "model_links": [],
               "model_name": "Ruminating Reader (single model)",
-              "paper_date": null,
+              "paper_date": "2017-04-02",
               "paper_title": "https://arxiv.org/abs/1704.07415",
               "paper_url": "https://arxiv.org/abs/1704.07415"
             },
@@ -2664,7 +2664,7 @@
               },
               "model_links": [],
               "model_name": "Document Reader (single model)",
-              "paper_date": null,
+              "paper_date": "2017-03-14",
               "paper_title": "https://arxiv.org/abs/1704.00051",
               "paper_url": "https://arxiv.org/abs/1704.00051"
             },
@@ -2676,7 +2676,7 @@
               },
               "model_links": [],
               "model_name": "FastQAExt",
-              "paper_date": null,
+              "paper_date": "2016-12-29",
               "paper_title": "https://arxiv.org/abs/1703.04816",
               "paper_url": "https://arxiv.org/abs/1703.04816"
             },
@@ -2688,7 +2688,7 @@
               },
               "model_links": [],
               "model_name": "RaSoR (single model)",
-              "paper_date": null,
+              "paper_date": "2017-05-13",
               "paper_title": "https://arxiv.org/abs/1611.01436",
               "paper_url": "https://arxiv.org/abs/1611.01436"
             },
@@ -2700,7 +2700,7 @@
               },
               "model_links": [],
               "model_name": "ReasoNet (single model)",
-              "paper_date": null,
+              "paper_date": "2017-03-08",
               "paper_title": "https://arxiv.org/abs/1609.05284",
               "paper_url": "https://arxiv.org/abs/1609.05284"
             },
@@ -2712,7 +2712,7 @@
               },
               "model_links": [],
               "model_name": "Multi-Perspective Matching (single model)",
-              "paper_date": null,
+              "paper_date": "2017-04-14",
               "paper_title": "https://arxiv.org/abs/1612.04211",
               "paper_url": "https://arxiv.org/abs/1612.04211"
             },
@@ -2748,7 +2748,7 @@
               },
               "model_links": [],
               "model_name": "SEDT+BiDAF (single model)",
-              "paper_date": null,
+              "paper_date": "2017-04-12",
               "paper_title": "https://arxiv.org/abs/1703.00572",
               "paper_url": "https://arxiv.org/abs/1703.00572"
             },
@@ -2784,7 +2784,7 @@
               },
               "model_links": [],
               "model_name": "BiDAF (single model)",
-              "paper_date": null,
+              "paper_date": "2016-11-28",
               "paper_title": "https://arxiv.org/abs/1611.01603",
               "paper_url": "https://arxiv.org/abs/1611.01603"
             },
@@ -2820,7 +2820,7 @@
               },
               "model_links": [],
               "model_name": "FastQA",
-              "paper_date": null,
+              "paper_date": "2016-12-29",
               "paper_title": "https://arxiv.org/abs/1703.04816",
               "paper_url": "https://arxiv.org/abs/1703.04816"
             },
@@ -2832,7 +2832,7 @@
               },
               "model_links": [],
               "model_name": "SEDT (single model)",
-              "paper_date": null,
+              "paper_date": "2017-07-29",
               "paper_title": "https://arxiv.org/abs/1703.00572",
               "paper_url": "https://arxiv.org/abs/1703.00572"
             },
@@ -2844,7 +2844,7 @@
               },
               "model_links": [],
               "model_name": "Match-LSTM with Ans-Ptr (Boundary) (ensemble)",
-              "paper_date": null,
+              "paper_date": "2016-10-26",
               "paper_title": "https://arxiv.org/abs/1608.07905",
               "paper_url": "https://arxiv.org/abs/1608.07905"
             },
@@ -2856,7 +2856,7 @@
               },
               "model_links": [],
               "model_name": "FABIR",
-              "paper_date": null,
+              "paper_date": "2018-01-22",
               "paper_title": "https://arxiv.org/abs/1810.09580",
               "paper_url": "https://arxiv.org/abs/1810.09580"
             },
@@ -2868,7 +2868,7 @@
               },
               "model_links": [],
               "model_name": "AllenNLP BiDAF (single model)",
-              "paper_date": null,
+              "paper_date": "2017-09-19",
               "paper_title": "http://allennlp.org/",
               "paper_url": "http://allennlp.org/"
             },
@@ -2904,7 +2904,7 @@
               },
               "model_links": [],
               "model_name": "Dynamic Coattention Networks (single model)",
-              "paper_date": null,
+              "paper_date": "2016-11-02",
               "paper_title": "https://arxiv.org/abs/1611.01604",
               "paper_url": "https://arxiv.org/abs/1611.01604"
             },
@@ -2952,7 +2952,7 @@
               },
               "model_links": [],
               "model_name": "Match-LSTM with Bi-Ans-Ptr (Boundary)",
-              "paper_date": null,
+              "paper_date": "2016-10-26",
               "paper_title": "https://arxiv.org/abs/1608.07905",
               "paper_url": "https://arxiv.org/abs/1608.07905"
             },
@@ -2976,7 +2976,7 @@
               },
               "model_links": [],
               "model_name": "Fine-Grained Gating",
-              "paper_date": null,
+              "paper_date": "2016-11-02",
               "paper_title": "https://arxiv.org/abs/1611.01724",
               "paper_url": "https://arxiv.org/abs/1611.01724"
             },
@@ -2988,7 +2988,7 @@
               },
               "model_links": [],
               "model_name": "OTF dict+spelling (single)",
-              "paper_date": null,
+              "paper_date": "2017-09-21",
               "paper_title": "https://arxiv.org/abs/1706.00286",
               "paper_url": "https://arxiv.org/abs/1706.00286"
             },
@@ -3000,7 +3000,7 @@
               },
               "model_links": [],
               "model_name": "OTF spelling (single)",
-              "paper_date": null,
+              "paper_date": "2017-09-21",
               "paper_title": "https://arxiv.org/abs/1706.00286",
               "paper_url": "https://arxiv.org/abs/1706.00286"
             },
@@ -3012,7 +3012,7 @@
               },
               "model_links": [],
               "model_name": "OTF spelling+lemma (single)",
-              "paper_date": null,
+              "paper_date": "2017-09-21",
               "paper_title": "https://arxiv.org/abs/1706.00286",
               "paper_url": "https://arxiv.org/abs/1706.00286"
             },
@@ -3024,7 +3024,7 @@
               },
               "model_links": [],
               "model_name": "Dynamic Chunk Reader",
-              "paper_date": null,
+              "paper_date": "2016-09-28",
               "paper_title": "https://arxiv.org/abs/1610.09996",
               "paper_url": "https://arxiv.org/abs/1610.09996"
             },
@@ -3036,7 +3036,7 @@
               },
               "model_links": [],
               "model_name": "Match-LSTM with Ans-Ptr (Boundary)",
-              "paper_date": null,
+              "paper_date": "2016-08-27",
               "paper_title": "https://arxiv.org/abs/1608.07905",
               "paper_url": "https://arxiv.org/abs/1608.07905"
             },
@@ -3072,7 +3072,7 @@
               },
               "model_links": [],
               "model_name": "Match-LSTM with Ans-Ptr (Sentence)",
-              "paper_date": null,
+              "paper_date": "2016-08-27",
               "paper_title": "https://arxiv.org/abs/1608.07905",
               "paper_url": "https://arxiv.org/abs/1608.07905"
             },
