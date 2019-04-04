@@ -27,6 +27,10 @@ def get_sota_rows(table):
 
     sota_rows = []
     for row in rows:
+        klass = row.attrs.get("class")
+        if klass and klass[0] == "human-row":
+            # Skip the human performance row
+            continue
         cells = row.findAll("td")
         if len(cells) == 4:
             date_span = cells[0].select_one("span.date")
