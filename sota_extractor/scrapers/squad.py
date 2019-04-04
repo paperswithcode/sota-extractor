@@ -52,6 +52,7 @@ def get_sota_rows(table):
                 sota_rows.append(
                     SotaRow(
                         model_name=model.find(text=True, recursive=False),
+                        paper_date=date,
                         metrics={"EM": m_em, "F1": m_f1},
                     )
                 )
