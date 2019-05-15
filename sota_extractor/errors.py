@@ -4,9 +4,8 @@ from requests import Response
 
 
 class SotaError(Exception):
-    def __init__(self, message, from_error=None):
+    def __init__(self, message):
         self.message = message
-        self.from_error = from_error
 
     @property
     def name(self):
@@ -27,8 +26,8 @@ class ArgumentError(SotaError):
 
 
 class HttpClientError(SotaError):
-    def __init__(self, message, response=None, from_error=None):
-        super().__init__(message, from_error)
+    def __init__(self, message, response=None):
+        super().__init__(message)
         self.response: Response = response
         self.status_code = (
             response.status_code if response is not None else 500

@@ -1,9 +1,9 @@
 beautifulsoup4==4.7.1
 click==7.0
 dataclasses==0.6
-lxml==4.3.2
+lxml==4.3.3
 marshmallow==3.0.0rc4
-nltk==3.4
+nltk==3.4.1
 pandas==0.24.2
 requests==2.21.0
-soupsieve==1.8
+soupsieve==1.9.1
