@@ -127,6 +127,16 @@ python -m scrapers.snli
 
 Licence: CC-BY-SA
 
+### Cityscapes
+
+[Cityscapes](https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results) is a benchmark for semantic segmentation.
+
+To scrape the current content run:
+
+```bash
+python -m scrapers.cityscapes
+```
+
 ## Evaluating the SOTA extraction performance
 
 In the future, this repository will also contain the automatic SOTA extraction pipeline. The aim is to automatically extract tasks, datasets and results from papers. 
