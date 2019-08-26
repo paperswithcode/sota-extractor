@@ -21,3 +21,11 @@ check:                   ## Run code checks.
 
 format:                  ## Format the code.
 	@black --target-version=py36 --safe --line-length=79 "$(PROJECT)"
+
+build:               ## Build the source and wheel distribution packages.
+	@python3 setup.py sdist bdist_wheel
+
+
+release: build       ## Build and upload the package to PyPI.
+	@twine upload --repository-url  https://upload.pypi.org/legacy/ dist/*
+	@rm -fr build dist sota_extractor.egg-info
