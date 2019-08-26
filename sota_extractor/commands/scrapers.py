@@ -62,3 +62,18 @@ def snli(output):
 def squad(output):
     """Extract SQUAD SOTA tables."""
     serialization.dump(scrapers.squad(), output)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/cityscapes.json",
+    help="Output JSON filename to use.",
+)
+@catch_errors
+def cityscapes(output):
+    """Extract Cityscapes SOTA tables."""
+    serialization.dump(scrapers.cityscapes(), output)
