@@ -2,8 +2,9 @@ beautifulsoup4
 click
 dataclasses
 lxml
-marshmallow
+marshmallow==3.0.0rc4
 nltk
 pandas
 requests
 soupsieve
+
