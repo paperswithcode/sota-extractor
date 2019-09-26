@@ -6,7 +6,7 @@ CITYSCAPES_URL = "https://www.cityscapes-dataset.com/benchmarks/#pixel-level-res
 
 
 TASK_NAME = "Semantic Segmentation"
-DATASET_NAME = "Cityscapes"
+DATASET_NAME = "Cityscapes test"
 DATASET_DESCRIPTION = (
     "The first Cityscapes task involves predicting a per-pixel semantic labeling of "
     "the image without considering higher-level object instance or boundary information."
