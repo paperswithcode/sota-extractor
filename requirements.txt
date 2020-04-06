@@ -3,8 +3,8 @@ click
 dataclasses
 lxml
 marshmallow==3.0.0rc4
+markdown
 nltk
 pandas
 requests
 soupsieve
-
