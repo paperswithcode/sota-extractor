@@ -8,7 +8,7 @@ class LinkSchema(Schema):
     url = fields.String(missing="")
 
     @post_load
-    def post_load(self, data):
+    def post_load(self, data, **kwargs):
         return Link(**data)
 
 
@@ -22,7 +22,7 @@ class SotaRowSchema(Schema):
     metrics = fields.Dict(keys=fields.String(), values=fields.Inferred())
 
     @post_load
-    def post_load(self, data):
+    def post_load(self, data, **kwargs):
         return SotaRow(**data)
 
 
@@ -31,7 +31,7 @@ class SotaSchema(Schema):
     rows = fields.Nested(SotaRowSchema, many=True, missing=list)
 
     @post_load
-    def post_load(self, data):
+    def post_load(self, data, **kwargs):
         return Sota(**data)
 
 
@@ -49,7 +49,7 @@ class DatasetSchema(Schema):
     )
 
     @pre_load
-    def pre_load(self, data):
+    def pre_load(self, data, **kwargs):
         data = deepcopy(data)
         if "dataset" in data:
             data["name"] = data["dataset"]
@@ -65,14 +65,14 @@ class DatasetSchema(Schema):
         return data
 
     @post_load
-    def post_load(self, data):
+    def post_load(self, data, **kwargs):
         dataset = Dataset(**data)
         for subdataset in dataset.subdatasets:
             subdataset.parent = dataset
         return dataset
 
     @post_dump
-    def post_dump(self, data):
+    def post_dump(self, data, **kwargs):
         if data["is_subdataset"]:
             data["subdataset"] = data["name"]
         else:
@@ -93,7 +93,7 @@ class TaskSchema(Schema):
     source_link = fields.Nested(LinkSchema, allow_none=True, missing=None)
 
     @post_load
-    def post_load(self, data):
+    def post_load(self, data, **kwargs):
         task = Task(**data)
         for subtask in task.subtasks:
             subtask.parent = task

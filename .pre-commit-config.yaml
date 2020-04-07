@@ -6,7 +6,7 @@
         language: python
         entry: black
         args:
-            - --target-version=py36
+            - --target-version=py37
             - --safe
             - --line-length=79
             - sota_extractor
@@ -21,7 +21,7 @@
             - requirements-dev.txt
 
 - repo: https://gitlab.com/pycqa/flake8
-  rev: 3.7.8
+  rev: 3.7.9
   hooks:
       - id: flake8
         name: Flake8 Check

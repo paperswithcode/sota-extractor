@@ -20,7 +20,7 @@ check:                   ## Run code checks.
 
 
 format:                  ## Format the code.
-	@black --target-version=py36 --safe --line-length=79 "$(PROJECT)"
+	@black --target-version=py37 --safe --line-length=79 "$(PROJECT)"
 
 build:               ## Build the source and wheel distribution packages.
 	@python3 setup.py sdist bdist_wheel

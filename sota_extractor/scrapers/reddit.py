@@ -16,7 +16,7 @@ REDITSOTA_URL = (
 )
 
 
-def reddit():
+def reddit() -> TaskDB:
     """Extract Reddit SOTA tables."""
     tdb = TaskDB()
     md = requests.get(REDITSOTA_URL).text
@@ -164,4 +164,4 @@ def reddit():
                 tdb.add_task(t)
                 task = None
 
-    return tdb.export()
+    return tdb

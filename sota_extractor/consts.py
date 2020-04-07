@@ -1,3 +1,24 @@
+import os
+import enum
+
+
+DEBUG = os.environ.get("SOTA_EXTRACTOR_DEBUG", "false").lower() == "true"
+
+
+class Format(str, enum.Enum):
+    """Output format.
+
+    At the moment only supported format is JSON, but in the future YAML support
+    is planned.
+    """
+
+    json = "json"
+    json_gz = "json.gz"
+
+
+NLP_PROGRESS_REPO = "https://github.com/sebastianruder/NLP-progress"
+
+
 EFF_TASK_CONVERSION = dict(
     [
         ("Detection of Instrumentals musical tracks", "Music Autotagging"),

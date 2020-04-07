@@ -1,7 +1,7 @@
 import json
 import requests
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.consts import EFF_TASK_CONVERSION
+from sota_extractor.consts import EFF_TASK_CONVERSION
 from sota_extractor.taskdb.v01 import (
     Task,
     Dataset,
@@ -17,7 +17,7 @@ EFF_URL = (
 )
 
 
-def eff():
+def eff() -> TaskDB:
     """Extract EFF SOTA tables."""
 
     response = requests.get(EFF_URL)
@@ -74,4 +74,4 @@ def eff():
         task.datasets = datasets
         tdb.add_task(task)
 
-    return tdb.export()
+    return tdb

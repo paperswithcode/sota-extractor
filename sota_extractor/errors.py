@@ -1,6 +1,12 @@
 import click
+import logging
 import functools
 from requests import Response
+
+from sota_extractor.consts import DEBUG
+
+
+logger = logging.getLogger(__name__)
 
 
 class SotaError(Exception):
@@ -56,6 +62,10 @@ def catch_errors(func):
         except SotaError as e:
             click.secho(str(e), fg="red")
         except Exception as e:
-            click.secho(f"Unknown error: {e}", fg="red")
+
+            if DEBUG:
+                logger.exception("Unknown error: %s", e)
+            else:
+                click.secho(f"Unknown error: {e}", fg="red")
 
     return wrapper

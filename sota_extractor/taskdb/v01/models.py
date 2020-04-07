@@ -28,7 +28,7 @@ class Sota:
 @dataclass
 class Dataset:
     name: str
-    is_subdataset: bool
+    is_subdataset: bool = False
     description: str = ""
     parent: "Dataset" = None
     sota: Sota = field(default_factory=lambda: Sota())
