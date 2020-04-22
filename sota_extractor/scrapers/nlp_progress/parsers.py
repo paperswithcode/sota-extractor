@@ -63,7 +63,7 @@ class Model:
         for match in cls.AUTHORS_AND_OR_YEARS.finditer(s):
             d = match.groupdict()
             if d["author"] is not None and d["author"].strip() != "":
-                authors.append(d["author"].strip())
+                authors.append(d["author"].replace("et al.", "").strip())
             if d["year"] is not None:
                 years.append(d["year"])
         s = cls._ws(cls.AUTHORS_AND_OR_YEARS.sub("", s))
