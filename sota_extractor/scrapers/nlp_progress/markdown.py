@@ -107,7 +107,7 @@ class ParserProcessor(Treeprocessor):
                 if n_tables < 2:
                     text = Text.parse([e for e in section if e.tag == "p"])
                     dataset = Dataset(
-                        name=header.text.strip(),
+                        name=header.text.strip().strip(":"),
                         description=text.text,
                         links=text.links,
                     )
@@ -132,7 +132,7 @@ class ParserProcessor(Treeprocessor):
                     ]
                     text = Text.parse(description_ps)
                     dataset = Dataset(
-                        name=header.text.strip(),
+                        name=header.text.strip().strip(":"),
                         description=text.text,
                         links=text.links,
                     )
