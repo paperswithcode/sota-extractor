@@ -1,12 +1,9 @@
-import io
 import sys
 import argparse
 
 from sota_extractor import serialization
-from sota_extractor.taskdb.v01 import TaskDB
-from sota_extractor.scrapers.nlp_progress.fixer import fix_task
-from sota_extractor.scrapers.nlp_progress.markdown import Markdown
 from sota_extractor.scrapers.nlp_progress.printer import print_task
+from sota_extractor.scrapers.nlp_progress.markdown import parse_file
 
 
 def main(args):
@@ -21,15 +18,7 @@ def main(args):
     )
     ns = parser.parse_args(args)
 
-    md = Markdown()
-    with io.open("/dev/null", "wb") as f:
-        md.convertFile(ns.filename, output=f)
-
-    tdb = TaskDB()
-    for task in md.parser_processor.parsed:
-        task = fix_task(task)
-        if task is not None:
-            tdb.add_task(task)
+    tdb = parse_file(ns.filename)
 
     if ns.json:
         print(serialization.dumps(tdb))

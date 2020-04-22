@@ -45,7 +45,17 @@ def fix_subtasks(subtasks: List[Task]) -> List[Task]:
     return valid_subtasks
 
 
-def fix_task(task: Task) -> Optional[Task]:
+pop_subtasks = {
+    "Language Modeling",
+    "Domain Adaptation",
+}
+
+subtask_to_task = {
+    "Question Answering": ["Reading Comprehension"],
+}
+
+
+def fix_task(task: Task) -> List[Task]:
     """Return a valid task.
 
     To be a valid task it has to have a dataset with sota tables or a sub-task
@@ -53,7 +63,27 @@ def fix_task(task: Task) -> Optional[Task]:
     """
     task.datasets = fix_datasets(task.datasets)
     task.subtasks = fix_subtasks(task.subtasks)
-    if len(task.datasets) > 0 or len(task.subtasks) > 0:
-        return task
 
-    return None
+    # Hierarchy change
+    if task.name in pop_subtasks:
+        return task.subtasks
+
+    tasks: List[Task] = []
+
+    # Hierarchy change for some
+    if task.name in subtask_to_task:
+        tasks = [
+            subtask
+            for subtask in task.subtasks
+            if subtask.name in subtask_to_task[task.name]
+        ]
+        task.subtasks = [
+            subtask
+            for subtask in task.subtasks
+            if subtask.name not in subtask_to_task[task.name]
+        ]
+
+    if len(task.datasets) > 0 or len(task.subtasks) > 0:
+        tasks.append(task)
+
+    return tasks

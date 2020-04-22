@@ -391,7 +391,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Common sense"
+    "task": "Common Sense"
   },
   {
     "categories": [],
@@ -1711,7 +1711,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Dialogue act classification"
+        "task": "Dialogue Act Classification"
       },
       {
         "categories": [],
@@ -1939,7 +1939,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Dialogue state tracking"
+        "task": "Dialogue State Tracking"
       },
       {
         "categories": [],
@@ -2076,7 +2076,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Retrieval-based Chatbots"
+        "task": "Retrieval-Based Chatbots"
       },
       {
         "categories": [],
@@ -2185,7 +2185,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Generative-based Chatbots"
+        "task": "Generative-Based Chatbots"
       },
       {
         "categories": [],
@@ -2543,7 +2543,7 @@
       }
     ],
     "synonyms": [],
-    "task": "Shallow syntax"
+    "task": "Shallow Syntax"
   },
   {
     "categories": [],
@@ -2712,253 +2712,108 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Coreference resolution"
+    "task": "Coreference Resolution"
   },
   {
     "categories": [],
     "datasets": [
       {
-        "dataset": "IMDb",
+        "dataset": "Multi-Domain Sentiment Dataset",
         "dataset_citations": [],
         "dataset_links": [
           {
-            "title": "IMDb dataset",
-            "url": "https://ai.stanford.edu/~ang/papers/acl11-WordVectorsSentimentAnalysis.pdf"
-          }
-        ],
-        "description": "The [IMDb dataset](https://ai.stanford.edu/~ang/papers/acl11-WordVectorsSentimentAnalysis.pdf) is a binary\nsentiment analysis dataset consisting of 50,000 reviews from the Internet Movie Database (IMDb) labeled as positive or\nnegative. The dataset contains an even number of positive and negative reviews. Only highly polarizing reviews are considered. \nA negative review has a score \u2264 4 out of 10, and a positive review has a score \u2265 7 out of 10. No more than 30 reviews are \nincluded per movie. Models are evaluated based on accuracy.\n",
-        "sota": {
-          "metrics": [
-            "Accuracy"
-          ],
-          "rows": [
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "96.21"
-              },
-              "model_links": [],
-              "model_name": "XLNet (2019)",
-              "paper_date": null,
-              "paper_title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
-              "paper_url": "https://arxiv.org/pdf/1906.08237.pdf",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "95.79"
-              },
-              "model_links": [],
-              "model_name": "BERT_large+ITPT (2019)",
-              "paper_date": null,
-              "paper_title": "How to Fine-Tune BERT for Text Classification?",
-              "paper_url": "https://arxiv.org/pdf/1905.05583.pdf",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "95.63"
-              },
-              "model_links": [],
-              "model_name": "BERT_base+ITPT (2019)",
-              "paper_date": null,
-              "paper_title": "How to Fine-Tune BERT for Text Classification?",
-              "paper_url": "https://arxiv.org/pdf/1905.05583.pdf",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "95.4"
-              },
-              "model_links": [],
-              "model_name": "ULMFiT (2018)",
-              "paper_date": null,
-              "paper_title": "Universal Language Model Fine-tuning for Text Classification",
-              "paper_url": "https://arxiv.org/abs/1801.06146",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "94.99"
-              },
-              "model_links": [],
-              "model_name": "Block-sparse LSTM (2017)",
-              "paper_date": null,
-              "paper_title": "GPU Kernels for Block-Sparse Weights",
-              "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/blocksparse/blocksparsepaper.pdf",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "94.1"
-              },
-              "model_links": [],
-              "model_name": "oh-LSTM (2016)",
-              "paper_date": null,
-              "paper_title": "Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings",
-              "paper_url": "https://arxiv.org/abs/1602.02373",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "94.1"
-              },
-              "model_links": [],
-              "model_name": "Virtual adversarial training (2016)",
-              "paper_date": null,
-              "paper_title": "Adversarial Training Methods for Semi-Supervised Text Classification",
-              "paper_url": "https://arxiv.org/abs/1605.07725",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "Accuracy": "91.8"
-              },
-              "model_links": [],
-              "model_name": "BCN+Char+CoVe (2017)",
-              "paper_date": null,
-              "paper_title": "Learned in Translation: Contextualized Word Vectors",
-              "paper_url": "https://arxiv.org/abs/1708.00107",
-              "uses_additional_data": false
-            }
-          ]
-        },
-        "subdatasets": []
-      },
-      {
-        "dataset": "SemEval",
-        "dataset_citations": [],
-        "dataset_links": [],
-        "description": "SemEval (International Workshop on Semantic Evaluation) has a specific task for Sentiment analysis.\nLatest year overview of such task (Task 4) can be reached at: http://www.aclweb.org/anthology/S17-2088\nSemEval-2017 Task 4 consists of five subtasks, each offered for both Arabic and English:\nSubtask A  results:\n",
-        "sota": {
-          "metrics": [
-            "F1-score"
-          ],
-          "rows": [
-            {
-              "code_links": [],
-              "metrics": {
-                "F1-score": "0.685"
-              },
-              "model_links": [],
-              "model_name": "LSTMs+CNNs ensemble with multiple conv. ops (2017)",
-              "paper_date": null,
-              "paper_title": "BB twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs",
-              "paper_url": "http://www.aclweb.org/anthology/S17-2094",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "F1-score": "0.677"
-              },
-              "model_links": [],
-              "model_name": "Deep Bi-LSTM+attention (2017)",
-              "paper_date": null,
-              "paper_title": "DataStories at SemEval-2017 Task 4: Deep LSTM with Attention for Message-level and Topic-based Sentiment Analysis",
-              "paper_url": "http://aclweb.org/anthology/S17-2126",
-              "uses_additional_data": false
-            }
-          ]
-        },
-        "subdatasets": []
-      }
-    ],
-    "description": "Sentiment analysis is the task of classifying the polarity of a given text.\n",
-    "source_link": null,
-    "subtasks": [
-      {
-        "categories": [],
-        "datasets": [
+            "title": "Multi-Domain Sentiment Dataset",
+            "url": "https://www.cs.jhu.edu/~mdredze/datasets/sentiment/"
+          },
           {
-            "dataset": "Sentihood",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "Sentihood",
-                "url": "http://www.aclweb.org/anthology/C16-1146"
-              }
-            ],
-            "description": "[Sentihood](http://www.aclweb.org/anthology/C16-1146) is a dataset for targeted aspect-based sentiment analysis (TABSA), which aims\nto identify fine-grained polarity towards a specific aspect. The dataset consists of 5,215 sentences,\n3,862 of which contain a single target, and the remainder multiple targets.\nDataset mirror: https://github.com/uclmr/jack/tree/master/data/sentihood\n",
-            "sota": {
-              "metrics": [
-                "Aspect (F1)",
-                "Sentiment (acc)"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Aspect (F1)": "87.9",
-                    "Sentiment (acc)": "93.6"
-                  },
-                  "model_links": [],
-                  "model_name": "Sun et al. (2019)",
-                  "paper_date": null,
-                  "paper_title": "Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence",
-                  "paper_url": "https://arxiv.org/pdf/1903.09588.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Aspect (F1)": "78.5",
-                    "Sentiment (acc)": "91.0"
-                  },
-                  "model_links": [],
-                  "model_name": "Liu et al. (2018)",
-                  "paper_date": null,
-                  "paper_title": "Recurrent Entity Networks with Delayed Memory Update for Targeted Aspect-based Sentiment Analysis",
-                  "paper_url": "http://aclweb.org/anthology/N18-2045",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Aspect (F1)": "78.2",
-                    "Sentiment (acc)": "89.3"
-                  },
-                  "model_links": [],
-                  "model_name": "SenticLSTM (2018)",
-                  "paper_date": null,
-                  "paper_title": "Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM",
-                  "paper_url": "http://sentic.net/sentic-lstm.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Aspect (F1)": "69.3",
-                    "Sentiment (acc)": "81.9"
-                  },
-                  "model_links": [],
-                  "model_name": "LSTM-LOC (2016)",
-                  "paper_date": null,
-                  "paper_title": "Sentihood: Targeted aspect based sentiment analysis dataset for urban neighbourhoods",
-                  "paper_url": "http://www.aclweb.org/anthology/C16-1146",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
+            "title": "Go back to the README",
+            "url": "../README.md"
           }
         ],
-        "description": "",
-        "source_link": null,
-        "subtasks": [],
-        "synonyms": [],
-        "task": "Aspect-based sentiment analysis"
+        "description": "The [Multi-Domain Sentiment Dataset](https://www.cs.jhu.edu/~mdredze/datasets/sentiment/) is a common\nevaluation dataset for domain adaptation for sentiment analysis. It contains product reviews from\nAmazon.com from different product categories, which are treated as distinct domains.\nReviews contain star ratings (1 to 5 stars) that are generally converted into binary labels. Models are\ntypically evaluated on a target domain that is different from the source domain they were trained on, while only\nhaving access to unlabeled examples of the target domain (unsupervised domain adaptation). The evaluation\nmetric is accuracy and scores are averaged across each domain.\n[Go back to the README](../README.md)\n",
+        "sota": {
+          "metrics": [
+            "DVD",
+            "Books",
+            "Electronics",
+            "Kitchen",
+            "Average"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Average": "79.15",
+                "Books": "74.86",
+                "DVD": "78.14",
+                "Electronics": "81.45",
+                "Kitchen": "82.14"
+              },
+              "model_links": [],
+              "model_name": "Multi-task tri-training (2018)",
+              "paper_date": null,
+              "paper_title": "Strong Baselines for Neural Semi-supervised Learning under Domain Shift",
+              "paper_url": "https://arxiv.org/abs/1804.09530",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Average": "78.39",
+                "Books": "72.97",
+                "DVD": "76.17",
+                "Electronics": "80.47",
+                "Kitchen": "83.97"
+              },
+              "model_links": [],
+              "model_name": "Asymmetric tri-training (2017)",
+              "paper_date": null,
+              "paper_title": "Asymmetric Tri-training for Unsupervised Domain Adaptation",
+              "paper_url": "https://arxiv.org/abs/1702.08400",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Average": "78.36",
+                "Books": "73.40",
+                "DVD": "76.57",
+                "Electronics": "80.53",
+                "Kitchen": "82.93"
+              },
+              "model_links": [],
+              "model_name": "VFAE (2015)",
+              "paper_date": null,
+              "paper_title": "The Variational Fair Autoencoder",
+              "paper_url": "https://arxiv.org/abs/1511.00830",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Average": "76.26",
+                "Books": "71.43",
+                "DVD": "75.40",
+                "Electronics": "77.67",
+                "Kitchen": "80.53"
+              },
+              "model_links": [],
+              "model_name": "DANN (2016)",
+              "paper_date": null,
+              "paper_title": "Domain-Adversarial Training of Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1505.07818",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
       }
     ],
+    "description": "",
+    "source_link": null,
+    "subtasks": [],
     "synonyms": [],
-    "task": "Sentiment analysis"
+    "task": "Sentiment Analysis"
   },
   {
     "categories": [],
@@ -3051,7 +2906,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Subjectivity analysis"
+    "task": "Subjectivity Analysis"
   },
   {
     "categories": [],
@@ -3144,7 +2999,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Semantic role labeling"
+    "task": "Semantic Role Labeling"
   },
   {
     "categories": [],
@@ -3361,7 +3216,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Constituency parsing"
+    "task": "Constituency Parsing"
   },
   {
     "categories": [],
@@ -3908,7 +3763,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "WSD Lexical Sample task:"
+        "task": "Wsd Lexical Sample Task:"
       },
       {
         "categories": [],
@@ -4316,7 +4171,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Text classification"
+    "task": "Text Classification"
   },
   {
     "categories": [],
@@ -5055,7 +4910,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Dependency parsing"
+    "task": "Dependency Parsing"
   },
   {
     "categories": [],
@@ -5316,11 +5171,11 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Paraphrase identification"
+        "task": "Paraphrase Identification"
       }
     ],
     "synonyms": [],
-    "task": "Semantic textual similarity"
+    "task": "Semantic Textual Similarity"
   },
   {
     "categories": [],
@@ -5680,11 +5535,11 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "AMR parsing"
+        "task": "Amr Parsing"
       }
     ],
     "synonyms": [],
-    "task": "Semantic parsing"
+    "task": "Semantic Parsing"
   },
   {
     "categories": [],
@@ -6393,7 +6248,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Named entity recognition"
+    "task": "Named Entity Recognition"
   },
   {
     "categories": [],
@@ -6708,7 +6563,7 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Timex normalisation"
+        "task": "Timex Normalisation"
       }
     ],
     "synonyms": [],
@@ -6716,269 +6571,269 @@
   },
   {
     "categories": [],
+    "datasets": [
+      {
+        "dataset": "RACE",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "RACE dataset",
+            "url": "https://arxiv.org/abs/1704.04683"
+          },
+          {
+            "title": "here",
+            "url": "http://www.cs.cmu.edu/~glai1/data/race/"
+          },
+          {
+            "title": "RACE leaderboard",
+            "url": "http://www.qizhexie.com//data/RACE_leaderboard"
+          }
+        ],
+        "description": "The [RACE dataset](https://arxiv.org/abs/1704.04683) is a reading comprehension dataset\ncollected from English examinations in China, which are designed for middle school and high school students.\nThe dataset contains more than 28,000 passages and nearly 100,000 questions and can be\ndownloaded [here](http://www.cs.cmu.edu/~glai1/data/race/). Models are evaluated based on accuracy\non middle school examinations (RACE-m), high school examinations (RACE-h), and on the total dataset (RACE).\nThe public leaderboard is available on the [RACE leaderboard](http://www.qizhexie.com//data/RACE_leaderboard).\n",
+        "sota": {
+          "metrics": [
+            "RACE-m",
+            "RACE-h",
+            "RACE"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "RACE": "81.75",
+                "RACE-h": "80.21",
+                "RACE-m": "85.45"
+              },
+              "model_links": [],
+              "model_name": "XLNet (2019)",
+              "paper_date": null,
+              "paper_title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+              "paper_url": "https://arxiv.org/pdf/1906.08237.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "RACE": "71.7",
+                "RACE-h": "69.6",
+                "RACE-m": "76.7"
+              },
+              "model_links": [],
+              "model_name": "OCN_large (2019)",
+              "paper_date": null,
+              "paper_title": "Option Comparison Network for Multiple-choice Reading Comprehension",
+              "paper_url": "https://arxiv.org/pdf/1903.03033.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "RACE": "69.7",
+                "RACE-h": "68.1",
+                "RACE-m": "73.4"
+              },
+              "model_links": [],
+              "model_name": "DCMN_large (2019)",
+              "paper_date": null,
+              "paper_title": "Dual Co-Matching Network for Multi-choice Reading Comprehension",
+              "paper_url": "https://arxiv.org/pdf/1901.09381.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "RACE": "59.0",
+                "RACE-h": "57.4",
+                "RACE-m": "62.9"
+              },
+              "model_links": [],
+              "model_name": "Finetuned Transformer LM (2018)",
+              "paper_date": null,
+              "paper_title": "Improving Language Understanding by Generative Pre-Training",
+              "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "RACE": "53.3",
+                "RACE-h": "50.3",
+                "RACE-m": "60.2"
+              },
+              "model_links": [],
+              "model_name": "BiAttention MRU (2018)",
+              "paper_date": null,
+              "paper_title": "Multi-range Reasoning for Machine Comprehension",
+              "paper_url": "https://arxiv.org/abs/1803.09074",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "Story Cloze Test",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "Story Cloze Test",
+            "url": "http://aclweb.org/anthology/W17-0906.pdf"
+          },
+          {
+            "title": "Story Cloze Test Challenge",
+            "url": "https://competitions.codalab.org/competitions/15333"
+          }
+        ],
+        "description": "The [Story Cloze Test](http://aclweb.org/anthology/W17-0906.pdf) is a dataset for\nstory understanding that provides systems with four-sentence stories and two possible\nendings. The systems must then choose the correct ending to the story.\nMore details are available on the [Story Cloze Test Challenge](https://competitions.codalab.org/competitions/15333).\n",
+        "sota": {
+          "metrics": [
+            "Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "88.3"
+              },
+              "model_links": [],
+              "model_name": "Reading Strategies Model (2018)",
+              "paper_date": null,
+              "paper_title": "Improving Machine Reading Comprehension by General Reading Strategies",
+              "paper_url": "https://arxiv.org/pdf/1810.13441v1.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "86.5"
+              },
+              "model_links": [],
+              "model_name": "Finetuned Transformer LM (2018)",
+              "paper_date": null,
+              "paper_title": "Improving Language Understanding by Generative Pre-Training",
+              "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "78.7"
+              },
+              "model_links": [],
+              "model_name": "Liu et al. (2018)",
+              "paper_date": null,
+              "paper_title": "Narrative Modeling with Memory Chains and Semantic Supervision",
+              "paper_url": "http://aclweb.org/anthology/P18-2045",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "77.6"
+              },
+              "model_links": [],
+              "model_name": "Hidden Coherence Model (2017)",
+              "paper_date": null,
+              "paper_title": "Story Comprehension for Predicting What Happens Next",
+              "paper_url": "http://aclweb.org/anthology/D17-1168",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Accuracy": "76.5"
+              },
+              "model_links": [],
+              "model_name": "val-LS-skip (2018)",
+              "paper_date": null,
+              "paper_title": "A Simple and Effective Approach to the Story Cloze Test",
+              "paper_url": "http://aclweb.org/anthology/N18-2015",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "NarrativeQA",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "NarrativeQA",
+            "url": "https://arxiv.org/abs/1712.07040"
+          }
+        ],
+        "description": "[NarrativeQA](https://arxiv.org/abs/1712.07040) is a dataset built to encourage deeper comprehension of language. This dataset involves reasoning over reading entire books or movie scripts. This dataset contains approximately 45K question answer pairs in free form text. There are two modes of this dataset (1) reading comprehension over summaries and (2) reading comprehension over entire books/scripts. \n*Note that the above is for the Summary setting. There are no official published results for reading over entire books/stories except for the original paper. \n",
+        "sota": {
+          "metrics": [
+            "BLEU-1",
+            "BLEU-4",
+            "METEOR",
+            "Rouge-L"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "BLEU-1": "44.35",
+                "BLEU-4": "27.61",
+                "METEOR": "21.80",
+                "Rouge-L": "44.69"
+              },
+              "model_links": [],
+              "model_name": "DecaProp (2018)",
+              "paper_date": null,
+              "paper_title": "Densely Connected Attention Propagation for Reading Comprehension",
+              "paper_url": "https://arxiv.org/abs/1811.04210",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "BLEU-1": "36.55",
+                "BLEU-4": "19.79",
+                "METEOR": "17.87",
+                "Rouge-L": "41.44"
+              },
+              "model_links": [],
+              "model_name": "BiAttention + DCU-LSTM (2018)",
+              "paper_date": null,
+              "paper_title": "Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension",
+              "paper_url": "http://aclweb.org/anthology/D18-1238",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "BLEU-1": "33.45",
+                "BLEU-4": "15.69",
+                "METEOR": "15.68",
+                "Rouge-L": "36.74"
+              },
+              "model_links": [],
+              "model_name": "BiDAF (2017)",
+              "paper_date": null,
+              "paper_title": "Bidirectional Attention Flow for Machine Comprehension",
+              "paper_url": "https://arxiv.org/abs/1611.01603",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "Most current question answering datasets frame the task as reading comprehension where the question is about a paragraph\nor document and the answer often is a span in the document. The Machine Reading group\nat UCL also provides an [overview of reading comprehension tasks](https://uclnlp.github.io/ai4exams/data.html).\n",
+    "source_link": null,
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Reading Comprehension"
+  },
+  {
+    "categories": [],
     "datasets": [],
     "description": "Question answering is the task of answering a question.\n",
     "source_link": null,
     "subtasks": [
-      {
-        "categories": [],
-        "datasets": [
-          {
-            "dataset": "RACE",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "RACE dataset",
-                "url": "https://arxiv.org/abs/1704.04683"
-              },
-              {
-                "title": "here",
-                "url": "http://www.cs.cmu.edu/~glai1/data/race/"
-              },
-              {
-                "title": "RACE leaderboard",
-                "url": "http://www.qizhexie.com//data/RACE_leaderboard"
-              }
-            ],
-            "description": "The [RACE dataset](https://arxiv.org/abs/1704.04683) is a reading comprehension dataset\ncollected from English examinations in China, which are designed for middle school and high school students.\nThe dataset contains more than 28,000 passages and nearly 100,000 questions and can be\ndownloaded [here](http://www.cs.cmu.edu/~glai1/data/race/). Models are evaluated based on accuracy\non middle school examinations (RACE-m), high school examinations (RACE-h), and on the total dataset (RACE).\nThe public leaderboard is available on the [RACE leaderboard](http://www.qizhexie.com//data/RACE_leaderboard).\n",
-            "sota": {
-              "metrics": [
-                "RACE-m",
-                "RACE-h",
-                "RACE"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "RACE": "81.75",
-                    "RACE-h": "80.21",
-                    "RACE-m": "85.45"
-                  },
-                  "model_links": [],
-                  "model_name": "XLNet (2019)",
-                  "paper_date": null,
-                  "paper_title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
-                  "paper_url": "https://arxiv.org/pdf/1906.08237.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "RACE": "71.7",
-                    "RACE-h": "69.6",
-                    "RACE-m": "76.7"
-                  },
-                  "model_links": [],
-                  "model_name": "OCN_large (2019)",
-                  "paper_date": null,
-                  "paper_title": "Option Comparison Network for Multiple-choice Reading Comprehension",
-                  "paper_url": "https://arxiv.org/pdf/1903.03033.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "RACE": "69.7",
-                    "RACE-h": "68.1",
-                    "RACE-m": "73.4"
-                  },
-                  "model_links": [],
-                  "model_name": "DCMN_large (2019)",
-                  "paper_date": null,
-                  "paper_title": "Dual Co-Matching Network for Multi-choice Reading Comprehension",
-                  "paper_url": "https://arxiv.org/pdf/1901.09381.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "RACE": "59.0",
-                    "RACE-h": "57.4",
-                    "RACE-m": "62.9"
-                  },
-                  "model_links": [],
-                  "model_name": "Finetuned Transformer LM (2018)",
-                  "paper_date": null,
-                  "paper_title": "Improving Language Understanding by Generative Pre-Training",
-                  "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "RACE": "53.3",
-                    "RACE-h": "50.3",
-                    "RACE-m": "60.2"
-                  },
-                  "model_links": [],
-                  "model_name": "BiAttention MRU (2018)",
-                  "paper_date": null,
-                  "paper_title": "Multi-range Reasoning for Machine Comprehension",
-                  "paper_url": "https://arxiv.org/abs/1803.09074",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "Story Cloze Test",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "Story Cloze Test",
-                "url": "http://aclweb.org/anthology/W17-0906.pdf"
-              },
-              {
-                "title": "Story Cloze Test Challenge",
-                "url": "https://competitions.codalab.org/competitions/15333"
-              }
-            ],
-            "description": "The [Story Cloze Test](http://aclweb.org/anthology/W17-0906.pdf) is a dataset for\nstory understanding that provides systems with four-sentence stories and two possible\nendings. The systems must then choose the correct ending to the story.\nMore details are available on the [Story Cloze Test Challenge](https://competitions.codalab.org/competitions/15333).\n",
-            "sota": {
-              "metrics": [
-                "Accuracy"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Accuracy": "88.3"
-                  },
-                  "model_links": [],
-                  "model_name": "Reading Strategies Model (2018)",
-                  "paper_date": null,
-                  "paper_title": "Improving Machine Reading Comprehension by General Reading Strategies",
-                  "paper_url": "https://arxiv.org/pdf/1810.13441v1.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Accuracy": "86.5"
-                  },
-                  "model_links": [],
-                  "model_name": "Finetuned Transformer LM (2018)",
-                  "paper_date": null,
-                  "paper_title": "Improving Language Understanding by Generative Pre-Training",
-                  "paper_url": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Accuracy": "78.7"
-                  },
-                  "model_links": [],
-                  "model_name": "Liu et al. (2018)",
-                  "paper_date": null,
-                  "paper_title": "Narrative Modeling with Memory Chains and Semantic Supervision",
-                  "paper_url": "http://aclweb.org/anthology/P18-2045",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Accuracy": "77.6"
-                  },
-                  "model_links": [],
-                  "model_name": "Hidden Coherence Model (2017)",
-                  "paper_date": null,
-                  "paper_title": "Story Comprehension for Predicting What Happens Next",
-                  "paper_url": "http://aclweb.org/anthology/D17-1168",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Accuracy": "76.5"
-                  },
-                  "model_links": [],
-                  "model_name": "val-LS-skip (2018)",
-                  "paper_date": null,
-                  "paper_title": "A Simple and Effective Approach to the Story Cloze Test",
-                  "paper_url": "http://aclweb.org/anthology/N18-2015",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "NarrativeQA",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "NarrativeQA",
-                "url": "https://arxiv.org/abs/1712.07040"
-              }
-            ],
-            "description": "[NarrativeQA](https://arxiv.org/abs/1712.07040) is a dataset built to encourage deeper comprehension of language. This dataset involves reasoning over reading entire books or movie scripts. This dataset contains approximately 45K question answer pairs in free form text. There are two modes of this dataset (1) reading comprehension over summaries and (2) reading comprehension over entire books/scripts. \n*Note that the above is for the Summary setting. There are no official published results for reading over entire books/stories except for the original paper. \n",
-            "sota": {
-              "metrics": [
-                "BLEU-1",
-                "BLEU-4",
-                "METEOR",
-                "Rouge-L"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "BLEU-1": "44.35",
-                    "BLEU-4": "27.61",
-                    "METEOR": "21.80",
-                    "Rouge-L": "44.69"
-                  },
-                  "model_links": [],
-                  "model_name": "DecaProp (2018)",
-                  "paper_date": null,
-                  "paper_title": "Densely Connected Attention Propagation for Reading Comprehension",
-                  "paper_url": "https://arxiv.org/abs/1811.04210",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "BLEU-1": "36.55",
-                    "BLEU-4": "19.79",
-                    "METEOR": "17.87",
-                    "Rouge-L": "41.44"
-                  },
-                  "model_links": [],
-                  "model_name": "BiAttention + DCU-LSTM (2018)",
-                  "paper_date": null,
-                  "paper_title": "Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension",
-                  "paper_url": "http://aclweb.org/anthology/D18-1238",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "BLEU-1": "33.45",
-                    "BLEU-4": "15.69",
-                    "METEOR": "15.68",
-                    "Rouge-L": "36.74"
-                  },
-                  "model_links": [],
-                  "model_name": "BiDAF (2017)",
-                  "paper_date": null,
-                  "paper_title": "Bidirectional Attention Flow for Machine Comprehension",
-                  "paper_url": "https://arxiv.org/abs/1611.01603",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          }
-        ],
-        "description": "Most current question answering datasets frame the task as reading comprehension where the question is about a paragraph\nor document and the answer often is a span in the document. The Machine Reading group\nat UCL also provides an [overview of reading comprehension tasks](https://uclnlp.github.io/ai4exams/data.html).\n",
-        "source_link": null,
-        "subtasks": [],
-        "synonyms": [],
-        "task": "Reading comprehension"
-      },
       {
         "categories": [],
         "datasets": [
@@ -7199,11 +7054,11 @@
         "source_link": null,
         "subtasks": [],
         "synonyms": [],
-        "task": "Open-domain Question Answering"
+        "task": "Open-Domain Question Answering"
       }
     ],
     "synonyms": [],
-    "task": "Question answering"
+    "task": "Question Answering"
   },
   {
     "categories": [],
@@ -7409,117 +7264,6 @@
     "subtasks": [],
     "synonyms": [],
     "task": "Relationship Extraction"
-  },
-  {
-    "categories": [],
-    "datasets": [],
-    "description": "",
-    "source_link": null,
-    "subtasks": [
-      {
-        "categories": [],
-        "datasets": [
-          {
-            "dataset": "Multi-Domain Sentiment Dataset",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "Multi-Domain Sentiment Dataset",
-                "url": "https://www.cs.jhu.edu/~mdredze/datasets/sentiment/"
-              },
-              {
-                "title": "Go back to the README",
-                "url": "../README.md"
-              }
-            ],
-            "description": "The [Multi-Domain Sentiment Dataset](https://www.cs.jhu.edu/~mdredze/datasets/sentiment/) is a common\nevaluation dataset for domain adaptation for sentiment analysis. It contains product reviews from\nAmazon.com from different product categories, which are treated as distinct domains.\nReviews contain star ratings (1 to 5 stars) that are generally converted into binary labels. Models are\ntypically evaluated on a target domain that is different from the source domain they were trained on, while only\nhaving access to unlabeled examples of the target domain (unsupervised domain adaptation). The evaluation\nmetric is accuracy and scores are averaged across each domain.\n[Go back to the README](../README.md)\n",
-            "sota": {
-              "metrics": [
-                "DVD",
-                "Books",
-                "Electronics",
-                "Kitchen",
-                "Average"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Average": "79.15",
-                    "Books": "74.86",
-                    "DVD": "78.14",
-                    "Electronics": "81.45",
-                    "Kitchen": "82.14"
-                  },
-                  "model_links": [],
-                  "model_name": "Multi-task tri-training (2018)",
-                  "paper_date": null,
-                  "paper_title": "Strong Baselines for Neural Semi-supervised Learning under Domain Shift",
-                  "paper_url": "https://arxiv.org/abs/1804.09530",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Average": "78.39",
-                    "Books": "72.97",
-                    "DVD": "76.17",
-                    "Electronics": "80.47",
-                    "Kitchen": "83.97"
-                  },
-                  "model_links": [],
-                  "model_name": "Asymmetric tri-training (2017)",
-                  "paper_date": null,
-                  "paper_title": "Asymmetric Tri-training for Unsupervised Domain Adaptation",
-                  "paper_url": "https://arxiv.org/abs/1702.08400",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Average": "78.36",
-                    "Books": "73.40",
-                    "DVD": "76.57",
-                    "Electronics": "80.53",
-                    "Kitchen": "82.93"
-                  },
-                  "model_links": [],
-                  "model_name": "VFAE (2015)",
-                  "paper_date": null,
-                  "paper_title": "The Variational Fair Autoencoder",
-                  "paper_url": "https://arxiv.org/abs/1511.00830",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Average": "76.26",
-                    "Books": "71.43",
-                    "DVD": "75.40",
-                    "Electronics": "77.67",
-                    "Kitchen": "80.53"
-                  },
-                  "model_links": [],
-                  "model_name": "DANN (2016)",
-                  "paper_date": null,
-                  "paper_title": "Domain-Adversarial Training of Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1505.07818",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          }
-        ],
-        "description": "",
-        "source_link": null,
-        "subtasks": [],
-        "synonyms": [],
-        "task": "Sentiment analysis"
-      }
-    ],
-    "synonyms": [],
-    "task": "Domain adaptation"
   },
   {
     "categories": [],
@@ -7825,7 +7569,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Part-of-speech tagging"
+    "task": "Part-Of-Speech Tagging"
   },
   {
     "categories": [],
@@ -8120,7 +7864,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Machine translation"
+    "task": "Machine Translation"
   },
   {
     "categories": [],
@@ -8312,7 +8056,7 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Natural language inference"
+    "task": "Natural Language Inference"
   },
   {
     "categories": [],
@@ -8486,1440 +8230,1430 @@
   },
   {
     "categories": [],
-    "datasets": [],
-    "description": "Language modeling is the task of predicting the next word or character in a document.\n\u000242\u0003 indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), [Krause et al., (2017)](https://arxiv.org/pdf/1709.07432))\n",
-    "source_link": null,
-    "subtasks": [
+    "datasets": [
       {
-        "categories": [],
-        "datasets": [
+        "dataset": "Penn Treebank",
+        "dataset_citations": [],
+        "dataset_links": [
           {
-            "dataset": "Penn Treebank",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "Mikolov et al., (2011)",
-                "url": "https://www.isca-speech.org/archive/archive_papers/interspeech_2011/i11_0605.pdf"
-              }
-            ],
-            "description": "A common evaluation dataset for language modeling ist the Penn Treebank,\nas pre-processed by [Mikolov et al., (2011)](https://www.isca-speech.org/archive/archive_papers/interspeech_2011/i11_0605.pdf).\nThe dataset consists of 929k training words, 73k validation words, and\n82k test words. As part of the pre-processing, words were lower-cased, numbers\nwere replaced with N, newlines were replaced with &lt;eos&gt;,\nand all other punctuation was removed. The vocabulary is\nthe most frequent 10k words with the rest of the tokens replaced by an &lt;unk&gt; token.\nModels are evaluated based on perplexity, which is the average\nper-word log-probability (lower is better).\n",
-            "sota": {
-              "metrics": [
-                "Validation perplexity",
-                "Test perplexity",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "44.8",
-                    "Validation perplexity": "44.9"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "46.01",
-                    "Validation perplexity": "46.63"
-                  },
-                  "model_links": [],
-                  "model_name": "AdvSoft + AWD-LSTM-MoS + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Improving Neural Language Modeling via Adversarial Training",
-                  "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "46.54",
-                    "Validation perplexity": "47.38"
-                  },
-                  "model_links": [],
-                  "model_name": "FRAGE + AWD-LSTM-MoS + dynamic eval (2018)",
-                  "paper_date": null,
-                  "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
-                  "paper_url": "https://arxiv.org/abs/1809.06858",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "185M",
-                    "Test perplexity": "47.17",
-                    "Validation perplexity": "48.63"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC x5 (2018)",
-                  "paper_date": null,
-                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "47.69",
-                    "Validation perplexity": "48.33"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS + dynamic eval * (2018)",
-                  "paper_date": null,
-                  "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "50.1",
-                    "Validation perplexity": "51.4"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "51.1",
-                    "Validation perplexity": "51.6"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM + dynamic eval * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "23M",
-                    "Test perplexity": "52.00",
-                    "Validation perplexity": "53.79"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC + Partial Shuffle (2019)",
-                  "paper_date": null,
-                  "paper_title": "Partially Shuffling the Training Data to Improve Language Models",
-                  "paper_url": "https://arxiv.org/abs/1903.04167",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "23M",
-                    "Test perplexity": "52.38",
-                    "Validation perplexity": "54.12"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC (2018)",
-                  "paper_date": null,
-                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "52.8",
-                    "Validation perplexity": "53.9"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM + continuous cache pointer * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "34M",
-                    "Test perplexity": "54.19",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Trellis Network (2019)",
-                  "paper_date": null,
-                  "paper_title": "Trellis Networks for Sequence Modeling",
-                  "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "54.33",
-                    "Validation perplexity": "56.44"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS + ATOI (2019)",
-                  "paper_date": null,
-                  "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
-                  "paper_url": "https://arxiv.org/abs/1909.08700",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "54.44",
-                    "Validation perplexity": "56.54"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS + finetune (2018)",
-                  "paper_date": null,
-                  "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "54.52",
-                    "Validation perplexity": "56.72"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "22M",
-                    "Test perplexity": "55.97",
-                    "Validation perplexity": "58.08"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS (2018)",
-                  "paper_date": null,
-                  "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "56.8",
-                    "Validation perplexity": "58.9"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM 3-layer with Fraternal dropout (2018)",
-                  "paper_date": null,
-                  "paper_title": "Fraternal dropout",
-                  "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "24M",
-                    "Test perplexity": "57.3",
-                    "Validation perplexity": "60.0"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM (2017)",
-                  "paper_date": null,
-                  "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "WikiText-2",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "WikiText-2",
-                "url": "https://arxiv.org/abs/1609.07843"
-              }
-            ],
-            "description": "[WikiText-2](https://arxiv.org/abs/1609.07843) has been proposed as a more realistic\nbenchmark for language modeling than the pre-processed Penn Treebank. WikiText-2\nconsists of around 2 million words extracted from Wikipedia articles.\n",
-            "sota": {
-              "metrics": [
-                "Validation perplexity",
-                "Test perplexity",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "38.6",
-                    "Validation perplexity": "40.2"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "38.65",
-                    "Validation perplexity": "40.27"
-                  },
-                  "model_links": [],
-                  "model_name": "AdvSoft + AWD-LSTM-MoS + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Improving Neural Language Modeling via Adversarial Training",
-                  "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "39.14",
-                    "Validation perplexity": "40.85"
-                  },
-                  "model_links": [],
-                  "model_name": "FRAGE + AWD-LSTM-MoS + dynamic eval (2018)",
-                  "paper_date": null,
-                  "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
-                  "paper_url": "https://arxiv.org/abs/1809.06858",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "40.68",
-                    "Validation perplexity": "42.41"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS + dynamic eval * (2018)",
-                  "paper_date": null,
-                  "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "33M",
-                    "Test perplexity": "44.3",
-                    "Validation perplexity": "46.4"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM + dynamic eval * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "33M",
-                    "Test perplexity": "52.0",
-                    "Validation perplexity": "53.8"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM + continuous cache pointer * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "185M",
-                    "Test perplexity": "53.09",
-                    "Validation perplexity": "54.19"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC x5 (2018)",
-                  "paper_date": null,
-                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "55.1",
-                    "Validation perplexity": "57.3"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "37M",
-                    "Test perplexity": "57.85",
-                    "Validation perplexity": "60.16"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC + Partial Shuffle (2019)",
-                  "paper_date": null,
-                  "paper_title": "Partially Shuffling the Training Data to Improve Language Models",
-                  "paper_url": "https://arxiv.org/abs/1903.04167",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "37M",
-                    "Test perplexity": "58.03",
-                    "Validation perplexity": "60.29"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-DOC (2018)",
-                  "paper_date": null,
-                  "paper_title": "Direct Output Connection for a High-Rank Language Model",
-                  "paper_url": "https://arxiv.org/abs/1808.10143",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "35M",
-                    "Test perplexity": "61.45",
-                    "Validation perplexity": "63.88"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS (2018)",
-                  "paper_date": null,
-                  "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
-                  "paper_url": "https://arxiv.org/abs/1711.03953",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "34M",
-                    "Test perplexity": "64.1",
-                    "Validation perplexity": "66.8"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM 3-layer with Fraternal dropout (2018)",
-                  "paper_date": null,
-                  "paper_title": "Fraternal dropout",
-                  "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "33M",
-                    "Test perplexity": "64.73",
-                    "Validation perplexity": "67.47"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM + ATOI (2019)",
-                  "paper_date": null,
-                  "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
-                  "paper_url": "https://arxiv.org/abs/1909.08700",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "33M",
-                    "Test perplexity": "65.8",
-                    "Validation perplexity": "68.6"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM (2017)",
-                  "paper_date": null,
-                  "paper_title": "Regularizing and Optimizing LSTM Language Models",
-                  "paper_url": "https://arxiv.org/abs/1708.02182",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "WikiText-103",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "WikiText-103",
-                "url": "https://arxiv.org/abs/1609.07843"
-              }
-            ],
-            "description": "[WikiText-103](https://arxiv.org/abs/1609.07843) The WikiText-103 corpus contains 267,735 unique words and each word occurs at least three times in the training set.\n",
-            "sota": {
-              "metrics": [
-                "Validation perplexity",
-                "Test perplexity",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "-",
-                    "Test perplexity": "15.8",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Routing Transformer (2020)",
-                  "paper_date": null,
-                  "paper_title": "Efficient Content-Based Sparse Attention with Routing Transformers",
-                  "paper_url": "https://arxiv.org/pdf/2003.05997.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "257M",
-                    "Test perplexity": "16.4",
-                    "Validation perplexity": "15.8"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL + RMS dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Transformer Language Models",
-                  "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "~257M",
-                    "Test perplexity": "17.1(16.1 with basic dynamic evaluation)",
-                    "Validation perplexity": "16.0"
-                  },
-                  "model_links": [],
-                  "model_name": "Compressive Transformer (2019)",
-                  "paper_date": null,
-                  "paper_title": "Compressive Transformers for Long-Range Sequence Modelling",
-                  "paper_url": "https://arxiv.org/pdf/1911.05507.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "257M",
-                    "Test perplexity": "18.3",
-                    "Validation perplexity": "17.7"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL Large (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "247M",
-                    "Test perplexity": "20.5",
-                    "Validation perplexity": "19.8"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer with tied adaptive embeddings (2018)",
-                  "paper_date": null,
-                  "paper_title": "Adaptive Input Representations for Neural Language Modeling",
-                  "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "151M",
-                    "Test perplexity": "24.0",
-                    "Validation perplexity": "23.1"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL Standard (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "28.0",
-                    "Validation perplexity": "27.2"
-                  },
-                  "model_links": [],
-                  "model_name": "AdvSoft + 4 layer QRNN + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Improving Neural Language Modeling via Adversarial Training",
-                  "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "29.2",
-                    "Validation perplexity": "29.0"
-                  },
-                  "model_links": [],
-                  "model_name": "LSTM + Hebbian + Cache + MbPA (2018)",
-                  "paper_date": null,
-                  "paper_title": "Fast Parametric Learning with Activation Memorization",
-                  "paper_url": "http://arxiv.org/abs/1803.10049",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "180M",
-                    "Test perplexity": "30.35",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Trellis Network (2019)",
-                  "paper_date": null,
-                  "paper_title": "Trellis Networks for Sequence Modeling",
-                  "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "32.85",
-                    "Validation perplexity": "31.92"
-                  },
-                  "model_links": [],
-                  "model_name": "AWD-LSTM-MoS + ATOI (2019)",
-                  "paper_date": null,
-                  "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
-                  "paper_url": "https://arxiv.org/abs/1909.08700",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "34.3",
-                    "Validation perplexity": "34.1"
-                  },
-                  "model_links": [],
-                  "model_name": "LSTM + Hebbian (2018)",
-                  "paper_date": null,
-                  "paper_title": "Fast Parametric Learning with Activation Memorization",
-                  "paper_url": "http://arxiv.org/abs/1803.10049",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "36.4",
-                    "Validation perplexity": "36.0"
-                  },
-                  "model_links": [],
-                  "model_name": "LSTM (2018)",
-                  "paper_date": null,
-                  "paper_title": "Fast Parametric Learning with Activation Memorization",
-                  "paper_url": "http://arxiv.org/abs/1803.10049",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "37.2",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Gated CNN (2016)",
-                  "paper_date": null,
-                  "paper_title": "Language modeling with gated convolutional networks",
-                  "paper_url": "https://arxiv.org/abs/1612.08083",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "40.8",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Neural cache model (2017)",
-                  "paper_date": null,
-                  "paper_title": "Improving Neural Language Models with a Continuous Cache",
-                  "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "45.2",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Temporal CNN (2018)",
-                  "paper_date": null,
-                  "paper_title": "Convolutional sequence modeling revisited",
-                  "paper_url": "https://openreview.net/forum?id=BJEX-H1Pf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "",
-                    "Test perplexity": "48.7",
-                    "Validation perplexity": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "LSTM (2017)",
-                  "paper_date": null,
-                  "paper_title": "Improving Neural Language Models with a Continuous Cache",
-                  "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "1B Words / Google Billion Word benchmark",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "The One-Billion Word benchmark",
-                "url": "https://arxiv.org/pdf/1312.3005.pdf"
-              }
-            ],
-            "description": "[The One-Billion Word benchmark](https://arxiv.org/pdf/1312.3005.pdf) is a large dataset derived from a news-commentary site.\nThe dataset consists of 829,250,940 tokens over a vocabulary of 793,471 words.\nImportantly, sentences in this model are shuffled and hence context is limited.\n",
-            "sota": {
-              "metrics": [
-                "Test perplexity",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.8B",
-                    "Test perplexity": "21.8"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL Large (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.46B",
-                    "Test perplexity": "23.5"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL Base (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.8B",
-                    "Test perplexity": "23.7"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer with shared adaptive embeddings - Very large (2018)",
-                  "paper_date": null,
-                  "paper_title": "Adaptive Input Representations for Neural Language Modeling",
-                  "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "43B?",
-                    "Test perplexity": "23.7"
-                  },
-                  "model_links": [],
-                  "model_name": "10 LSTM+CNN inputs + SNM10-SKIP (2016)",
-                  "paper_date": null,
-                  "paper_title": "Exploring the Limits of Language Modeling",
-                  "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.46B",
-                    "Test perplexity": "24.1"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer with shared adaptive embeddings (2018)",
-                  "paper_date": null,
-                  "paper_title": "Adaptive Input Representations for Neural Language Modeling",
-                  "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "1.04B",
-                    "Test perplexity": "30.0"
-                  },
-                  "model_links": [],
-                  "model_name": "Big LSTM+CNN inputs (2016)",
-                  "paper_date": null,
-                  "paper_title": "Exploring the Limits of Language Modeling",
-                  "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "?",
-                    "Test perplexity": "31.9"
-                  },
-                  "model_links": [],
-                  "model_name": "Gated CNN-14Bottleneck (2017)",
-                  "paper_date": null,
-                  "paper_title": "Language Modeling with Gated Convolutional Networks",
-                  "paper_url": "https://arxiv.org/pdf/1612.08083.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.151B",
-                    "Test perplexity": "35.1"
-                  },
-                  "model_links": [],
-                  "model_name": "BIGLSTM baseline (2018)",
-                  "paper_date": null,
-                  "paper_title": "Factorization tricks for LSTM networks",
-                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.052B",
-                    "Test perplexity": "36.3"
-                  },
-                  "model_links": [],
-                  "model_name": "BIG F-LSTM F512 (2018)",
-                  "paper_date": null,
-                  "paper_title": "Factorization tricks for LSTM networks",
-                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Number of params": "0.035B",
-                    "Test perplexity": "39.4"
-                  },
-                  "model_links": [],
-                  "model_name": "BIG G-LSTM G-8 (2018)",
-                  "paper_date": null,
-                  "paper_title": "Factorization tricks for LSTM networks",
-                  "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
+            "title": "Mikolov et al., (2011)",
+            "url": "https://www.isca-speech.org/archive/archive_papers/interspeech_2011/i11_0605.pdf"
           }
         ],
-        "description": "",
-        "source_link": null,
-        "subtasks": [],
-        "synonyms": [],
-        "task": "Word Level Models"
+        "description": "A common evaluation dataset for language modeling ist the Penn Treebank,\nas pre-processed by [Mikolov et al., (2011)](https://www.isca-speech.org/archive/archive_papers/interspeech_2011/i11_0605.pdf).\nThe dataset consists of 929k training words, 73k validation words, and\n82k test words. As part of the pre-processing, words were lower-cased, numbers\nwere replaced with N, newlines were replaced with &lt;eos&gt;,\nand all other punctuation was removed. The vocabulary is\nthe most frequent 10k words with the rest of the tokens replaced by an &lt;unk&gt; token.\nModels are evaluated based on perplexity, which is the average\nper-word log-probability (lower is better).\n",
+        "sota": {
+          "metrics": [
+            "Validation perplexity",
+            "Test perplexity",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "44.8",
+                "Validation perplexity": "44.9"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "46.01",
+                "Validation perplexity": "46.63"
+              },
+              "model_links": [],
+              "model_name": "AdvSoft + AWD-LSTM-MoS + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Improving Neural Language Modeling via Adversarial Training",
+              "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "46.54",
+                "Validation perplexity": "47.38"
+              },
+              "model_links": [],
+              "model_name": "FRAGE + AWD-LSTM-MoS + dynamic eval (2018)",
+              "paper_date": null,
+              "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
+              "paper_url": "https://arxiv.org/abs/1809.06858",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "185M",
+                "Test perplexity": "47.17",
+                "Validation perplexity": "48.63"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC x5 (2018)",
+              "paper_date": null,
+              "paper_title": "Direct Output Connection for a High-Rank Language Model",
+              "paper_url": "https://arxiv.org/abs/1808.10143",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "47.69",
+                "Validation perplexity": "48.33"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS + dynamic eval * (2018)",
+              "paper_date": null,
+              "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+              "paper_url": "https://arxiv.org/abs/1711.03953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "50.1",
+                "Validation perplexity": "51.4"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "51.1",
+                "Validation perplexity": "51.6"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM + dynamic eval * (2017)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Neural Sequence Models",
+              "paper_url": "https://arxiv.org/abs/1709.07432",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "23M",
+                "Test perplexity": "52.00",
+                "Validation perplexity": "53.79"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC + Partial Shuffle (2019)",
+              "paper_date": null,
+              "paper_title": "Partially Shuffling the Training Data to Improve Language Models",
+              "paper_url": "https://arxiv.org/abs/1903.04167",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "23M",
+                "Test perplexity": "52.38",
+                "Validation perplexity": "54.12"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC (2018)",
+              "paper_date": null,
+              "paper_title": "Direct Output Connection for a High-Rank Language Model",
+              "paper_url": "https://arxiv.org/abs/1808.10143",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "52.8",
+                "Validation perplexity": "53.9"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM + continuous cache pointer * (2017)",
+              "paper_date": null,
+              "paper_title": "Regularizing and Optimizing LSTM Language Models",
+              "paper_url": "https://arxiv.org/abs/1708.02182",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "34M",
+                "Test perplexity": "54.19",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Trellis Network (2019)",
+              "paper_date": null,
+              "paper_title": "Trellis Networks for Sequence Modeling",
+              "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "54.33",
+                "Validation perplexity": "56.44"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS + ATOI (2019)",
+              "paper_date": null,
+              "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
+              "paper_url": "https://arxiv.org/abs/1909.08700",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "54.44",
+                "Validation perplexity": "56.54"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS + finetune (2018)",
+              "paper_date": null,
+              "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+              "paper_url": "https://arxiv.org/abs/1711.03953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "54.52",
+                "Validation perplexity": "56.72"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "22M",
+                "Test perplexity": "55.97",
+                "Validation perplexity": "58.08"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS (2018)",
+              "paper_date": null,
+              "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+              "paper_url": "https://arxiv.org/abs/1711.03953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "56.8",
+                "Validation perplexity": "58.9"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM 3-layer with Fraternal dropout (2018)",
+              "paper_date": null,
+              "paper_title": "Fraternal dropout",
+              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "24M",
+                "Test perplexity": "57.3",
+                "Validation perplexity": "60.0"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM (2017)",
+              "paper_date": null,
+              "paper_title": "Regularizing and Optimizing LSTM Language Models",
+              "paper_url": "https://arxiv.org/abs/1708.02182",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
       },
       {
-        "categories": [],
-        "datasets": [
+        "dataset": "WikiText-2",
+        "dataset_citations": [],
+        "dataset_links": [
           {
-            "dataset": "Hutter Prize",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "The Hutter Prize",
-                "url": "http://prize.hutter1.net"
-              }
-            ],
-            "description": "[The Hutter Prize](http://prize.hutter1.net) Wikipedia dataset, also known as enwiki8, is a byte-level dataset consisting of the\nfirst 100 million bytes of a Wikipedia XML dump. For simplicity we shall refer to it as a character-level dataset.\nWithin these 100 million bytes are 205 unique tokens.\n",
-            "sota": {
-              "metrics": [
-                "Bit per Character (BPC)",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "0.94",
-                    "Number of params": "277M"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL + RMS dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Transformer Language Models",
-                  "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "0.97",
-                    "Number of params": "-"
-                  },
-                  "model_links": [],
-                  "model_name": "Compressive Transformer (2019)",
-                  "paper_date": null,
-                  "paper_title": "Compressive Transformers for Long-Range Sequence Modelling",
-                  "paper_url": "https://arxiv.org/pdf/1911.05507.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "0.988",
-                    "Number of params": "96M"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "0.99",
-                    "Number of params": "277M"
-                  },
-                  "model_links": [],
-                  "model_name": "24-layer Transformer-XL (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "0.99",
-                    "Number of params": "102M"
-                  },
-                  "model_links": [],
-                  "model_name": "Longformer Large (2020)",
-                  "paper_date": null,
-                  "paper_title": "Longformer: The Long-Document Transformer",
-                  "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.00",
-                    "Number of params": "41M"
-                  },
-                  "model_links": [],
-                  "model_name": "Longformer Small (2020)",
-                  "paper_date": null,
-                  "paper_title": "Longformer: The Long-Document Transformer",
-                  "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.03",
-                    "Number of params": "88M"
-                  },
-                  "model_links": [],
-                  "model_name": "18-layer Transformer-XL (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.06",
-                    "Number of params": "41M"
-                  },
-                  "model_links": [],
-                  "model_name": "12-layer Transformer-XL (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.06",
-                    "Number of params": "235M"
-                  },
-                  "model_links": [],
-                  "model_name": "64-layer Character Transformer Model (2018)",
-                  "paper_date": null,
-                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.08",
-                    "Number of params": "46M"
-                  },
-                  "model_links": [],
-                  "model_name": "mLSTM + dynamic eval * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.11",
-                    "Number of params": "44M"
-                  },
-                  "model_links": [],
-                  "model_name": "12-layer Character Transformer Model (2018)",
-                  "paper_date": null,
-                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.122",
-                    "Number of params": "96M"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.232",
-                    "Number of params": "47M"
-                  },
-                  "model_links": [],
-                  "model_name": "3-layer AWD-LSTM (2018)",
-                  "paper_date": null,
-                  "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.24",
-                    "Number of params": "46M"
-                  },
-                  "model_links": [],
-                  "model_name": "Large mLSTM +emb +WN +VD (2017)",
-                  "paper_date": null,
-                  "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.245",
-                    "Number of params": "47M"
-                  },
-                  "model_links": [],
-                  "model_name": "Large FS-LSTM-4 (2017)",
-                  "paper_date": null,
-                  "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.27",
-                    "Number of params": "46M"
-                  },
-                  "model_links": [],
-                  "model_name": "Large RHN (2016)",
-                  "paper_date": null,
-                  "paper_title": "Recurrent Highway Networks",
-                  "paper_url": "https://arxiv.org/abs/1607.03474",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.277",
-                    "Number of params": "27M"
-                  },
-                  "model_links": [],
-                  "model_name": "FS-LSTM-4 (2017)",
-                  "paper_date": null,
-                  "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "Text8",
-            "dataset_citations": [],
-            "dataset_links": [
-              {
-                "title": "The text8 dataset",
-                "url": "http://mattmahoney.net/dc/textdata.html"
-              }
-            ],
-            "description": "[The text8 dataset](http://mattmahoney.net/dc/textdata.html) is also derived from Wikipedia text, but has all XML removed, and is lower cased to only have 26 characters of English text plus spaces.\n",
-            "sota": {
-              "metrics": [
-                "Bit per Character (BPC)",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.038",
-                    "Number of params": "277M"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL + RMS dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Transformer Language Models",
-                  "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.08",
-                    "Number of params": "277M"
-                  },
-                  "model_links": [],
-                  "model_name": "Transformer-XL Large (2018)",
-                  "paper_date": null,
-                  "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
-                  "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.10",
-                    "Number of params": "41M"
-                  },
-                  "model_links": [],
-                  "model_name": "Longformer Small (2020)",
-                  "paper_date": null,
-                  "paper_title": "Longformer: The Long-Document Transformer",
-                  "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.13",
-                    "Number of params": "235M"
-                  },
-                  "model_links": [],
-                  "model_name": "64-layer Character Transformer Model (2018)",
-                  "paper_date": null,
-                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.18",
-                    "Number of params": "44M"
-                  },
-                  "model_links": [],
-                  "model_name": "12-layer Character Transformer Model (2018)",
-                  "paper_date": null,
-                  "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
-                  "paper_url": "https://arxiv.org/abs/1808.04444",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.19",
-                    "Number of params": "45M"
-                  },
-                  "model_links": [],
-                  "model_name": "mLSTM + dynamic eval * (2017)",
-                  "paper_date": null,
-                  "paper_title": "Dynamic Evaluation of Neural Sequence Models",
-                  "paper_url": "https://arxiv.org/abs/1709.07432",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.27",
-                    "Number of params": "45M"
-                  },
-                  "model_links": [],
-                  "model_name": "Large mLSTM +emb +WN +VD (2016)",
-                  "paper_date": null,
-                  "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.27",
-                    "Number of params": "46M"
-                  },
-                  "model_links": [],
-                  "model_name": "Large RHN (2016)",
-                  "paper_date": null,
-                  "paper_title": "Recurrent Highway Networks",
-                  "paper_url": "https://arxiv.org/abs/1607.03474",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.29",
-                    "Number of params": "35M"
-                  },
-                  "model_links": [],
-                  "model_name": "LayerNorm HM-LSTM (2017)",
-                  "paper_date": null,
-                  "paper_title": "Hierarchical Multiscale Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1609.01704",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.36",
-                    "Number of params": "16M"
-                  },
-                  "model_links": [],
-                  "model_name": "BN LSTM (2016)",
-                  "paper_date": null,
-                  "paper_title": "Recurrent Batch Normalization",
-                  "paper_url": "https://arxiv.org/abs/1603.09025",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.40",
-                    "Number of params": "45M"
-                  },
-                  "model_links": [],
-                  "model_name": "Unregularised mLSTM (2016)",
-                  "paper_date": null,
-                  "paper_title": "Multiplicative LSTM for sequence modelling",
-                  "paper_url": "https://arxiv.org/abs/1609.07959",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
-          },
-          {
-            "dataset": "Penn Treebank",
-            "dataset_citations": [],
-            "dataset_links": [],
-            "description": "The vocabulary of the words in the character-level dataset is limited to 10 000 - the same vocabulary as used in the word level dataset.  This vastly simplifies the task of character-level language modeling as character transitions will be limited to those found within the limited word level vocabulary.\n",
-            "sota": {
-              "metrics": [
-                "Bit per Character (BPC)",
-                "Number of params"
-              ],
-              "rows": [
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.083",
-                    "Number of params": "24M"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM + dynamic eval (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.120",
-                    "Number of params": "24M"
-                  },
-                  "model_links": [],
-                  "model_name": "Mogrifier LSTM (2019)",
-                  "paper_date": null,
-                  "paper_title": "Mogrifier LSTM",
-                  "paper_url": "http://arxiv.org/abs/1909.01792",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.159",
-                    "Number of params": "13.4M"
-                  },
-                  "model_links": [],
-                  "model_name": "Trellis Network (2019)",
-                  "paper_date": null,
-                  "paper_title": "Trellis Networks for Sequence Modeling",
-                  "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.175",
-                    "Number of params": "13.8M"
-                  },
-                  "model_links": [],
-                  "model_name": "3-layer AWD-LSTM (2018)",
-                  "paper_date": null,
-                  "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.187",
-                    "Number of params": "13.8M"
-                  },
-                  "model_links": [],
-                  "model_name": "6-layer QRNN (2018)",
-                  "paper_date": null,
-                  "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
-                  "paper_url": "https://arxiv.org/abs/1803.08240",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.190",
-                    "Number of params": "27M"
-                  },
-                  "model_links": [],
-                  "model_name": "FS-LSTM-4 (2017)",
-                  "paper_date": null,
-                  "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.193",
-                    "Number of params": "27M"
-                  },
-                  "model_links": [],
-                  "model_name": "FS-LSTM-2 (2017)",
-                  "paper_date": null,
-                  "paper_title": "Fast-Slow Recurrent Neural Networks",
-                  "paper_url": "https://arxiv.org/abs/1705.08639",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.214",
-                    "Number of params": "16.3M"
-                  },
-                  "model_links": [],
-                  "model_name": "NASCell (2016)",
-                  "paper_date": null,
-                  "paper_title": "Neural Architecture Search with Reinforcement Learning",
-                  "paper_url": "https://arxiv.org/abs/1611.01578",
-                  "uses_additional_data": false
-                },
-                {
-                  "code_links": [],
-                  "metrics": {
-                    "Bit per Character (BPC)": "1.219",
-                    "Number of params": "14.4M"
-                  },
-                  "model_links": [],
-                  "model_name": "2-layer Norm HyperLSTM (2016)",
-                  "paper_date": null,
-                  "paper_title": "HyperNetworks",
-                  "paper_url": "https://arxiv.org/abs/1609.09106",
-                  "uses_additional_data": false
-                }
-              ]
-            },
-            "subdatasets": []
+            "title": "WikiText-2",
+            "url": "https://arxiv.org/abs/1609.07843"
           }
         ],
-        "description": "",
-        "source_link": null,
-        "subtasks": [],
-        "synonyms": [],
-        "task": "Character Level Models"
+        "description": "[WikiText-2](https://arxiv.org/abs/1609.07843) has been proposed as a more realistic\nbenchmark for language modeling than the pre-processed Penn Treebank. WikiText-2\nconsists of around 2 million words extracted from Wikipedia articles.\n",
+        "sota": {
+          "metrics": [
+            "Validation perplexity",
+            "Test perplexity",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "38.6",
+                "Validation perplexity": "40.2"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "38.65",
+                "Validation perplexity": "40.27"
+              },
+              "model_links": [],
+              "model_name": "AdvSoft + AWD-LSTM-MoS + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Improving Neural Language Modeling via Adversarial Training",
+              "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "39.14",
+                "Validation perplexity": "40.85"
+              },
+              "model_links": [],
+              "model_name": "FRAGE + AWD-LSTM-MoS + dynamic eval (2018)",
+              "paper_date": null,
+              "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
+              "paper_url": "https://arxiv.org/abs/1809.06858",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "40.68",
+                "Validation perplexity": "42.41"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS + dynamic eval * (2018)",
+              "paper_date": null,
+              "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+              "paper_url": "https://arxiv.org/abs/1711.03953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "33M",
+                "Test perplexity": "44.3",
+                "Validation perplexity": "46.4"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM + dynamic eval * (2017)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Neural Sequence Models",
+              "paper_url": "https://arxiv.org/abs/1709.07432",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "33M",
+                "Test perplexity": "52.0",
+                "Validation perplexity": "53.8"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM + continuous cache pointer * (2017)",
+              "paper_date": null,
+              "paper_title": "Regularizing and Optimizing LSTM Language Models",
+              "paper_url": "https://arxiv.org/abs/1708.02182",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "185M",
+                "Test perplexity": "53.09",
+                "Validation perplexity": "54.19"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC x5 (2018)",
+              "paper_date": null,
+              "paper_title": "Direct Output Connection for a High-Rank Language Model",
+              "paper_url": "https://arxiv.org/abs/1808.10143",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "55.1",
+                "Validation perplexity": "57.3"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "37M",
+                "Test perplexity": "57.85",
+                "Validation perplexity": "60.16"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC + Partial Shuffle (2019)",
+              "paper_date": null,
+              "paper_title": "Partially Shuffling the Training Data to Improve Language Models",
+              "paper_url": "https://arxiv.org/abs/1903.04167",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "37M",
+                "Test perplexity": "58.03",
+                "Validation perplexity": "60.29"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-DOC (2018)",
+              "paper_date": null,
+              "paper_title": "Direct Output Connection for a High-Rank Language Model",
+              "paper_url": "https://arxiv.org/abs/1808.10143",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "35M",
+                "Test perplexity": "61.45",
+                "Validation perplexity": "63.88"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS (2018)",
+              "paper_date": null,
+              "paper_title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+              "paper_url": "https://arxiv.org/abs/1711.03953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "34M",
+                "Test perplexity": "64.1",
+                "Validation perplexity": "66.8"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM 3-layer with Fraternal dropout (2018)",
+              "paper_date": null,
+              "paper_title": "Fraternal dropout",
+              "paper_url": "https://arxiv.org/pdf/1711.00066.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "33M",
+                "Test perplexity": "64.73",
+                "Validation perplexity": "67.47"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM + ATOI (2019)",
+              "paper_date": null,
+              "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
+              "paper_url": "https://arxiv.org/abs/1909.08700",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "33M",
+                "Test perplexity": "65.8",
+                "Validation perplexity": "68.6"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM (2017)",
+              "paper_date": null,
+              "paper_title": "Regularizing and Optimizing LSTM Language Models",
+              "paper_url": "https://arxiv.org/abs/1708.02182",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "WikiText-103",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "WikiText-103",
+            "url": "https://arxiv.org/abs/1609.07843"
+          }
+        ],
+        "description": "[WikiText-103](https://arxiv.org/abs/1609.07843) The WikiText-103 corpus contains 267,735 unique words and each word occurs at least three times in the training set.\n",
+        "sota": {
+          "metrics": [
+            "Validation perplexity",
+            "Test perplexity",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "-",
+                "Test perplexity": "15.8",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Routing Transformer (2020)",
+              "paper_date": null,
+              "paper_title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+              "paper_url": "https://arxiv.org/pdf/2003.05997.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "257M",
+                "Test perplexity": "16.4",
+                "Validation perplexity": "15.8"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL + RMS dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Transformer Language Models",
+              "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "~257M",
+                "Test perplexity": "17.1(16.1 with basic dynamic evaluation)",
+                "Validation perplexity": "16.0"
+              },
+              "model_links": [],
+              "model_name": "Compressive Transformer (2019)",
+              "paper_date": null,
+              "paper_title": "Compressive Transformers for Long-Range Sequence Modelling",
+              "paper_url": "https://arxiv.org/pdf/1911.05507.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "257M",
+                "Test perplexity": "18.3",
+                "Validation perplexity": "17.7"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL Large (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "247M",
+                "Test perplexity": "20.5",
+                "Validation perplexity": "19.8"
+              },
+              "model_links": [],
+              "model_name": "Transformer with tied adaptive embeddings (2018)",
+              "paper_date": null,
+              "paper_title": "Adaptive Input Representations for Neural Language Modeling",
+              "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "151M",
+                "Test perplexity": "24.0",
+                "Validation perplexity": "23.1"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL Standard (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "28.0",
+                "Validation perplexity": "27.2"
+              },
+              "model_links": [],
+              "model_name": "AdvSoft + 4 layer QRNN + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Improving Neural Language Modeling via Adversarial Training",
+              "paper_url": "http://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "29.2",
+                "Validation perplexity": "29.0"
+              },
+              "model_links": [],
+              "model_name": "LSTM + Hebbian + Cache + MbPA (2018)",
+              "paper_date": null,
+              "paper_title": "Fast Parametric Learning with Activation Memorization",
+              "paper_url": "http://arxiv.org/abs/1803.10049",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "180M",
+                "Test perplexity": "30.35",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Trellis Network (2019)",
+              "paper_date": null,
+              "paper_title": "Trellis Networks for Sequence Modeling",
+              "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "32.85",
+                "Validation perplexity": "31.92"
+              },
+              "model_links": [],
+              "model_name": "AWD-LSTM-MoS + ATOI (2019)",
+              "paper_date": null,
+              "paper_title": "Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes",
+              "paper_url": "https://arxiv.org/abs/1909.08700",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "34.3",
+                "Validation perplexity": "34.1"
+              },
+              "model_links": [],
+              "model_name": "LSTM + Hebbian (2018)",
+              "paper_date": null,
+              "paper_title": "Fast Parametric Learning with Activation Memorization",
+              "paper_url": "http://arxiv.org/abs/1803.10049",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "36.4",
+                "Validation perplexity": "36.0"
+              },
+              "model_links": [],
+              "model_name": "LSTM (2018)",
+              "paper_date": null,
+              "paper_title": "Fast Parametric Learning with Activation Memorization",
+              "paper_url": "http://arxiv.org/abs/1803.10049",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "37.2",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Gated CNN (2016)",
+              "paper_date": null,
+              "paper_title": "Language modeling with gated convolutional networks",
+              "paper_url": "https://arxiv.org/abs/1612.08083",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "40.8",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Neural cache model (2017)",
+              "paper_date": null,
+              "paper_title": "Improving Neural Language Models with a Continuous Cache",
+              "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "45.2",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "Temporal CNN (2018)",
+              "paper_date": null,
+              "paper_title": "Convolutional sequence modeling revisited",
+              "paper_url": "https://openreview.net/forum?id=BJEX-H1Pf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "",
+                "Test perplexity": "48.7",
+                "Validation perplexity": "-"
+              },
+              "model_links": [],
+              "model_name": "LSTM (2017)",
+              "paper_date": null,
+              "paper_title": "Improving Neural Language Models with a Continuous Cache",
+              "paper_url": "https://arxiv.org/pdf/1612.04426.pdf",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "1B Words / Google Billion Word benchmark",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "The One-Billion Word benchmark",
+            "url": "https://arxiv.org/pdf/1312.3005.pdf"
+          }
+        ],
+        "description": "[The One-Billion Word benchmark](https://arxiv.org/pdf/1312.3005.pdf) is a large dataset derived from a news-commentary site.\nThe dataset consists of 829,250,940 tokens over a vocabulary of 793,471 words.\nImportantly, sentences in this model are shuffled and hence context is limited.\n",
+        "sota": {
+          "metrics": [
+            "Test perplexity",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.8B",
+                "Test perplexity": "21.8"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL Large (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.46B",
+                "Test perplexity": "23.5"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL Base (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.8B",
+                "Test perplexity": "23.7"
+              },
+              "model_links": [],
+              "model_name": "Transformer with shared adaptive embeddings - Very large (2018)",
+              "paper_date": null,
+              "paper_title": "Adaptive Input Representations for Neural Language Modeling",
+              "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "43B?",
+                "Test perplexity": "23.7"
+              },
+              "model_links": [],
+              "model_name": "10 LSTM+CNN inputs + SNM10-SKIP (2016)",
+              "paper_date": null,
+              "paper_title": "Exploring the Limits of Language Modeling",
+              "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.46B",
+                "Test perplexity": "24.1"
+              },
+              "model_links": [],
+              "model_name": "Transformer with shared adaptive embeddings (2018)",
+              "paper_date": null,
+              "paper_title": "Adaptive Input Representations for Neural Language Modeling",
+              "paper_url": "https://arxiv.org/pdf/1809.10853.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "1.04B",
+                "Test perplexity": "30.0"
+              },
+              "model_links": [],
+              "model_name": "Big LSTM+CNN inputs (2016)",
+              "paper_date": null,
+              "paper_title": "Exploring the Limits of Language Modeling",
+              "paper_url": "https://arxiv.org/pdf/1602.02410.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "?",
+                "Test perplexity": "31.9"
+              },
+              "model_links": [],
+              "model_name": "Gated CNN-14Bottleneck (2017)",
+              "paper_date": null,
+              "paper_title": "Language Modeling with Gated Convolutional Networks",
+              "paper_url": "https://arxiv.org/pdf/1612.08083.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.151B",
+                "Test perplexity": "35.1"
+              },
+              "model_links": [],
+              "model_name": "BIGLSTM baseline (2018)",
+              "paper_date": null,
+              "paper_title": "Factorization tricks for LSTM networks",
+              "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.052B",
+                "Test perplexity": "36.3"
+              },
+              "model_links": [],
+              "model_name": "BIG F-LSTM F512 (2018)",
+              "paper_date": null,
+              "paper_title": "Factorization tricks for LSTM networks",
+              "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Number of params": "0.035B",
+                "Test perplexity": "39.4"
+              },
+              "model_links": [],
+              "model_name": "BIG G-LSTM G-8 (2018)",
+              "paper_date": null,
+              "paper_title": "Factorization tricks for LSTM networks",
+              "paper_url": "https://arxiv.org/pdf/1703.10722.pdf",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
       }
     ],
+    "description": "",
+    "source_link": null,
+    "subtasks": [],
     "synonyms": [],
-    "task": "Language modeling"
+    "task": "Word Level Models"
+  },
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "Hutter Prize",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "The Hutter Prize",
+            "url": "http://prize.hutter1.net"
+          }
+        ],
+        "description": "[The Hutter Prize](http://prize.hutter1.net) Wikipedia dataset, also known as enwiki8, is a byte-level dataset consisting of the\nfirst 100 million bytes of a Wikipedia XML dump. For simplicity we shall refer to it as a character-level dataset.\nWithin these 100 million bytes are 205 unique tokens.\n",
+        "sota": {
+          "metrics": [
+            "Bit per Character (BPC)",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "0.94",
+                "Number of params": "277M"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL + RMS dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Transformer Language Models",
+              "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "0.97",
+                "Number of params": "-"
+              },
+              "model_links": [],
+              "model_name": "Compressive Transformer (2019)",
+              "paper_date": null,
+              "paper_title": "Compressive Transformers for Long-Range Sequence Modelling",
+              "paper_url": "https://arxiv.org/pdf/1911.05507.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "0.988",
+                "Number of params": "96M"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "0.99",
+                "Number of params": "277M"
+              },
+              "model_links": [],
+              "model_name": "24-layer Transformer-XL (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "0.99",
+                "Number of params": "102M"
+              },
+              "model_links": [],
+              "model_name": "Longformer Large (2020)",
+              "paper_date": null,
+              "paper_title": "Longformer: The Long-Document Transformer",
+              "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.00",
+                "Number of params": "41M"
+              },
+              "model_links": [],
+              "model_name": "Longformer Small (2020)",
+              "paper_date": null,
+              "paper_title": "Longformer: The Long-Document Transformer",
+              "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.03",
+                "Number of params": "88M"
+              },
+              "model_links": [],
+              "model_name": "18-layer Transformer-XL (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.06",
+                "Number of params": "41M"
+              },
+              "model_links": [],
+              "model_name": "12-layer Transformer-XL (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.06",
+                "Number of params": "235M"
+              },
+              "model_links": [],
+              "model_name": "64-layer Character Transformer Model (2018)",
+              "paper_date": null,
+              "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+              "paper_url": "https://arxiv.org/abs/1808.04444",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.08",
+                "Number of params": "46M"
+              },
+              "model_links": [],
+              "model_name": "mLSTM + dynamic eval * (2017)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Neural Sequence Models",
+              "paper_url": "https://arxiv.org/abs/1709.07432",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.11",
+                "Number of params": "44M"
+              },
+              "model_links": [],
+              "model_name": "12-layer Character Transformer Model (2018)",
+              "paper_date": null,
+              "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+              "paper_url": "https://arxiv.org/abs/1808.04444",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.122",
+                "Number of params": "96M"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.232",
+                "Number of params": "47M"
+              },
+              "model_links": [],
+              "model_name": "3-layer AWD-LSTM (2018)",
+              "paper_date": null,
+              "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
+              "paper_url": "https://arxiv.org/abs/1803.08240",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.24",
+                "Number of params": "46M"
+              },
+              "model_links": [],
+              "model_name": "Large mLSTM +emb +WN +VD (2017)",
+              "paper_date": null,
+              "paper_title": "Multiplicative LSTM for sequence modelling",
+              "paper_url": "https://arxiv.org/abs/1609.07959",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.245",
+                "Number of params": "47M"
+              },
+              "model_links": [],
+              "model_name": "Large FS-LSTM-4 (2017)",
+              "paper_date": null,
+              "paper_title": "Fast-Slow Recurrent Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1705.08639",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.27",
+                "Number of params": "46M"
+              },
+              "model_links": [],
+              "model_name": "Large RHN (2016)",
+              "paper_date": null,
+              "paper_title": "Recurrent Highway Networks",
+              "paper_url": "https://arxiv.org/abs/1607.03474",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.277",
+                "Number of params": "27M"
+              },
+              "model_links": [],
+              "model_name": "FS-LSTM-4 (2017)",
+              "paper_date": null,
+              "paper_title": "Fast-Slow Recurrent Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1705.08639",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "Text8",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "The text8 dataset",
+            "url": "http://mattmahoney.net/dc/textdata.html"
+          }
+        ],
+        "description": "[The text8 dataset](http://mattmahoney.net/dc/textdata.html) is also derived from Wikipedia text, but has all XML removed, and is lower cased to only have 26 characters of English text plus spaces.\n",
+        "sota": {
+          "metrics": [
+            "Bit per Character (BPC)",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.038",
+                "Number of params": "277M"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL + RMS dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Transformer Language Models",
+              "paper_url": "https://arxiv.org/pdf/1904.08378.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.08",
+                "Number of params": "277M"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XL Large (2018)",
+              "paper_date": null,
+              "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+              "paper_url": "https://arxiv.org/pdf/1901.02860.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.10",
+                "Number of params": "41M"
+              },
+              "model_links": [],
+              "model_name": "Longformer Small (2020)",
+              "paper_date": null,
+              "paper_title": "Longformer: The Long-Document Transformer",
+              "paper_url": "https://arxiv.org/pdf/2004.05150.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.13",
+                "Number of params": "235M"
+              },
+              "model_links": [],
+              "model_name": "64-layer Character Transformer Model (2018)",
+              "paper_date": null,
+              "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+              "paper_url": "https://arxiv.org/abs/1808.04444",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.18",
+                "Number of params": "44M"
+              },
+              "model_links": [],
+              "model_name": "12-layer Character Transformer Model (2018)",
+              "paper_date": null,
+              "paper_title": "Character-Level Language Modeling with Deeper Self-Attention",
+              "paper_url": "https://arxiv.org/abs/1808.04444",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.19",
+                "Number of params": "45M"
+              },
+              "model_links": [],
+              "model_name": "mLSTM + dynamic eval * (2017)",
+              "paper_date": null,
+              "paper_title": "Dynamic Evaluation of Neural Sequence Models",
+              "paper_url": "https://arxiv.org/abs/1709.07432",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.27",
+                "Number of params": "45M"
+              },
+              "model_links": [],
+              "model_name": "Large mLSTM +emb +WN +VD (2016)",
+              "paper_date": null,
+              "paper_title": "Multiplicative LSTM for sequence modelling",
+              "paper_url": "https://arxiv.org/abs/1609.07959",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.27",
+                "Number of params": "46M"
+              },
+              "model_links": [],
+              "model_name": "Large RHN (2016)",
+              "paper_date": null,
+              "paper_title": "Recurrent Highway Networks",
+              "paper_url": "https://arxiv.org/abs/1607.03474",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.29",
+                "Number of params": "35M"
+              },
+              "model_links": [],
+              "model_name": "LayerNorm HM-LSTM (2017)",
+              "paper_date": null,
+              "paper_title": "Hierarchical Multiscale Recurrent Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1609.01704",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.36",
+                "Number of params": "16M"
+              },
+              "model_links": [],
+              "model_name": "BN LSTM (2016)",
+              "paper_date": null,
+              "paper_title": "Recurrent Batch Normalization",
+              "paper_url": "https://arxiv.org/abs/1603.09025",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.40",
+                "Number of params": "45M"
+              },
+              "model_links": [],
+              "model_name": "Unregularised mLSTM (2016)",
+              "paper_date": null,
+              "paper_title": "Multiplicative LSTM for sequence modelling",
+              "paper_url": "https://arxiv.org/abs/1609.07959",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "Penn Treebank",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "The vocabulary of the words in the character-level dataset is limited to 10 000 - the same vocabulary as used in the word level dataset.  This vastly simplifies the task of character-level language modeling as character transitions will be limited to those found within the limited word level vocabulary.\n",
+        "sota": {
+          "metrics": [
+            "Bit per Character (BPC)",
+            "Number of params"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.083",
+                "Number of params": "24M"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM + dynamic eval (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.120",
+                "Number of params": "24M"
+              },
+              "model_links": [],
+              "model_name": "Mogrifier LSTM (2019)",
+              "paper_date": null,
+              "paper_title": "Mogrifier LSTM",
+              "paper_url": "http://arxiv.org/abs/1909.01792",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.159",
+                "Number of params": "13.4M"
+              },
+              "model_links": [],
+              "model_name": "Trellis Network (2019)",
+              "paper_date": null,
+              "paper_title": "Trellis Networks for Sequence Modeling",
+              "paper_url": "https://openreview.net/pdf?id=HyeVtoRqtQ",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.175",
+                "Number of params": "13.8M"
+              },
+              "model_links": [],
+              "model_name": "3-layer AWD-LSTM (2018)",
+              "paper_date": null,
+              "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
+              "paper_url": "https://arxiv.org/abs/1803.08240",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.187",
+                "Number of params": "13.8M"
+              },
+              "model_links": [],
+              "model_name": "6-layer QRNN (2018)",
+              "paper_date": null,
+              "paper_title": "An Analysis of Neural Language Modeling at Multiple Scales",
+              "paper_url": "https://arxiv.org/abs/1803.08240",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.190",
+                "Number of params": "27M"
+              },
+              "model_links": [],
+              "model_name": "FS-LSTM-4 (2017)",
+              "paper_date": null,
+              "paper_title": "Fast-Slow Recurrent Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1705.08639",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.193",
+                "Number of params": "27M"
+              },
+              "model_links": [],
+              "model_name": "FS-LSTM-2 (2017)",
+              "paper_date": null,
+              "paper_title": "Fast-Slow Recurrent Neural Networks",
+              "paper_url": "https://arxiv.org/abs/1705.08639",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.214",
+                "Number of params": "16.3M"
+              },
+              "model_links": [],
+              "model_name": "NASCell (2016)",
+              "paper_date": null,
+              "paper_title": "Neural Architecture Search with Reinforcement Learning",
+              "paper_url": "https://arxiv.org/abs/1611.01578",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "Bit per Character (BPC)": "1.219",
+                "Number of params": "14.4M"
+              },
+              "model_links": [],
+              "model_name": "2-layer Norm HyperLSTM (2016)",
+              "paper_date": null,
+              "paper_title": "HyperNetworks",
+              "paper_url": "https://arxiv.org/abs/1609.09106",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": null,
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Character Level Models"
   },
   {
     "categories": [],
@@ -9980,6 +9714,6 @@
     "source_link": null,
     "subtasks": [],
     "synonyms": [],
-    "task": "Stance detection"
+    "task": "Stance Detection"
   }
 ]

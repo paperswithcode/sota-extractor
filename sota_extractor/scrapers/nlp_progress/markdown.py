@@ -1,3 +1,4 @@
+import io
 import logging
 from typing import List
 
@@ -5,7 +6,8 @@ import markdown
 from markdown.treeprocessors import Treeprocessor
 from markdown.extensions.tables import TableExtension
 
-from sota_extractor.taskdb.v01 import Task, Dataset
+from sota_extractor.taskdb.v01 import Task, Dataset, TaskDB
+from sota_extractor.scrapers.nlp_progress.fixer import fix_task
 from sota_extractor.scrapers.nlp_progress.parsers import (
     Text,
     parse_sota,
@@ -63,7 +65,7 @@ class ParserProcessor(Treeprocessor):
                     self.parsed.append(task)
 
                 task = Task(
-                    name=header.text.strip(),
+                    name=header.text.strip().title(),
                     description=Text.parse(
                         [e for e in section if e.tag == "p"]
                     ).text,
@@ -83,7 +85,7 @@ class ParserProcessor(Treeprocessor):
 
                 # new substask
                 subtask = Task(
-                    name=header.text.strip(),
+                    name=header.text.strip().title(),
                     description=Text.parse(
                         [e for e in section if e.tag == "p"]
                     ).text,
@@ -157,3 +159,16 @@ class Markdown(markdown.Markdown):
         self.treeprocessors.register(
             self.parser_processor, "parser_processor", 1
         )
+
+
+def parse_file(filename: str) -> TaskDB:
+    """Parse an NLP-Progress markdown file and return a TaskDB instance."""
+    md = Markdown()
+    with io.open("/dev/null", "wb") as f:
+        md.convertFile(filename, output=f)
+
+    tdb = TaskDB()
+    for task in md.parser_processor.parsed:
+        for t in fix_task(task):
+            tdb.add_task(t)
+    return tdb
