@@ -6,6 +6,11 @@ from sota_extractor.consts import Format
 from sota_extractor.taskdb import TaskDB
 
 
+def dumps(tdb: TaskDB) -> str:
+    """Render sota data to a json string."""
+    return json.dumps(tdb.export(), indent=2, sort_keys=True)
+
+
 def dump(tdb: TaskDB, output: str, fmt=Format.json, encoding="utf-8"):
     """Write sota data to file.
 
@@ -22,14 +27,10 @@ def dump(tdb: TaskDB, output: str, fmt=Format.json, encoding="utf-8"):
     """
     if fmt == Format.json:
         with io.open(output, mode="w", encoding=encoding) as fp:
-            json.dump(tdb.export(), fp=fp, indent=2, sort_keys=True)
+            fp.write(dumps(tdb))
     elif fmt == Format.json_gz:
         with gzip.open(output, mode="wb") as fp:
-            fp.write(
-                json.dumps(
-                    tdb.export(), fp=fp, indent=2, sort_keys=True
-                ).encode(encoding)
-            )
+            fp.write(dumps(tdb).encode(encoding))
     else:
         raise errors.UnsupportedFormat(fmt)
 

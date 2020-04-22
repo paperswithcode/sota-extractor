@@ -7,6 +7,6 @@ pydocstyle==5.0.2
 pytest==5.4.1
 pytest-cov==2.8.1
 recommonmark==0.6.0
-sphinx==3.0.0
+sphinx==3.0.2
 sphinx-rtd-theme==0.4.3
 twine==3.1.1

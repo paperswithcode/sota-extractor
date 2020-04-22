@@ -8,6 +8,7 @@ import subprocess
 from sota_extractor.errors import DataError
 from sota_extractor.taskdb.v01 import TaskDB
 from sota_extractor.consts import NLP_PROGRESS_REPO
+from sota_extractor.scrapers.nlp_progress.fixer import fix_task
 from sota_extractor.scrapers.nlp_progress.markdown import Markdown
 
 logger = logging.getLogger(__name__)
@@ -41,6 +42,8 @@ def nlp_progress() -> TaskDB:
             with io.open("/dev/null", "wb") as f:
                 md.convertFile(filename, output=f)
             for task in md.parser_processor.parsed:
-                tdb.add_task(task)
+                task = fix_task(task)
+                if task is not None:
+                    tdb.add_task(task)
 
     return tdb
