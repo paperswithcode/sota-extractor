@@ -20,6 +20,7 @@ class SotaRowSchema(Schema):
     code_links = fields.Nested(LinkSchema, many=True, missing=list)
     model_links = fields.Nested(LinkSchema, many=True, missing=list)
     metrics = fields.Dict(keys=fields.String(), values=fields.Inferred())
+    uses_additional_data = fields.Boolean(required=True)
 
     @post_load
     def post_load(self, data, **kwargs):

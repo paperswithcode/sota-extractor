@@ -17,44 +17,65 @@ def nlp_progress_link() -> Link:
 
 
 class Model:
-    MODEL_NAME_RE = re.compile(
+    AUTHORS_AND_OR_YEARS = re.compile(
         r"""
-        ^                              # Beginning
-        \s*                            # Optional whitespace
-        (?P<name>                      # Model name
-            [^\(]+                     # Everything except open brace
-        )?                             # Optional (can have only author)
-        (?:                            # Optional author group
-            \(                         # Open brace
-                (?P<author>[^\)]+)     # Author
-            \)                         # Closing brace
-        )?                             # Optional
-        \s*                            # Optional whitespace
-        $                              # End
+        \(                        # Open brace
+            \s*                   # Optional space
+            (?P<author>[^\)]*?)?  # Non greedy optional author
+            \s*                   # Optional space
+            (?P<year>\d{4})?      # Optional year
+            \s*                   # Optional space
+        \)                        # Close brace
         """,
         re.VERBOSE | re.UNICODE,
     )
 
     def __init__(
-        self, name: Optional[str] = None, author: Optional[str] = None
+        self,
+        name: Optional[str] = None,
+        author: Optional[str] = None,
+        uses_additional_data: bool = False,
     ):
         self.name = name
         self.author = author
+        self.uses_additional_data = uses_additional_data
+
+    @staticmethod
+    def _ws(s: str) -> str:
+        """Normalize whitespace."""
+        return re.sub(r"\s+", " ", s).strip()
 
     @classmethod
     def parse(cls, s: str) -> Optional["Model"]:
-        match = cls.MODEL_NAME_RE.match(s)
-        if match is None:
-            return None
+        s = cls._ws(s)
+        if "with additional unlabeled data" in s.lower():
+            uses_additional_data = True
+            s = cls._ws(
+                re.sub(
+                    "with additional unlabeled data", "", s, 1, re.IGNORECASE
+                )
+            )
+        else:
+            uses_additional_data = False
 
-        d = match.groupdict()
-        name = d["name"]
-        author = d["author"]
-        if isinstance(name, str):
-            name = name.strip()
-        if isinstance(author, str):
-            author = author.strip()
-        return cls(name=name, author=author)
+        years = []
+        authors = []
+        for match in cls.AUTHORS_AND_OR_YEARS.finditer(s):
+            d = match.groupdict()
+            if d["author"] is not None and d["author"].strip() != "":
+                authors.append(d["author"].strip())
+            if d["year"] is not None:
+                years.append(d["year"])
+        s = cls._ws(cls.AUTHORS_AND_OR_YEARS.sub("", s))
+
+        name = s
+        for year in years:
+            name += f" ({year})"
+
+        author = ", ".join(authors)
+        return cls(
+            name=name, author=author, uses_additional_data=uses_additional_data
+        )
 
 
 class Text:

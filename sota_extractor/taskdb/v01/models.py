@@ -17,6 +17,7 @@ class SotaRow:
     code_links: List[Link] = field(default_factory=list)
     model_links: List[Link] = field(default_factory=list)
     metrics: Dict[str, str] = field(default_factory=dict)
+    uses_additional_data: bool = False
 
 
 @dataclass
