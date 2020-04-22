@@ -120,7 +120,7 @@ class Text:
         return text
 
 
-def parse_sota(table: ElementTree) -> Optional[Sota]:
+def parse_sota(table: ElementTree) -> Sota:
     headers = [
         (header.text or "").strip() for header in table.findall("thead/tr/th")
     ]
@@ -135,7 +135,7 @@ def parse_sota(table: ElementTree) -> Optional[Sota]:
             "Model name not found in this SOTA table, skipping. Headers: %s",
             headers_sanitized,
         )
-        return None
+        return Sota()
 
     if "paper/source" in headers_sanitized:
         paper_idx = headers_sanitized.index("paper/source")
@@ -146,7 +146,7 @@ def parse_sota(table: ElementTree) -> Optional[Sota]:
             "Paper not found in this SOTA table, skipping. Headers: %s",
             headers_sanitized,
         )
-        return None
+        return Sota()
 
     if "code" in headers_sanitized:
         code_idx = headers_sanitized.index("code")
