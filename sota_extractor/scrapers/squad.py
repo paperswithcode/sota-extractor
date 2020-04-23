@@ -64,7 +64,7 @@ def get_sota_rows(table):
     return sota_rows
 
 
-def squad():
+def squad() -> TaskDB:
     """Extract SQUAD SOTA tables."""
     soup = get_soup(SQUAD_URL)
 
@@ -98,6 +98,6 @@ def squad():
 
         tdb = TaskDB()
         tdb.add_task(task)
-        return tdb.export()
+        return tdb
     else:
         raise DataError("Got an unexpected number of SOTA tables.")

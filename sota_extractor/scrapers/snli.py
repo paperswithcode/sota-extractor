@@ -11,7 +11,7 @@ from sota_extractor.taskdb.v01 import (
 SNLI_URL = "https://nlp.stanford.edu/projects/snli/"
 
 
-def snli():
+def snli() -> TaskDB:
     """Extract SNLI SOTA tables."""
     soup = get_soup(SNLI_URL)
 
@@ -108,4 +108,4 @@ def snli():
     )
     tdb = TaskDB()
     tdb.add_task(task)
-    return tdb.export()
+    return tdb

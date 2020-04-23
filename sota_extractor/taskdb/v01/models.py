@@ -17,6 +17,7 @@ class SotaRow:
     code_links: List[Link] = field(default_factory=list)
     model_links: List[Link] = field(default_factory=list)
     metrics: Dict[str, str] = field(default_factory=dict)
+    uses_additional_data: bool = False
 
 
 @dataclass
@@ -28,7 +29,7 @@ class Sota:
 @dataclass
 class Dataset:
     name: str
-    is_subdataset: bool
+    is_subdataset: bool = False
     description: str = ""
     parent: "Dataset" = None
     sota: Sota = field(default_factory=lambda: Sota())

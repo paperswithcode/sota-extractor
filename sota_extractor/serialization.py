@@ -1,22 +1,17 @@
 import io
 import json
-import enum
 import gzip
 from sota_extractor import errors
+from sota_extractor.consts import Format
+from sota_extractor.taskdb import TaskDB
 
 
-class Format(enum.Enum):
-    """Output format.
-
-    At the moment only supported format is JSON, but in the future YAML support
-    is planned.
-    """
-
-    json = "json"
-    json_gz = "json.gz"
+def dumps(tdb: TaskDB) -> str:
+    """Render sota data to a json string."""
+    return json.dumps(tdb.export(), indent=2, sort_keys=True)
 
 
-def dump(data, filename, fmt=Format.json, encoding="utf-8"):
+def dump(tdb: TaskDB, output: str, fmt=Format.json, encoding="utf-8"):
     """Write sota data to file.
 
     Intention of this helper function is to always have maximally similar
@@ -24,22 +19,18 @@ def dump(data, filename, fmt=Format.json, encoding="utf-8"):
     alphabetically, use the same indent, same encoding and same serializer.
 
     Args:
-        data: Data for serialization.
-        filename (str): Path to the file in which the data should be
+        tdb (TaskDB): Populated TaskDB instance.
+        output (str): Path to the output file in which the data should be
             serialized.
         fmt (Format): Serialization format.
         encoding (str): File encoding.
     """
     if fmt == Format.json:
-        with io.open(filename, mode="w", encoding=encoding) as fp:
-            json.dump(data, fp=fp, indent=2, sort_keys=True)
+        with io.open(output, mode="w", encoding=encoding) as fp:
+            fp.write(dumps(tdb))
     elif fmt == Format.json_gz:
-        with gzip.open(filename, mode="wb") as fp:
-            fp.write(
-                json.dumps(data, fp=fp, indent=2, sort_keys=True).encode(
-                    encoding
-                )
-            )
+        with gzip.open(output, mode="wb") as fp:
+            fp.write(dumps(tdb).encode(encoding))
     else:
         raise errors.UnsupportedFormat(fmt)
 
