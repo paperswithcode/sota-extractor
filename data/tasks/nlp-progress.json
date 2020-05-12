@@ -932,6 +932,20 @@
             {
               "code_links": [],
               "metrics": {
+                "ROUGE-1": "32.57",
+                "ROUGE-2": "11.63",
+                "ROUGE-L": "28.24"
+              },
+              "model_links": [],
+              "model_name": "Transformer + LRPE + PE + ALONE + RE-ranking (2020)",
+              "paper_date": null,
+              "paper_title": "All Word Embeddings from One Embedding",
+              "paper_url": "https://arxiv.org/abs/2004.12073",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "ROUGE-1": "32.29",
                 "ROUGE-2": "11.49",
                 "ROUGE-L": "28.03"
@@ -3030,12 +3044,12 @@
             {
               "code_links": [],
               "metrics": {
-                "F1 score": "96.34"
+                "F1 score": "96.38"
               },
               "model_links": [],
-              "model_name": "Label Attention Layer + HPSG + XLNet (2019)",
+              "model_name": "Label Attention Layer + HPSG + XLNet (2020)",
               "paper_date": null,
-              "paper_title": "Rethinking Self-Attention: An Interpretable Self-Attentive Encoder-Decoder Parser",
+              "paper_title": "Rethinking Self-Attention: Towards Interpretability for Neural Parsing",
               "paper_url": "https://khalilmrini.github.io/Label_Attention_Layer.pdf",
               "uses_additional_data": false
             },
@@ -4207,6 +4221,18 @@
                 {
                   "code_links": [],
                   "metrics": {
+                    "F0.5": "65.2"
+                  },
+                  "model_links": [],
+                  "model_name": "Transformer + Pre-train with Pseudo Data + BERT (2020)",
+                  "paper_date": null,
+                  "paper_title": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
+                  "paper_url": "https://arxiv.org/pdf/2005.00987.pdf",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
                     "F0.5": "65.0"
                   },
                   "model_links": [],
@@ -4457,6 +4483,18 @@
                 {
                   "code_links": [],
                   "metrics": {
+                    "GLEU": "62.0"
+                  },
+                  "model_links": [],
+                  "model_name": "Transformer + Pre-train with Pseudo Data + BERT (2020)",
+                  "paper_date": null,
+                  "paper_title": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
+                  "paper_url": "https://arxiv.org/pdf/2005.00987.pdf",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
                     "GLEU": "61.50"
                   },
                   "model_links": [],
@@ -4569,6 +4607,18 @@
                   "paper_date": null,
                   "paper_title": "An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction",
                   "paper_url": "https://arxiv.org/abs/1909.00502",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "F0.5": "69.8"
+                  },
+                  "model_links": [],
+                  "model_name": "Transformer + Pre-train with Pseudo Data + BERT (2020)",
+                  "paper_date": null,
+                  "paper_title": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
+                  "paper_url": "https://arxiv.org/pdf/2005.00987.pdf",
                   "uses_additional_data": false
                 },
                 {
@@ -4694,14 +4744,14 @@
             {
               "code_links": [],
               "metrics": {
-                "LAS": "96.29",
+                "LAS": "96.26",
                 "POS": "97.3",
-                "UAS": "97.33"
+                "UAS": "97.42"
               },
               "model_links": [],
               "model_name": "Label Attention Layer + HPSG + XLNet (2019)",
               "paper_date": null,
-              "paper_title": "Rethinking Self-Attention: An Interpretable Self-Attentive Encoder-Decoder Parser",
+              "paper_title": "Rethinking Self-Attention: Towards Interpretability for Neural Parsing",
               "paper_url": "https://khalilmrini.github.io/Label_Attention_Layer.pdf",
               "uses_additional_data": false
             },
@@ -8177,13 +8227,9 @@
               {
                 "title": "Zadeh et al., 2016",
                 "url": "https://arxiv.org/pdf/1606.06259.pdf"
-              },
-              {
-                "title": "Go back to the README",
-                "url": "../README.md"
               }
             ],
-            "description": "The MOSI dataset ([Zadeh et al., 2016](https://arxiv.org/pdf/1606.06259.pdf)) is a dataset rich in sentimental expressions where 93 people review topics in English. The videos are segmented with each segments sentiment label scored between +3 (strong positive) to -3 (strong negative)  by  5  annotators.\n[Go back to the README](../README.md)\n",
+            "description": "The MOSI dataset ([Zadeh et al., 2016](https://arxiv.org/pdf/1606.06259.pdf)) is a dataset rich in sentimental expressions where 93 people review topics in English. The videos are segmented with each segments sentiment label scored between +3 (strong positive) to -3 (strong negative)  by  5  annotators.\n",
             "sota": {
               "metrics": [
                 "Accuracy"
@@ -8223,6 +8269,165 @@
         "subtasks": [],
         "synonyms": [],
         "task": "Multimodal Sentiment Analysis"
+      },
+      {
+        "categories": [],
+        "datasets": [
+          {
+            "dataset": "VQAv2",
+            "dataset_citations": [],
+            "dataset_links": [],
+            "description": "Given an image and a natural language question about the image, the task is to provide an accurate natural language answer\n",
+            "sota": {
+              "metrics": [
+                "Accuracy"
+              ],
+              "rows": [
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "73.4"
+                  },
+                  "model_links": [],
+                  "model_name": "UNITER (2019)",
+                  "paper_date": null,
+                  "paper_title": "UNITER: LEARNING UNIVERSAL IMAGE-TEXT REPRESENTATIONS",
+                  "paper_url": "https://arxiv.org/pdf/1909.11740.pdf",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "72.54"
+                  },
+                  "model_links": [],
+                  "model_name": "LXMERT (2019)",
+                  "paper_date": null,
+                  "paper_title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+                  "paper_url": "https://arxiv.org/abs/1908.07490",
+                  "uses_additional_data": false
+                }
+              ]
+            },
+            "subdatasets": []
+          },
+          {
+            "dataset": "GQA - Visual Reasoning in the Real World",
+            "dataset_citations": [],
+            "dataset_links": [],
+            "description": "GQA focuses on real-world compositional reasoning. \n",
+            "sota": {
+              "metrics": [
+                "Accuracy"
+              ],
+              "rows": [
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "73.24"
+                  },
+                  "model_links": [],
+                  "model_name": "KaKao Brain",
+                  "paper_date": null,
+                  "paper_title": "GQA Challenge",
+                  "paper_url": "https://drive.google.com/file/d/1CtFk0ldbN5w2qhwvfKrNzAFEj-I9Tjgy/view",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "60.3"
+                  },
+                  "model_links": [],
+                  "model_name": "LXMERT (2019)",
+                  "paper_date": null,
+                  "paper_title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+                  "paper_url": "https://arxiv.org/abs/1908.07490",
+                  "uses_additional_data": false
+                }
+              ]
+            },
+            "subdatasets": []
+          },
+          {
+            "dataset": "TextVQA",
+            "dataset_citations": [],
+            "dataset_links": [],
+            "description": "TextVQA requires models to read and reason about text in an image to answer questions based on them.\n",
+            "sota": {
+              "metrics": [
+                "Accuracy"
+              ],
+              "rows": [
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "40.46"
+                  },
+                  "model_links": [],
+                  "model_name": "M4C (2020)",
+                  "paper_date": null,
+                  "paper_title": "Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA",
+                  "paper_url": "https://arxiv.org/pdf/1911.06258.pdf",
+                  "uses_additional_data": false
+                }
+              ]
+            },
+            "subdatasets": []
+          },
+          {
+            "dataset": "VizWiz dataset",
+            "dataset_citations": [],
+            "dataset_links": [
+              {
+                "title": "Website",
+                "url": "https://vizwiz.org/tasks-and-datasets/vqa/"
+              },
+              {
+                "title": "Challenge",
+                "url": "https://vizwiz.org/tasks-and-datasets/vqa/"
+              }
+            ],
+            "description": "This task focuses on answering visual questions that originate from a real use case where blind people were submitting images with recorded spoken questions in order to learn about their physical surroundings.\n- [Website](https://vizwiz.org/tasks-and-datasets/vqa/)\n- [Challenge](https://vizwiz.org/tasks-and-datasets/vqa/)\n",
+            "sota": {
+              "metrics": [
+                "Accuracy"
+              ],
+              "rows": [
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "54.22"
+                  },
+                  "model_links": [],
+                  "model_name": "Pythia",
+                  "paper_date": null,
+                  "paper_title": "FB's Pythia repository",
+                  "paper_url": "https://github.com/facebookresearch/pythia/blob/master/docs/source/tutorials/pretrained_models.md",
+                  "uses_additional_data": false
+                },
+                {
+                  "code_links": [],
+                  "metrics": {
+                    "Accuracy": "46.9"
+                  },
+                  "model_links": [],
+                  "model_name": "BUTD Vizwiz (2018)",
+                  "paper_date": null,
+                  "paper_title": "VizWiz Grand Challenge: Answering Visual Questions from Blind People",
+                  "paper_url": "https://arxiv.org/abs/1802.08218",
+                  "uses_additional_data": false
+                }
+              ]
+            },
+            "subdatasets": []
+          }
+        ],
+        "description": "",
+        "source_link": null,
+        "subtasks": [],
+        "synonyms": [],
+        "task": "Visual Question Answering"
       }
     ],
     "synonyms": [],
