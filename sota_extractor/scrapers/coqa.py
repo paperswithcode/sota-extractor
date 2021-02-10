@@ -55,11 +55,13 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "IN-DOMAIN": row.get("scores", {}).get("in_domain_f1", 0),
-                    "OUT-OF-DOMAIN": row.get("scores", {}).get(
-                        "out_of_domain_f1", 0
+                    "IN-DOMAIN": str(
+                        row.get("scores", {}).get("in_domain_f1", 0)
                     ),
-                    "OVERALL": row.get("scores", {}).get("overall_f1", 0),
+                    "OUT-OF-DOMAIN": str(
+                        row.get("scores", {}).get("out_of_domain_f1", 0)
+                    ),
+                    "OVERALL": str(row.get("scores", {}).get("overall_f1", 0)),
                 },
             )
         )

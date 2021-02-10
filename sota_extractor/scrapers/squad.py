@@ -74,8 +74,8 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "EM": row.get("scores", {}).get("exact_match", 0),
-                    "F1": row.get("scores", {}).get("f1", 0),
+                    "EM": str(row.get("scores", {}).get("exact_match", 0)),
+                    "F1": str(row.get("scores", {}).get("f1", 0)),
                 },
             )
         )

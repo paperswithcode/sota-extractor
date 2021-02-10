@@ -50,11 +50,13 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "AVERAGE AUC ON 14 LABEL": row.get("scores", {}).get(
-                        "average_auroc", 0
+                    "AVERAGE AUC ON 14 LABEL": str(
+                        row.get("scores", {}).get("average_auroc", 0)
                     ),
-                    "NUM RADS BELOW CURVE": row.get("scores", {}).get(
-                        "average_num_rads_under_roc", 0
+                    "NUM RADS BELOW CURVE": str(
+                        row.get("scores", {}).get(
+                            "average_num_rads_under_roc", 0
+                        )
                     ),
                 },
             )
