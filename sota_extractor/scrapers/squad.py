@@ -40,9 +40,9 @@ def get_sota_rows(data):
         if isinstance(date, int):
             # HACK: This hack with the timezone is needed because they don't
             #       use timezones. They just run the gulp html generation
-            #       script in (I guess) Stanford which is in the US/Pacific
-            #       zone so we need to parse the timestamp like we are in that
-            #       zone to get the same dates they get.
+            #       script in localtime which is (I guess) Stanford i.e.
+            #       US/Pacific zone so we need to parse the timestamp like we
+            #       are in that zone to get the same dates they get.
             date = datetime.fromtimestamp(
                 date, pytz.timezone("US/Pacific")
             ).replace(tzinfo=pytz.utc)
@@ -59,15 +59,13 @@ def get_sota_rows(data):
             else:
                 link = ""
         else:
-            model_name = description[0 : description.rfind("(")].strip()
+            model_name = description[: description.rfind("(")].strip()
             # _first_part = description[description.rfind("(") + 1 :]
-            # _institution = _first_part[0 : _first_part.rfind(")")]
+            # _institution = _first_part[: _first_part.rfind(")")]
             if description.find("http") != -1:
                 link = description[description.rfind("http") :].strip()
             else:
                 link = ""
-        m_em = row.get("scores", {}).get("exact_match", 0)
-        m_f1 = row.get("scores", {}).get("f1", 0)
 
         sota_rows.append(
             SotaRow(
@@ -75,7 +73,10 @@ def get_sota_rows(data):
                 paper_title=link,
                 paper_url=link,
                 paper_date=date,
-                metrics={"EM": m_em, "F1": m_f1},
+                metrics={
+                    "EM": row.get("scores", {}).get("exact_match", 0),
+                    "F1": row.get("scores", {}).get("f1", 0),
+                },
             )
         )
     return sota_rows
