@@ -67,7 +67,7 @@ def get_sota_rows(data):
 def chexpert() -> TaskDB:
     """Extract CheXpert SOTA tables."""
     try:
-        coqa = requests.get(JSON_URL).json()
+        data = requests.get(JSON_URL).json()
     except Exception as e:
         raise HttpClientError(message=str(e))
 
@@ -79,7 +79,7 @@ def chexpert() -> TaskDB:
     # scrape the evaluation values on the two datasets
     dataset.sota.metrics = ["AVERAGE AUC ON 14 LABEL", "NUM RADS BELOW CURVE"]
 
-    dataset.sota.rows = get_sota_rows(coqa)
+    dataset.sota.rows = get_sota_rows(data)
 
     tdb = TaskDB()
     tdb.add_task(task)

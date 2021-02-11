@@ -10,5 +10,11 @@
 .venv
 venv
 
+# Build artifacts
+sota_extractor.egg-info
+build/
+dist/
+
+
 # setup.py artifacts
 *.egg-info
