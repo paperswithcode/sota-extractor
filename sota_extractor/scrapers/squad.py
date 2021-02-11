@@ -40,9 +40,9 @@ def get_sota_rows(data):
         if isinstance(date, int):
             # HACK: This hack with the timezone is needed because they don't
             #       use timezones. They just run the gulp html generation
-            #       script in (I guess) Stanford which is in theUS/Pacific zone
-            #       so we need to parse the timestamp like we are in that zone
-            #       to get the same dates they get.
+            #       script in (I guess) Stanford which is in the US/Pacific
+            #       zone so we need to parse the timestamp like we are in that
+            #       zone to get the same dates they get.
             date = datetime.fromtimestamp(
                 date, pytz.timezone("US/Pacific")
             ).replace(tzinfo=pytz.utc)
@@ -99,7 +99,7 @@ def squad() -> TaskDB:
         is_subdataset=False,
         description=DATASET_2_DESCRIPTION,
     )
-    task = Task(name="Question Answering")
+    task = Task(name=TASK_NAME)
     task.datasets = [dataset2, dataset1]
     task.source_link = Link(title="SQuAD Leaderboard", url=SQUAD_URL)
 
