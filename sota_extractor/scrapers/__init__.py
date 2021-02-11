@@ -9,6 +9,7 @@ __all__ = [
     "chexpert",
     "cmrc",
     "record",
+    "hotpotqa",
 ]
 
 
@@ -22,3 +23,4 @@ from sota_extractor.scrapers.coqa import coqa
 from sota_extractor.scrapers.chexpert import chexpert
 from sota_extractor.scrapers.cmrc import cmrc
 from sota_extractor.scrapers.record import record
+from sota_extractor.scrapers.hotpotqa import hotpotqa
