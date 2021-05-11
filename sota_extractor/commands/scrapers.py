@@ -136,3 +136,113 @@ def cityscapes(output, fmt):
 def nlp_progress(output, fmt):
     """Extract NLP Progress SOTA tables."""
     serialization.dump(tdb=scrapers.nlp_progress(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/smcalflow.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def smcalflow(output, fmt):
+    """Extract Smcalflow SOTA tables."""
+    serialization.dump(tdb=scrapers.smcalflow(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/record.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def record(output, fmt):
+    """Extract Record SOTA tables."""
+    serialization.dump(tdb=scrapers.record(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/hotpotqa.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def hotpotqa(output, fmt):
+    """Extract hotpotqa SOTA tables."""
+    serialization.dump(tdb=scrapers.hotpotqa(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/coqa.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def coqa(output, fmt):
+    """Extract coqa SOTA tables."""
+    serialization.dump(tdb=scrapers.coqa(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/chexpert.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def chexpert(output, fmt):
+    """Extract chexpert SOTA tables."""
+    serialization.dump(tdb=scrapers.chexpert(), output=output, fmt=fmt)

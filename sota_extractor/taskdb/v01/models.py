@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import List, Optional, Dict
 from dataclasses import dataclass, field
 
@@ -13,7 +14,7 @@ class SotaRow:
     model_name: str
     paper_title: str = ""
     paper_url: str = ""
-    paper_date: Optional[str] = None
+    paper_date: Optional[datetime] = None
     code_links: List[Link] = field(default_factory=list)
     model_links: List[Link] = field(default_factory=list)
     metrics: Dict[str, str] = field(default_factory=dict)

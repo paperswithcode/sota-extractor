@@ -1,10 +1,9 @@
 import re
-from datetime import datetime
 
-import pytz
 import requests
 
 from sota_extractor.errors import HttpClientError
+from sota_extractor.scrapers.utils import date_from_timestamp
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -36,16 +35,14 @@ def get_sota_rows(data):
 
     sota_rows = []
     for row in rows:
-        date = row.get("submission", {}).get("created", None)
-        if isinstance(date, int):
-            # HACK: This hack with the timezone is needed because they don't
-            #       use timezones. They just run the gulp html generation
-            #       script in localtime which is (I guess) Stanford i.e.
-            #       US/Pacific zone so we need to parse the timestamp like we
-            #       are in that zone to get the same dates they get.
-            date = datetime.fromtimestamp(
-                date, pytz.timezone("US/Pacific")
-            ).replace(tzinfo=pytz.utc)
+        # HACK: This hack with the timezone is needed because they don't use
+        #       timezones. They just run the gulp html generation script in
+        #       localtime which is (I guess) Stanford i.e. US/Pacific zone so
+        #       we need to parse the timestamp like weare in that zone to get
+        #       the same dates they get.
+        date = date_from_timestamp(
+            row.get("submission", {}).get("created", None), tz="US/Pacific"
+        )
 
         description = row.get("submission", {}).get("description", "").strip()
         # This peace of a the code is taken from gulpfile.js translated to py

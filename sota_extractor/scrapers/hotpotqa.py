@@ -1,9 +1,9 @@
 import re
-from datetime import datetime
 
 import requests
 
 from sota_extractor.errors import HttpClientError
+from sota_extractor.scrapers.utils import date_from_timestamp
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -22,12 +22,12 @@ def get_sota_rows(data):
 
     sota_rows = []
     for row in rows:
-        date = row.get("submission", {}).get("created", None)
-        if isinstance(date, int):
-            # FIXME: The generation of the page uses local timezone and there
-            #        are a couple of them that match the current state but I
-            #        have no idea which is the correct one.
-            date = datetime.fromtimestamp(date)
+        # FIXME: The generation of the page uses local timezone and there are a
+        #        couple of them that match the current state but I have no idea
+        #        which is the correct one.
+        date = date_from_timestamp(
+            row.get("submission", {}).get("created", None)
+        )
 
         description = row.get("submission", {}).get("description", "").strip()
         # This peace of a the code is taken from gulpfile.js translated to py
