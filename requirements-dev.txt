@@ -1,5 +1,5 @@
 -r requirements.txt
-black==19.3b0
+black==19.10b0
 flake8==3.7.9
 jupyter
 pre-commit==2.2.0
