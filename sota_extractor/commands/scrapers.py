@@ -246,3 +246,25 @@ def coqa(output, fmt):
 def chexpert(output, fmt):
     """Extract chexpert SOTA tables."""
     serialization.dump(tdb=scrapers.chexpert(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/xtreme.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def xtreme(output, fmt):
+    """Extract Xtreme SOTA tables."""
+    serialization.dump(tdb=scrapers.xtreme(), output=output, fmt=fmt)

@@ -11,6 +11,7 @@ __all__ = [
     "record",
     "hotpotqa",
     "smcalflow",
+    "xtreme",
 ]
 
 
@@ -26,3 +27,4 @@ from sota_extractor.scrapers.cmrc import cmrc
 from sota_extractor.scrapers.record import record
 from sota_extractor.scrapers.hotpotqa import hotpotqa
 from sota_extractor.scrapers.smcalflow import smcalflow
+from sota_extractor.scrapers.xtreme import xtreme
