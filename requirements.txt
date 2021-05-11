@@ -5,7 +5,7 @@ lxml>=4.6.2
 markdown~=3.2.1
 marshmallow~=3.5.1
 nltk~=3.4.5
-pandas~=1.0.3
+pandas
 pytz~=2021.1
 requests~=2.23.0
 soupsieve~=2.0
