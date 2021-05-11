@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sota-extractor",
-    version="0.0.21",
+    version="0.0.22",
     description="Automatic SOTA (state-of-the-art) extraction.",
     long_description=io.open("README.md", "r").read(),
     long_description_content_type="text/markdown",
