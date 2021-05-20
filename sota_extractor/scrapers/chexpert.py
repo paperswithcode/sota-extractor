@@ -1,7 +1,7 @@
 import requests
 
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.utils import date_from_timestamp
+from sota_extractor.scrapers.utils import date_from_timestamp, sround
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -39,6 +39,14 @@ def get_sota_rows(data):
         else:
             link = ""
 
+        auroc = row.get("scores", {}).get("average_auroc", None)
+        num_rads = row.get("scores", {}).get(
+            "average_num_rads_under_roc", None
+        )
+        # Skip rows with no values
+        if auroc is None or num_rads is None:
+            continue
+
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
@@ -46,14 +54,8 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "AVERAGE AUC ON 14 LABEL": str(
-                        row.get("scores", {}).get("average_auroc", 0)
-                    ),
-                    "NUM RADS BELOW CURVE": str(
-                        row.get("scores", {}).get(
-                            "average_num_rads_under_roc", 0
-                        )
-                    ),
+                    "AVERAGE AUC ON 14 LABEL": sround(auroc, 3),
+                    "NUM RADS BELOW CURVE": sround(num_rads, 3),
                 },
             )
         )

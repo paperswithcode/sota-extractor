@@ -46,3 +46,22 @@ def date_from_timestamp(
         )
     except (TypeError, ValueError):
         return None
+
+
+def sround(x: float, ndigits: int = 3, default: float = 0.0) -> str:
+    """Round the number and return as a string.
+
+    Args:
+        x (float): Number to format.
+        ndigits (int): Number of digits to enforce.
+        default (float): Default value if rounding fails.
+
+    Returns:
+        str: Rounded string representation.
+    """
+    try:
+        x = round(x, ndigits=ndigits)
+    except ValueError:
+        x = default
+
+    return "{{:.{}f}}".format(ndigits).format(x)

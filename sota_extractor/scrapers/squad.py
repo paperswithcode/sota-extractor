@@ -3,7 +3,7 @@ import re
 import requests
 
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.utils import date_from_timestamp
+from sota_extractor.scrapers.utils import date_from_timestamp, sround
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -71,23 +71,13 @@ def get_sota_rows(data):
         if em is None or f1 is None:
             continue
 
-        # Round results to 3 decimal places
-        try:
-            em = round(em, 3)
-        except ValueError:
-            em = 0
-        try:
-            f1 = round(f1, 3)
-        except ValueError:
-            f1 = 0
-
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
                 paper_title=link,
                 paper_url=link,
                 paper_date=date,
-                metrics={"EM": f"{em}", "F1": f"{f1}"},
+                metrics={"EM": sround(em, 3), "F1": sround(f1, 3)},
             )
         )
     return sota_rows

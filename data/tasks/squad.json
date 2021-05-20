@@ -81,7 +81,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "90.6",
+                "EM": "90.600",
                 "F1": "92.899"
               },
               "model_links": [],
@@ -146,7 +146,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "90.42",
+                "EM": "90.420",
                 "F1": "92.799"
               },
               "model_links": [],
@@ -225,7 +225,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "90.115",
-                "F1": "92.58"
+                "F1": "92.580"
               },
               "model_links": [],
               "model_name": "Retro-Reader on ALBERT (ensemble)",
@@ -316,7 +316,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "89.743",
-                "F1": "92.18"
+                "F1": "92.180"
               },
               "model_links": [],
               "model_name": "Albert_Verifier_AA_Net (ensemble)",
@@ -641,7 +641,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "88.637",
-                "F1": "91.23"
+                "F1": "91.230"
               },
               "model_links": [],
               "model_name": "Tuned ALBERT (ensemble model)",
@@ -679,7 +679,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "88.05",
+                "EM": "88.050",
                 "F1": "91.036"
               },
               "model_links": [],
@@ -797,7 +797,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "88.197",
-                "F1": "90.83"
+                "F1": "90.830"
               },
               "model_links": [],
               "model_name": "ALBERT + SFVerifier (single model)",
@@ -809,7 +809,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "87.87",
+                "EM": "87.870",
                 "F1": "90.823"
               },
               "model_links": [],
@@ -874,7 +874,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "87.7",
+                "EM": "87.700",
                 "F1": "90.588"
               },
               "model_links": [],
@@ -952,7 +952,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "86.82",
+                "EM": "86.820",
                 "F1": "89.795"
               },
               "model_links": [],
@@ -1043,7 +1043,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "86.73",
+                "EM": "86.730",
                 "F1": "89.286"
               },
               "model_links": [],
@@ -1057,7 +1057,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "86.719",
-                "F1": "89.21"
+                "F1": "89.210"
               },
               "model_links": [],
               "model_name": "",
@@ -1251,7 +1251,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "85.85",
+                "EM": "85.850",
                 "F1": "88.449"
               },
               "model_links": [],
@@ -1291,7 +1291,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "84.642",
-                "F1": "88.0"
+                "F1": "88.000"
               },
               "model_links": [],
               "model_name": "xlnet (single model)",
@@ -1316,7 +1316,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "85.24",
+                "EM": "85.240",
                 "F1": "87.901"
               },
               "model_links": [],
@@ -1329,7 +1329,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "84.8",
+                "EM": "84.800",
                 "F1": "87.864"
               },
               "model_links": [],
@@ -1355,7 +1355,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "85.15",
+                "EM": "85.150",
                 "F1": "87.715"
               },
               "model_links": [],
@@ -1537,7 +1537,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "83.04",
+                "EM": "83.040",
                 "F1": "85.892"
               },
               "model_links": [],
@@ -1577,7 +1577,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "82.972",
-                "F1": "85.81"
+                "F1": "85.810"
               },
               "model_links": [],
               "model_name": "BERT + Synthetic Self-Training (single model)",
@@ -1655,7 +1655,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "83.119",
-                "F1": "85.51"
+                "F1": "85.510"
               },
               "model_links": [],
               "model_name": "Bert-raw (ensemble)",
@@ -1681,7 +1681,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "82.374",
-                "F1": "85.31"
+                "F1": "85.310"
               },
               "model_links": [],
               "model_name": "AoA + DA + BERT (ensemble)",
@@ -1746,7 +1746,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "82.126",
-                "F1": "84.82"
+                "F1": "84.820"
               },
               "model_links": [],
               "model_name": "BERT finetune baseline (single model)",
@@ -1771,7 +1771,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "81.11",
+                "EM": "81.110",
                 "F1": "84.386"
               },
               "model_links": [],
@@ -2071,7 +2071,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "79.745",
-                "F1": "83.02"
+                "F1": "83.020"
               },
               "model_links": [],
               "model_name": "BERT uncased (single model)",
@@ -2083,7 +2083,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "80.14",
+                "EM": "80.140",
                 "F1": "82.962"
               },
               "model_links": [],
@@ -2135,7 +2135,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "79.61",
+                "EM": "79.610",
                 "F1": "82.692"
               },
               "model_links": [],
@@ -2188,7 +2188,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "78.357",
-                "F1": "81.5"
+                "F1": "81.500"
               },
               "model_links": [],
               "model_name": "BERT-Large-Cased",
@@ -2200,7 +2200,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "78.65",
+                "EM": "78.650",
                 "F1": "81.497"
               },
               "model_links": [],
@@ -2227,7 +2227,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "78.301",
-                "F1": "81.35"
+                "F1": "81.350"
               },
               "model_links": [],
               "model_name": "",
@@ -2253,7 +2253,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "77.319",
-                "F1": "80.31"
+                "F1": "80.310"
               },
               "model_links": [],
               "model_name": "BERT (single model)",
@@ -2291,7 +2291,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "76.71",
+                "EM": "76.710",
                 "F1": "79.659"
               },
               "model_links": [],
@@ -2461,7 +2461,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "73.234",
-                "F1": "76.79"
+                "F1": "76.790"
               },
               "model_links": [],
               "model_name": "",
@@ -2538,7 +2538,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "72.67",
+                "EM": "72.670",
                 "F1": "75.507"
               },
               "model_links": [],
@@ -2564,7 +2564,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "72.58",
+                "EM": "72.580",
                 "F1": "75.075"
               },
               "model_links": [],
@@ -2630,7 +2630,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "71.699",
-                "F1": "74.43"
+                "F1": "74.430"
               },
               "model_links": [],
               "model_name": "BERT-Base (single)",
@@ -2707,7 +2707,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "70.3",
+                "EM": "70.300",
                 "F1": "72.484"
               },
               "model_links": [],
@@ -2798,7 +2798,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "66.61",
+                "EM": "66.610",
                 "F1": "70.303"
               },
               "model_links": [],
@@ -3032,8 +3032,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "4.83",
-                "F1": "5.92"
+                "EM": "4.830",
+                "F1": "5.920"
               },
               "model_links": [],
               "model_name": "CHECK SYSTEM (single model)",
@@ -3087,7 +3087,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "89.898",
-                "F1": "95.08"
+                "F1": "95.080"
               },
               "model_links": [],
               "model_name": "XLNet (single model)",
@@ -3100,7 +3100,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "89.646",
-                "F1": "94.93"
+                "F1": "94.930"
               },
               "model_links": [],
               "model_name": "XLNET-123 (single model)",
@@ -3177,7 +3177,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "88.65",
+                "EM": "88.650",
                 "F1": "94.393"
               },
               "model_links": [],
@@ -3204,7 +3204,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "87.433",
-                "F1": "93.16"
+                "F1": "93.160"
               },
               "model_links": [],
               "model_name": "BERT (ensemble)",
@@ -3229,7 +3229,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "86.94",
+                "EM": "86.940",
                 "F1": "92.641"
               },
               "model_links": [],
@@ -3281,7 +3281,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "85.43",
+                "EM": "85.430",
                 "F1": "91.976"
               },
               "model_links": [],
@@ -3411,7 +3411,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "83.93",
+                "EM": "83.930",
                 "F1": "90.613"
               },
               "model_links": [],
@@ -3438,7 +3438,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "84.454",
-                "F1": "90.49"
+                "F1": "90.490"
               },
               "model_links": [],
               "model_name": "QANet (ensemble)",
@@ -3580,7 +3580,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "81.58",
+                "EM": "81.580",
                 "F1": "88.948"
               },
               "model_links": [],
@@ -3620,7 +3620,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "82.587",
-                "F1": "88.88"
+                "F1": "88.880"
               },
               "model_links": [],
               "model_name": "MARS (single model)",
@@ -3658,7 +3658,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "82.44",
+                "EM": "82.440",
                 "F1": "88.607"
               },
               "model_links": [],
@@ -3684,7 +3684,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "82.65",
+                "EM": "82.650",
                 "F1": "88.493"
               },
               "model_links": [],
@@ -3711,7 +3711,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "81.391",
-                "F1": "88.17"
+                "F1": "88.170"
               },
               "model_links": [],
               "model_name": "r-net (single model)",
@@ -3723,7 +3723,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "81.79",
+                "EM": "81.790",
                 "F1": "88.163"
               },
               "model_links": [],
@@ -3737,7 +3737,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "81.538",
-                "F1": "88.13"
+                "F1": "88.130"
               },
               "model_links": [],
               "model_name": "Reinforced Mnemonic Reader + A2D (single model)",
@@ -3801,7 +3801,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "80.72",
+                "EM": "80.720",
                 "F1": "87.758"
               },
               "model_links": [],
@@ -4023,7 +4023,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "79.199",
-                "F1": "86.59"
+                "F1": "86.590"
               },
               "model_links": [],
               "model_name": "SLQA+ (single model)",
@@ -4062,7 +4062,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "79.083",
-                "F1": "86.45"
+                "F1": "86.450"
               },
               "model_links": [],
               "model_name": "Interactive AoA Reader+ (ensemble)",
@@ -4139,7 +4139,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "78.58",
+                "EM": "78.580",
                 "F1": "85.833"
               },
               "model_links": [],
@@ -4153,7 +4153,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "78.926",
-                "F1": "85.81"
+                "F1": "85.810"
               },
               "model_links": [],
               "model_name": "",
@@ -4166,7 +4166,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "78.664",
-                "F1": "85.78"
+                "F1": "85.780"
               },
               "model_links": [],
               "model_name": "KACTEIL-MRC (GF-Net+)",
@@ -4296,7 +4296,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "77.436",
-                "F1": "85.13"
+                "F1": "85.130"
               },
               "model_links": [],
               "model_name": "",
@@ -4374,7 +4374,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "76.996",
-                "F1": "84.63"
+                "F1": "84.630"
               },
               "model_links": [],
               "model_name": "Conductor-net (ensemble)",
@@ -4386,7 +4386,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "76.24",
+                "EM": "76.240",
                 "F1": "84.599"
               },
               "model_links": [],
@@ -4477,7 +4477,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "77.09",
+                "EM": "77.090",
                 "F1": "83.931"
               },
               "model_links": [],
@@ -4491,7 +4491,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "75.968",
-                "F1": "83.9"
+                "F1": "83.900"
               },
               "model_links": [],
               "model_name": "FusionNet (single model)",
@@ -4581,7 +4581,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "74.95",
+                "EM": "74.950",
                 "F1": "83.294"
               },
               "model_links": [],
@@ -4698,7 +4698,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "75.37",
+                "EM": "75.370",
                 "F1": "82.658"
               },
               "model_links": [],
@@ -4711,7 +4711,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "74.51",
+                "EM": "74.510",
                 "F1": "82.604"
               },
               "model_links": [],
@@ -4802,7 +4802,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "73.24",
+                "EM": "73.240",
                 "F1": "81.933"
               },
               "model_links": [],
@@ -4828,7 +4828,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "74.09",
+                "EM": "74.090",
                 "F1": "81.761"
               },
               "model_links": [],
@@ -4854,7 +4854,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "74.08",
+                "EM": "74.080",
                 "F1": "81.665"
               },
               "model_links": [],
@@ -4868,7 +4868,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "73.723",
-                "F1": "81.53"
+                "F1": "81.530"
               },
               "model_links": [],
               "model_name": "SEDT+BiDAF (ensemble)",
@@ -4893,7 +4893,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "73.01",
+                "EM": "73.010",
                 "F1": "81.517"
               },
               "model_links": [],
@@ -4906,7 +4906,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "72.59",
+                "EM": "72.590",
                 "F1": "81.415"
               },
               "model_links": [],
@@ -4958,7 +4958,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "72.6",
+                "EM": "72.600",
                 "F1": "81.011"
               },
               "model_links": [],
@@ -5011,7 +5011,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "72.485",
-                "F1": "80.55"
+                "F1": "80.550"
               },
               "model_links": [],
               "model_name": "AVIQA (single model)",
@@ -5050,7 +5050,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "71.415",
-                "F1": "80.16"
+                "F1": "80.160"
               },
               "model_links": [],
               "model_name": "smarnet (single model)",
@@ -5231,7 +5231,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "69.6",
+                "EM": "69.600",
                 "F1": "78.236"
               },
               "model_links": [],
@@ -5323,7 +5323,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "68.478",
-                "F1": "77.22"
+                "F1": "77.220"
               },
               "model_links": [],
               "model_name": "",
@@ -5362,7 +5362,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "68.436",
-                "F1": "77.07"
+                "F1": "77.070"
               },
               "model_links": [],
               "model_name": "FastQA",
@@ -5713,7 +5713,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "52.544",
-                "F1": "62.78"
+                "F1": "62.780"
               },
               "model_links": [],
               "model_name": "",
@@ -5778,7 +5778,7 @@
               "code_links": [],
               "metrics": {
                 "EM": "20.162",
-                "F1": "27.99"
+                "F1": "27.990"
               },
               "model_links": [],
               "model_name": "",
@@ -5803,7 +5803,7 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
+                "EM": "0.000",
                 "F1": "6.907"
               },
               "model_links": [],
@@ -5829,8 +5829,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
-                "F1": "0.0"
+                "EM": "0.000",
+                "F1": "0.000"
               },
               "model_links": [],
               "model_name": "superman-new-des",
@@ -5842,8 +5842,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
-                "F1": "0.0"
+                "EM": "0.000",
+                "F1": "0.000"
               },
               "model_links": [],
               "model_name": "WAHnGREA",
@@ -5855,8 +5855,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
-                "F1": "0.0"
+                "EM": "0.000",
+                "F1": "0.000"
               },
               "model_links": [],
               "model_name": "superman-des",
@@ -5868,8 +5868,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
-                "F1": "0.0"
+                "EM": "0.000",
+                "F1": "0.000"
               },
               "model_links": [],
               "model_name": "QANet (ensemble)",
@@ -5881,8 +5881,8 @@
             {
               "code_links": [],
               "metrics": {
-                "EM": "0.0",
-                "F1": "0.0"
+                "EM": "0.000",
+                "F1": "0.000"
               },
               "model_links": [],
               "model_name": "XLNet-deep (ensemble)",

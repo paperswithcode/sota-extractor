@@ -1,0 +1,2448 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "CheXpert",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "AVERAGE AUC ON 14 LABEL",
+            "NUM RADS BELOW CURVE"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.930",
+                "NUM RADS BELOW CURVE": "2.800"
+              },
+              "model_links": [],
+              "model_name": "DeepAUC-v1",
+              "paper_date": "2020-08-31",
+              "paper_title": "https://arxiv.org/abs/2012.03173",
+              "paper_url": "https://arxiv.org/abs/2012.03173",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.930",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Hierarchical-Learning-V1 (ensemble)",
+              "paper_date": "2019-09-01",
+              "paper_title": "https://arxiv.org/abs/1911.06475",
+              "paper_url": "https://arxiv.org/abs/1911.06475",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.929",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Conditional-Training-LSR",
+              "paper_date": "2019-10-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.929",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Hierarchical-Learning-V4 (ensemble)",
+              "paper_date": "2019-12-04",
+              "paper_title": "https://arxiv.org/abs/1911.06475",
+              "paper_url": "https://arxiv.org/abs/1911.06475",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.929",
+                "NUM RADS BELOW CURVE": "2.800"
+              },
+              "model_links": [],
+              "model_name": "YWW(ensemble)",
+              "paper_date": "2019-10-10",
+              "paper_title": "https://github.com/jfhealthcare/Chexpert",
+              "paper_url": "https://github.com/jfhealthcare/Chexpert",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.929",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Conditional-Training-LSR-V1",
+              "paper_date": "2019-10-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.929",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Hierarchical-Learning-V0 (ensemble)",
+              "paper_date": "2019-11-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.928",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Multi-Stage-Learning-CNN-V3 (ensemble)",
+              "paper_date": "2019-09-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.928",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DeepCNNsGM(ensemble)",
+              "paper_date": "2019-12-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.927",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DeepCNNs(ensemble)",
+              "paper_date": "2019-12-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.927",
+                "NUM RADS BELOW CURVE": "3.000"
+              },
+              "model_links": [],
+              "model_name": "inisis",
+              "paper_date": "2019-12-23",
+              "paper_title": "https://github.com/inisis/chexpert)",
+              "paper_url": "https://github.com/inisis/chexpert)",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.927",
+                "NUM RADS BELOW CURVE": "3.000"
+              },
+              "model_links": [],
+              "model_name": "desmond",
+              "paper_date": "2019-12-16",
+              "paper_title": "https://github.com/inisis/chexpert)",
+              "paper_url": "https://github.com/inisis/chexpert)",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.927",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "SenseXDR",
+              "paper_date": "2019-09-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.927",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "ihil (ensemble)",
+              "paper_date": "2019-09-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.926",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-09-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.926",
+                "NUM RADS BELOW CURVE": "3.000"
+              },
+              "model_links": [],
+              "model_name": "JF aboy ensemble_V2 JF HEALTHCARE https://github.com/deadpoppy/CheXpert-Challeng",
+              "paper_date": "2019-07-31",
+              "paper_title": "https://github.com/deadpoppy/CheXpert-Challenge",
+              "paper_url": "https://github.com/deadpoppy/CheXpert-Challenge",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.926",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DRNet (ensemble)",
+              "paper_date": "2019-09-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.925",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoanganh_VB_ensemble3",
+              "paper_date": "2019-12-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.925",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-02-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.925",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoanganh_VB_ensemble3",
+              "paper_date": "2019-12-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Hoang_VB_ensemble31_v",
+              "paper_date": "2019-12-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "tedtt",
+              "paper_date": "2019-12-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Hoang_VB_ensemble31_v",
+              "paper_date": "2019-12-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-09-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "as-hust-v3",
+              "paper_date": "2019-12-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoanganh_VB_VN",
+              "paper_date": "2020-01-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.924",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Hierarchical-CNN-Ensemble-V1 (ensemble)",
+              "paper_date": "2019-09-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DE_APR ensemble ltt",
+              "paper_date": "2020-04-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoanganhcnu_ensemble27_v",
+              "paper_date": "2019-12-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DE_APR_N ensemble ltt",
+              "paper_date": "2020-04-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoanganhcnu_ensemble27_v",
+              "paper_date": "2019-12-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "YJ&&YWW :https://github.com/inisis/chexper",
+              "paper_date": "2019-08-17",
+              "paper_title": "https://github.com/inisis/chexpert",
+              "paper_url": "https://github.com/inisis/chexpert",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Multi-Stage-Learning-CNN-V2 (ensemble)",
+              "paper_date": "2019-08-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Weighted-CNN(ensemble)",
+              "paper_date": "2019-12-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.923",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "as-hust-v1",
+              "paper_date": "2019-12-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.922",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Average-CNN(ensemble)",
+              "paper_date": "2019-12-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.922",
+                "NUM RADS BELOW CURVE": "2.800"
+              },
+              "model_links": [],
+              "model_name": "as-hust-v2",
+              "paper_date": "2019-12-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.922",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "MaxAUC",
+              "paper_date": "2020-08-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.922",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-09-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.921",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-11-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.921",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "SuperCNNv3",
+              "paper_date": "2020-09-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.921",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.921",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hyc",
+              "paper_date": "2019-08-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.921",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "zjr(ensembel)",
+              "paper_date": "2019-08-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.920",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "HOANG_VB_VN_2",
+              "paper_date": "2020-01-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.920",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "{\"submit_id\": \"0x3c7b0af1b5784c159daf259c58543aa3\", \"predict_id\": \"0x67b23473183f4f43afa3b37edbc5d7fe\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+              "paper_date": "2019-11-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "BDNB",
+              "paper_date": "2019-08-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "thang ensemble colo",
+              "paper_date": "2019-12-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "{\"submit_id\": \"0x33aeb0f2525e482a886196c273bdf1ba\", \"predict_id\": \"0xff2f60907da8440d98ff17f0af749535\", \"submitter_id\": \"0x0b382a226d4548c9b441f19b1907fe0f\"",
+              "paper_date": "2019-11-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "hoangnn9 ensemble VBV",
+              "paper_date": "2019-11-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "JF Coolver ensemble",
+              "paper_date": "2019-07-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "brian-baseline-v2",
+              "paper_date": "2019-11-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.919",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "JF aboy ensemble_V1 JF HEALTHCARE https://github.com/deadpoppy/CheXpert-Challeng",
+              "paper_date": "2019-07-27",
+              "paper_title": "https://github.com/deadpoppy/CheXpert-Challenge",
+              "paper_url": "https://github.com/deadpoppy/CheXpert-Challenge",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.918",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DE_JUN4_RS_EN ensemble LTT",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.918",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "Mehdi_You (ensemble)",
+              "paper_date": "2019-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.917",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "thangbk(ensemble)",
+              "paper_date": "2019-11-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.917",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "Deep-CNNs-V1",
+              "paper_date": "2019-08-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.917",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "vdn6 ensemble ltt",
+              "paper_date": "2020-01-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.917",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Ensemble_v2",
+              "paper_date": "2019-07-18",
+              "paper_title": "https://github.com/Ien001/CheXpert_challenge_2019",
+              "paper_url": "https://github.com/Ien001/CheXpert_challenge_2019",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "{\"submit_id\": \"0xeb9c9e79ed9e4410a2a37d62322f4585\", \"predict_id\": \"0x735b718280b14e83895decbc31641f87\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+              "paper_date": "2019-11-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "DE_JUN3_RS_EN ensemble LTT",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "{\"submit_id\": \"0x57dc2989f0474ca095d0841df09cfb18\", \"predict_id\": \"0xd43bcf7d4c9b467894db2b274b18794e\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+              "paper_date": "2019-11-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "ATT-AW-v1",
+              "paper_date": "2019-11-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "desmond",
+              "paper_date": "2019-12-14",
+              "paper_title": "https://github.com/inisis/chexpert)",
+              "paper_url": "https://github.com/inisis/chexpert)",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DE_JUN1_RS_EN ensemble LTT",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "Multi-Stage-Learning-CNN-V0",
+              "paper_date": "2019-08-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.916",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "desmond",
+              "paper_date": "2019-10-10",
+              "paper_title": "https://github.com/inisis/chexpert)",
+              "paper_url": "https://github.com/inisis/chexpert)",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.915",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "Deadpoppy Ensemble",
+              "paper_date": "2019-07-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.915",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "TGNB",
+              "paper_date": "2019-08-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.915",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "hoangnguyenkcv-ensemble28",
+              "paper_date": "2019-11-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.915",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.915",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "ensemble SN",
+              "paper_date": "2019-12-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.914",
+                "NUM RADS BELOW CURVE": "2.600"
+              },
+              "model_links": [],
+              "model_name": "DE_JUN2_RS_EN ensemble LTT",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.914",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "Deep-CNNs (ensemble)",
+              "paper_date": "2019-07-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.914",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "GRNB",
+              "paper_date": "2019-08-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.913",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "Sky-Model",
+              "paper_date": "2019-12-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.913",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "JF Deadpoppy",
+              "paper_date": "2019-07-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.913",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "YWW-YJ:https://github.com/inisis/chexper",
+              "paper_date": "2019-08-14",
+              "paper_title": "https://github.com/inisis/chexpert",
+              "paper_url": "https://github.com/inisis/chexpert",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.912",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "zjy",
+              "paper_date": "2019-08-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "DS_APR_N single model ltt",
+              "paper_date": "2020-04-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "DS_APR single model LTT",
+              "paper_date": "2020-04-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-10-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "KCV-CNN-ensemble-CN",
+              "paper_date": "2019-10-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.911",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "brian-baseline",
+              "paper_date": "2019-10-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.910",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "ensemble SNU",
+              "paper_date": "2019-12-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.909",
+                "NUM RADS BELOW CURVE": "2.200"
+              },
+              "model_links": [],
+              "model_name": "HinaNetV2 (ensemble)",
+              "paper_date": "2019-12-09",
+              "paper_title": "http://vietai.org",
+              "paper_url": "http://vietai.org",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.908",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "vdnnn (ensemble)",
+              "paper_date": "2020-01-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.908",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-07-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.907",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "vbn (single model)",
+              "paper_date": "2020-01-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.907",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "muti_base (ensemble)",
+              "paper_date": "2019-04-06",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.907",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "Stanford Baseline (ensemble)",
+              "paper_date": "2019-01-23",
+              "paper_title": "https://arxiv.org/abs/1901.07031",
+              "paper_url": "https://arxiv.org/abs/1901.07031",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.906",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "{ForwardModelEnsembleCorrected} (ensemble)",
+              "paper_date": "2019-09-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.905",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "hy",
+              "paper_date": "2019-07-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.905",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "ForwardMECorrectedFull (ensemble)",
+              "paper_date": "2019-10-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.905",
+                "NUM RADS BELOW CURVE": "2.400"
+              },
+              "model_links": [],
+              "model_name": "Multi-CNN",
+              "paper_date": "2019-06-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.905",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "Multi-CNN",
+              "paper_date": "2019-07-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.904",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "JustAnotherDensenet",
+              "paper_date": "2019-06-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.902",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "DeepLungsEnsemble",
+              "paper_date": "2020-03-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.901",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-09-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.901",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "Ensemble_v1",
+              "paper_date": "2019-07-04",
+              "paper_title": "https://github.com/Ien001/CheXpert_challenge_2019",
+              "paper_url": "https://github.com/Ien001/CheXpert_challenge_2019",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.900",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "vn_2 single_model ltt",
+              "paper_date": "2020-01-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.900",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "MLC11 NotDense (single-model)",
+              "paper_date": "2019-05-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.899",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-07-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.899",
+                "NUM RADS BELOW CURVE": "2.000"
+              },
+              "model_links": [],
+              "model_name": "{AVG_MAX}(ensemble)",
+              "paper_date": "2019-07-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.899",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.899",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "llllldz",
+              "paper_date": "2019-07-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.899",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "DiseaseNet Samg2003 single model, DPS RKP, http://sambhavgupta.co",
+              "paper_date": "2020-08-17",
+              "paper_title": "http://sambhavgupta.com",
+              "paper_url": "http://sambhavgupta.com",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.898",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "BUA",
+              "paper_date": "2019-11-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.897",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "ForwardModelEnsemble (ensemble)",
+              "paper_date": "2019-06-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.896",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "ylz-v01",
+              "paper_date": "2020-02-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.896",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "ldz",
+              "paper_date": "2019-06-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.896",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "Densenet",
+              "paper_date": "2020-02-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.895",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.895",
+                "NUM RADS BELOW CURVE": "1.800"
+              },
+              "model_links": [],
+              "model_name": "Deadpoppy Single",
+              "paper_date": "2019-07-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.895",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "{koala-large} (single model)",
+              "paper_date": "2020-09-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.895",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "MVD121",
+              "paper_date": "2021-05-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.895",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "hust(single model)",
+              "paper_date": "2019-07-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.894",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "MM1",
+              "paper_date": "2019-12-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.894",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "U-Random-Ind (single)",
+              "paper_date": "2019-07-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.894",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-07-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.894",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "hycN",
+              "paper_date": "2019-07-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.892",
+                "NUM RADS BELOW CURVE": "1.600"
+              },
+              "model_links": [],
+              "model_name": "HybridModelEnsemble (ensemble)",
+              "paper_date": "2019-06-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.891",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "ylz-v02",
+              "paper_date": "2020-02-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.891",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "MVD121-320",
+              "paper_date": "2021-05-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.890",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-07-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.890",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-08-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.890",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "pause",
+              "paper_date": "2019-07-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.889",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "DenseNet169 at 320x320 (single model)",
+              "paper_date": "2019-08-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.889",
+                "NUM RADS BELOW CURVE": "1.400"
+              },
+              "model_links": [],
+              "model_name": "LR-baseline (ensemble)",
+              "paper_date": "2020-04-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.888",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "DataAugFTW (single model)",
+              "paper_date": "2019-07-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.888",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "{koala} (single model)",
+              "paper_date": "2020-08-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.886",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "baseline3",
+              "paper_date": "2019-10-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.886",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "MVR50",
+              "paper_date": "2021-05-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.884",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "Coolver XH",
+              "paper_date": "2019-06-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.883",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "Naive Densenet",
+              "paper_date": "2019-03-24",
+              "paper_title": "https://github.com/simongrest/chexpert-entries",
+              "paper_url": "https://github.com/simongrest/chexpert-entries",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.883",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "mhealth_buet (single model)",
+              "paper_date": "2021-03-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.882",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "Aoitori (single model)",
+              "paper_date": "2021-04-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.882",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "DearBrave (single model)",
+              "paper_date": "2021-03-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.880",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "{densenet} (single model)",
+              "paper_date": "2019-05-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.879",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "Yoake (single model)",
+              "paper_date": "2021-03-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.878",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "MLC11 Baseline (single-model)",
+              "paper_date": "2019-05-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.878",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-05-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.876",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "DenseNet",
+              "paper_date": "2019-07-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.876",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "HCL1 (single model)",
+              "paper_date": "2019-11-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.875",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "GCN_densenet121-single mode",
+              "paper_date": "2019-10-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.875",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "MLGCN (single model)",
+              "paper_date": "2019-07-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.873",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "GreenTeaCalpis (single model)",
+              "paper_date": "2021-02-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.873",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "Multi-CNN (ensemble)",
+              "paper_date": "2019-06-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.868",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "baseline1 (single model)",
+              "paper_date": "2019-10-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.865",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "DSENet",
+              "paper_date": "2020-05-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.863",
+                "NUM RADS BELOW CURVE": "0.800"
+              },
+              "model_links": [],
+              "model_name": "Densenet-Basic Single NUS",
+              "paper_date": "2019-04-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.862",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2019-05-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.861",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "{GoDense} (single model)",
+              "paper_date": "2019-04-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.861",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "inceptionv3_single_NN",
+              "paper_date": "2019-05-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.860",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "BASELINE Acorn",
+              "paper_date": "2020-06-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.858",
+                "NUM RADS BELOW CURVE": "1.000"
+              },
+              "model_links": [],
+              "model_name": "baseline2",
+              "paper_date": "2019-10-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.851",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "rayOfLightSingle (Single Model)",
+              "paper_date": "2019-04-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.850",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "Model_Team_34 (single model)",
+              "paper_date": "2019-04-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.850",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "Test model habbe",
+              "paper_date": "2019-04-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.848",
+                "NUM RADS BELOW CURVE": "0.200"
+              },
+              "model_links": [],
+              "model_name": "Baseline",
+              "paper_date": "2019-04-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.848",
+                "NUM RADS BELOW CURVE": "0.600"
+              },
+              "model_links": [],
+              "model_name": "model2_DenseNet121",
+              "paper_date": "2021-02-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.844",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "HinaNet (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "http://vietai.org",
+              "paper_url": "http://vietai.org",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.842",
+                "NUM RADS BELOW CURVE": "0.200"
+              },
+              "model_links": [],
+              "model_name": "singlehead_models (single model combined)",
+              "paper_date": "2019-04-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.840",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "mwowra-conditional (single)",
+              "paper_date": "2021-01-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.838",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "multihead_model (one model for all pathologies)",
+              "paper_date": "2019-04-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.835",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "Grp12BigCNN",
+              "paper_date": "2020-09-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.834",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "MLC9_Densenet (single model)",
+              "paper_date": "2019-06-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.830",
+                "NUM RADS BELOW CURVE": "0.200"
+              },
+              "model_links": [],
+              "model_name": "Grp12v2USup2OSamp (ensemble)",
+              "paper_date": "2020-02-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.829",
+                "NUM RADS BELOW CURVE": "0.200"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-03-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.822",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "DNET121-single",
+              "paper_date": "2019-05-16",
+              "paper_title": "http://www.wingspan.cn/",
+              "paper_url": "http://www.wingspan.cn/",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.821",
+                "NUM RADS BELOW CURVE": "0.400"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-02-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.769",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "12ASLv2(single)",
+              "paper_date": "2020-07-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.760",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "DenseNet121 (single model)",
+              "paper_date": "2019-05-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.736",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "12ASLv1(single)",
+              "paper_date": "2020-07-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.732",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-06-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.727",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "rayOfLight (ensemble)",
+              "paper_date": "2019-04-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.724",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "BASELINE DenseNet121",
+              "paper_date": "2019-11-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.701",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-06-23",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.618",
+                "NUM RADS BELOW CURVE": "0.200"
+              },
+              "model_links": [],
+              "model_name": "Chest-x-ray classification using",
+              "paper_date": "2019-05-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.615",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "BME_Final_v2",
+              "paper_date": "2019-12-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.606",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "{densenet121}{single model",
+              "paper_date": "2019-07-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.575",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "{MLC02_DenseNet121}",
+              "paper_date": "2019-06-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.500",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "Erdem (single)",
+              "paper_date": "2020-03-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.481",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "Adalab Standard (Single Model)",
+              "paper_date": "2020-02-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.481",
+                "NUM RADS BELOW CURVE": "0.000"
+              },
+              "model_links": [],
+              "model_name": "Adalab Standard (single model)",
+              "paper_date": "2020-02-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "CheXpert Leaderboard",
+      "url": "https://stanfordmlgroup.github.io/competitions/chexpert/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Multi-Label Classification"
+  }
+]

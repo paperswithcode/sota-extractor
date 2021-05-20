@@ -1,7 +1,7 @@
 import requests
 
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.utils import date_from_timestamp
+from sota_extractor.scrapers.utils import date_from_timestamp, sround
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -40,6 +40,14 @@ def get_sota_rows(data):
         else:
             link = ""
 
+        overall = row.get("scores", {}).get("overall_f1", None)
+        in_domain = row.get("scores", {}).get("in_domain_f1", None)
+        out_of_domain = row.get("scores", {}).get("out_of_domain_f1", None)
+
+        # Skip rows with no values
+        if overall is None or in_domain is None or out_of_domain is None:
+            continue
+
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
@@ -47,13 +55,9 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "IN-DOMAIN": str(
-                        row.get("scores", {}).get("in_domain_f1", 0)
-                    ),
-                    "OUT-OF-DOMAIN": str(
-                        row.get("scores", {}).get("out_of_domain_f1", 0)
-                    ),
-                    "OVERALL": str(row.get("scores", {}).get("overall_f1", 0)),
+                    "OVERALL": sround(overall, 1),
+                    "IN-DOMAIN": sround(in_domain, 1),
+                    "OUT-OF-DOMAIN": sround(out_of_domain, 1),
                 },
             )
         )
@@ -73,7 +77,7 @@ def coqa() -> TaskDB:
     task.source_link = Link(title="CoQA Leaderboard", url=URL)
 
     # scrape the evaluation values on the two datasets
-    dataset.sota.metrics = ["IN-DOMAIN", "OUT-OF-DOMAIN", "OVERALL"]
+    dataset.sota.metrics = ["OVERALL", "IN-DOMAIN", "OUT-OF-DOMAIN"]
 
     dataset.sota.rows = get_sota_rows(data)
 

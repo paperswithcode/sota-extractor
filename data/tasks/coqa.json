@@ -1,0 +1,633 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "CoQA (Conversational Question Answering Challenge)",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "IN-DOMAIN",
+            "OUT-OF-DOMAIN",
+            "OVERALL"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "91.4",
+                "OUT-OF-DOMAIN": "89.2",
+                "OVERALL": "90.7"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa + AT + KD (ensemble)",
+              "paper_date": "2019-09-05",
+              "paper_title": "https://arxiv.org/abs/1909.10772",
+              "paper_url": "https://arxiv.org/abs/1909.10772",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "91.5",
+                "OUT-OF-DOMAIN": "88.8",
+                "OVERALL": "90.7"
+              },
+              "model_links": [],
+              "model_name": "TR-MT (ensemble)",
+              "paper_date": "2020-04-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "90.9",
+                "OUT-OF-DOMAIN": "89.2",
+                "OVERALL": "90.4"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa + AT + KD (single model)",
+              "paper_date": "2019-09-05",
+              "paper_title": "https://arxiv.org/abs/1909.10772",
+              "paper_url": "https://arxiv.org/abs/1909.10772",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "91.1",
+                "OUT-OF-DOMAIN": "87.9",
+                "OVERALL": "90.2"
+              },
+              "model_links": [],
+              "model_name": "TR-MT (ensemble)",
+              "paper_date": "2020-01-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "89.9",
+                "OUT-OF-DOMAIN": "88.0",
+                "OVERALL": "89.4"
+              },
+              "model_links": [],
+              "model_name": "Google SQuAD 2.0 + MMFT (ensemble)",
+              "paper_date": "2019-03-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "90.4",
+                "OUT-OF-DOMAIN": "86.8",
+                "OVERALL": "89.3"
+              },
+              "model_links": [],
+              "model_name": "TR-MT (single model)",
+              "paper_date": "2019-12-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "89.9",
+                "OUT-OF-DOMAIN": "86.9",
+                "OVERALL": "89.0"
+              },
+              "model_links": [],
+              "model_name": "XLNet + Augmentation (single model)",
+              "paper_date": "2019-09-13",
+              "paper_title": "https://github.com/stevezheng23/xlnet_extension_tf",
+              "paper_url": "https://github.com/stevezheng23/xlnet_extension_tf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "88.5",
+                "OUT-OF-DOMAIN": "86.0",
+                "OVERALL": "87.8"
+              },
+              "model_links": [],
+              "model_name": "Google SQuAD 2.0 + MMFT (single model)",
+              "paper_date": "2019-03-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "88.7",
+                "OUT-OF-DOMAIN": "85.4",
+                "OVERALL": "87.8"
+              },
+              "model_links": [],
+              "model_name": "ConvBERT (ensemble)",
+              "paper_date": "2019-03-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "87.5",
+                "OUT-OF-DOMAIN": "85.3",
+                "OVERALL": "86.8"
+              },
+              "model_links": [],
+              "model_name": "BERT + MMFT + ADA (ensemble)",
+              "paper_date": "2019-01-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "87.7",
+                "OUT-OF-DOMAIN": "84.6",
+                "OVERALL": "86.8"
+              },
+              "model_links": [],
+              "model_name": "ConvBERT (single model)",
+              "paper_date": "2019-03-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "86.4",
+                "OUT-OF-DOMAIN": "81.9",
+                "OVERALL": "85.0"
+              },
+              "model_links": [],
+              "model_name": "BERT + MMFT + ADA (single model)",
+              "paper_date": "2019-01-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "85.7",
+                "OUT-OF-DOMAIN": "81.7",
+                "OVERALL": "84.6"
+              },
+              "model_links": [],
+              "model_name": "XLNet + MMFT + ADA (single model)",
+              "paper_date": "2020-04-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "85.4",
+                "OUT-OF-DOMAIN": "77.3",
+                "OVERALL": "83.0"
+              },
+              "model_links": [],
+              "model_name": "BERT + AttentionFusionNet (single model)",
+              "paper_date": "2019-08-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "83.8",
+                "OUT-OF-DOMAIN": "80.2",
+                "OVERALL": "82.8"
+              },
+              "model_links": [],
+              "model_name": "BERT + Answer Verification (single model)",
+              "paper_date": "2019-01-03",
+              "paper_title": "https://github.com/sogou/SMRCToolkit",
+              "paper_url": "https://github.com/sogou/SMRCToolkit",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "82.7",
+                "OUT-OF-DOMAIN": "78.6",
+                "OVERALL": "81.5"
+              },
+              "model_links": [],
+              "model_name": "BERT with History Augmented Query (single model)",
+              "paper_date": "2019-01-06",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "82.6",
+                "OUT-OF-DOMAIN": "78.4",
+                "OVERALL": "81.4"
+              },
+              "model_links": [],
+              "model_name": "BERT Large Finetuned Baseline (single model)",
+              "paper_date": "2019-02-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "82.5",
+                "OUT-OF-DOMAIN": "77.6",
+                "OVERALL": "81.1"
+              },
+              "model_links": [],
+              "model_name": "BERT Large Augmented (single model)",
+              "paper_date": "2019-01-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "81.4",
+                "OUT-OF-DOMAIN": "77.3",
+                "OVERALL": "80.2"
+              },
+              "model_links": [],
+              "model_name": "D-AoA + BERT (single model)",
+              "paper_date": "2018-12-13",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "81.1",
+                "OUT-OF-DOMAIN": "77.4",
+                "OVERALL": "80.0"
+              },
+              "model_links": [],
+              "model_name": "BERT Augmented + AoA (single model)",
+              "paper_date": "2019-08-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "80.9",
+                "OUT-OF-DOMAIN": "77.1",
+                "OVERALL": "79.8"
+              },
+              "model_links": [],
+              "model_name": "CNet (single model)",
+              "paper_date": "2019-03-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "80.7",
+                "OUT-OF-DOMAIN": "75.9",
+                "OVERALL": "79.3"
+              },
+              "model_links": [],
+              "model_name": "SDNet (ensemble)",
+              "paper_date": "2018-11-29",
+              "paper_title": "https://github.com/Microsoft/SDNet",
+              "paper_url": "https://github.com/Microsoft/SDNet",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "80.2",
+                "OUT-OF-DOMAIN": "76.5",
+                "OVERALL": "79.1"
+              },
+              "model_links": [],
+              "model_name": "CQANet (single model)",
+              "paper_date": "2019-02-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "80.1",
+                "OUT-OF-DOMAIN": "75.7",
+                "OVERALL": "78.9"
+              },
+              "model_links": [],
+              "model_name": "CANet (single model)",
+              "paper_date": "2019-05-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "79.7",
+                "OUT-OF-DOMAIN": "76.3",
+                "OVERALL": "78.7"
+              },
+              "model_links": [],
+              "model_name": "BERT Finetuned Baseline",
+              "paper_date": "2019-07-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "79.8",
+                "OUT-OF-DOMAIN": "75.9",
+                "OVERALL": "78.7"
+              },
+              "model_links": [],
+              "model_name": "BERT w/ 2-context (single model)",
+              "paper_date": "2019-04-14",
+              "paper_title": "https://arxiv.org/pdf/1905.12848",
+              "paper_url": "https://arxiv.org/pdf/1905.12848",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "79.8",
+                "OUT-OF-DOMAIN": "74.1",
+                "OVERALL": "78.1"
+              },
+              "model_links": [],
+              "model_name": "BERT-base finetune (single model)",
+              "paper_date": "2018-12-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "79.2",
+                "OUT-OF-DOMAIN": "74.1",
+                "OVERALL": "77.7"
+              },
+              "model_links": [],
+              "model_name": "Bert-FlowDelta (single model)",
+              "paper_date": "2019-04-19",
+              "paper_title": "https://arxiv.org/abs/1908.05117",
+              "paper_url": "https://arxiv.org/abs/1908.05117",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "78.4",
+                "OUT-OF-DOMAIN": "74.5",
+                "OVERALL": "77.3"
+              },
+              "model_links": [],
+              "model_name": "GraphFlow (single model)",
+              "paper_date": "2019-02-28",
+              "paper_title": "https://arxiv.org/pdf/1908.00059.pdf",
+              "paper_url": "https://arxiv.org/pdf/1908.00059.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "78.0",
+                "OUT-OF-DOMAIN": "73.1",
+                "OVERALL": "76.6"
+              },
+              "model_links": [],
+              "model_name": "SDNet (single model)",
+              "paper_date": "2018-11-26",
+              "paper_title": "https://github.com/Microsoft/SDNet",
+              "paper_url": "https://github.com/Microsoft/SDNet",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "77.0",
+                "OUT-OF-DOMAIN": "73.1",
+                "OVERALL": "75.8"
+              },
+              "model_links": [],
+              "model_name": "Flow Framework (single model)",
+              "paper_date": "2019-08-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "76.3",
+                "OUT-OF-DOMAIN": "71.8",
+                "OVERALL": "75.0"
+              },
+              "model_links": [],
+              "model_name": "FlowQA (single model)",
+              "paper_date": "2018-10-06",
+              "paper_title": "https://arxiv.org/abs/1810.06683",
+              "paper_url": "https://arxiv.org/abs/1810.06683",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "76.0",
+                "OUT-OF-DOMAIN": "70.4",
+                "OVERALL": "74.4"
+              },
+              "model_links": [],
+              "model_name": "HisFurC + BERT",
+              "paper_date": "2019-07-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "74.7",
+                "OUT-OF-DOMAIN": "70.0",
+                "OVERALL": "73.3"
+              },
+              "model_links": [],
+              "model_name": "RNet + PGNet + BERT (single model)",
+              "paper_date": "2019-01-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "74.3",
+                "OUT-OF-DOMAIN": "68.8",
+                "OVERALL": "72.7"
+              },
+              "model_links": [],
+              "model_name": "XyzNet (single model)",
+              "paper_date": "2019-02-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "71.6",
+                "OUT-OF-DOMAIN": "65.1",
+                "OVERALL": "69.7"
+              },
+              "model_links": [],
+              "model_name": "DrQA + marker features (single model)",
+              "paper_date": "2018-12-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "71.1",
+                "OUT-OF-DOMAIN": "65.5",
+                "OVERALL": "69.5"
+              },
+              "model_links": [],
+              "model_name": "BiDAF++ (single model)",
+              "paper_date": "2018-12-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "69.4",
+                "OUT-OF-DOMAIN": "63.8",
+                "OVERALL": "67.8"
+              },
+              "model_links": [],
+              "model_name": "BiDAF++ (single model)",
+              "paper_date": "2018-09-27",
+              "paper_title": "https://arxiv.org/abs/1809.10735",
+              "paper_url": "https://arxiv.org/abs/1809.10735",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "68.4",
+                "OUT-OF-DOMAIN": "61.8",
+                "OVERALL": "66.5"
+              },
+              "model_links": [],
+              "model_name": "Bert Base Augmented (single model)",
+              "paper_date": "2018-11-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "68.1",
+                "OUT-OF-DOMAIN": "62.3",
+                "OVERALL": "66.4"
+              },
+              "model_links": [],
+              "model_name": "RNet_DotAtt + seq2seq with copy attention (single model)",
+              "paper_date": "2018-12-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "68.7",
+                "OUT-OF-DOMAIN": "60.5",
+                "OVERALL": "66.3"
+              },
+              "model_links": [],
+              "model_name": "Simplified BiDAF++ (single model)",
+              "paper_date": "2018-12-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "67.0",
+                "OUT-OF-DOMAIN": "60.4",
+                "OVERALL": "65.1"
+              },
+              "model_links": [],
+              "model_name": "DrQA + seq2seq with copy attention (single model)",
+              "paper_date": "2018-08-21",
+              "paper_title": "https://arxiv.org/abs/1808.07042",
+              "paper_url": "https://arxiv.org/abs/1808.07042",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "IN-DOMAIN": "54.5",
+                "OUT-OF-DOMAIN": "47.9",
+                "OVERALL": "52.6"
+              },
+              "model_links": [],
+              "model_name": "Vanilla DrQA (single model)",
+              "paper_date": "2018-08-21",
+              "paper_title": "https://arxiv.org/abs/1808.07042",
+              "paper_url": "https://arxiv.org/abs/1808.07042",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "CoQA Leaderboard",
+      "url": "https://stanfordnlp.github.io/coqa/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Question Answering"
+  }
+]
