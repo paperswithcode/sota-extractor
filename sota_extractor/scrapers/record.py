@@ -1,7 +1,7 @@
 import requests
 
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.utils import date_from_timestamp
+from sota_extractor.scrapers.utils import date_from_timestamp, sround
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -40,16 +40,20 @@ def get_sota_rows(data):
         else:
             link = ""
 
+        em = row.get("scores", {}).get("exact_match", None)
+        f1 = row.get("scores", {}).get("f1", None)
+
+        # Skip rows with no values
+        if em is None or f1 is None:
+            continue
+
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
                 paper_title=link,
                 paper_url=link,
                 paper_date=date,
-                metrics={
-                    "EM": str(row.get("scores", {}).get("exact_match", 0)),
-                    "F1": str(row.get("scores", {}).get("f1", 0)),
-                },
+                metrics={"EM": sround(em, 3), "F1": sround(f1, 3)},
             )
         )
     return sota_rows

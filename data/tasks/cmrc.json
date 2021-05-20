@@ -308,10 +308,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "21.0",
-                "CHALLENGE-F1": "47.0",
-                "TEST-EM": "70.5",
-                "TEST-F1": "87.4"
+                "CHALLENGE-EM": "21.000",
+                "CHALLENGE-F1": "47.000",
+                "TEST-EM": "70.500",
+                "TEST-F1": "87.400"
               },
               "model_links": [],
               "model_name": "BERT-wwm (single model)",
@@ -323,10 +323,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "24.0",
-                "CHALLENGE-F1": "47.3",
-                "TEST-EM": "71.4",
-                "TEST-F1": "87.7"
+                "CHALLENGE-EM": "24.000",
+                "CHALLENGE-F1": "47.300",
+                "TEST-EM": "71.400",
+                "TEST-F1": "87.700"
               },
               "model_links": [],
               "model_name": "BERT-wwm-ext (single model)",
@@ -338,10 +338,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "23.8",
-                "CHALLENGE-F1": "47.9",
-                "TEST-EM": "70.4",
-                "TEST-F1": "88.1"
+                "CHALLENGE-EM": "23.800",
+                "CHALLENGE-F1": "47.900",
+                "TEST-EM": "70.400",
+                "TEST-F1": "88.100"
               },
               "model_links": [],
               "model_name": "Dual BERT (single model)",
@@ -353,10 +353,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "27.8",
-                "CHALLENGE-F1": "55.2",
-                "TEST-EM": "73.6",
-                "TEST-F1": "90.2"
+                "CHALLENGE-EM": "27.800",
+                "CHALLENGE-F1": "55.200",
+                "TEST-EM": "73.600",
+                "TEST-F1": "90.200"
               },
               "model_links": [],
               "model_name": "Dual BERT (w/ SQuAD) (single model)",
@@ -368,10 +368,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "29.1",
-                "CHALLENGE-F1": "55.8",
-                "TEST-EM": "69.3",
-                "TEST-F1": "89.2"
+                "CHALLENGE-EM": "29.100",
+                "CHALLENGE-F1": "55.800",
+                "TEST-EM": "69.300",
+                "TEST-F1": "89.200"
               },
               "model_links": [],
               "model_name": "XLNet-mid (single model)",
@@ -383,10 +383,10 @@
             {
               "code_links": [],
               "metrics": {
-                "CHALLENGE-EM": "26.2",
-                "CHALLENGE-F1": "51.0",
-                "TEST-EM": "72.6",
-                "TEST-F1": "89.4"
+                "CHALLENGE-EM": "26.200",
+                "CHALLENGE-F1": "51.000",
+                "TEST-EM": "72.600",
+                "TEST-F1": "89.400"
               },
               "model_links": [],
               "model_name": "RoBERTa-wwm-ext (single model)",

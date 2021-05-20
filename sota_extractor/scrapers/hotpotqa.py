@@ -3,7 +3,7 @@ import re
 import requests
 
 from sota_extractor.errors import HttpClientError
-from sota_extractor.scrapers.utils import date_from_timestamp
+from sota_extractor.scrapers.utils import date_from_timestamp, sround
 from sota_extractor.taskdb.v01 import SotaRow, Dataset, Task, Link, TaskDB
 
 
@@ -41,6 +41,24 @@ def get_sota_rows(data):
             paper = ""
             link = ""
 
+        ans_em = row.get("scores", {}).get("ans_em", None)
+        ans_f1 = row.get("scores", {}).get("ans_f1", None)
+        sup_em = row.get("scores", {}).get("sup_em", None)
+        sup_f1 = row.get("scores", {}).get("sup_f1", None)
+        joint_em = row.get("scores", {}).get("joint_em", None)
+        joint_f1 = row.get("scores", {}).get("joint_f1", None)
+
+        # Skip rows with no values
+        if (
+            ans_em is None
+            or ans_f1 is None
+            or sup_em is None
+            or sup_f1 is None
+            or joint_em is None
+            or joint_f1 is None
+        ):
+            continue
+
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
@@ -48,12 +66,12 @@ def get_sota_rows(data):
                 paper_url=link,
                 paper_date=date,
                 metrics={
-                    "ANS-EM": str(row.get("scores", {}).get("ans_em", 0)),
-                    "ANS-F1": str(row.get("scores", {}).get("ans_f1", 0)),
-                    "SUP-EM": str(row.get("scores", {}).get("sup_em", 0)),
-                    "SUP-F1": str(row.get("scores", {}).get("sup_f1", 0)),
-                    "JOINT-EM": str(row.get("scores", {}).get("joint_em", 0)),
-                    "JOINT-F1": str(row.get("scores", {}).get("joint_f1", 0)),
+                    "ANS-EM": sround(ans_em, 3),
+                    "ANS-F1": sround(ans_f1, 3),
+                    "SUP-EM": sround(sup_em, 3),
+                    "SUP-F1": sround(sup_f1, 3),
+                    "JOINT-EM": sround(joint_em, 3),
+                    "JOINT-F1": sround(joint_f1, 3),
                 },
             )
         )

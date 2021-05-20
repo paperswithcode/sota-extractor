@@ -48,11 +48,13 @@ def date_from_timestamp(
         return None
 
 
-def sround(x: float, ndigits: int = 3, default: float = 0.0) -> str:
+def sround(
+    x: Union[int, float, str], ndigits: int = 3, default: float = 0.0
+) -> str:
     """Round the number and return as a string.
 
     Args:
-        x (float): Number to format.
+        x (int|float|str): Number to format.
         ndigits (int): Number of digits to enforce.
         default (float): Default value if rounding fails.
 
@@ -60,7 +62,7 @@ def sround(x: float, ndigits: int = 3, default: float = 0.0) -> str:
         str: Rounded string representation.
     """
     try:
-        x = round(x, ndigits=ndigits)
+        x = round(float(x), ndigits=ndigits)
     except ValueError:
         x = default
 

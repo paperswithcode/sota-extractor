@@ -1,0 +1,186 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "ReCoRD",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "EM",
+            "F1"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "90.640",
+                "F1": "91.209"
+              },
+              "model_links": [],
+              "model_name": "LUKE (single model)",
+              "paper_date": "2020-03-26",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "83.090",
+                "F1": "83.737"
+              },
+              "model_links": [],
+              "model_name": "XLNet + MTL + Verifier (ensemble)",
+              "paper_date": "2019-07-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "81.460",
+                "F1": "82.664"
+              },
+              "model_links": [],
+              "model_name": "XLNet + MTL + Verifier (single model)",
+              "paper_date": "2019-07-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "81.780",
+                "F1": "82.584"
+              },
+              "model_links": [],
+              "model_name": "CSRLM (single model)",
+              "paper_date": "2019-07-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "79.480",
+                "F1": "80.038"
+              },
+              "model_links": [],
+              "model_name": "{SKG-NET} (single model)",
+              "paper_date": "2019-07-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "71.600",
+                "F1": "73.620"
+              },
+              "model_links": [],
+              "model_name": "KT-NET (single model)",
+              "paper_date": "2019-01-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "72.240",
+                "F1": "72.778"
+              },
+              "model_links": [],
+              "model_name": "SKG-BERT (single model)",
+              "paper_date": "2019-05-16",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "69.490",
+                "F1": "71.138"
+              },
+              "model_links": [],
+              "model_name": "DCReader+BERT (single model)",
+              "paper_date": "2018-11-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "60.800",
+                "F1": "62.986"
+              },
+              "model_links": [],
+              "model_name": "GraphBert (single)",
+              "paper_date": "2020-10-08",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "59.860",
+                "F1": "61.885"
+              },
+              "model_links": [],
+              "model_name": "GraphBert-WordNet (single)",
+              "paper_date": "2020-10-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "59.410",
+                "F1": "61.515"
+              },
+              "model_links": [],
+              "model_name": "GraphBert-NELL (single)",
+              "paper_date": "2020-10-08",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "EM": "54.040",
+                "F1": "56.065"
+              },
+              "model_links": [],
+              "model_name": "BERT-Base (single model)",
+              "paper_date": "2018-11-16",
+              "paper_title": "https://arxiv.org/pdf/1810.04805.pdf",
+              "paper_url": "https://arxiv.org/pdf/1810.04805.pdf",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "ReCoRD Leaderboard",
+      "url": "https://sheng-z.github.io/ReCoRD-explorer/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Common Sense Reasoning"
+  }
+]

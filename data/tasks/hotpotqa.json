@@ -1,0 +1,1241 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "HotpotQA",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "ANS-EM",
+            "ANS-F1",
+            "SUP-EM",
+            "SUP-F1",
+            "JOINT-EM",
+            "JOINT-F1"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.675",
+                "ANS-F1": "0.805",
+                "JOINT-EM": "0.449",
+                "JOINT-F1": "0.720",
+                "SUP-EM": "0.612",
+                "SUP-F1": "0.860"
+              },
+              "model_links": [],
+              "model_name": "AISO",
+              "paper_date": "2021-05-10",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.671",
+                "ANS-F1": "0.799",
+                "JOINT-EM": "0.432",
+                "JOINT-F1": "0.706",
+                "SUP-EM": "0.574",
+                "SUP-F1": "0.835"
+              },
+              "model_links": [],
+              "model_name": "HopRetriever + Sp-search",
+              "paper_date": "2021-01-15",
+              "paper_title": "Li, Li, Shang, et al. 2020",
+              "paper_url": "https://arxiv.org/abs/2012.15534",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.671",
+                "ANS-F1": "0.799",
+                "JOINT-EM": "0.431",
+                "JOINT-F1": "0.698",
+                "SUP-EM": "0.572",
+                "SUP-F1": "0.826"
+              },
+              "model_links": [],
+              "model_name": "HopRetriever",
+              "paper_date": "2020-12-18",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.670",
+                "ANS-F1": "0.795",
+                "JOINT-EM": "0.444",
+                "JOINT-F1": "0.708",
+                "SUP-EM": "0.594",
+                "SUP-F1": "0.843"
+              },
+              "model_links": [],
+              "model_name": "TPRR",
+              "paper_date": "2021-02-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.662",
+                "ANS-F1": "0.793",
+                "JOINT-EM": "0.420",
+                "JOINT-F1": "0.700",
+                "SUP-EM": "0.573",
+                "SUP-F1": "0.840"
+              },
+              "model_links": [],
+              "model_name": "EBS-Large",
+              "paper_date": "2020-12-02",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.663",
+                "ANS-F1": "0.791",
+                "JOINT-EM": "0.428",
+                "JOINT-F1": "0.696",
+                "SUP-EM": "0.569",
+                "SUP-F1": "0.832"
+              },
+              "model_links": [],
+              "model_name": "IRRR+",
+              "paper_date": "2020-12-01",
+              "paper_title": "Qi, Lee, Sido, and Manning. 2020",
+              "paper_url": "https://arxiv.org/abs/2010.12527",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.655",
+                "ANS-F1": "0.786",
+                "JOINT-EM": "0.409",
+                "JOINT-F1": "0.689",
+                "SUP-EM": "0.559",
+                "SUP-F1": "0.831"
+              },
+              "model_links": [],
+              "model_name": "EBS-SH",
+              "paper_date": "2020-09-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.657",
+                "ANS-F1": "0.785",
+                "JOINT-EM": "0.434",
+                "JOINT-F1": "0.695",
+                "SUP-EM": "0.582",
+                "SUP-F1": "0.833"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-12-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.653",
+                "ANS-F1": "0.783",
+                "JOINT-EM": "0.400",
+                "JOINT-F1": "0.681",
+                "SUP-EM": "0.542",
+                "SUP-F1": "0.822"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-08-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.657",
+                "ANS-F1": "0.782",
+                "JOINT-EM": "0.421",
+                "JOINT-F1": "0.686",
+                "SUP-EM": "0.559",
+                "SUP-F1": "0.821"
+              },
+              "model_links": [],
+              "model_name": "IRRR",
+              "paper_date": "2020-08-03",
+              "paper_title": "Qi, Lee, Sido, and Manning. 2020",
+              "paper_url": "https://arxiv.org/abs/2010.12527",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.649",
+                "ANS-F1": "0.782",
+                "JOINT-EM": "0.394",
+                "JOINT-F1": "0.681",
+                "SUP-EM": "0.545",
+                "SUP-F1": "0.825"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-08-06",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.651",
+                "ANS-F1": "0.780",
+                "JOINT-EM": "0.405",
+                "JOINT-F1": "0.684",
+                "SUP-EM": "0.554",
+                "SUP-F1": "0.827"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-09-08",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.651",
+                "ANS-F1": "0.780",
+                "JOINT-EM": "0.405",
+                "JOINT-F1": "0.684",
+                "SUP-EM": "0.554",
+                "SUP-F1": "0.827"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-09-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.652",
+                "ANS-F1": "0.780",
+                "JOINT-EM": "0.423",
+                "JOINT-F1": "0.685",
+                "SUP-EM": "0.566",
+                "SUP-F1": "0.824"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-10-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.648",
+                "ANS-F1": "0.778",
+                "JOINT-EM": "0.410",
+                "JOINT-F1": "0.678",
+                "SUP-EM": "0.561",
+                "SUP-F1": "0.818"
+              },
+              "model_links": [],
+              "model_name": "HopRetriever-V2",
+              "paper_date": "2020-10-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.643",
+                "ANS-F1": "0.772",
+                "JOINT-EM": "0.363",
+                "JOINT-F1": "0.638",
+                "SUP-EM": "0.511",
+                "SUP-F1": "0.786"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-07-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.625",
+                "ANS-F1": "0.759",
+                "JOINT-EM": "0.360",
+                "JOINT-F1": "0.639",
+                "SUP-EM": "0.510",
+                "SUP-F1": "0.789"
+              },
+              "model_links": [],
+              "model_name": "DDRQA",
+              "paper_date": "2020-05-22",
+              "paper_title": "Yuyu, Ping et al. 2020",
+              "paper_url": "https://arxiv.org/pdf/2009.07465.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.629",
+                "ANS-F1": "0.758",
+                "JOINT-EM": "0.422",
+                "JOINT-F1": "0.671",
+                "SUP-EM": "0.577",
+                "SUP-F1": "0.813"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2021-05-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.627",
+                "ANS-F1": "0.755",
+                "JOINT-EM": "0.420",
+                "JOINT-F1": "0.669",
+                "SUP-EM": "0.575",
+                "SUP-F1": "0.809"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2021-05-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.630",
+                "ANS-F1": "0.754",
+                "JOINT-EM": "0.404",
+                "JOINT-F1": "0.662",
+                "SUP-EM": "0.546",
+                "SUP-F1": "0.800"
+              },
+              "model_links": [],
+              "model_name": "Step-by-Step Retriever",
+              "paper_date": "2020-05-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.620",
+                "ANS-F1": "0.753",
+                "JOINT-EM": "0.354",
+                "JOINT-F1": "0.630",
+                "SUP-EM": "0.499",
+                "SUP-F1": "0.778"
+              },
+              "model_links": [],
+              "model_name": "DR model large",
+              "paper_date": "2020-03-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.623",
+                "ANS-F1": "0.753",
+                "JOINT-EM": "0.418",
+                "JOINT-F1": "0.666",
+                "SUP-EM": "0.575",
+                "SUP-F1": "0.809"
+              },
+              "model_links": [],
+              "model_name": "Recursive Dense Retriever",
+              "paper_date": "2020-08-27",
+              "paper_title": "Xiong, Li et al., ICLR 2021",
+              "paper_url": "https://arxiv.org/abs/2009.12756",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.618",
+                "ANS-F1": "0.747",
+                "JOINT-EM": "0.384",
+                "JOINT-F1": "0.645",
+                "SUP-EM": "0.535",
+                "SUP-F1": "0.801"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-11-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.608",
+                "ANS-F1": "0.739",
+                "JOINT-EM": "0.380",
+                "JOINT-F1": "0.639",
+                "SUP-EM": "0.531",
+                "SUP-F1": "0.793"
+              },
+              "model_links": [],
+              "model_name": "HopRetriever-V1",
+              "paper_date": "2020-06-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.604",
+                "ANS-F1": "0.732",
+                "JOINT-EM": "0.380",
+                "JOINT-F1": "0.629",
+                "SUP-EM": "0.520",
+                "SUP-F1": "0.771"
+              },
+              "model_links": [],
+              "model_name": "Anonymous",
+              "paper_date": "2020-11-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.601",
+                "ANS-F1": "0.730",
+                "JOINT-EM": "0.359",
+                "JOINT-F1": "0.617",
+                "SUP-EM": "0.500",
+                "SUP-F1": "0.769"
+              },
+              "model_links": [],
+              "model_name": "AFSgraph",
+              "paper_date": "2021-02-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.601",
+                "ANS-F1": "0.730",
+                "JOINT-EM": "0.350",
+                "JOINT-F1": "0.609",
+                "SUP-EM": "0.485",
+                "SUP-F1": "0.759"
+              },
+              "model_links": [],
+              "model_name": "AFSgraph  model",
+              "paper_date": "2020-10-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.600",
+                "ANS-F1": "0.730",
+                "JOINT-EM": "0.354",
+                "JOINT-F1": "0.612",
+                "SUP-EM": "0.491",
+                "SUP-F1": "0.764"
+              },
+              "model_links": [],
+              "model_name": "Robustly Fine-tuned Graph-based Recurrent Retriever",
+              "paper_date": "2019-11-06",
+              "paper_title": "Asai et al., ICLR 2020",
+              "paper_url": "https://arxiv.org/abs/1911.10470",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.598",
+                "ANS-F1": "0.727",
+                "JOINT-EM": "0.345",
+                "JOINT-F1": "0.602",
+                "SUP-EM": "0.480",
+                "SUP-F1": "0.749"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-DenseRetriever-Fast",
+              "paper_date": "2021-01-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.598",
+                "ANS-F1": "0.727",
+                "JOINT-EM": "0.345",
+                "JOINT-F1": "0.602",
+                "SUP-EM": "0.480",
+                "SUP-F1": "0.749"
+              },
+              "model_links": [],
+              "model_name": "DPR-recurrent",
+              "paper_date": "2021-01-24",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.596",
+                "ANS-F1": "0.724",
+                "JOINT-EM": "0.345",
+                "JOINT-F1": "0.601",
+                "SUP-EM": "0.479",
+                "SUP-F1": "0.748"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-DenseRetriever",
+              "paper_date": "2021-01-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.588",
+                "ANS-F1": "0.717",
+                "JOINT-EM": "0.293",
+                "JOINT-F1": "0.568",
+                "SUP-EM": "0.416",
+                "SUP-F1": "0.725"
+              },
+              "model_links": [],
+              "model_name": "DR model",
+              "paper_date": "2020-02-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.589",
+                "ANS-F1": "0.716",
+                "JOINT-EM": "0.345",
+                "JOINT-F1": "0.598",
+                "SUP-EM": "0.480",
+                "SUP-F1": "0.757"
+              },
+              "model_links": [],
+              "model_name": "SAFSR model",
+              "paper_date": "2020-07-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.597",
+                "ANS-F1": "0.714",
+                "JOINT-EM": "0.379",
+                "JOINT-F1": "0.623",
+                "SUP-EM": "0.510",
+                "SUP-F1": "0.774"
+              },
+              "model_links": [],
+              "model_name": "HGN-albert + SemanticRetrievalMRS IR",
+              "paper_date": "2020-02-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.581",
+                "ANS-F1": "0.710",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "graph-recurrent-retriever+roberta-base w. S/R-pretraining",
+              "paper_date": "2021-01-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.582",
+                "ANS-F1": "0.709",
+                "JOINT-EM": "0.310",
+                "JOINT-F1": "0.569",
+                "SUP-EM": "0.429",
+                "SUP-F1": "0.713"
+              },
+              "model_links": [],
+              "model_name": "GraphRR-Fast",
+              "paper_date": "2021-01-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.579",
+                "ANS-F1": "0.699",
+                "JOINT-EM": "0.372",
+                "JOINT-F1": "0.607",
+                "SUP-EM": "0.510",
+                "SUP-F1": "0.768"
+              },
+              "model_links": [],
+              "model_name": "HGN-large + SemanticRetrievalMRS IR",
+              "paper_date": "2019-12-01",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.567",
+                "ANS-F1": "0.692",
+                "JOINT-EM": "0.356",
+                "JOINT-F1": "0.599",
+                "SUP-EM": "0.500",
+                "SUP-F1": "0.764"
+              },
+              "model_links": [],
+              "model_name": "HGN + SemanticRetrievalMRS IR",
+              "paper_date": "2019-10-07",
+              "paper_title": "Fang et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1911.03631",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.560",
+                "ANS-F1": "0.689",
+                "JOINT-EM": "0.292",
+                "JOINT-F1": "0.553",
+                "SUP-EM": "0.441",
+                "SUP-F1": "0.730"
+              },
+              "model_links": [],
+              "model_name": "Graph-based Recurrent Retriever",
+              "paper_date": "2019-09-21",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.555",
+                "ANS-F1": "0.675",
+                "JOINT-EM": "0.329",
+                "JOINT-F1": "0.562",
+                "SUP-EM": "0.456",
+                "SUP-F1": "0.730"
+              },
+              "model_links": [],
+              "model_name": "Quark + SemanticRetrievalMRS IR",
+              "paper_date": "2019-12-09",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.523",
+                "ANS-F1": "0.648",
+                "JOINT-EM": "0.330",
+                "JOINT-F1": "0.561",
+                "SUP-EM": "0.490",
+                "SUP-F1": "0.747"
+              },
+              "model_links": [],
+              "model_name": "GAR-BERT",
+              "paper_date": "2021-05-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.529",
+                "ANS-F1": "0.648",
+                "JOINT-EM": "0.312",
+                "JOINT-F1": "0.548",
+                "SUP-EM": "0.428",
+                "SUP-F1": "0.720"
+              },
+              "model_links": [],
+              "model_name": "MIR+EPS+BERT",
+              "paper_date": "2019-09-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.516",
+                "ANS-F1": "0.641",
+                "JOINT-EM": "0.261",
+                "JOINT-F1": "0.513",
+                "SUP-EM": "0.409",
+                "SUP-F1": "0.714"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XH-final",
+              "paper_date": "2020-02-04",
+              "paper_title": "Zhao et al. ICLR 2020",
+              "paper_url": "https://openreview.net/pdf?id=r1eIiCNYwS",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.482",
+                "ANS-F1": "0.613",
+                "JOINT-EM": "0.306",
+                "JOINT-F1": "0.530",
+                "SUP-EM": "0.483",
+                "SUP-F1": "0.739"
+              },
+              "model_links": [],
+              "model_name": "GAR",
+              "paper_date": "2021-03-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.490",
+                "ANS-F1": "0.608",
+                "JOINT-EM": "0.271",
+                "JOINT-F1": "0.496",
+                "SUP-EM": "0.417",
+                "SUP-F1": "0.700"
+              },
+              "model_links": [],
+              "model_name": "Transformer-XH",
+              "paper_date": "2019-09-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.475",
+                "ANS-F1": "0.606",
+                "JOINT-EM": "0.049",
+                "JOINT-F1": "0.334",
+                "SUP-EM": "0.076",
+                "SUP-F1": "0.448"
+              },
+              "model_links": [],
+              "model_name": "GAR-NOSF",
+              "paper_date": "2021-03-14",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.453",
+                "ANS-F1": "0.573",
+                "JOINT-EM": "0.251",
+                "JOINT-F1": "0.476",
+                "SUP-EM": "0.387",
+                "SUP-F1": "0.708"
+              },
+              "model_links": [],
+              "model_name": "SemanticRetrievalMRS",
+              "paper_date": "2019-05-15",
+              "paper_title": "Nie  et al., EMNLP'2019",
+              "paper_url": "http://arxiv.org/abs/1909.08041",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.432",
+                "ANS-F1": "0.544",
+                "JOINT-EM": "0.254",
+                "JOINT-F1": "0.449",
+                "SUP-EM": "0.386",
+                "SUP-F1": "0.636"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-11-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.433",
+                "ANS-F1": "0.538",
+                "JOINT-EM": "0.145",
+                "JOINT-F1": "0.391",
+                "SUP-EM": "0.219",
+                "SUP-F1": "0.596"
+              },
+              "model_links": [],
+              "model_name": "PR-Bert",
+              "paper_date": "2019-08-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.426",
+                "ANS-F1": "0.537",
+                "JOINT-EM": "0.031",
+                "JOINT-F1": "0.281",
+                "SUP-EM": "0.056",
+                "SUP-F1": "0.385"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-12-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.418",
+                "ANS-F1": "0.531",
+                "JOINT-EM": "0.170",
+                "JOINT-F1": "0.392",
+                "SUP-EM": "0.263",
+                "SUP-F1": "0.573"
+              },
+              "model_links": [],
+              "model_name": "Entity-centric BERT Pipeline",
+              "paper_date": "2019-07-31",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.421",
+                "ANS-F1": "0.517",
+                "JOINT-EM": "0.247",
+                "JOINT-F1": "0.429",
+                "SUP-EM": "0.371",
+                "SUP-F1": "0.598"
+              },
+              "model_links": [],
+              "model_name": "DrKIT",
+              "paper_date": "2020-02-21",
+              "paper_title": "Dhingra et al, ICLR 2020",
+              "paper_url": "https://openreview.net/forum?id=SJxstlHFPH",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.394",
+                "ANS-F1": "0.514",
+                "JOINT-EM": "0.133",
+                "JOINT-F1": "0.370",
+                "SUP-EM": "0.242",
+                "SUP-F1": "0.585"
+              },
+              "model_links": [],
+              "model_name": "SAFSr-Bert",
+              "paper_date": "2019-12-05",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.389",
+                "ANS-F1": "0.507",
+                "JOINT-EM": "0.233",
+                "JOINT-F1": "0.418",
+                "SUP-EM": "0.383",
+                "SUP-F1": "0.622"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-11-29",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.381",
+                "ANS-F1": "0.500",
+                "JOINT-EM": "0.035",
+                "JOINT-F1": "0.261",
+                "SUP-EM": "0.058",
+                "SUP-F1": "0.373"
+              },
+              "model_links": [],
+              "model_name": "",
+              "paper_date": "2020-12-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.371",
+                "ANS-F1": "0.489",
+                "JOINT-EM": "0.124",
+                "JOINT-F1": "0.349",
+                "SUP-EM": "0.228",
+                "SUP-F1": "0.577"
+              },
+              "model_links": [],
+              "model_name": "Cognitive Graph QA",
+              "paper_date": "2019-02-22",
+              "paper_title": "Ding et al.,  ACL'19",
+              "paper_url": "https://arxiv.org/abs/1905.05460",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.379",
+                "ANS-F1": "0.486",
+                "JOINT-EM": "0.180",
+                "JOINT-F1": "0.391",
+                "SUP-EM": "0.307",
+                "SUP-F1": "0.642"
+              },
+              "model_links": [],
+              "model_name": "GoldEn Retriever",
+              "paper_date": "2019-05-21",
+              "paper_title": "Qi et al., EMNLP-IJCNLP 2019",
+              "paper_url": "https://arxiv.org/pdf/1910.07000.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.360",
+                "ANS-F1": "0.474",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "TPReasoner w/o BERT",
+              "paper_date": "2019-05-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.354",
+                "ANS-F1": "0.463",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.255",
+                "SUP-EM": "0.001",
+                "SUP-F1": "0.432"
+              },
+              "model_links": [],
+              "model_name": "Entity-centric IR",
+              "paper_date": "2019-05-20",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.358",
+                "ANS-F1": "0.453",
+                "JOINT-EM": "0.115",
+                "JOINT-F1": "0.304",
+                "SUP-EM": "0.160",
+                "SUP-F1": "0.512"
+              },
+              "model_links": [],
+              "model_name": "IKFGraph",
+              "paper_date": "2021-04-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.300",
+                "ANS-F1": "0.407",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "DecompRC",
+              "paper_date": "2019-03-01",
+              "paper_title": "Min et al., ACL'18",
+              "paper_url": "https://arxiv.org/pdf/1906.02916.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.306",
+                "ANS-F1": "0.403",
+                "JOINT-EM": "0.109",
+                "JOINT-F1": "0.270",
+                "SUP-EM": "0.167",
+                "SUP-F1": "0.473"
+              },
+              "model_links": [],
+              "model_name": "MUPPET",
+              "paper_date": "2019-03-05",
+              "paper_title": "Feldman and El-Yaniv, ACL'19",
+              "paper_url": "https://arxiv.org/pdf/1906.06606",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.307",
+                "ANS-F1": "0.402",
+                "JOINT-EM": "0.000",
+                "JOINT-F1": "0.000",
+                "SUP-EM": "0.000",
+                "SUP-F1": "0.000"
+              },
+              "model_links": [],
+              "model_name": "MultiQA",
+              "paper_date": "2019-03-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.289",
+                "ANS-F1": "0.391",
+                "JOINT-EM": "0.041",
+                "JOINT-F1": "0.209",
+                "SUP-EM": "0.080",
+                "SUP-F1": "0.406"
+              },
+              "model_links": [],
+              "model_name": "SAFSr_model",
+              "paper_date": "2019-11-30",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.299",
+                "ANS-F1": "0.391",
+                "JOINT-EM": "0.083",
+                "JOINT-F1": "0.258",
+                "SUP-EM": "0.132",
+                "SUP-F1": "0.497"
+              },
+              "model_links": [],
+              "model_name": "GRN + BERT",
+              "paper_date": "2019-04-07",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.284",
+                "ANS-F1": "0.386",
+                "JOINT-EM": "0.086",
+                "JOINT-F1": "0.245",
+                "SUP-EM": "0.147",
+                "SUP-F1": "0.472"
+              },
+              "model_links": [],
+              "model_name": "SAQA",
+              "paper_date": "2019-08-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.287",
+                "ANS-F1": "0.381",
+                "JOINT-EM": "0.087",
+                "JOINT-F1": "0.231",
+                "SUP-EM": "0.142",
+                "SUP-F1": "0.444"
+              },
+              "model_links": [],
+              "model_name": "QFE",
+              "paper_date": "2018-11-26",
+              "paper_title": "Nishida et al., ACL'19",
+              "paper_url": "https://arxiv.org/pdf/1905.08511.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.277",
+                "ANS-F1": "0.372",
+                "JOINT-EM": "0.070",
+                "JOINT-F1": "0.247",
+                "SUP-EM": "0.127",
+                "SUP-F1": "0.472"
+              },
+              "model_links": [],
+              "model_name": "KGNN",
+              "paper_date": "2019-05-19",
+              "paper_title": "Ye et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1911.02170",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.273",
+                "ANS-F1": "0.365",
+                "JOINT-EM": "0.074",
+                "JOINT-F1": "0.236",
+                "SUP-EM": "0.122",
+                "SUP-F1": "0.488"
+              },
+              "model_links": [],
+              "model_name": "GRN",
+              "paper_date": "2019-03-04",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.240",
+                "ANS-F1": "0.329",
+                "JOINT-EM": "0.019",
+                "JOINT-F1": "0.162",
+                "SUP-EM": "0.039",
+                "SUP-F1": "0.377"
+              },
+              "model_links": [],
+              "model_name": "Baseline Model",
+              "paper_date": "2018-10-12",
+              "paper_title": "Yang, Qi, Zhang, et al. 2018",
+              "paper_url": "https://arxiv.org/pdf/1809.09600.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "ANS-EM": "0.236",
+                "ANS-F1": "0.320",
+                "JOINT-EM": "0.033",
+                "JOINT-F1": "0.175",
+                "SUP-EM": "0.056",
+                "SUP-F1": "0.400"
+              },
+              "model_links": [],
+              "model_name": "SuppBERT",
+              "paper_date": "2019-03-15",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "HotpotQA Leaderboard",
+      "url": "https://hotpotqa.github.io/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Question Answering"
+  }
+]
