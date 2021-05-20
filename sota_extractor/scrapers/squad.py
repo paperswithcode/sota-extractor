@@ -64,16 +64,30 @@ def get_sota_rows(data):
             else:
                 link = ""
 
+        em = row.get("scores", {}).get("exact_match", None)
+        f1 = row.get("scores", {}).get("f1", None)
+
+        # Skip rows with no values
+        if em is None or f1 is None:
+            continue
+
+        # Round results to 3 decimal places
+        try:
+            em = round(em, 3)
+        except ValueError:
+            em = 0
+        try:
+            f1 = round(f1, 3)
+        except ValueError:
+            f1 = 0
+
         sota_rows.append(
             SotaRow(
                 model_name=model_name,
                 paper_title=link,
                 paper_url=link,
                 paper_date=date,
-                metrics={
-                    "EM": str(row.get("scores", {}).get("exact_match", 0)),
-                    "F1": str(row.get("scores", {}).get("f1", 0)),
-                },
+                metrics={"EM": f"{em}", "F1": f"{f1}"},
             )
         )
     return sota_rows
