@@ -1,0 +1,850 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "CMRC 2018 (Chinese Machine Reading Comprehension 2018)",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "CMRC 2018 Leadergboard",
+            "url": "http://ymcui.com/cmrc2018/"
+          }
+        ],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "TEST-EM",
+            "TEST-F1",
+            "CHALLENGE-EM",
+            "CHALLENGE-F1"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "13.889",
+                "CHALLENGE-F1": "37.422",
+                "TEST-EM": "74.178",
+                "TEST-F1": "88.145"
+              },
+              "model_links": [],
+              "model_name": "Z-Reader (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "13.690",
+                "CHALLENGE-F1": "33.964",
+                "TEST-EM": "68.335",
+                "TEST-F1": "85.707"
+              },
+              "model_links": [],
+              "model_name": "MCA-Reader (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "15.476",
+                "CHALLENGE-F1": "37.104",
+                "TEST-EM": "71.175",
+                "TEST-F1": "88.090"
+              },
+              "model_links": [],
+              "model_name": "MCA-Reader (ensemble)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "10.516",
+                "CHALLENGE-F1": "30.994",
+                "TEST-EM": "64.576",
+                "TEST-F1": "83.136"
+              },
+              "model_links": [],
+              "model_name": "RCEN (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "15.278",
+                "CHALLENGE-F1": "34.479",
+                "TEST-EM": "68.662",
+                "TEST-F1": "85.743"
+              },
+              "model_links": [],
+              "model_name": "RCEN (ensemble)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "10.119",
+                "CHALLENGE-F1": "29.716",
+                "TEST-EM": "64.188",
+                "TEST-F1": "81.539"
+              },
+              "model_links": [],
+              "model_name": "OmegaOne (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "12.103",
+                "CHALLENGE-F1": "30.859",
+                "TEST-EM": "66.272",
+                "TEST-F1": "82.788"
+              },
+              "model_links": [],
+              "model_name": "OmegaOne (ensemble)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "13.690",
+                "CHALLENGE-F1": "33.990",
+                "TEST-EM": "60.470",
+                "TEST-F1": "80.035"
+              },
+              "model_links": [],
+              "model_name": "GM-Reader (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "15.675",
+                "CHALLENGE-F1": "37.315",
+                "TEST-EM": "64.045",
+                "TEST-F1": "83.046"
+              },
+              "model_links": [],
+              "model_name": "GM-Reader (ensemble)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "9.921",
+                "CHALLENGE-F1": "29.324",
+                "TEST-EM": "50.112",
+                "TEST-F1": "73.353"
+              },
+              "model_links": [],
+              "model_name": "R-NET (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "6.548",
+                "CHALLENGE-F1": "28.116",
+                "TEST-EM": "44.270",
+                "TEST-F1": "70.673"
+              },
+              "model_links": [],
+              "model_name": "SXU-Reader (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "0.000",
+                "CHALLENGE-F1": "0.000",
+                "TEST-EM": "46.210",
+                "TEST-F1": "70.482"
+              },
+              "model_links": [],
+              "model_name": "SXU-Reader (ensemble)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "7.341",
+                "CHALLENGE-F1": "22.317",
+                "TEST-EM": "44.883",
+                "TEST-F1": "66.859"
+              },
+              "model_links": [],
+              "model_name": "Unnamed System (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "5.159",
+                "CHALLENGE-F1": "18.687",
+                "TEST-EM": "37.916",
+                "TEST-F1": "63.502"
+              },
+              "model_links": [],
+              "model_name": "Unnamed System (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "2.183",
+                "CHALLENGE-F1": "21.587",
+                "TEST-EM": "22.288",
+                "TEST-F1": "46.774"
+              },
+              "model_links": [],
+              "model_name": "Unnamed System (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "0.397",
+                "CHALLENGE-F1": "9.498",
+                "TEST-EM": "10.848",
+                "TEST-F1": "37.231"
+              },
+              "model_links": [],
+              "model_name": "Unnamed System (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "2.579",
+                "CHALLENGE-F1": "20.078",
+                "TEST-EM": "0.449",
+                "TEST-F1": "34.224"
+              },
+              "model_links": [],
+              "model_name": "Unnamed System (single model)",
+              "paper_date": "2018-09-17",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "13.095",
+                "CHALLENGE-F1": "37.038",
+                "TEST-EM": "64.658",
+                "TEST-F1": "83.780"
+              },
+              "model_links": [],
+              "model_name": "P-Reader (single model)",
+              "paper_date": "2019-03-11",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "15.079",
+                "CHALLENGE-F1": "39.583",
+                "TEST-EM": "65.189",
+                "TEST-F1": "84.386"
+              },
+              "model_links": [],
+              "model_name": "P-Reader (single model)",
+              "paper_date": "2019-03-27",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "21.0",
+                "CHALLENGE-F1": "47.0",
+                "TEST-EM": "70.5",
+                "TEST-F1": "87.4"
+              },
+              "model_links": [],
+              "model_name": "BERT-wwm (single model)",
+              "paper_date": "2019-06-20",
+              "paper_title": "Cui et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1906.08101",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "24.0",
+                "CHALLENGE-F1": "47.3",
+                "TEST-EM": "71.4",
+                "TEST-F1": "87.7"
+              },
+              "model_links": [],
+              "model_name": "BERT-wwm-ext (single model)",
+              "paper_date": "2019-07-30",
+              "paper_title": "Cui et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1906.08101",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "23.8",
+                "CHALLENGE-F1": "47.9",
+                "TEST-EM": "70.4",
+                "TEST-F1": "88.1"
+              },
+              "model_links": [],
+              "model_name": "Dual BERT (single model)",
+              "paper_date": "2019-05-01",
+              "paper_title": "Cui et al., EMNLP 2019",
+              "paper_url": "https://arxiv.org/abs/1909.00361",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "27.8",
+                "CHALLENGE-F1": "55.2",
+                "TEST-EM": "73.6",
+                "TEST-F1": "90.2"
+              },
+              "model_links": [],
+              "model_name": "Dual BERT (w/ SQuAD) (single model)",
+              "paper_date": "2019-05-01",
+              "paper_title": "Cui et al., EMNLP 2019",
+              "paper_url": "https://arxiv.org/abs/1909.00361",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "29.1",
+                "CHALLENGE-F1": "55.8",
+                "TEST-EM": "69.3",
+                "TEST-F1": "89.2"
+              },
+              "model_links": [],
+              "model_name": "XLNet-mid (single model)",
+              "paper_date": "2019-08-19",
+              "paper_title": "Cui et al., 2019",
+              "paper_url": "https://github.com/ymcui/Chinese-XLNet",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "26.2",
+                "CHALLENGE-F1": "51.0",
+                "TEST-EM": "72.6",
+                "TEST-F1": "89.4"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext (single model)",
+              "paper_date": "2019-09-10",
+              "paper_title": "Cui et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1906.08101",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "31.548",
+                "CHALLENGE-F1": "60.074",
+                "TEST-EM": "74.198",
+                "TEST-F1": "90.604"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext-large (single model)",
+              "paper_date": "2019-10-14",
+              "paper_title": "Cui et al., 2019",
+              "paper_url": "https://arxiv.org/abs/1906.08101",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "21.230",
+                "CHALLENGE-F1": "44.861",
+                "TEST-EM": "69.724",
+                "TEST-F1": "87.174"
+              },
+              "model_links": [],
+              "model_name": "BERT-base (google) (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "26.190",
+                "CHALLENGE-F1": "50.976",
+                "TEST-EM": "73.320",
+                "TEST-F1": "89.621"
+              },
+              "model_links": [],
+              "model_name": "ERNIE 1.0 (maxlen=512) (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "6.746",
+                "CHALLENGE-F1": "25.600",
+                "TEST-EM": "53.687",
+                "TEST-F1": "75.738"
+              },
+              "model_links": [],
+              "model_name": "ALBERT-tiny (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "27.976",
+                "CHALLENGE-F1": "51.622",
+                "TEST-EM": "73.667",
+                "TEST-F1": "90.175"
+              },
+              "model_links": [],
+              "model_name": "ALBERT-large (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "28.770",
+                "CHALLENGE-F1": "57.864",
+                "TEST-EM": "75.220",
+                "TEST-F1": "90.922"
+              },
+              "model_links": [],
+              "model_name": "ALBERT-xlarge (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "26.587",
+                "CHALLENGE-F1": "54.594",
+                "TEST-EM": "76.118",
+                "TEST-F1": "90.949"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-large (single model)",
+              "paper_date": "2019-11-01",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "22.421",
+                "CHALLENGE-F1": "46.430",
+                "TEST-EM": "73.238",
+                "TEST-F1": "88.784"
+              },
+              "model_links": [],
+              "model_name": "BERT-wwm-ext (single model)",
+              "paper_date": "2019-11-05",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "25.198",
+                "CHALLENGE-F1": "50.759",
+                "TEST-EM": "73.892",
+                "TEST-F1": "89.748"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext-base (single model)",
+              "paper_date": "2019-11-05",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "30.159",
+                "CHALLENGE-F1": "57.229",
+                "TEST-EM": "76.588",
+                "TEST-F1": "91.566"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext-large (single model)",
+              "paper_date": "2019-11-05",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "24.008",
+                "CHALLENGE-F1": "52.859",
+                "TEST-EM": "66.517",
+                "TEST-F1": "86.099"
+              },
+              "model_links": [],
+              "model_name": "XLNet-mid (single model)",
+              "paper_date": "2019-11-05",
+              "paper_title": "",
+              "paper_url": "https://github.com/CLUEBenchmark",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "22.817",
+                "CHALLENGE-F1": "45.173",
+                "TEST-EM": "72.952",
+                "TEST-F1": "90.137"
+              },
+              "model_links": [],
+              "model_name": "UER (single model)",
+              "paper_date": "2020-05-08",
+              "paper_title": "",
+              "paper_url": "https://github.com/dbiir/UER-py/tree/master/uer",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "24.206",
+                "CHALLENGE-F1": "46.951",
+                "TEST-EM": "78.795",
+                "TEST-F1": "91.992"
+              },
+              "model_links": [],
+              "model_name": "UER (single model)",
+              "paper_date": "2020-05-11",
+              "paper_title": "",
+              "paper_url": "https://github.com/dbiir/UER-py",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "23.214",
+                "CHALLENGE-F1": "52.138",
+                "TEST-EM": "74.954",
+                "TEST-F1": "90.286"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext-large (single model)",
+              "paper_date": "2020-10-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "30.159",
+                "CHALLENGE-F1": "54.039",
+                "TEST-EM": "73.179",
+                "TEST-F1": "89.486"
+              },
+              "model_links": [],
+              "model_name": "MacBERT-base (single model)",
+              "paper_date": "2020-05-01",
+              "paper_title": "Cui et al., Findings of EMNLP 2020",
+              "paper_url": "https://github.com/ymcui/MacBERT",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "31.923",
+                "CHALLENGE-F1": "60.177",
+                "TEST-EM": "74.786",
+                "TEST-F1": "90.693"
+              },
+              "model_links": [],
+              "model_name": "MacBERT-large (single model)",
+              "paper_date": "2020-05-01",
+              "paper_title": "Cui et al., Findings of EMNLP 2020",
+              "paper_url": "https://github.com/ymcui/MacBERT",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "32.540",
+                "CHALLENGE-F1": "63.597",
+                "TEST-EM": "76.997",
+                "TEST-F1": "92.171"
+              },
+              "model_links": [],
+              "model_name": "RoBERTa-wwm-ext-large-extData (single model)",
+              "paper_date": "2020-11-03",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "38.492",
+                "CHALLENGE-F1": "67.109",
+                "TEST-EM": "77.998",
+                "TEST-F1": "92.882"
+              },
+              "model_links": [],
+              "model_name": "MacBERT-large-extData (single model)",
+              "paper_date": "2020-11-12",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "36.706",
+                "CHALLENGE-F1": "66.905",
+                "TEST-EM": "80.409",
+                "TEST-F1": "93.768"
+              },
+              "model_links": [],
+              "model_name": "MacBERT-large-extData-v2 (single model)",
+              "paper_date": "2020-12-08",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "26.587",
+                "CHALLENGE-F1": "53.129",
+                "TEST-EM": "75.567",
+                "TEST-F1": "89.926"
+              },
+              "model_links": [],
+              "model_name": "ESPReader-base (single model)",
+              "paper_date": "2021-01-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "30.357",
+                "CHALLENGE-F1": "58.396",
+                "TEST-EM": "77.201",
+                "TEST-F1": "91.476"
+              },
+              "model_links": [],
+              "model_name": "ESPReader-large (single model)",
+              "paper_date": "2021-01-22",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "CHALLENGE-EM": "0.922",
+                "CHALLENGE-F1": "15.995",
+                "TEST-EM": "65.189",
+                "TEST-F1": "83.661"
+              },
+              "model_links": [],
+              "model_name": "Xlingual-base42 (single model)",
+              "paper_date": "2021-03-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "CMRC 2019 (Chinese Machine Reading Comprehension 2019)",
+        "dataset_citations": [],
+        "dataset_links": [
+          {
+            "title": "CMRC 2019 Leadergboard",
+            "url": "http://ymcui.com/cmrc2019/"
+          }
+        ],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "QAC",
+            "PAC"
+          ],
+          "rows": [
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "57.6",
+                "QAC": "90.054"
+              },
+              "model_links": [],
+              "model_name": "bert_scp_spm (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "41.8",
+                "QAC": "85.990"
+              },
+              "model_links": [],
+              "model_name": "mojito system (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "27.6",
+                "QAC": "84.447"
+              },
+              "model_links": [],
+              "model_name": "DA-BERT (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "32.2",
+                "QAC": "82.590"
+              },
+              "model_links": [],
+              "model_name": "CMRC 2019 MULTIPLE BERT (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "https://www.6estates.com",
+              "paper_url": "https://www.6estates.com",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "26.6",
+                "QAC": "79.562"
+              },
+              "model_links": [],
+              "model_name": "nkyzhangyi_cmrc_v2 (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "26.6",
+                "QAC": "78.780"
+              },
+              "model_links": [],
+              "model_name": "MRC-ZZ SYSTEM (single model)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "PAC": "15.6",
+                "QAC": "76.319"
+              },
+              "model_links": [],
+              "model_name": "MB-Reader (ensemble)",
+              "paper_date": "2019-10-19",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": null,
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Chinese Reading Comprehension"
+  }
+]

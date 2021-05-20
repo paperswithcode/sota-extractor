@@ -254,6 +254,28 @@ def chexpert(output, fmt):
     "--output",
     type=click.Path(exists=False),
     required=False,
+    default="data/tasks/cmrc.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def cmrc(output, fmt):
+    """Extract cmrc SOTA tables."""
+    serialization.dump(tdb=scrapers.cmrc(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
     default="data/tasks/xtreme.json",
     help="Output filename.",
 )
