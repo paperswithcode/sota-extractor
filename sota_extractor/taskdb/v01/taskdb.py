@@ -94,7 +94,7 @@ class TaskDB:
         """Export the whole of TaskDB into a file."""
         from sota_extractor.serialization import dump
 
-        dump(self, filename=filename, fmt=fmt)
+        dump(self, output=filename, fmt=fmt)
 
 
 def find_sota_tasks(task: Task, out: List):
