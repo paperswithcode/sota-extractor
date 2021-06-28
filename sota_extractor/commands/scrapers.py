@@ -290,3 +290,25 @@ def cmrc(output, fmt):
 def xtreme(output, fmt):
     """Extract Xtreme SOTA tables."""
     serialization.dump(tdb=scrapers.xtreme(), output=output, fmt=fmt)
+
+
+@cli.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    required=False,
+    default="data/tasks/ogb.json",
+    help="Output filename.",
+)
+@click.option(
+    "-f",
+    "--fmt",
+    type=click.Choice(Format),
+    default=Format.json,
+    help="Output format.",
+)
+@catch_errors
+def ogb(output, fmt):
+    """Extract OGB SOTA tables."""
+    serialization.dump(tdb=scrapers.ogb(), output=output, fmt=fmt)

@@ -1,0 +1,4604 @@
+[
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "ogbn-products",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Validation Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/SAGN_with_SLE"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8428 \u00b1 0.0014",
+                "Validation Accuracy": "0.9287 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "SAGN+SLE",
+              "paper_date": "2021-04-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.09376",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8418 \u00b1 0.0007",
+                "Validation Accuracy": "0.9147 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "MLP + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8301 \u00b1 0.0001",
+                "Validation Accuracy": "0.9134 \u00b1 0.0001"
+              },
+              "model_links": [],
+              "model_name": "Linear + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/unimp"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8256 \u00b1 0.0031",
+                "Validation Accuracy": "0.9308 \u00b1 0.0017"
+              },
+              "model_links": [],
+              "model_name": "UniMP",
+              "paper_date": "2020-09-08",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8254 \u00b1 0.0003",
+                "Validation Accuracy": "0.9103 \u00b1 0.0001"
+              },
+              "model_links": [],
+              "model_name": "Plain Linear + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8193 \u00b1 0.0031",
+                "Validation Accuracy": "0.9221 \u00b1 0.0037"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8176 \u00b1 0.0045",
+                "Validation Accuracy": "0.9251 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "GAT+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-products/tree/main/sage%2Bnode2vec"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8154 \u00b1 0.0050",
+                "Validation Accuracy": "0.9238 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE + C&S + node2vec",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/SAGN_with_SLE"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8120 \u00b1 0.0007",
+                "Validation Accuracy": "0.9309 \u00b1 0.0004"
+              },
+              "model_links": [],
+              "model_name": "SAGN",
+              "paper_date": "2021-04-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.09376",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8098 \u00b1 0.0020",
+                "Validation Accuracy": "0.9238 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-06-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-products/tree/main/gat"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8092 \u00b1 0.0037",
+                "Validation Accuracy": "0.9263 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GAT w/NS + C&S",
+              "paper_date": "2021-04-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/sign"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8052 \u00b1 0.0016",
+                "Validation Accuracy": "0.9299 \u00b1 0.0004"
+              },
+              "model_links": [],
+              "model_name": "SIGN",
+              "paper_date": "2020-11-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.11198",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-products/tree/main/sage"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8041 \u00b1 0.0022",
+                "Validation Accuracy": "0.9238 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE w/NS + C&S",
+              "paper_date": "2021-04-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/GraphSAINT/GraphSAINT/tree/master/graphsaint/open_graph_benchmark"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8027 \u00b1 0.0026",
+                "Validation Accuracy": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GraphSAINT-inductive",
+              "paper_date": "2020-07-13",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1907.04931",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/ogb_baselines"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7971 \u00b1 0.0042",
+                "Validation Accuracy": "0.9188 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "ClusterGCN+residual+3 layers",
+              "paper_date": "2020-10-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1905.07953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/rusty1s/pytorch_geometric/blob/master/examples/ogbn_products_gat.py"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7945 \u00b1 0.0059",
+                "Validation Accuracy": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GAT with NeighborSampling",
+              "paper_date": "2020-05-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1710.10903",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7936 \u00b1 0.0057",
+                "Validation Accuracy": "0.9205 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/cluster-gat"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7923 \u00b1 0.0078",
+                "Validation Accuracy": "0.8985 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "Cluster-GAT",
+              "paper_date": "2020-08-02",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1905.07953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7908 \u00b1 0.0024",
+                "Validation Accuracy": "0.9162 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GraphSAINT (SAGE aggr)",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1907.04931",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7897 \u00b1 0.0033",
+                "Validation Accuracy": "0.9212 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "ClusterGCN (SAGE aggr)",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1905.07953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7870 \u00b1 0.0036",
+                "Validation Accuracy": "0.9170 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "NeighborSampling (SAGE aggr)",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7850 \u00b1 0.0014",
+                "Validation Accuracy": "0.9224 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "Full-batch GraphSAGE",
+              "paper_date": "2020-06-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-products/graphsage"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7829 \u00b1 0.0016",
+                "Validation Accuracy": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-05-12",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7564 \u00b1 0.0021",
+                "Validation Accuracy": "0.9200 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "Full-batch GCN",
+              "paper_date": "2020-06-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmoothOGB"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7434 \u00b1 0.0000",
+                "Validation Accuracy": "0.9091 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Label Propagation",
+              "paper_date": "2020-10-03",
+              "paper_title": "",
+              "paper_url": "http://pages.cs.wisc.edu/~jerryzhu/pub/thesis.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cornell-zhang/GraphZoom/tree/master/ogb/ogbn-products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7406 \u00b1 0.0026",
+                "Validation Accuracy": "0.9066 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "GraphZoom (Node2vec)",
+              "paper_date": "2020-10-06",
+              "paper_title": "",
+              "paper_url": "https://openreview.net/forum?id=r1lGO0EKDH",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7249 \u00b1 0.0010",
+                "Validation Accuracy": "0.9032 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6259 \u00b1 0.0010",
+                "Validation Accuracy": "0.7721 \u00b1 0.0015"
+              },
+              "model_links": [],
+              "model_name": "CoLinkDistMLP",
+              "paper_date": "2021-06-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.08541",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6241 \u00b1 0.0016",
+                "Validation Accuracy": "0.7688 \u00b1 0.0014"
+              },
+              "model_links": [],
+              "model_name": "MLP+FLAG",
+              "paper_date": "2020-11-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/products"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6106 \u00b1 0.0008",
+                "Validation Accuracy": "0.7554 \u00b1 0.0014"
+              },
+              "model_links": [],
+              "model_name": "MLP",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbn-proteins",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test ROC-AUC",
+            "Validation ROC-AUC"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb_eff/ogbn_proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8824 \u00b1 0.0015",
+                "Validation ROC-AUC": "0.9450 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "RevGNN-Wide",
+              "paper_date": "2021-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.07476",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb_eff/ogbn_proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8774 \u00b1 0.0013",
+                "Validation ROC-AUC": "0.9326 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "RevGNN-Deep",
+              "paper_date": "2021-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2106.07476.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8765 \u00b1 0.0008",
+                "Validation ROC-AUC": "0.9280 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GAT+BoT",
+              "paper_date": "2021-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-OGB-Tricks/tree/main/DGL-ogbn-proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8711 \u00b1 0.0007",
+                "Validation ROC-AUC": "0.9217 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "GAT + labels + node2vec",
+              "paper_date": "2021-06-07",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1710.10903",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/yongchao-liu/gipa"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8700 \u00b1 0.0010",
+                "Validation ROC-AUC": "0.9187 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "GIPA",
+              "paper_date": "2021-05-13",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2105.06035",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/ogbn-proteins/unimp_cross_feat"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8691 \u00b1 0.0018",
+                "Validation ROC-AUC": "0.9258 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "UniMP+CrossEdgeFeat",
+              "paper_date": "2020-11-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8682 \u00b1 0.0021",
+                "Validation ROC-AUC": "0.9194 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "GAT+EdgeFeatureAtt",
+              "paper_date": "2020-11-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/unimp"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8642 \u00b1 0.0008",
+                "Validation ROC-AUC": "0.9175 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "UniMP",
+              "paper_date": "2020-09-08",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8596 \u00b1 0.0027",
+                "Validation ROC-AUC": "0.9132 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8580 \u00b1 0.0017",
+                "Validation ROC-AUC": "0.9106 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/blob/master/examples/ogb/ogbn_proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8496 \u00b1 0.0028",
+                "Validation ROC-AUC": "0.8971 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "DeepGCN",
+              "paper_date": "2020-06-20",
+              "paper_title": "",
+              "paper_url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Li_DeepGCNs_Can_GCNs_Go_As_Deep_As_CNNs_ICCV_2019_paper.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8436 \u00b1 0.0065",
+                "Validation ROC-AUC": "0.8973 \u00b1 0.0057"
+              },
+              "model_links": [],
+              "model_name": "MWE-DGCN",
+              "paper_date": "2020-07-20",
+              "paper_title": "",
+              "paper_url": "https://cims.nyu.edu/~chenzh/files/GCN_with_edge_weights.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-proteins/tree/main/gen%2Bflag"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8251 \u00b1 0.0043",
+                "Validation ROC-AUC": "0.8656 \u00b1 0.0037"
+              },
+              "model_links": [],
+              "model_name": "GEN + FLAG + node2vec",
+              "paper_date": "2021-04-15",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/xavierzw/ogb-geniepath-bs"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7825 \u00b1 0.0035",
+                "Validation ROC-AUC": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GeniePath-BS",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "http://arxiv.org/abs/2006.05806",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/master/examples/GaAN"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7803 \u00b1 0.0073",
+                "Validation ROC-AUC": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GaAN",
+              "paper_date": "2020-05-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1803.07294",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7768 \u00b1 0.0020",
+                "Validation ROC-AUC": "0.8334 \u00b1 0.0013"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7251 \u00b1 0.0035",
+                "Validation ROC-AUC": "0.7921 \u00b1 0.0018"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-07-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7204 \u00b1 0.0048",
+                "Validation ROC-AUC": "0.7706 \u00b1 0.0014"
+              },
+              "model_links": [],
+              "model_name": "MLP",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/proteins"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.6881 \u00b1 0.0065",
+                "Validation ROC-AUC": "0.7007 \u00b1 0.0053"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbn-arxiv",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Validation Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb_eff/ogbn_arxiv_dgl"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7426 \u00b1 0.0017",
+                "Validation Accuracy": "0.7497 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "RevGAT+N.Adj+LabelReuse+SelfKD",
+              "paper_date": "2021-06-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.07476",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ShunliRen/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7416 \u00b1 0.0008",
+                "Validation Accuracy": "0.7514 \u00b1 0.0004"
+              },
+              "model_links": [],
+              "model_name": "GAT+label reuse+self KD",
+              "paper_date": "2020-12-15",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1710.10903",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb_eff/ogbn_arxiv_dgl"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7402 \u00b1 0.0018",
+                "Validation Accuracy": "0.7501 \u00b1 0.0010"
+              },
+              "model_links": [],
+              "model_name": "RevGAT+NormAdj+LabelReuse",
+              "paper_date": "2021-06-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.07476",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/mengyangniu/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7399 \u00b1 0.0012",
+                "Validation Accuracy": "0.7513 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "GAT+label+reuse+topo loss",
+              "paper_date": "2020-12-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1710.10903",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/adaptive_graph_diffusion_networks_with_hop-wise_attention"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7398 \u00b1 0.0009",
+                "Validation Accuracy": "0.7519 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "AGDN (GAT-HA+3_heads+labels)",
+              "paper_date": "2021-01-03",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2012.15024",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/ogbn-arxiv/unimp_appnp_vnode_smooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7397 \u00b1 0.0015",
+                "Validation Accuracy": "0.7506 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "UniMP_v2",
+              "paper_date": "2020-11-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7395 \u00b1 0.0012",
+                "Validation Accuracy": "0.7519 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GAT(norm.adj.)+label reuse+C&S",
+              "paper_date": "2020-11-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7391 \u00b1 0.0012",
+                "Validation Accuracy": "0.7516 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GAT+norm. adj.+label reuse",
+              "paper_date": "2020-11-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7386 \u00b1 0.0014",
+                "Validation Accuracy": "0.7484 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "GAT + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/unimp"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7379 \u00b1 0.0014",
+                "Validation Accuracy": "0.7475 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "UniMP_large",
+              "paper_date": "2020-09-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/adaptive_graph_diffusion_networks_with_hop-wise_attention"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7375 \u00b1 0.0021",
+                "Validation Accuracy": "0.7483 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "AGDN (GAT-HA+3_heads)",
+              "paper_date": "2021-01-03",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2012.15024",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7371 \u00b1 0.0013",
+                "Validation Accuracy": "0.7496 \u00b1 0.0010"
+              },
+              "model_links": [],
+              "model_name": "GAT+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7366 \u00b1 0.0011",
+                "Validation Accuracy": "0.7508 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "GAT+norm. adj.+labels",
+              "paper_date": "2020-10-29",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7365 \u00b1 0.0011",
+                "Validation Accuracy": "0.7504 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "GAT+norm.adj.+labels",
+              "paper_date": "2020-09-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/GCN_res-CS-v2"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7313 \u00b1 0.0017",
+                "Validation Accuracy": "0.7445 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "GCN_res + C&S_v2",
+              "paper_date": "2021-03-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7312 \u00b1 0.0012",
+                "Validation Accuracy": "0.7391 \u00b1 0.0015"
+              },
+              "model_links": [],
+              "model_name": "MLP + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/unimp"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7311 \u00b1 0.0020",
+                "Validation Accuracy": "0.7450 \u00b1 0.0005"
+              },
+              "model_links": [],
+              "model_name": "UniMP",
+              "paper_date": "2020-09-08",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2009.03509.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7306 \u00b1 0.0024",
+                "Validation Accuracy": "0.7442 \u00b1 0.0012"
+              },
+              "model_links": [],
+              "model_name": "GCN+linear+labels",
+              "paper_date": "2020-09-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.13355",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-GCN_res-CS"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7297 \u00b1 0.0022",
+                "Validation Accuracy": "0.7423 \u00b1 0.0014"
+              },
+              "model_links": [],
+              "model_name": "GCN_res + C&S",
+              "paper_date": "2021-03-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/ogb_baselines"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7286 \u00b1 0.0016",
+                "Validation Accuracy": "0.7382 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "GCN+residual+6 layers",
+              "paper_date": "2020-10-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/ogb_baselines"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7278 \u00b1 0.0013",
+                "Validation Accuracy": "0.7414 \u00b1 0.0008"
+              },
+              "model_links": [],
+              "model_name": "GCN+residual+node2vec",
+              "paper_date": "2020-10-03",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/GCN_res-FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7276 \u00b1 0.0024",
+                "Validation Accuracy": "0.7389 \u00b1 0.0012"
+              },
+              "model_links": [],
+              "model_name": "GCN_res + 8 layers + FLAG",
+              "paper_date": "2021-02-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7274 \u00b1 0.0016",
+                "Validation Accuracy": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GCNII",
+              "paper_date": "2020-07-07",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2007.02133",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/ogbn_arxiv_GCN_res"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7262 \u00b1 0.0037",
+                "Validation Accuracy": "0.7369 \u00b1 0.0021"
+              },
+              "model_links": [],
+              "model_name": "GCN_res + 8 layers",
+              "paper_date": "2021-02-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7222 \u00b1 0.0002",
+                "Validation Accuracy": "0.7368 \u00b1 0.0004"
+              },
+              "model_links": [],
+              "model_name": "Linear + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7219 \u00b1 0.0016",
+                "Validation Accuracy": "0.7338 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "EGC-S (100k)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/EtoDemerzel0427/ogbn-arxiv-baselines/blob/master/JKNet.py"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7219 \u00b1 0.0021",
+                "Validation Accuracy": "0.7335 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "JKNet (GCN-based)",
+              "paper_date": "2020-08-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1806.03536.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7219 \u00b1 0.0021",
+                "Validation Accuracy": "0.7349 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7214 \u00b1 0.0019",
+                "Validation Accuracy": "0.7311 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/mengliu1998/DeeperGNN"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7209 \u00b1 0.0025",
+                "Validation Accuracy": "0.7290 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "DAGNN",
+              "paper_date": "2020-08-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2007.09296",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7204 \u00b1 0.0020",
+                "Validation Accuracy": "0.7330 \u00b1 0.0010"
+              },
+              "model_links": [],
+              "model_name": "GCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/master/ogb_examples/nodeproppred/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7197 \u00b1 0.0024",
+                "Validation Accuracy": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "GaAN",
+              "paper_date": "2020-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1803.07294",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7196 \u00b1 0.0023",
+                "Validation Accuracy": "0.7334 \u00b1 0.0013"
+              },
+              "model_links": [],
+              "model_name": "EGC-M (100k)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/sign"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7195 \u00b1 0.0011",
+                "Validation Accuracy": "0.7323 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "SIGN",
+              "paper_date": "2020-11-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.11198",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7192 \u00b1 0.0016",
+                "Validation Accuracy": "0.7262 \u00b1 0.0014"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7174 \u00b1 0.0029",
+                "Validation Accuracy": "0.7300 \u00b1 0.0017"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7149 \u00b1 0.0027",
+                "Validation Accuracy": "0.7277 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmooth"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7126 \u00b1 0.0001",
+                "Validation Accuracy": "0.7300 \u00b1 0.0001"
+              },
+              "model_links": [],
+              "model_name": "Plain Linear + C&S",
+              "paper_date": "2020-10-27",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.13993",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cornell-zhang/GraphZoom/tree/master/ogb/ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7118 \u00b1 0.0018",
+                "Validation Accuracy": "0.7220 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "GraphZoom (Node2vec)",
+              "paper_date": "2020-07-02",
+              "paper_title": "",
+              "paper_url": "https://openreview.net/forum?id=r1lGO0EKDH",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7007 \u00b1 0.0013",
+                "Validation Accuracy": "0.7129 \u00b1 0.0013"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/CorrectAndSmoothOGB"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6832 \u00b1 0.0000",
+                "Validation Accuracy": "0.7014 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Label Propagation",
+              "paper_date": "2020-10-02",
+              "paper_title": "",
+              "paper_url": "http://pages.cs.wisc.edu/~jerryzhu/pub/ssl_survey.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5638 \u00b1 0.0016",
+                "Validation Accuracy": "0.5807 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "CoLinkDistMLP",
+              "paper_date": "2021-06-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.08541",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5602 \u00b1 0.0019",
+                "Validation Accuracy": "0.5817 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "MLP+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5550 \u00b1 0.0023",
+                "Validation Accuracy": "0.5765 \u00b1 0.0012"
+              },
+              "model_links": [],
+              "model_name": "MLP",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbn-papers100M",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Validation Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/SAGN_with_SLE"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6800 \u00b1 0.0015",
+                "Validation Accuracy": "0.7131 \u00b1 0.0010"
+              },
+              "model_links": [],
+              "model_name": "SAGN+SLE",
+              "paper_date": "2021-04-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.09376",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/nvidia-china-sae/WholeGraph"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6736 \u00b1 0.0010",
+                "Validation Accuracy": "0.7172 \u00b1 0.0005"
+              },
+              "model_links": [],
+              "model_name": "TransformerConv",
+              "paper_date": "2021-03-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2009.03509",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/mengyangniu/ogbn-papers100m-sage"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6706 \u00b1 0.0017",
+                "Validation Accuracy": "0.7032 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE_res_incep",
+              "paper_date": "2021-02-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/skepsun/SAGN_with_SLE"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6675 \u00b1 0.0084",
+                "Validation Accuracy": "0.7034 \u00b1 0.0099"
+              },
+              "model_links": [],
+              "model_name": "SAGN",
+              "paper_date": "2021-04-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.09376",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/twitter-research/sign"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6606 \u00b1 0.0019",
+                "Validation Accuracy": "0.6984 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "SIGN-XL",
+              "paper_date": "2020-11-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.11198",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/twitter-research/sign"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6568 \u00b1 0.0006",
+                "Validation Accuracy": "0.6932 \u00b1 0.0006"
+              },
+              "model_links": [],
+              "model_name": "SIGN",
+              "paper_date": "2020-11-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.11198",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/papers100M"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6329 \u00b1 0.0019",
+                "Validation Accuracy": "0.6648 \u00b1 0.0020"
+              },
+              "model_links": [],
+              "model_name": "SGC",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1902.07153",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/papers100M"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5560 \u00b1 0.0023",
+                "Validation Accuracy": "0.5807 \u00b1 0.0028"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/papers100M"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4724 \u00b1 0.0031",
+                "Validation Accuracy": "0.4960 \u00b1 0.0029"
+              },
+              "model_links": [],
+              "model_name": "MLP",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbn-mag",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Validation Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/NARS"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5240 \u00b1 0.0016",
+                "Validation Accuracy": "0.5372 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "NARS",
+              "paper_date": "2021-02-18",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2011.09679.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/yule-BUAA/R-HGNN.git"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5204 \u00b1 0.0026",
+                "Validation Accuracy": "0.5361 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "R-HGNN",
+              "paper_date": "2021-05-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2105.11122",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-mag/tree/main/rgsn%2Bmetapath2vec"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5109 \u00b1 0.0038",
+                "Validation Accuracy": "0.5295 \u00b1 0.0042"
+              },
+              "model_links": [],
+              "model_name": "R-GSN + metapath2vec",
+              "paper_date": "2021-05-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.07877",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/yule-BUAA/HGConv.git"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5045 \u00b1 0.0017",
+                "Validation Accuracy": "0.5300 \u00b1 0.0018"
+              },
+              "model_links": [],
+              "model_name": "HGConv",
+              "paper_date": "2021-02-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2012.14722",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/xjtuwxliang/R-GSN/tree/main"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.5032 \u00b1 0.0037",
+                "Validation Accuracy": "0.5182 \u00b1 0.0041"
+              },
+              "model_links": [],
+              "model_name": "R-GSN",
+              "paper_date": "2021-01-29",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1703.06103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lingfanyu/pyHGT/tree/master/ogbn-mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4982 \u00b1 0.0013",
+                "Validation Accuracy": "0.5124 \u00b1 0.0046"
+              },
+              "model_links": [],
+              "model_name": "HGT (TransE embs)",
+              "paper_date": "2021-02-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2003.01332.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-ogbn-mag/tree/main/saint%2Bmetapath2vec"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4966 \u00b1 0.0022",
+                "Validation Accuracy": "0.5066 \u00b1 0.0017"
+              },
+              "model_links": [],
+              "model_name": "GraphSAINT + metapath2vec",
+              "paper_date": "2021-04-09",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1907.04931",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/acbull/pyHGT/tree/master/ogbn-mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4927 \u00b1 0.0061",
+                "Validation Accuracy": "0.4989 \u00b1 0.0047"
+              },
+              "model_links": [],
+              "model_name": "HGT (LADIES Sample)",
+              "paper_date": "2021-01-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2003.01332",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4751 \u00b1 0.0022",
+                "Validation Accuracy": "0.4837 \u00b1 0.0026"
+              },
+              "model_links": [],
+              "model_name": "GraphSAINT (R-GCN aggr)",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1907.04931",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4737 \u00b1 0.0048",
+                "Validation Accuracy": "0.4835 \u00b1 0.0036"
+              },
+              "model_links": [],
+              "model_name": "R-GCN+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4678 \u00b1 0.0067",
+                "Validation Accuracy": "0.4761 \u00b1 0.0068"
+              },
+              "model_links": [],
+              "model_name": "NeighborSampling (R-GCN aggr)",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/sign"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.4046 \u00b1 0.0012",
+                "Validation Accuracy": "0.4068 \u00b1 0.0010"
+              },
+              "model_links": [],
+              "model_name": "SIGN",
+              "paper_date": "2020-11-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.11198",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.3977 \u00b1 0.0046",
+                "Validation Accuracy": "0.4084 \u00b1 0.0041"
+              },
+              "model_links": [],
+              "model_name": "Full-batch R-GCN",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1703.06103",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.3732 \u00b1 0.0037",
+                "Validation Accuracy": "0.3840 \u00b1 0.0031"
+              },
+              "model_links": [],
+              "model_name": "ClusterGCN (R-GCN aggr)",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1905.07953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.3544 \u00b1 0.0036",
+                "Validation Accuracy": "0.3506 \u00b1 0.0017"
+              },
+              "model_links": [],
+              "model_name": "MetaPath2vec",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.2761 \u00b1 0.0018",
+                "Validation Accuracy": "0.2646 \u00b1 0.0013"
+              },
+              "model_links": [],
+              "model_name": "CoLinkDistMLP",
+              "paper_date": "2021-06-17",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2106.08541",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/mag"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.2692 \u00b1 0.0026",
+                "Validation Accuracy": "0.2626 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "MLP",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "Node Property Prediction LeaderBoard",
+      "url": "https://ogb.stanford.edu/docs/leader_nodeprop/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Node Property Prediction"
+  },
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "ogbl-ppa",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Hits@100",
+            "Validation Hits@100"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.4880 \u00b1 0.0316",
+                "Validation Hits@100": "0.5125 \u00b1 0.0252"
+              },
+              "model_links": [],
+              "model_name": "SEAL",
+              "paper_date": "2020-10-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.16103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.3245 \u00b1 0.0000",
+                "Validation Hits@100": "0.3268 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Adamic Adar",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.1370&rep=rep1&type=pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.3229 \u00b1 0.0094",
+                "Validation Hits@100": "0.3228 \u00b1 0.0428"
+              },
+              "model_links": [],
+              "model_name": "Matrix Factorization",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.2888 \u00b1 0.0153",
+                "Validation Hits@100": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "DeepWalk",
+              "paper_date": "2020-07-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1403.6652.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.2765 \u00b1 0.0000",
+                "Validation Hits@100": "0.2823 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Common Neighbor",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "http://www.eecs.harvard.edu/~michaelm/CS222/linkpred.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.2302 \u00b1 0.0163",
+                "Validation Hits@100": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "DeepWalk",
+              "paper_date": "2020-06-30",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1403.6652.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.2226 \u00b1 0.0083",
+                "Validation Hits@100": "0.2253 \u00b1 0.0088"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.1867 \u00b1 0.0132",
+                "Validation Hits@100": "0.1845 \u00b1 0.0140"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-06-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Hits@100": "0.1655 \u00b1 0.0240",
+                "Validation Hits@100": "0.1724 \u00b1 0.0264"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-06-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbl-collab",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Hits@50",
+            "Validation Hits@50"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.6474 \u00b1 0.0043",
+                "Validation Hits@50": "0.6495 \u00b1 0.0043"
+              },
+              "model_links": [],
+              "model_name": "SEAL-nofeat (val as input)",
+              "paper_date": "2021-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.16103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.6417 \u00b1 0.0000",
+                "Validation Hits@50": "0.6349 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Adamic Adar",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.1370&rep=rep1&type=pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.6137 \u00b1 0.0000",
+                "Validation Hits@50": "0.6036 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Common Neighbor",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "http://www.eecs.harvard.edu/~michaelm/CS222/linkpred.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.5471 \u00b1 0.0049",
+                "Validation Hits@50": "0.6495 \u00b1 0.0043"
+              },
+              "model_links": [],
+              "model_name": "SEAL-nofeat",
+              "paper_date": "2021-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.16103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.5463 \u00b1 0.0112",
+                "Validation Hits@50": "0.5688 \u00b1 0.0077"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE  (val as input)",
+              "paper_date": "2020-10-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.5273 \u00b1 0.0047",
+                "Validation Hits@50": "0.6187 \u00b1 0.0045"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/omri1348/LRGA/tree/master/ogb/examples/linkproppred"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.5221 \u00b1 0.0072",
+                "Validation Hits@50": "0.6088 \u00b1 0.0059"
+              },
+              "model_links": [],
+              "model_name": "LRGA + GCN",
+              "paper_date": "2020-08-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07846",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.5037 \u00b1 0.0034",
+                "Validation Hits@50": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "DeepWalk",
+              "paper_date": "2020-06-30",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1403.6652.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.4888 \u00b1 0.0054",
+                "Validation Hits@50": "0.5703 \u00b1 0.0052"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.4810 \u00b1 0.0081",
+                "Validation Hits@50": "0.5688 \u00b1 0.0077"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-06-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.4714 \u00b1 0.0145",
+                "Validation Hits@50": "0.5263 \u00b1 0.0115"
+              },
+              "model_links": [],
+              "model_name": "GCN (val as input)",
+              "paper_date": "2020-10-19",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.4475 \u00b1 0.0107",
+                "Validation Hits@50": "0.5263 \u00b1 0.0115"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-06-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/collab"
+                }
+              ],
+              "metrics": {
+                "Test Hits@50": "0.3886 \u00b1 0.0029",
+                "Validation Hits@50": "0.4896 \u00b1 0.0029"
+              },
+              "model_links": [],
+              "model_name": "Matrix Factorization",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbl-ddi",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Hits@20",
+            "Validation Hits@20"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lbn187/DLGNN"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.8239 \u00b1 0.0437",
+                "Validation Hits@20": "0.8206 \u00b1 0.0298"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE+anchor distance",
+              "paper_date": "2021-05-20",
+              "paper_title": "",
+              "paper_url": "https://www.dropbox.com/s/is3f4dfvtvnis7w/DEGNN_linkPrediction.pdf?dl=0",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/JeffJeffy/CS224W-OGB-DEA-JK"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.7672 \u00b1 0.0265",
+                "Validation Hits@20": "0.6713 \u00b1 0.0071"
+              },
+              "model_links": [],
+              "model_name": "DEA + JKNet",
+              "paper_date": "2021-03-21",
+              "paper_title": "",
+              "paper_url": "https://github.com/JeffJeffy/CS224W-OGB-DEA-JK/blob/main/CS224w_final_report.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/chuanqichen/cs224w"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.7385 \u00b1 0.0871",
+                "Validation Hits@20": "0.7225 \u00b1 0.0047"
+              },
+              "model_links": [],
+              "model_name": "LRGA+GCN(Node2Vec+Augment)",
+              "paper_date": "2021-03-21",
+              "paper_title": "",
+              "paper_url": "https://github.com/chuanqichen/cs224w/blob/main/the_study_of_drug_drug_interaction_learning_through_various_graph_learning_methods.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cf020031308/mad-learning/blob/master/ogbl-ddi.py"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.6781 \u00b1 0.0294",
+                "Validation Hits@20": "0.7010 \u00b1 0.0082"
+              },
+              "model_links": [],
+              "model_name": "MAD Learning",
+              "paper_date": "2021-02-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2102.05246",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/omri1348/LRGA/tree/master/ogb/examples/linkproppred"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.6230 \u00b1 0.0912",
+                "Validation Hits@20": "0.6675 \u00b1 0.0058"
+              },
+              "model_links": [],
+              "model_name": "LRGA + GCN",
+              "paper_date": "2020-08-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07846",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Chillee/ogb_ddi"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.6056 \u00b1 0.0869",
+                "Validation Hits@20": "0.6776 \u00b1 0.0095"
+              },
+              "model_links": [],
+              "model_name": "GCN+JKNet",
+              "paper_date": "2020-09-15",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ddi"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.5390 \u00b1 0.0474",
+                "Validation Hits@20": "0.6262 \u00b1 0.0037"
+              },
+              "model_links": [],
+              "model_name": "GraphSAGE",
+              "paper_date": "2020-06-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ddi"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.3707 \u00b1 0.0507",
+                "Validation Hits@20": "0.5550 \u00b1 0.0208"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-06-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.3056 \u00b1 0.0386",
+                "Validation Hits@20": "0.2849 \u00b1 0.0269"
+              },
+              "model_links": [],
+              "model_name": "SEAL",
+              "paper_date": "2020-10-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.16103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.2642 \u00b1 0.0610",
+                "Validation Hits@20": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "DeepWalk",
+              "paper_date": "2020-07-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1403.6652.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ddi"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.2326 \u00b1 0.0209",
+                "Validation Hits@20": "0.3292 \u00b1 0.0121"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/deepwalk"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.2246 \u00b1 0.0290",
+                "Validation Hits@20": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "DeepWalk",
+              "paper_date": "2020-06-30",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1403.6652.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.1861 \u00b1 0.0000",
+                "Validation Hits@20": "0.0966 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Adamic Adar",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.1370&rep=rep1&type=pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.1773 \u00b1 0.0000",
+                "Validation Hits@20": "0.0947 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Common Neighbor",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "http://www.eecs.harvard.edu/~michaelm/CS222/linkpred.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/ddi"
+                }
+              ],
+              "metrics": {
+                "Test Hits@20": "0.1368 \u00b1 0.0475",
+                "Validation Hits@20": "0.3370 \u00b1 0.0264"
+              },
+              "model_links": [],
+              "model_name": "Matrix Factorization",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbl-citation2",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test MRR",
+            "Validation MRR"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8767 \u00b1 0.0032",
+                "Validation MRR": "0.8757 \u00b1 0.0031"
+              },
+              "model_links": [],
+              "model_name": "SEAL",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.16103.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8474 \u00b1 0.0021",
+                "Validation MRR": "0.8479 \u00b1 0.0023"
+              },
+              "model_links": [],
+              "model_name": "Full-batch GCN",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8260 \u00b1 0.0036",
+                "Validation MRR": "0.8263 \u00b1 0.0033"
+              },
+              "model_links": [],
+              "model_name": "Full-batch GraphSAGE",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8044 \u00b1 0.0010",
+                "Validation MRR": "0.8054 \u00b1 0.0009"
+              },
+              "model_links": [],
+              "model_name": "NeighborSampling (SAGE aggr)",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1706.02216",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8004 \u00b1 0.0025",
+                "Validation MRR": "0.7994 \u00b1 0.0025"
+              },
+              "model_links": [],
+              "model_name": "ClusterGCN (GCN aggr)",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1905.07953",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.7985 \u00b1 0.0040",
+                "Validation MRR": "0.7975 \u00b1 0.0039"
+              },
+              "model_links": [],
+              "model_name": "GraphSAINT (GCN aggr)",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1907.04931",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.6141 \u00b1 0.0011",
+                "Validation MRR": "0.6124 \u00b1 0.0011"
+              },
+              "model_links": [],
+              "model_name": "Node2vec",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1607.00653",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.5189 \u00b1 0.0000",
+                "Validation MRR": "0.5167 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Adamic Adar",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.1370&rep=rep1&type=pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/citation2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.5186 \u00b1 0.0443",
+                "Validation MRR": "0.5181 \u00b1 0.0436"
+              },
+              "model_links": [],
+              "model_name": "Matrix Factorization",
+              "paper_date": "2021-01-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2005.00687",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/facebookresearch/SEAL_OGB"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.5147 \u00b1 0.0000",
+                "Validation MRR": "0.5119 \u00b1 0.0000"
+              },
+              "model_links": [],
+              "model_name": "Common Neighbor",
+              "paper_date": "2021-02-12",
+              "paper_title": "",
+              "paper_url": "http://www.eecs.harvard.edu/~michaelm/CS222/linkpred.pdf",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbl-wikikg2",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test MRR",
+            "Validation MRR"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/AutoML-4Paradigm/AutoSF/tree/AutoSF-OGB"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.5458 \u00b1 0.0052",
+                "Validation MRR": "0.5510 \u00b1 0.0063"
+              },
+              "model_links": [],
+              "model_name": "AutoSF",
+              "paper_date": "2021-04-02",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1904.11682.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/alipay/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.5208 \u00b1 0.0027",
+                "Validation MRR": "0.5423 \u00b1 0.0020"
+              },
+              "model_links": [],
+              "model_name": "PairRE (200dim)",
+              "paper_date": "2021-01-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2011.03798",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.4332 \u00b1 0.0025",
+                "Validation MRR": "0.4353 \u00b1 0.0028"
+              },
+              "model_links": [],
+              "model_name": "RotatE (250dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1902.10197",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.4256 \u00b1 0.0030",
+                "Validation MRR": "0.4272 \u00b1 0.0030"
+              },
+              "model_links": [],
+              "model_name": "TransE (500dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.4027 \u00b1 0.0027",
+                "Validation MRR": "0.3759 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "ComplEx (250dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1606.06357",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.3804 \u00b1 0.0022",
+                "Validation MRR": "0.3534 \u00b1 0.0052"
+              },
+              "model_links": [],
+              "model_name": "ComplEx (50dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1606.06357",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.3729 \u00b1 0.0045",
+                "Validation MRR": "0.3506 \u00b1 0.0042"
+              },
+              "model_links": [],
+              "model_name": "DistMult (500dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1412.6575",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.3447 \u00b1 0.0082",
+                "Validation MRR": "0.3150 \u00b1 0.0088"
+              },
+              "model_links": [],
+              "model_name": "DistMult (100dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1412.6575",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.2622 \u00b1 0.0045",
+                "Validation MRR": "0.2465 \u00b1 0.0020"
+              },
+              "model_links": [],
+              "model_name": "TransE (100dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/wikikg2"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.2530 \u00b1 0.0034",
+                "Validation MRR": "0.2250 \u00b1 0.0035"
+              },
+              "model_links": [],
+              "model_name": "RotatE (50dim)",
+              "paper_date": "2021-01-23",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1902.10197",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbl-biokg",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test MRR",
+            "Validation MRR"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/AutoML-4Paradigm/AutoSF/tree/AutoSF-OGB"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8309 \u00b1 0.0008",
+                "Validation MRR": "0.8317 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "AutoSF",
+              "paper_date": "2021-04-02",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1904.11682.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/alipay/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8164 \u00b1 0.0005",
+                "Validation MRR": "0.8172 \u00b1 0.0005"
+              },
+              "model_links": [],
+              "model_name": "PairRE",
+              "paper_date": "2020-11-09",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2011.03798",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/biokg"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8095 \u00b1 0.0007",
+                "Validation MRR": "0.8105 \u00b1 0.0001"
+              },
+              "model_links": [],
+              "model_name": "ComplEx",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1606.06357",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/biokg"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.8043 \u00b1 0.0003",
+                "Validation MRR": "0.8055 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "DistMult",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1412.6575",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/biokg"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.7989 \u00b1 0.0004",
+                "Validation MRR": "0.7997 \u00b1 0.0002"
+              },
+              "model_links": [],
+              "model_name": "RotatE",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1902.10197",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/linkproppred/biokg"
+                }
+              ],
+              "metrics": {
+                "Test MRR": "0.7452 \u00b1 0.0004",
+                "Validation MRR": "0.7456 \u00b1 0.0003"
+              },
+              "model_links": [],
+              "model_name": "TransE",
+              "paper_date": "2020-06-10",
+              "paper_title": "",
+              "paper_url": "https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "Link Property Prediction LeaderBoard",
+      "url": "https://ogb.stanford.edu/docs/leader_linkprop/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Link Property Prediction"
+  },
+  {
+    "categories": [],
+    "datasets": [
+      {
+        "dataset": "ogbg-molhiv",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test ROC-AUC",
+            "Validation ROC-AUC"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/ogbg_molhiv"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8232 \u00b1 0.0047",
+                "Validation ROC-AUC": "0.8331 \u00b1 0.0054"
+              },
+              "model_links": [],
+              "model_name": "Neural FingerPrints",
+              "paper_date": "2021-03-15",
+              "paper_title": "",
+              "paper_url": "https://github.com/PaddlePaddle/PaddleHelix/blob/dev/competition/ogbg_molhiv/Molecule_Representation_Learning_by_Leveraging_Chemical_Information.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cyrusmaher/ogb-molecule-comp"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8060 \u00b1 0.0010",
+                "Validation ROC-AUC": "0.8420 \u00b1 0.0030"
+              },
+              "model_links": [],
+              "model_name": "MorganFP+Rand. Forest",
+              "paper_date": "2020-09-21",
+              "paper_title": "",
+              "paper_url": "https://pubs.acs.org/doi/10.1021/ci100050t",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/dmmendo/OGBMolhiv_PWL"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.8039 \u00b1 0.0040",
+                "Validation ROC-AUC": "0.8279 \u00b1 0.0059"
+              },
+              "model_links": [],
+              "model_name": "P-WL",
+              "paper_date": "2021-03-29",
+              "paper_title": "",
+              "paper_url": "http://proceedings.mlr.press/v97/rieck19a/rieck19a.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Saro00/DGN"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7970 \u00b1 0.0097",
+                "Validation ROC-AUC": "0.8470 \u00b1 0.0047"
+              },
+              "model_links": [],
+              "model_name": "DGN",
+              "paper_date": "2020-11-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.02863.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7942 \u00b1 0.0120",
+                "Validation ROC-AUC": "0.8425 \u00b1 0.0061"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/bayer-science-for-a-better-life/phc-gnn"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7934 \u00b1 0.0116",
+                "Validation ROC-AUC": "0.8217 \u00b1 0.0089"
+              },
+              "model_links": [],
+              "model_name": "PHC-GNN",
+              "paper_date": "2021-04-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.16584",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lukecavabarrett/pna"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7905 \u00b1 0.0132",
+                "Validation ROC-AUC": "0.8519 \u00b1 0.0099"
+              },
+              "model_links": [],
+              "model_name": "PNA",
+              "paper_date": "2020-11-25",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2004.05718",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lsj2408/GraphNorm"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7883 \u00b1 0.0100",
+                "Validation ROC-AUC": "0.7904 \u00b1 0.0115"
+              },
+              "model_links": [],
+              "model_name": "GCN+GraphNorm",
+              "paper_date": "2020-09-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2009.03294",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/rusty1s/himp-gnn"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7880 \u00b1 0.0082",
+                "Validation ROC-AUC": "Please tell us"
+              },
+              "model_links": [],
+              "model_name": "HIMP",
+              "paper_date": "2020-06-22",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.12179",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7858 \u00b1 0.0117",
+                "Validation ROC-AUC": "0.8427 \u00b1 0.0063"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7818 \u00b1 0.0153",
+                "Validation ROC-AUC": "0.8396 \u00b1 0.0097"
+              },
+              "model_links": [],
+              "model_name": "EGC-M (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/gbouritsas/graph-substructure-networks"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7799 \u00b1 0.0100",
+                "Validation ROC-AUC": "0.8658 \u00b1 0.0084"
+              },
+              "model_links": [],
+              "model_name": "GSN",
+              "paper_date": "2021-01-05",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.09252",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/navid-naderi/WEGL"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7757 \u00b1 0.0111",
+                "Validation ROC-AUC": "0.8101 \u00b1 0.0097"
+              },
+              "model_links": [],
+              "model_name": "WEGL",
+              "paper_date": "2020-06-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.09430",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7748 \u00b1 0.0096",
+                "Validation ROC-AUC": "0.8438 \u00b1 0.0128"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7721 \u00b1 0.0110",
+                "Validation ROC-AUC": "0.8366 \u00b1 0.0074"
+              },
+              "model_links": [],
+              "model_name": "EGC-S (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7707 \u00b1 0.0149",
+                "Validation ROC-AUC": "0.8479 \u00b1 0.0068"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7683 \u00b1 0.0102",
+                "Validation ROC-AUC": "0.8176 \u00b1 0.0087"
+              },
+              "model_links": [],
+              "model_name": "GCN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7654 \u00b1 0.0114",
+                "Validation ROC-AUC": "0.8225 \u00b1 0.0155"
+              },
+              "model_links": [],
+              "model_name": "GIN+FLAG",
+              "paper_date": "2020-10-20",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7606 \u00b1 0.0097",
+                "Validation ROC-AUC": "0.8204 \u00b1 0.0141"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7599 \u00b1 0.0119",
+                "Validation ROC-AUC": "0.8384 \u00b1 0.0091"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test ROC-AUC": "0.7558 \u00b1 0.0140",
+                "Validation ROC-AUC": "0.8232 \u00b1 0.0090"
+              },
+              "model_links": [],
+              "model_name": "GIN",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbg-molpcba",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test AP",
+            "Validation AP"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/graphproppred/ogbg_molpcba"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2979 \u00b1 0.0030",
+                "Validation AP": "0.3126 \u00b1 0.0023"
+              },
+              "model_links": [],
+              "model_name": "GINE+ w/ APPNP",
+              "paper_date": "2021-03-15",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2011.15069.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/bayer-science-for-a-better-life/phc-gnn"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2947 \u00b1 0.0026",
+                "Validation AP": "0.3068 \u00b1 0.0025"
+              },
+              "model_links": [],
+              "model_name": "PHC-GNN",
+              "paper_date": "2021-04-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2103.16584",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/RBrossard/GINEPLUS"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2917 \u00b1 0.0015",
+                "Validation AP": "0.3065 \u00b1 0.0030"
+              },
+              "model_links": [],
+              "model_name": "GINE+ w/ virtual nodes",
+              "paper_date": "2020-12-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2011.15069",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Saro00/DGN"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2885 \u00b1 0.0030",
+                "Validation AP": "0.2970 \u00b1 0.0021"
+              },
+              "model_links": [],
+              "model_name": "DGN",
+              "paper_date": "2021-03-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2010.02863.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2842 \u00b1 0.0043",
+                "Validation AP": "0.2952 \u00b1 0.0029"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+virtual node+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Saro00/DGN"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2838 \u00b1 0.0035",
+                "Validation AP": "0.2926 \u00b1 0.0026"
+              },
+              "model_links": [],
+              "model_name": "PNA",
+              "paper_date": "2021-03-04",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/2004.05718.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2834 \u00b1 0.0038",
+                "Validation AP": "0.2912 \u00b1 0.0026"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2781 \u00b1 0.0038",
+                "Validation AP": "0.2920 \u00b1 0.0025"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+virtual node",
+              "paper_date": "2020-08-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2703 \u00b1 0.0023",
+                "Validation AP": "0.2798 \u00b1 0.0025"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node",
+              "paper_date": "2020-08-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2483 \u00b1 0.0037",
+                "Validation AP": "0.2556 \u00b1 0.0040"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2424 \u00b1 0.0034",
+                "Validation AP": "0.2495 \u00b1 0.0042"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node",
+              "paper_date": "2020-08-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2395 \u00b1 0.0040",
+                "Validation AP": "0.2451 \u00b1 0.0042"
+              },
+              "model_links": [],
+              "model_name": "GIN+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/Axeln78/Transferability-of-spectral-gnns"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2306 \u00b1 0.0016",
+                "Validation AP": "0.2372 \u00b1 0.0018"
+              },
+              "model_links": [],
+              "model_name": "ChebNet",
+              "paper_date": "2020-12-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1606.09375",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2266 \u00b1 0.0028",
+                "Validation AP": "0.2305 \u00b1 0.0027"
+              },
+              "model_links": [],
+              "model_name": "GIN",
+              "paper_date": "2020-08-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2116 \u00b1 0.0017",
+                "Validation AP": "0.2150 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "GCN+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/cyrusmaher/ogb-molecule-comp"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2054 \u00b1 0.0004",
+                "Validation AP": "0.2226 \u00b1 0.0002"
+              },
+              "model_links": [],
+              "model_name": "MorganFP+Rand. Forest",
+              "paper_date": "2020-09-21",
+              "paper_title": "",
+              "paper_url": "https://pubs.acs.org/doi/10.1021/ci100050t",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/mol"
+                }
+              ],
+              "metrics": {
+                "Test AP": "0.2020 \u00b1 0.0024",
+                "Validation AP": "0.2059 \u00b1 0.0033"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-08-11",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbg-ppa",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test Accuracy",
+            "Validation Accuracy"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PierreHao/YouGraph"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.8140 \u00b1 0.0028",
+                "Validation Accuracy": "0.7811 \u00b1 0.0012"
+              },
+              "model_links": [],
+              "model_name": "ExpC*+bag of tricks",
+              "paper_date": "2021-06-21",
+              "paper_title": "",
+              "paper_url": "https://github.com/PierreHao/YouGraph/blob/main/report/GMAN%20and%20bag%20of%20tricks%20for%20graph%20classification.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/qslim/epcb-gnns"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7976 \u00b1 0.0072",
+                "Validation Accuracy": "0.7518 \u00b1 0.0080"
+              },
+              "model_links": [],
+              "model_name": "ExpC",
+              "paper_date": "2020-12-14",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2012.07219",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7752 \u00b1 0.0069",
+                "Validation Accuracy": "0.7484 \u00b1 0.0052"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7712 \u00b1 0.0071",
+                "Validation Accuracy": "0.7313 \u00b1 0.0078"
+              },
+              "model_links": [],
+              "model_name": "DeeperGCN",
+              "paper_date": "2020-06-16",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2006.07739",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7245 \u00b1 0.0114",
+                "Validation Accuracy": "0.6789 \u00b1 0.0079"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.7037 \u00b1 0.0107",
+                "Validation Accuracy": "0.6678 \u00b1 0.0105"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6944 \u00b1 0.0052",
+                "Validation Accuracy": "0.6638 \u00b1 0.0055"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/devnkong/FLAG"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6905 \u00b1 0.0092",
+                "Validation Accuracy": "0.6465 \u00b1 0.0070"
+              },
+              "model_links": [],
+              "model_name": "GIN+FLAG",
+              "paper_date": "2020-10-21",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2010.09891",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6892 \u00b1 0.0100",
+                "Validation Accuracy": "0.6562 \u00b1 0.0107"
+              },
+              "model_links": [],
+              "model_name": "GIN",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6857 \u00b1 0.0061",
+                "Validation Accuracy": "0.6511 \u00b1 0.0048"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/ppa"
+                }
+              ],
+              "metrics": {
+                "Test Accuracy": "0.6839 \u00b1 0.0084",
+                "Validation Accuracy": "0.6497 \u00b1 0.0034"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2020-05-01",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      },
+      {
+        "dataset": "ogbg-code2",
+        "dataset_citations": [],
+        "dataset_links": [],
+        "description": "",
+        "sota": {
+          "metrics": [
+            "Test F1 score",
+            "Validation F1 score"
+          ],
+          "rows": [
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/PierreHao/YouGraph"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1770 \u00b1 0.0012",
+                "Validation F1 score": "0.1631 \u00b1 0.0090"
+              },
+              "model_links": [],
+              "model_name": "GMAN+bag of tricks",
+              "paper_date": "2021-06-21",
+              "paper_title": "",
+              "paper_url": "https://github.com/PierreHao/YouGraph/blob/main/report/GMAN%20and%20bag%20of%20tricks%20for%20graph%20classification.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/vthost/DAGNN"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1751 \u00b1 0.0049",
+                "Validation F1 score": "0.1607 \u00b1 0.0040"
+              },
+              "model_links": [],
+              "model_name": "DAGNN",
+              "paper_date": "2021-04-08",
+              "paper_title": "",
+              "paper_url": "https://openreview.net/pdf?id=JbuYF437WB6",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/code2"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1595 \u00b1 0.0018",
+                "Validation F1 score": "0.1461 \u00b1 0.0013"
+              },
+              "model_links": [],
+              "model_name": "GCN+virtual node",
+              "paper_date": "2021-02-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1595 \u00b1 0.0019",
+                "Validation F1 score": "0.1464 \u00b1 0.0021"
+              },
+              "model_links": [],
+              "model_name": "EGC-M (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/code2"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1581 \u00b1 0.0026",
+                "Validation F1 score": "0.1439 \u00b1 0.0020"
+              },
+              "model_links": [],
+              "model_name": "GIN+virtual node",
+              "paper_date": "2021-02-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1570 \u00b1 0.0032",
+                "Validation F1 score": "0.1453 \u00b1 0.0025"
+              },
+              "model_links": [],
+              "model_name": "PNA (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1552 \u00b1 0.0022",
+                "Validation F1 score": "0.1441 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "MPNN-Max (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1528 \u00b1 0.0025",
+                "Validation F1 score": "0.1427 \u00b1 0.0020"
+              },
+              "model_links": [],
+              "model_name": "EGC-S (No Edge Features)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/code2"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1507 \u00b1 0.0018",
+                "Validation F1 score": "0.1399 \u00b1 0.0017"
+              },
+              "model_links": [],
+              "model_name": "GCN",
+              "paper_date": "2021-02-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/snap-stanford/ogb/tree/master/examples/graphproppred/code2"
+                }
+              ],
+              "metrics": {
+                "Test F1 score": "0.1495 \u00b1 0.0023",
+                "Validation F1 score": "0.1376 \u00b1 0.0016"
+              },
+              "model_links": [],
+              "model_name": "GIN",
+              "paper_date": "2021-02-24",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            }
+          ]
+        },
+        "subdatasets": []
+      }
+    ],
+    "description": "",
+    "source_link": {
+      "title": "Graph Property Prediction LeaderBoard",
+      "url": "https://ogb.stanford.edu/docs/leader_graphprop/"
+    },
+    "subtasks": [],
+    "synonyms": [],
+    "task": "Graph Property Prediction"
+  }
+]
