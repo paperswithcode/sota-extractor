@@ -10,7 +10,8 @@
         "sota": {
           "metrics": [
             "Test Accuracy",
-            "Validation Accuracy"
+            "Validation Accuracy",
+            "Number of params"
           ],
           "rows": [
             {
@@ -21,6 +22,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2179678",
                 "Test Accuracy": "0.8428 \u00b1 0.0014",
                 "Validation Accuracy": "0.9287 \u00b1 0.0003"
               },
@@ -39,6 +41,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "96247",
                 "Test Accuracy": "0.8418 \u00b1 0.0007",
                 "Validation Accuracy": "0.9147 \u00b1 0.0009"
               },
@@ -57,6 +60,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "10763",
                 "Test Accuracy": "0.8301 \u00b1 0.0001",
                 "Validation Accuracy": "0.9134 \u00b1 0.0001"
               },
@@ -75,6 +79,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1475605",
                 "Test Accuracy": "0.8256 \u00b1 0.0031",
                 "Validation Accuracy": "0.9308 \u00b1 0.0017"
               },
@@ -93,6 +98,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "4747",
                 "Test Accuracy": "0.8254 \u00b1 0.0003",
                 "Validation Accuracy": "0.9103 \u00b1 0.0001"
               },
@@ -111,6 +117,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "253743",
                 "Test Accuracy": "0.8193 \u00b1 0.0031",
                 "Validation Accuracy": "0.9221 \u00b1 0.0037"
               },
@@ -129,6 +136,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "751574",
                 "Test Accuracy": "0.8176 \u00b1 0.0045",
                 "Validation Accuracy": "0.9251 \u00b1 0.0006"
               },
@@ -147,6 +155,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "103983",
                 "Test Accuracy": "0.8154 \u00b1 0.0050",
                 "Validation Accuracy": "0.9238 \u00b1 0.0006"
               },
@@ -165,6 +174,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2233391",
                 "Test Accuracy": "0.8120 \u00b1 0.0007",
                 "Validation Accuracy": "0.9309 \u00b1 0.0004"
               },
@@ -183,6 +193,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "253743",
                 "Test Accuracy": "0.8098 \u00b1 0.0020",
                 "Validation Accuracy": "0.9238 \u00b1 0.0009"
               },
@@ -201,6 +212,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "753622",
                 "Test Accuracy": "0.8092 \u00b1 0.0037",
                 "Validation Accuracy": "0.9263 \u00b1 0.0008"
               },
@@ -219,6 +231,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3483703",
                 "Test Accuracy": "0.8052 \u00b1 0.0016",
                 "Validation Accuracy": "0.9299 \u00b1 0.0004"
               },
@@ -237,6 +250,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "207919",
                 "Test Accuracy": "0.8041 \u00b1 0.0022",
                 "Validation Accuracy": "0.9238 \u00b1 0.0007"
               },
@@ -255,6 +269,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "331661",
                 "Test Accuracy": "0.8027 \u00b1 0.0026",
                 "Validation Accuracy": "Please tell us"
               },
@@ -273,6 +288,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "456034",
                 "Test Accuracy": "0.7971 \u00b1 0.0042",
                 "Validation Accuracy": "0.9188 \u00b1 0.0008"
               },
@@ -291,6 +307,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "751574",
                 "Test Accuracy": "0.7945 \u00b1 0.0059",
                 "Validation Accuracy": "Please tell us"
               },
@@ -309,6 +326,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "206895",
                 "Test Accuracy": "0.7936 \u00b1 0.0057",
                 "Validation Accuracy": "0.9205 \u00b1 0.0007"
               },
@@ -327,6 +345,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1540848",
                 "Test Accuracy": "0.7923 \u00b1 0.0078",
                 "Validation Accuracy": "0.8985 \u00b1 0.0022"
               },
@@ -345,6 +364,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "206895",
                 "Test Accuracy": "0.7908 \u00b1 0.0024",
                 "Validation Accuracy": "0.9162 \u00b1 0.0008"
               },
@@ -363,6 +383,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "206895",
                 "Test Accuracy": "0.7897 \u00b1 0.0033",
                 "Validation Accuracy": "0.9212 \u00b1 0.0009"
               },
@@ -381,6 +402,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "206895",
                 "Test Accuracy": "0.7870 \u00b1 0.0036",
                 "Validation Accuracy": "0.9170 \u00b1 0.0009"
               },
@@ -399,6 +421,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "206895",
                 "Test Accuracy": "0.7850 \u00b1 0.0014",
                 "Validation Accuracy": "0.9224 \u00b1 0.0007"
               },
@@ -417,6 +440,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "Please tell us",
                 "Test Accuracy": "0.7829 \u00b1 0.0016",
                 "Validation Accuracy": "Please tell us"
               },
@@ -435,6 +459,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "103727",
                 "Test Accuracy": "0.7564 \u00b1 0.0021",
                 "Validation Accuracy": "0.9200 \u00b1 0.0003"
               },
@@ -453,6 +478,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Accuracy": "0.7434 \u00b1 0.0000",
                 "Validation Accuracy": "0.9091 \u00b1 0.0000"
               },
@@ -471,6 +497,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "120251183",
                 "Test Accuracy": "0.7406 \u00b1 0.0026",
                 "Validation Accuracy": "0.9066 \u00b1 0.0011"
               },
@@ -489,6 +516,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "313612207",
                 "Test Accuracy": "0.7249 \u00b1 0.0010",
                 "Validation Accuracy": "0.9032 \u00b1 0.0006"
               },
@@ -507,6 +535,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "115806",
                 "Test Accuracy": "0.6259 \u00b1 0.0010",
                 "Validation Accuracy": "0.7721 \u00b1 0.0015"
               },
@@ -525,6 +554,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "103727",
                 "Test Accuracy": "0.6241 \u00b1 0.0016",
                 "Validation Accuracy": "0.7688 \u00b1 0.0014"
               },
@@ -543,6 +573,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "103727",
                 "Test Accuracy": "0.6106 \u00b1 0.0008",
                 "Validation Accuracy": "0.7554 \u00b1 0.0014"
               },
@@ -565,7 +596,8 @@
         "sota": {
           "metrics": [
             "Test ROC-AUC",
-            "Validation ROC-AUC"
+            "Validation ROC-AUC",
+            "Number of params"
           ],
           "rows": [
             {
@@ -576,6 +608,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "68471608",
                 "Test ROC-AUC": "0.8824 \u00b1 0.0015",
                 "Validation ROC-AUC": "0.9450 \u00b1 0.0008"
               },
@@ -594,6 +627,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "20031384",
                 "Test ROC-AUC": "0.8774 \u00b1 0.0013",
                 "Validation ROC-AUC": "0.9326 \u00b1 0.0006"
               },
@@ -612,6 +646,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2484192",
                 "Test ROC-AUC": "0.8765 \u00b1 0.0008",
                 "Validation ROC-AUC": "0.9280 \u00b1 0.0008"
               },
@@ -630,6 +665,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6360470",
                 "Test ROC-AUC": "0.8711 \u00b1 0.0007",
                 "Validation ROC-AUC": "0.9217 \u00b1 0.0011"
               },
@@ -648,6 +684,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "4831056",
                 "Test ROC-AUC": "0.8700 \u00b1 0.0010",
                 "Validation ROC-AUC": "0.9187 \u00b1 0.0003"
               },
@@ -666,6 +703,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1959984",
                 "Test ROC-AUC": "0.8691 \u00b1 0.0018",
                 "Validation ROC-AUC": "0.9258 \u00b1 0.0009"
               },
@@ -684,6 +722,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2475232",
                 "Test ROC-AUC": "0.8682 \u00b1 0.0021",
                 "Validation ROC-AUC": "0.9194 \u00b1 0.0003"
               },
@@ -702,6 +741,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1909104",
                 "Test ROC-AUC": "0.8642 \u00b1 0.0008",
                 "Validation ROC-AUC": "0.9175 \u00b1 0.0006"
               },
@@ -720,6 +760,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2374568",
                 "Test ROC-AUC": "0.8596 \u00b1 0.0027",
                 "Validation ROC-AUC": "0.9132 \u00b1 0.0022"
               },
@@ -738,6 +779,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2374568",
                 "Test ROC-AUC": "0.8580 \u00b1 0.0017",
                 "Validation ROC-AUC": "0.9106 \u00b1 0.0016"
               },
@@ -756,6 +798,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2374456",
                 "Test ROC-AUC": "0.8496 \u00b1 0.0028",
                 "Validation ROC-AUC": "0.8971 \u00b1 0.0011"
               },
@@ -774,6 +817,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "538544",
                 "Test ROC-AUC": "0.8436 \u00b1 0.0065",
                 "Validation ROC-AUC": "0.8973 \u00b1 0.0057"
               },
@@ -792,6 +836,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "487436",
                 "Test ROC-AUC": "0.8251 \u00b1 0.0043",
                 "Validation ROC-AUC": "0.8656 \u00b1 0.0037"
               },
@@ -810,6 +855,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "316754",
                 "Test ROC-AUC": "0.7825 \u00b1 0.0035",
                 "Validation ROC-AUC": "Please tell us"
               },
@@ -828,6 +874,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "Please tell us",
                 "Test ROC-AUC": "0.7803 \u00b1 0.0073",
                 "Validation ROC-AUC": "Please tell us"
               },
@@ -846,6 +893,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "193136",
                 "Test ROC-AUC": "0.7768 \u00b1 0.0020",
                 "Validation ROC-AUC": "0.8334 \u00b1 0.0013"
               },
@@ -864,6 +912,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "96880",
                 "Test ROC-AUC": "0.7251 \u00b1 0.0035",
                 "Validation ROC-AUC": "0.7921 \u00b1 0.0018"
               },
@@ -882,6 +931,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "96880",
                 "Test ROC-AUC": "0.7204 \u00b1 0.0048",
                 "Validation ROC-AUC": "0.7706 \u00b1 0.0014"
               },
@@ -900,6 +950,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "17094000",
                 "Test ROC-AUC": "0.6881 \u00b1 0.0065",
                 "Validation ROC-AUC": "0.7007 \u00b1 0.0053"
               },
@@ -922,7 +973,8 @@
         "sota": {
           "metrics": [
             "Test Accuracy",
-            "Validation Accuracy"
+            "Validation Accuracy",
+            "Number of params"
           ],
           "rows": [
             {
@@ -933,6 +985,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2098256",
                 "Test Accuracy": "0.7426 \u00b1 0.0017",
                 "Validation Accuracy": "0.7497 \u00b1 0.0008"
               },
@@ -947,10 +1000,30 @@
               "code_links": [
                 {
                   "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-OGB-Tricks/tree/main/DGL-ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Number of params": "1700432",
+                "Test Accuracy": "0.7420 \u00b1 0.0004",
+                "Validation Accuracy": "0.7482 \u00b1 0.0015"
+              },
+              "model_links": [],
+              "model_name": "GAT-node2vec + BoT + self-KD",
+              "paper_date": "2021-06-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2105.08330",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
                   "url": "https://github.com/ShunliRen/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv"
                 }
               ],
               "metrics": {
+                "Number of params": "1441580",
                 "Test Accuracy": "0.7416 \u00b1 0.0008",
                 "Validation Accuracy": "0.7514 \u00b1 0.0004"
               },
@@ -965,10 +1038,30 @@
               "code_links": [
                 {
                   "title": "",
+                  "url": "https://github.com/ytchx1999/PyG-OGB-Tricks/tree/main/DGL-ogbn-arxiv"
+                }
+              ],
+              "metrics": {
+                "Number of params": "1700432",
+                "Test Accuracy": "0.7405 \u00b1 0.0004",
+                "Validation Accuracy": "0.7482 \u00b1 0.0015"
+              },
+              "model_links": [],
+              "model_name": "GAT-node2vec + BoT",
+              "paper_date": "2021-06-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2105.08330",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
                   "url": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb_eff/ogbn_arxiv_dgl"
                 }
               ],
               "metrics": {
+                "Number of params": "2098256",
                 "Test Accuracy": "0.7402 \u00b1 0.0018",
                 "Validation Accuracy": "0.7501 \u00b1 0.0010"
               },
@@ -987,6 +1080,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1441580",
                 "Test Accuracy": "0.7399 \u00b1 0.0012",
                 "Validation Accuracy": "0.7513 \u00b1 0.0009"
               },
@@ -1005,6 +1099,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1508555",
                 "Test Accuracy": "0.7398 \u00b1 0.0009",
                 "Validation Accuracy": "0.7519 \u00b1 0.0009"
               },
@@ -1023,6 +1118,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "687377",
                 "Test Accuracy": "0.7397 \u00b1 0.0015",
                 "Validation Accuracy": "0.7506 \u00b1 0.0009"
               },
@@ -1041,6 +1137,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1441580",
                 "Test Accuracy": "0.7395 \u00b1 0.0012",
                 "Validation Accuracy": "0.7519 \u00b1 0.0008"
               },
@@ -1059,6 +1156,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1441580",
                 "Test Accuracy": "0.7391 \u00b1 0.0012",
                 "Validation Accuracy": "0.7516 \u00b1 0.0008"
               },
@@ -1077,6 +1175,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1567000",
                 "Test Accuracy": "0.7386 \u00b1 0.0014",
                 "Validation Accuracy": "0.7484 \u00b1 0.0007"
               },
@@ -1095,6 +1194,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1162515",
                 "Test Accuracy": "0.7379 \u00b1 0.0014",
                 "Validation Accuracy": "0.7475 \u00b1 0.0008"
               },
@@ -1113,6 +1213,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1447115",
                 "Test Accuracy": "0.7375 \u00b1 0.0021",
                 "Validation Accuracy": "0.7483 \u00b1 0.0009"
               },
@@ -1131,6 +1232,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1628440",
                 "Test Accuracy": "0.7371 \u00b1 0.0013",
                 "Validation Accuracy": "0.7496 \u00b1 0.0010"
               },
@@ -1149,6 +1251,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1441580",
                 "Test Accuracy": "0.7366 \u00b1 0.0011",
                 "Validation Accuracy": "0.7508 \u00b1 0.0009"
               },
@@ -1167,6 +1270,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1628440",
                 "Test Accuracy": "0.7365 \u00b1 0.0011",
                 "Validation Accuracy": "0.7504 \u00b1 0.0006"
               },
@@ -1185,6 +1289,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "155824",
                 "Test Accuracy": "0.7313 \u00b1 0.0017",
                 "Validation Accuracy": "0.7445 \u00b1 0.0011"
               },
@@ -1203,6 +1308,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "175656",
                 "Test Accuracy": "0.7312 \u00b1 0.0012",
                 "Validation Accuracy": "0.7391 \u00b1 0.0015"
               },
@@ -1221,6 +1327,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "473489",
                 "Test Accuracy": "0.7311 \u00b1 0.0020",
                 "Validation Accuracy": "0.7450 \u00b1 0.0005"
               },
@@ -1239,6 +1346,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "238632",
                 "Test Accuracy": "0.7306 \u00b1 0.0024",
                 "Validation Accuracy": "0.7442 \u00b1 0.0012"
               },
@@ -1257,6 +1365,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "155824",
                 "Test Accuracy": "0.7297 \u00b1 0.0022",
                 "Validation Accuracy": "0.7423 \u00b1 0.0014"
               },
@@ -1275,6 +1384,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "122542",
                 "Test Accuracy": "0.7286 \u00b1 0.0016",
                 "Validation Accuracy": "0.7382 \u00b1 0.0007"
               },
@@ -1293,6 +1403,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "21885098",
                 "Test Accuracy": "0.7278 \u00b1 0.0013",
                 "Validation Accuracy": "0.7414 \u00b1 0.0008"
               },
@@ -1311,6 +1422,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "155824",
                 "Test Accuracy": "0.7276 \u00b1 0.0024",
                 "Validation Accuracy": "0.7389 \u00b1 0.0012"
               },
@@ -1329,6 +1441,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2148648",
                 "Test Accuracy": "0.7274 \u00b1 0.0016",
                 "Validation Accuracy": "Please tell us"
               },
@@ -1347,6 +1460,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "155824",
                 "Test Accuracy": "0.7262 \u00b1 0.0037",
                 "Validation Accuracy": "0.7369 \u00b1 0.0021"
               },
@@ -1365,6 +1479,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "15400",
                 "Test Accuracy": "0.7222 \u00b1 0.0002",
                 "Validation Accuracy": "0.7368 \u00b1 0.0004"
               },
@@ -1379,46 +1494,11 @@
               "code_links": [
                 {
                   "title": "",
-                  "url": "https://github.com/shyam196/egc"
-                }
-              ],
-              "metrics": {
-                "Test Accuracy": "0.7219 \u00b1 0.0016",
-                "Validation Accuracy": "0.7338 \u00b1 0.0022"
-              },
-              "model_links": [],
-              "model_name": "EGC-S (100k)",
-              "paper_date": "2021-04-06",
-              "paper_title": "",
-              "paper_url": "https://arxiv.org/abs/2104.01481",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [
-                {
-                  "title": "",
-                  "url": "https://github.com/EtoDemerzel0427/ogbn-arxiv-baselines/blob/master/JKNet.py"
-                }
-              ],
-              "metrics": {
-                "Test Accuracy": "0.7219 \u00b1 0.0021",
-                "Validation Accuracy": "0.7335 \u00b1 0.0007"
-              },
-              "model_links": [],
-              "model_name": "JKNet (GCN-based)",
-              "paper_date": "2020-08-26",
-              "paper_title": "",
-              "paper_url": "https://arxiv.org/pdf/1806.03536.pdf",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [
-                {
-                  "title": "",
                   "url": "https://github.com/devnkong/FLAG"
                 }
               ],
               "metrics": {
+                "Number of params": "218664",
                 "Test Accuracy": "0.7219 \u00b1 0.0021",
                 "Validation Accuracy": "0.7349 \u00b1 0.0009"
               },
@@ -1433,10 +1513,49 @@
               "code_links": [
                 {
                   "title": "",
+                  "url": "https://github.com/EtoDemerzel0427/ogbn-arxiv-baselines/blob/master/JKNet.py"
+                }
+              ],
+              "metrics": {
+                "Number of params": "89000",
+                "Test Accuracy": "0.7219 \u00b1 0.0021",
+                "Validation Accuracy": "0.7335 \u00b1 0.0007"
+              },
+              "model_links": [],
+              "model_name": "JKNet (GCN-based)",
+              "paper_date": "2020-08-26",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/pdf/1806.03536.pdf",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/shyam196/egc"
+                }
+              ],
+              "metrics": {
+                "Number of params": "100648",
+                "Test Accuracy": "0.7219 \u00b1 0.0016",
+                "Validation Accuracy": "0.7338 \u00b1 0.0022"
+              },
+              "model_links": [],
+              "model_name": "EGC-S (100k)",
+              "paper_date": "2021-04-06",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/2104.01481",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
                   "url": "https://github.com/devnkong/FLAG"
                 }
               ],
               "metrics": {
+                "Number of params": "491176",
                 "Test Accuracy": "0.7214 \u00b1 0.0019",
                 "Validation Accuracy": "0.7311 \u00b1 0.0009"
               },
@@ -1455,6 +1574,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "43857",
                 "Test Accuracy": "0.7209 \u00b1 0.0025",
                 "Validation Accuracy": "0.7290 \u00b1 0.0011"
               },
@@ -1473,6 +1593,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "142888",
                 "Test Accuracy": "0.7204 \u00b1 0.0020",
                 "Validation Accuracy": "0.7330 \u00b1 0.0010"
               },
@@ -1491,6 +1612,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1471506",
                 "Test Accuracy": "0.7197 \u00b1 0.0024",
                 "Validation Accuracy": "Please tell us"
               },
@@ -1509,6 +1631,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "99464",
                 "Test Accuracy": "0.7196 \u00b1 0.0023",
                 "Validation Accuracy": "0.7334 \u00b1 0.0013"
               },
@@ -1527,6 +1650,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3566128",
                 "Test Accuracy": "0.7195 \u00b1 0.0011",
                 "Validation Accuracy": "0.7323 \u00b1 0.0006"
               },
@@ -1545,6 +1669,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "491176",
                 "Test Accuracy": "0.7192 \u00b1 0.0016",
                 "Validation Accuracy": "0.7262 \u00b1 0.0014"
               },
@@ -1563,6 +1688,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "142888",
                 "Test Accuracy": "0.7174 \u00b1 0.0029",
                 "Validation Accuracy": "0.7300 \u00b1 0.0017"
               },
@@ -1581,6 +1707,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "218664",
                 "Test Accuracy": "0.7149 \u00b1 0.0027",
                 "Validation Accuracy": "0.7277 \u00b1 0.0016"
               },
@@ -1599,6 +1726,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "5160",
                 "Test Accuracy": "0.7126 \u00b1 0.0001",
                 "Validation Accuracy": "0.7300 \u00b1 0.0001"
               },
@@ -1617,6 +1745,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "8963624",
                 "Test Accuracy": "0.7118 \u00b1 0.0018",
                 "Validation Accuracy": "0.7220 \u00b1 0.0007"
               },
@@ -1635,6 +1764,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "21818792",
                 "Test Accuracy": "0.7007 \u00b1 0.0013",
                 "Validation Accuracy": "0.7129 \u00b1 0.0013"
               },
@@ -1653,6 +1783,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Accuracy": "0.6832 \u00b1 0.0000",
                 "Validation Accuracy": "0.7014 \u00b1 0.0000"
               },
@@ -1671,6 +1802,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "120912",
                 "Test Accuracy": "0.5638 \u00b1 0.0016",
                 "Validation Accuracy": "0.5807 \u00b1 0.0011"
               },
@@ -1689,6 +1821,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "110120",
                 "Test Accuracy": "0.5602 \u00b1 0.0019",
                 "Validation Accuracy": "0.5817 \u00b1 0.0011"
               },
@@ -1707,6 +1840,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "110120",
                 "Test Accuracy": "0.5550 \u00b1 0.0023",
                 "Validation Accuracy": "0.5765 \u00b1 0.0012"
               },
@@ -1729,7 +1863,8 @@
         "sota": {
           "metrics": [
             "Test Accuracy",
-            "Validation Accuracy"
+            "Validation Accuracy",
+            "Number of params"
           ],
           "rows": [
             {
@@ -1740,6 +1875,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "8556888",
                 "Test Accuracy": "0.6800 \u00b1 0.0015",
                 "Validation Accuracy": "0.7131 \u00b1 0.0010"
               },
@@ -1758,6 +1894,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "883378",
                 "Test Accuracy": "0.6736 \u00b1 0.0010",
                 "Validation Accuracy": "0.7172 \u00b1 0.0005"
               },
@@ -1776,6 +1913,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "5755172",
                 "Test Accuracy": "0.6706 \u00b1 0.0017",
                 "Validation Accuracy": "0.7032 \u00b1 0.0011"
               },
@@ -1794,6 +1932,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6098092",
                 "Test Accuracy": "0.6675 \u00b1 0.0084",
                 "Validation Accuracy": "0.7034 \u00b1 0.0099"
               },
@@ -1812,6 +1951,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "7180460",
                 "Test Accuracy": "0.6606 \u00b1 0.0019",
                 "Validation Accuracy": "0.6984 \u00b1 0.0006"
               },
@@ -1830,6 +1970,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1008812",
                 "Test Accuracy": "0.6568 \u00b1 0.0006",
                 "Validation Accuracy": "0.6932 \u00b1 0.0006"
               },
@@ -1848,6 +1989,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "144044",
                 "Test Accuracy": "0.6329 \u00b1 0.0019",
                 "Validation Accuracy": "0.6648 \u00b1 0.0020"
               },
@@ -1866,6 +2008,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "14215818412",
                 "Test Accuracy": "0.5560 \u00b1 0.0023",
                 "Validation Accuracy": "0.5807 \u00b1 0.0028"
               },
@@ -1884,6 +2027,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "144044",
                 "Test Accuracy": "0.4724 \u00b1 0.0031",
                 "Validation Accuracy": "0.4960 \u00b1 0.0029"
               },
@@ -1906,7 +2050,8 @@
         "sota": {
           "metrics": [
             "Test Accuracy",
-            "Validation Accuracy"
+            "Validation Accuracy",
+            "Number of params"
           ],
           "rows": [
             {
@@ -1917,6 +2062,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "4130149",
                 "Test Accuracy": "0.5240 \u00b1 0.0016",
                 "Validation Accuracy": "0.5372 \u00b1 0.0009"
               },
@@ -1935,6 +2081,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "5638053",
                 "Test Accuracy": "0.5204 \u00b1 0.0026",
                 "Validation Accuracy": "0.5361 \u00b1 0.0022"
               },
@@ -1953,6 +2100,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "309777252",
                 "Test Accuracy": "0.5109 \u00b1 0.0038",
                 "Validation Accuracy": "0.5295 \u00b1 0.0042"
               },
@@ -1971,6 +2119,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2850405",
                 "Test Accuracy": "0.5045 \u00b1 0.0017",
                 "Validation Accuracy": "0.5300 \u00b1 0.0018"
               },
@@ -1989,6 +2138,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154373028",
                 "Test Accuracy": "0.5032 \u00b1 0.0037",
                 "Validation Accuracy": "0.5182 \u00b1 0.0041"
               },
@@ -2007,6 +2157,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "26877657",
                 "Test Accuracy": "0.4982 \u00b1 0.0013",
                 "Validation Accuracy": "0.5124 \u00b1 0.0046"
               },
@@ -2025,6 +2176,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "309764724",
                 "Test Accuracy": "0.4966 \u00b1 0.0022",
                 "Validation Accuracy": "0.5066 \u00b1 0.0017"
               },
@@ -2043,6 +2195,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "21173389",
                 "Test Accuracy": "0.4927 \u00b1 0.0061",
                 "Validation Accuracy": "0.4989 \u00b1 0.0047"
               },
@@ -2061,6 +2214,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154366772",
                 "Test Accuracy": "0.4751 \u00b1 0.0022",
                 "Validation Accuracy": "0.4837 \u00b1 0.0026"
               },
@@ -2079,6 +2233,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154366772",
                 "Test Accuracy": "0.4737 \u00b1 0.0048",
                 "Validation Accuracy": "0.4835 \u00b1 0.0036"
               },
@@ -2097,6 +2252,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154366772",
                 "Test Accuracy": "0.4678 \u00b1 0.0067",
                 "Validation Accuracy": "0.4761 \u00b1 0.0068"
               },
@@ -2115,6 +2271,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3724645",
                 "Test Accuracy": "0.4046 \u00b1 0.0012",
                 "Validation Accuracy": "0.4068 \u00b1 0.0010"
               },
@@ -2133,6 +2290,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154366772",
                 "Test Accuracy": "0.3977 \u00b1 0.0046",
                 "Validation Accuracy": "0.4084 \u00b1 0.0041"
               },
@@ -2151,6 +2309,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "154366772",
                 "Test Accuracy": "0.3732 \u00b1 0.0037",
                 "Validation Accuracy": "0.3840 \u00b1 0.0031"
               },
@@ -2169,6 +2328,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "94479069",
                 "Test Accuracy": "0.3544 \u00b1 0.0036",
                 "Validation Accuracy": "0.3506 \u00b1 0.0017"
               },
@@ -2187,6 +2347,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "278202",
                 "Test Accuracy": "0.2761 \u00b1 0.0018",
                 "Validation Accuracy": "0.2646 \u00b1 0.0013"
               },
@@ -2205,6 +2366,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "188509",
                 "Test Accuracy": "0.2692 \u00b1 0.0026",
                 "Validation Accuracy": "0.2626 \u00b1 0.0016"
               },
@@ -2240,7 +2402,8 @@
         "sota": {
           "metrics": [
             "Test Hits@100",
-            "Validation Hits@100"
+            "Validation Hits@100",
+            "Number of params"
           ],
           "rows": [
             {
@@ -2251,6 +2414,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "709122",
                 "Test Hits@100": "0.4880 \u00b1 0.0316",
                 "Validation Hits@100": "0.5125 \u00b1 0.0252"
               },
@@ -2269,6 +2433,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@100": "0.3245 \u00b1 0.0000",
                 "Validation Hits@100": "0.3268 \u00b1 0.0000"
               },
@@ -2287,6 +2452,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "147662849",
                 "Test Hits@100": "0.3229 \u00b1 0.0094",
                 "Validation Hits@100": "0.3228 \u00b1 0.0428"
               },
@@ -2305,6 +2471,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "150138741",
                 "Test Hits@100": "0.2888 \u00b1 0.0153",
                 "Validation Hits@100": "Please tell us"
               },
@@ -2323,6 +2490,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@100": "0.2765 \u00b1 0.0000",
                 "Validation Hits@100": "0.2823 \u00b1 0.0000"
               },
@@ -2341,6 +2509,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "150138741",
                 "Test Hits@100": "0.2302 \u00b1 0.0163",
                 "Validation Hits@100": "Please tell us"
               },
@@ -2359,6 +2528,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "73878913",
                 "Test Hits@100": "0.2226 \u00b1 0.0083",
                 "Validation Hits@100": "0.2253 \u00b1 0.0088"
               },
@@ -2377,6 +2547,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "278529",
                 "Test Hits@100": "0.1867 \u00b1 0.0132",
                 "Validation Hits@100": "0.1845 \u00b1 0.0140"
               },
@@ -2395,6 +2566,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "424449",
                 "Test Hits@100": "0.1655 \u00b1 0.0240",
                 "Validation Hits@100": "0.1724 \u00b1 0.0264"
               },
@@ -2417,7 +2589,8 @@
         "sota": {
           "metrics": [
             "Test Hits@50",
-            "Validation Hits@50"
+            "Validation Hits@50",
+            "Number of params"
           ],
           "rows": [
             {
@@ -2428,6 +2601,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "501570",
                 "Test Hits@50": "0.6474 \u00b1 0.0043",
                 "Validation Hits@50": "0.6495 \u00b1 0.0043"
               },
@@ -2446,6 +2620,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@50": "0.6417 \u00b1 0.0000",
                 "Validation Hits@50": "0.6349 \u00b1 0.0000"
               },
@@ -2464,6 +2639,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@50": "0.6137 \u00b1 0.0000",
                 "Validation Hits@50": "0.6036 \u00b1 0.0000"
               },
@@ -2482,6 +2658,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "501570",
                 "Test Hits@50": "0.5471 \u00b1 0.0049",
                 "Validation Hits@50": "0.6495 \u00b1 0.0043"
               },
@@ -2500,6 +2677,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "460289",
                 "Test Hits@50": "0.5463 \u00b1 0.0112",
                 "Validation Hits@50": "0.5688 \u00b1 0.0077"
               },
@@ -2518,6 +2696,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "117383",
                 "Test Hits@50": "0.5273 \u00b1 0.0047",
                 "Validation Hits@50": "0.6187 \u00b1 0.0045"
               },
@@ -2536,6 +2715,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1069489",
                 "Test Hits@50": "0.5221 \u00b1 0.0072",
                 "Validation Hits@50": "0.6088 \u00b1 0.0059"
               },
@@ -2554,6 +2734,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "61390187",
                 "Test Hits@50": "0.5037 \u00b1 0.0034",
                 "Validation Hits@50": "Please tell us"
               },
@@ -2572,6 +2753,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "30322945",
                 "Test Hits@50": "0.4888 \u00b1 0.0054",
                 "Validation Hits@50": "0.5703 \u00b1 0.0052"
               },
@@ -2590,6 +2772,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "460289",
                 "Test Hits@50": "0.4810 \u00b1 0.0081",
                 "Validation Hits@50": "0.5688 \u00b1 0.0077"
               },
@@ -2608,6 +2791,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "296449",
                 "Test Hits@50": "0.4714 \u00b1 0.0145",
                 "Validation Hits@50": "0.5263 \u00b1 0.0115"
               },
@@ -2626,6 +2810,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "296449",
                 "Test Hits@50": "0.4475 \u00b1 0.0107",
                 "Validation Hits@50": "0.5263 \u00b1 0.0115"
               },
@@ -2644,6 +2829,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "60514049",
                 "Test Hits@50": "0.3886 \u00b1 0.0029",
                 "Validation Hits@50": "0.4896 \u00b1 0.0029"
               },
@@ -2666,7 +2852,8 @@
         "sota": {
           "metrics": [
             "Test Hits@20",
-            "Validation Hits@20"
+            "Validation Hits@20",
+            "Number of params"
           ],
           "rows": [
             {
@@ -2677,6 +2864,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3760134",
                 "Test Hits@20": "0.8239 \u00b1 0.0437",
                 "Validation Hits@20": "0.8206 \u00b1 0.0298"
               },
@@ -2695,6 +2883,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1763329",
                 "Test Hits@20": "0.7672 \u00b1 0.0265",
                 "Validation Hits@20": "0.6713 \u00b1 0.0071"
               },
@@ -2713,6 +2902,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "10235281",
                 "Test Hits@20": "0.7385 \u00b1 0.0871",
                 "Validation Hits@20": "0.7225 \u00b1 0.0047"
               },
@@ -2731,6 +2921,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1228897",
                 "Test Hits@20": "0.6781 \u00b1 0.0294",
                 "Validation Hits@20": "0.7010 \u00b1 0.0082"
               },
@@ -2749,6 +2940,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1576081",
                 "Test Hits@20": "0.6230 \u00b1 0.0912",
                 "Validation Hits@20": "0.6675 \u00b1 0.0058"
               },
@@ -2767,6 +2959,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1421571",
                 "Test Hits@20": "0.6056 \u00b1 0.0869",
                 "Validation Hits@20": "0.6776 \u00b1 0.0095"
               },
@@ -2785,6 +2978,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1421057",
                 "Test Hits@20": "0.5390 \u00b1 0.0474",
                 "Validation Hits@20": "0.6262 \u00b1 0.0037"
               },
@@ -2803,6 +2997,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1289985",
                 "Test Hits@20": "0.3707 \u00b1 0.0507",
                 "Validation Hits@20": "0.5550 \u00b1 0.0208"
               },
@@ -2821,6 +3016,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "531138",
                 "Test Hits@20": "0.3056 \u00b1 0.0386",
                 "Validation Hits@20": "0.2849 \u00b1 0.0269"
               },
@@ -2839,6 +3035,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "11543913",
                 "Test Hits@20": "0.2642 \u00b1 0.0610",
                 "Validation Hits@20": "Please tell us"
               },
@@ -2857,6 +3054,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "645249",
                 "Test Hits@20": "0.2326 \u00b1 0.0209",
                 "Validation Hits@20": "0.3292 \u00b1 0.0121"
               },
@@ -2875,6 +3073,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1543913",
                 "Test Hits@20": "0.2246 \u00b1 0.0290",
                 "Validation Hits@20": "Please tell us"
               },
@@ -2893,6 +3092,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@20": "0.1861 \u00b1 0.0000",
                 "Validation Hits@20": "0.0966 \u00b1 0.0000"
               },
@@ -2911,6 +3111,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test Hits@20": "0.1773 \u00b1 0.0000",
                 "Validation Hits@20": "0.0947 \u00b1 0.0000"
               },
@@ -2929,6 +3130,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1224193",
                 "Test Hits@20": "0.1368 \u00b1 0.0475",
                 "Validation Hits@20": "0.3370 \u00b1 0.0264"
               },
@@ -2951,7 +3153,8 @@
         "sota": {
           "metrics": [
             "Test MRR",
-            "Validation MRR"
+            "Validation MRR",
+            "Number of params"
           ],
           "rows": [
             {
@@ -2962,6 +3165,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "260802",
                 "Test MRR": "0.8767 \u00b1 0.0032",
                 "Validation MRR": "0.8757 \u00b1 0.0031"
               },
@@ -2980,6 +3184,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "296449",
                 "Test MRR": "0.8474 \u00b1 0.0021",
                 "Validation MRR": "0.8479 \u00b1 0.0023"
               },
@@ -2998,6 +3203,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "460289",
                 "Test MRR": "0.8260 \u00b1 0.0036",
                 "Validation MRR": "0.8263 \u00b1 0.0033"
               },
@@ -3016,6 +3222,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "460289",
                 "Test MRR": "0.8044 \u00b1 0.0010",
                 "Validation MRR": "0.8054 \u00b1 0.0009"
               },
@@ -3034,6 +3241,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "296449",
                 "Test MRR": "0.8004 \u00b1 0.0025",
                 "Validation MRR": "0.7994 \u00b1 0.0025"
               },
@@ -3052,6 +3260,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "296449",
                 "Test MRR": "0.7985 \u00b1 0.0040",
                 "Validation MRR": "0.7975 \u00b1 0.0039"
               },
@@ -3070,6 +3279,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "374911105",
                 "Test MRR": "0.6141 \u00b1 0.0011",
                 "Validation MRR": "0.6124 \u00b1 0.0011"
               },
@@ -3088,6 +3298,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test MRR": "0.5189 \u00b1 0.0000",
                 "Validation MRR": "0.5167 \u00b1 0.0000"
               },
@@ -3106,6 +3317,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "281113505",
                 "Test MRR": "0.5186 \u00b1 0.0443",
                 "Validation MRR": "0.5181 \u00b1 0.0436"
               },
@@ -3124,6 +3336,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "0",
                 "Test MRR": "0.5147 \u00b1 0.0000",
                 "Validation MRR": "0.5119 \u00b1 0.0000"
               },
@@ -3146,7 +3359,8 @@
         "sota": {
           "metrics": [
             "Test MRR",
-            "Validation MRR"
+            "Validation MRR",
+            "Number of params"
           ],
           "rows": [
             {
@@ -3157,6 +3371,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "500227800",
                 "Test MRR": "0.5458 \u00b1 0.0052",
                 "Validation MRR": "0.5510 \u00b1 0.0063"
               },
@@ -3175,6 +3390,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "500334800",
                 "Test MRR": "0.5208 \u00b1 0.0027",
                 "Validation MRR": "0.5423 \u00b1 0.0020"
               },
@@ -3193,6 +3409,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1250435750",
                 "Test MRR": "0.4332 \u00b1 0.0025",
                 "Validation MRR": "0.4353 \u00b1 0.0028"
               },
@@ -3211,6 +3428,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1250569500",
                 "Test MRR": "0.4256 \u00b1 0.0030",
                 "Validation MRR": "0.4272 \u00b1 0.0030"
               },
@@ -3229,6 +3447,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1250569500",
                 "Test MRR": "0.4027 \u00b1 0.0027",
                 "Validation MRR": "0.3759 \u00b1 0.0016"
               },
@@ -3247,6 +3466,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "250113900",
                 "Test MRR": "0.3804 \u00b1 0.0022",
                 "Validation MRR": "0.3534 \u00b1 0.0052"
               },
@@ -3265,6 +3485,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1250569500",
                 "Test MRR": "0.3729 \u00b1 0.0045",
                 "Validation MRR": "0.3506 \u00b1 0.0042"
               },
@@ -3283,6 +3504,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "250113900",
                 "Test MRR": "0.3447 \u00b1 0.0082",
                 "Validation MRR": "0.3150 \u00b1 0.0088"
               },
@@ -3301,6 +3523,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "250113900",
                 "Test MRR": "0.2622 \u00b1 0.0045",
                 "Validation MRR": "0.2465 \u00b1 0.0020"
               },
@@ -3319,6 +3542,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "250087150",
                 "Test MRR": "0.2530 \u00b1 0.0034",
                 "Validation MRR": "0.2250 \u00b1 0.0035"
               },
@@ -3341,7 +3565,8 @@
         "sota": {
           "metrics": [
             "Test MRR",
-            "Validation MRR"
+            "Validation MRR",
+            "Number of params"
           ],
           "rows": [
             {
@@ -3352,6 +3577,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "93824000",
                 "Test MRR": "0.8309 \u00b1 0.0008",
                 "Validation MRR": "0.8317 \u00b1 0.0007"
               },
@@ -3370,6 +3596,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "187750000",
                 "Test MRR": "0.8164 \u00b1 0.0005",
                 "Validation MRR": "0.8172 \u00b1 0.0005"
               },
@@ -3388,6 +3615,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "187648000",
                 "Test MRR": "0.8095 \u00b1 0.0007",
                 "Validation MRR": "0.8105 \u00b1 0.0001"
               },
@@ -3406,6 +3634,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "187648000",
                 "Test MRR": "0.8043 \u00b1 0.0003",
                 "Validation MRR": "0.8055 \u00b1 0.0003"
               },
@@ -3424,6 +3653,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "187597000",
                 "Test MRR": "0.7989 \u00b1 0.0004",
                 "Validation MRR": "0.7997 \u00b1 0.0002"
               },
@@ -3442,6 +3672,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "187648000",
                 "Test MRR": "0.7452 \u00b1 0.0004",
                 "Validation MRR": "0.7456 \u00b1 0.0003"
               },
@@ -3477,7 +3708,8 @@
         "sota": {
           "metrics": [
             "Test ROC-AUC",
-            "Validation ROC-AUC"
+            "Validation ROC-AUC",
+            "Number of params"
           ],
           "rows": [
             {
@@ -3488,6 +3720,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2425102",
                 "Test ROC-AUC": "0.8232 \u00b1 0.0047",
                 "Validation ROC-AUC": "0.8331 \u00b1 0.0054"
               },
@@ -3506,6 +3739,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "230000",
                 "Test ROC-AUC": "0.8060 \u00b1 0.0010",
                 "Validation ROC-AUC": "0.8420 \u00b1 0.0030"
               },
@@ -3524,6 +3758,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "4600000",
                 "Test ROC-AUC": "0.8039 \u00b1 0.0040",
                 "Validation ROC-AUC": "0.8279 \u00b1 0.0059"
               },
@@ -3542,6 +3777,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "114065",
                 "Test ROC-AUC": "0.7970 \u00b1 0.0097",
                 "Validation ROC-AUC": "0.8470 \u00b1 0.0047"
               },
@@ -3560,6 +3796,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "531976",
                 "Test ROC-AUC": "0.7942 \u00b1 0.0120",
                 "Validation ROC-AUC": "0.8425 \u00b1 0.0061"
               },
@@ -3578,6 +3815,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "110909",
                 "Test ROC-AUC": "0.7934 \u00b1 0.0116",
                 "Validation ROC-AUC": "0.8217 \u00b1 0.0089"
               },
@@ -3596,6 +3834,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "326081",
                 "Test ROC-AUC": "0.7905 \u00b1 0.0132",
                 "Validation ROC-AUC": "0.8519 \u00b1 0.0099"
               },
@@ -3614,6 +3853,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "526201",
                 "Test ROC-AUC": "0.7883 \u00b1 0.0100",
                 "Validation ROC-AUC": "0.7904 \u00b1 0.0115"
               },
@@ -3632,6 +3872,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "153029",
                 "Test ROC-AUC": "0.7880 \u00b1 0.0082",
                 "Validation ROC-AUC": "Please tell us"
               },
@@ -3650,6 +3891,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "531976",
                 "Test ROC-AUC": "0.7858 \u00b1 0.0117",
                 "Validation ROC-AUC": "0.8427 \u00b1 0.0063"
               },
@@ -3668,6 +3910,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "317265",
                 "Test ROC-AUC": "0.7818 \u00b1 0.0153",
                 "Validation ROC-AUC": "0.8396 \u00b1 0.0097"
               },
@@ -3686,6 +3929,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3338701",
                 "Test ROC-AUC": "0.7799 \u00b1 0.0100",
                 "Validation ROC-AUC": "0.8658 \u00b1 0.0084"
               },
@@ -3704,6 +3948,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "361064",
                 "Test ROC-AUC": "0.7757 \u00b1 0.0111",
                 "Validation ROC-AUC": "0.8101 \u00b1 0.0097"
               },
@@ -3722,6 +3967,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3336306",
                 "Test ROC-AUC": "0.7748 \u00b1 0.0096",
                 "Validation ROC-AUC": "0.8438 \u00b1 0.0128"
               },
@@ -3740,6 +3986,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "317013",
                 "Test ROC-AUC": "0.7721 \u00b1 0.0110",
                 "Validation ROC-AUC": "0.8366 \u00b1 0.0074"
               },
@@ -3758,6 +4005,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3336306",
                 "Test ROC-AUC": "0.7707 \u00b1 0.0149",
                 "Validation ROC-AUC": "0.8479 \u00b1 0.0068"
               },
@@ -3776,6 +4024,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "527701",
                 "Test ROC-AUC": "0.7683 \u00b1 0.0102",
                 "Validation ROC-AUC": "0.8176 \u00b1 0.0087"
               },
@@ -3794,6 +4043,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1885206",
                 "Test ROC-AUC": "0.7654 \u00b1 0.0114",
                 "Validation ROC-AUC": "0.8225 \u00b1 0.0155"
               },
@@ -3812,6 +4062,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "527701",
                 "Test ROC-AUC": "0.7606 \u00b1 0.0097",
                 "Validation ROC-AUC": "0.8204 \u00b1 0.0141"
               },
@@ -3830,6 +4081,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1978801",
                 "Test ROC-AUC": "0.7599 \u00b1 0.0119",
                 "Validation ROC-AUC": "0.8384 \u00b1 0.0091"
               },
@@ -3848,6 +4100,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1885206",
                 "Test ROC-AUC": "0.7558 \u00b1 0.0140",
                 "Validation ROC-AUC": "0.8232 \u00b1 0.0090"
               },
@@ -3856,6 +4109,25 @@
               "paper_date": "2020-05-01",
               "paper_title": "",
               "paper_url": "https://arxiv.org/abs/1810.00826",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [
+                {
+                  "title": "",
+                  "url": "https://github.com/irhum/GraphFlux.jl/blob/main/examples/ogbghiv.ipynb"
+                }
+              ],
+              "metrics": {
+                "Number of params": "527701",
+                "Test ROC-AUC": "0.7549 \u00b1 0.0163",
+                "Validation ROC-AUC": "0.8042 \u00b1 0.0107"
+              },
+              "model_links": [],
+              "model_name": "GCN (in Julia)",
+              "paper_date": "2021-06-28",
+              "paper_title": "",
+              "paper_url": "https://arxiv.org/abs/1609.02907",
               "uses_additional_data": false
             }
           ]
@@ -3870,7 +4142,8 @@
         "sota": {
           "metrics": [
             "Test AP",
-            "Validation AP"
+            "Validation AP",
+            "Number of params"
           ],
           "rows": [
             {
@@ -3881,6 +4154,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6147029",
                 "Test AP": "0.2979 \u00b1 0.0030",
                 "Validation AP": "0.3126 \u00b1 0.0023"
               },
@@ -3899,6 +4173,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1690328",
                 "Test AP": "0.2947 \u00b1 0.0026",
                 "Validation AP": "0.3068 \u00b1 0.0025"
               },
@@ -3917,6 +4192,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6147029",
                 "Test AP": "0.2917 \u00b1 0.0015",
                 "Validation AP": "0.3065 \u00b1 0.0030"
               },
@@ -3935,6 +4211,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6732696",
                 "Test AP": "0.2885 \u00b1 0.0030",
                 "Validation AP": "0.2970 \u00b1 0.0021"
               },
@@ -3953,6 +4230,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "5550208",
                 "Test AP": "0.2842 \u00b1 0.0043",
                 "Validation AP": "0.2952 \u00b1 0.0029"
               },
@@ -3971,6 +4249,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "6550839",
                 "Test AP": "0.2838 \u00b1 0.0035",
                 "Validation AP": "0.2926 \u00b1 0.0026"
               },
@@ -3989,6 +4268,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3374533",
                 "Test AP": "0.2834 \u00b1 0.0038",
                 "Validation AP": "0.2912 \u00b1 0.0026"
               },
@@ -4007,6 +4287,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "5550208",
                 "Test AP": "0.2781 \u00b1 0.0038",
                 "Validation AP": "0.2920 \u00b1 0.0025"
               },
@@ -4025,6 +4306,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3374533",
                 "Test AP": "0.2703 \u00b1 0.0023",
                 "Validation AP": "0.2798 \u00b1 0.0025"
               },
@@ -4043,6 +4325,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2017028",
                 "Test AP": "0.2483 \u00b1 0.0037",
                 "Validation AP": "0.2556 \u00b1 0.0040"
               },
@@ -4061,6 +4344,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2017028",
                 "Test AP": "0.2424 \u00b1 0.0034",
                 "Validation AP": "0.2495 \u00b1 0.0042"
               },
@@ -4079,6 +4363,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1923433",
                 "Test AP": "0.2395 \u00b1 0.0040",
                 "Validation AP": "0.2451 \u00b1 0.0042"
               },
@@ -4097,6 +4382,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1475003",
                 "Test AP": "0.2306 \u00b1 0.0016",
                 "Validation AP": "0.2372 \u00b1 0.0018"
               },
@@ -4115,6 +4401,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1923433",
                 "Test AP": "0.2266 \u00b1 0.0028",
                 "Validation AP": "0.2305 \u00b1 0.0027"
               },
@@ -4133,6 +4420,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "565928",
                 "Test AP": "0.2116 \u00b1 0.0017",
                 "Validation AP": "0.2150 \u00b1 0.0022"
               },
@@ -4151,6 +4439,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "29440000",
                 "Test AP": "0.2054 \u00b1 0.0004",
                 "Validation AP": "0.2226 \u00b1 0.0002"
               },
@@ -4169,6 +4458,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "565928",
                 "Test AP": "0.2020 \u00b1 0.0024",
                 "Validation AP": "0.2059 \u00b1 0.0033"
               },
@@ -4191,7 +4481,8 @@
         "sota": {
           "metrics": [
             "Test Accuracy",
-            "Validation Accuracy"
+            "Validation Accuracy",
+            "Number of params"
           ],
           "rows": [
             {
@@ -4202,6 +4493,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3758642",
                 "Test Accuracy": "0.8140 \u00b1 0.0028",
                 "Validation Accuracy": "0.7811 \u00b1 0.0012"
               },
@@ -4220,6 +4512,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1369397",
                 "Test Accuracy": "0.7976 \u00b1 0.0072",
                 "Validation Accuracy": "0.7518 \u00b1 0.0080"
               },
@@ -4238,6 +4531,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2336421",
                 "Test Accuracy": "0.7752 \u00b1 0.0069",
                 "Validation Accuracy": "0.7484 \u00b1 0.0052"
               },
@@ -4256,6 +4550,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "2336421",
                 "Test Accuracy": "0.7712 \u00b1 0.0071",
                 "Validation Accuracy": "0.7313 \u00b1 0.0078"
               },
@@ -4274,6 +4569,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3288042",
                 "Test Accuracy": "0.7245 \u00b1 0.0114",
                 "Validation Accuracy": "0.6789 \u00b1 0.0079"
               },
@@ -4292,6 +4588,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "3288042",
                 "Test Accuracy": "0.7037 \u00b1 0.0107",
                 "Validation Accuracy": "0.6678 \u00b1 0.0105"
               },
@@ -4310,6 +4607,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1930537",
                 "Test Accuracy": "0.6944 \u00b1 0.0052",
                 "Validation Accuracy": "0.6638 \u00b1 0.0055"
               },
@@ -4328,6 +4626,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1836942",
                 "Test Accuracy": "0.6905 \u00b1 0.0092",
                 "Validation Accuracy": "0.6465 \u00b1 0.0070"
               },
@@ -4346,6 +4645,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1836942",
                 "Test Accuracy": "0.6892 \u00b1 0.0100",
                 "Validation Accuracy": "0.6562 \u00b1 0.0107"
               },
@@ -4364,6 +4664,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "1930537",
                 "Test Accuracy": "0.6857 \u00b1 0.0061",
                 "Validation Accuracy": "0.6511 \u00b1 0.0048"
               },
@@ -4382,6 +4683,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "479437",
                 "Test Accuracy": "0.6839 \u00b1 0.0084",
                 "Validation Accuracy": "0.6497 \u00b1 0.0034"
               },
@@ -4404,7 +4706,8 @@
         "sota": {
           "metrics": [
             "Test F1 score",
-            "Validation F1 score"
+            "Validation F1 score",
+            "Number of params"
           ],
           "rows": [
             {
@@ -4415,6 +4718,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "63684290",
                 "Test F1 score": "0.1770 \u00b1 0.0012",
                 "Validation F1 score": "0.1631 \u00b1 0.0090"
               },
@@ -4433,6 +4737,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "35246814",
                 "Test F1 score": "0.1751 \u00b1 0.0049",
                 "Validation F1 score": "0.1607 \u00b1 0.0040"
               },
@@ -4451,6 +4756,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "12484310",
                 "Test F1 score": "0.1595 \u00b1 0.0018",
                 "Validation F1 score": "0.1461 \u00b1 0.0013"
               },
@@ -4469,6 +4775,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "10986002",
                 "Test F1 score": "0.1595 \u00b1 0.0019",
                 "Validation F1 score": "0.1464 \u00b1 0.0021"
               },
@@ -4487,6 +4794,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "13841815",
                 "Test F1 score": "0.1581 \u00b1 0.0026",
                 "Validation F1 score": "0.1439 \u00b1 0.0020"
               },
@@ -4505,6 +4813,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "10992050",
                 "Test F1 score": "0.1570 \u00b1 0.0032",
                 "Validation F1 score": "0.1453 \u00b1 0.0025"
               },
@@ -4523,6 +4832,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "10971506",
                 "Test F1 score": "0.1552 \u00b1 0.0022",
                 "Validation F1 score": "0.1441 \u00b1 0.0016"
               },
@@ -4541,6 +4851,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "11156530",
                 "Test F1 score": "0.1528 \u00b1 0.0025",
                 "Validation F1 score": "0.1427 \u00b1 0.0020"
               },
@@ -4559,6 +4870,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "11033210",
                 "Test F1 score": "0.1507 \u00b1 0.0018",
                 "Validation F1 score": "0.1399 \u00b1 0.0017"
               },
@@ -4577,6 +4889,7 @@
                 }
               ],
               "metrics": {
+                "Number of params": "12390715",
                 "Test F1 score": "0.1495 \u00b1 0.0023",
                 "Validation F1 score": "0.1376 \u00b1 0.0016"
               },

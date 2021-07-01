@@ -56,8 +56,9 @@ def get_sota_rows(url: str, dataset: Dataset):
         headers = table.find_all("th")
         metric_1 = headers[2].text
         metric_2 = headers[3].text
+        metric_3 = "Number of params"
 
-        dataset.sota.metrics = [metric_1, metric_2]
+        dataset.sota.metrics = [metric_1, metric_2, metric_3]
         for tr in table.select("tbody > tr"):
             tds = tr.find_all("td")
 
@@ -83,7 +84,11 @@ def get_sota_rows(url: str, dataset: Dataset):
                     paper_url=paper_url,
                     paper_date=paper_date,
                     code_links=code_links,
-                    metrics={metric_1: tds[2].text, metric_2: tds[3].text},
+                    metrics={
+                        metric_1: tds[2].text,
+                        metric_2: tds[3].text,
+                        metric_3: tds[6].text.replace(",", ""),
+                    },
                 )
             )
     except Exception as e:
