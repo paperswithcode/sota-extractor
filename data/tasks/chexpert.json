@@ -202,7 +202,7 @@
                 "NUM RADS BELOW CURVE": "2.600"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "yw",
               "paper_date": "2019-09-01",
               "paper_title": "",
               "paper_url": "",
@@ -254,7 +254,7 @@
                 "NUM RADS BELOW CURVE": "2.400"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "alimebkovk",
               "paper_date": "2020-02-11",
               "paper_title": "",
               "paper_url": "",
@@ -319,7 +319,7 @@
                 "NUM RADS BELOW CURVE": "2.600"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "uest",
               "paper_date": "2019-09-04",
               "paper_title": "",
               "paper_url": "",
@@ -510,24 +510,11 @@
             {
               "code_links": [],
               "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.922",
-                "NUM RADS BELOW CURVE": "2.200"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2019-09-04",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.921",
                 "NUM RADS BELOW CURVE": "2.400"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "hoangnguyenkcv1",
               "paper_date": "2019-11-21",
               "paper_title": "",
               "paper_url": "",
@@ -542,19 +529,6 @@
               "model_links": [],
               "model_name": "SuperCNNv3",
               "paper_date": "2020-09-02",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.921",
-                "NUM RADS BELOW CURVE": "2.200"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2019-08-13",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -601,19 +575,6 @@
             {
               "code_links": [],
               "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.920",
-                "NUM RADS BELOW CURVE": "2.600"
-              },
-              "model_links": [],
-              "model_name": "{\"submit_id\": \"0x3c7b0af1b5784c159daf259c58543aa3\", \"predict_id\": \"0x67b23473183f4f43afa3b37edbc5d7fe\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
-              "paper_date": "2019-11-23",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.919",
                 "NUM RADS BELOW CURVE": "2.600"
               },
@@ -633,19 +594,6 @@
               "model_links": [],
               "model_name": "thang ensemble colo",
               "paper_date": "2019-12-20",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.919",
-                "NUM RADS BELOW CURVE": "2.200"
-              },
-              "model_links": [],
-              "model_name": "{\"submit_id\": \"0x33aeb0f2525e482a886196c273bdf1ba\", \"predict_id\": \"0xff2f60907da8440d98ff17f0af749535\", \"submitter_id\": \"0x0b382a226d4548c9b441f19b1907fe0f\"",
-              "paper_date": "2019-11-30",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -784,37 +732,11 @@
               "code_links": [],
               "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.916",
-                "NUM RADS BELOW CURVE": "2.200"
-              },
-              "model_links": [],
-              "model_name": "{\"submit_id\": \"0xeb9c9e79ed9e4410a2a37d62322f4585\", \"predict_id\": \"0x735b718280b14e83895decbc31641f87\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
-              "paper_date": "2019-11-14",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.916",
                 "NUM RADS BELOW CURVE": "2.400"
               },
               "model_links": [],
               "model_name": "DE_JUN3_RS_EN ensemble LTT",
               "paper_date": "2020-06-22",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.916",
-                "NUM RADS BELOW CURVE": "2.400"
-              },
-              "model_links": [],
-              "model_name": "{\"submit_id\": \"0x57dc2989f0474ca095d0841df09cfb18\", \"predict_id\": \"0xd43bcf7d4c9b467894db2b274b18794e\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
-              "paper_date": "2019-11-25",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -930,7 +852,7 @@
                 "NUM RADS BELOW CURVE": "2.400"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "zhangjingyan",
               "paper_date": "2019-08-05",
               "paper_title": "",
               "paper_url": "",
@@ -1047,7 +969,7 @@
                 "NUM RADS BELOW CURVE": "2.200"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "songta",
               "paper_date": "2019-08-01",
               "paper_title": "",
               "paper_url": "",
@@ -1086,7 +1008,7 @@
                 "NUM RADS BELOW CURVE": "2.200"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "bhtrun",
               "paper_date": "2019-10-25",
               "paper_title": "",
               "paper_url": "",
@@ -1164,7 +1086,7 @@
                 "NUM RADS BELOW CURVE": "2.000"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "guran_ri",
               "paper_date": "2019-07-31",
               "paper_title": "",
               "paper_url": "",
@@ -1307,7 +1229,7 @@
                 "NUM RADS BELOW CURVE": "1.400"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "Nakajima_ayas",
               "paper_date": "2019-09-29",
               "paper_title": "",
               "paper_url": "",
@@ -1359,7 +1281,7 @@
                 "NUM RADS BELOW CURVE": "1.600"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "adoudo",
               "paper_date": "2019-07-22",
               "paper_title": "",
               "paper_url": "",
@@ -1374,19 +1296,6 @@
               "model_links": [],
               "model_name": "{AVG_MAX}(ensemble)",
               "paper_date": "2019-07-22",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.899",
-                "NUM RADS BELOW CURVE": "1.600"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2019-08-01",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -1446,6 +1355,19 @@
             {
               "code_links": [],
               "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.897",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "AccidentNet v1 (single model)",
+              "paper_date": "2021-05-28",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.896",
                 "NUM RADS BELOW CURVE": "1.600"
               },
@@ -1489,7 +1411,7 @@
                 "NUM RADS BELOW CURVE": "1.600"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "adoudo",
               "paper_date": "2019-08-02",
               "paper_title": "",
               "paper_url": "",
@@ -1580,7 +1502,7 @@
                 "NUM RADS BELOW CURVE": "1.600"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "zhujier",
               "paper_date": "2019-07-29",
               "paper_title": "",
               "paper_url": "",
@@ -1645,7 +1567,7 @@
                 "NUM RADS BELOW CURVE": "0.800"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "Haruka_Hamasak",
               "paper_date": "2019-07-22",
               "paper_title": "",
               "paper_url": "",
@@ -1658,7 +1580,7 @@
                 "NUM RADS BELOW CURVE": "0.800"
               },
               "model_links": [],
-              "model_name": "",
+              "model_name": "Haruka_Hamasak",
               "paper_date": "2019-08-27",
               "paper_title": "",
               "paper_url": "",
@@ -1725,6 +1647,19 @@
               "model_links": [],
               "model_name": "{koala} (single model)",
               "paper_date": "2020-08-25",
+              "paper_title": "",
+              "paper_url": "",
+              "uses_additional_data": false
+            },
+            {
+              "code_links": [],
+              "metrics": {
+                "AVERAGE AUC ON 14 LABEL": "0.887",
+                "NUM RADS BELOW CURVE": "1.200"
+              },
+              "model_links": [],
+              "model_name": "Stellarium (single model)",
+              "paper_date": "2021-05-25",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -1862,19 +1797,6 @@
             {
               "code_links": [],
               "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.878",
-                "NUM RADS BELOW CURVE": "0.800"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2019-05-27",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.876",
                 "NUM RADS BELOW CURVE": "1.200"
               },
@@ -1985,19 +1907,6 @@
               "model_links": [],
               "model_name": "Densenet-Basic Single NUS",
               "paper_date": "2019-04-26",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.862",
-                "NUM RADS BELOW CURVE": "0.400"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2019-05-27",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -2213,19 +2122,6 @@
             {
               "code_links": [],
               "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.829",
-                "NUM RADS BELOW CURVE": "0.200"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2020-03-03",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.822",
                 "NUM RADS BELOW CURVE": "0.000"
               },
@@ -2234,19 +2130,6 @@
               "paper_date": "2019-05-16",
               "paper_title": "http://www.wingspan.cn/",
               "paper_url": "http://www.wingspan.cn/",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.821",
-                "NUM RADS BELOW CURVE": "0.400"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2020-02-03",
-              "paper_title": "",
-              "paper_url": "",
               "uses_additional_data": false
             },
             {
@@ -2291,19 +2174,6 @@
             {
               "code_links": [],
               "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.732",
-                "NUM RADS BELOW CURVE": "0.000"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2020-06-23",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
                 "AVERAGE AUC ON 14 LABEL": "0.727",
                 "NUM RADS BELOW CURVE": "0.000"
               },
@@ -2323,19 +2193,6 @@
               "model_links": [],
               "model_name": "BASELINE DenseNet121",
               "paper_date": "2019-11-25",
-              "paper_title": "",
-              "paper_url": "",
-              "uses_additional_data": false
-            },
-            {
-              "code_links": [],
-              "metrics": {
-                "AVERAGE AUC ON 14 LABEL": "0.701",
-                "NUM RADS BELOW CURVE": "0.000"
-              },
-              "model_links": [],
-              "model_name": "",
-              "paper_date": "2020-06-23",
               "paper_title": "",
               "paper_url": "",
               "uses_additional_data": false
@@ -2373,7 +2230,7 @@
                 "NUM RADS BELOW CURVE": "0.000"
               },
               "model_links": [],
-              "model_name": "{densenet121}{single model",
+              "model_name": "autobot",
               "paper_date": "2019-07-30",
               "paper_title": "",
               "paper_url": "",

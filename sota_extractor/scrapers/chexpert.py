@@ -29,7 +29,26 @@ def get_sota_rows(data):
             row.get("submission", {}).get("created", None), tz="US/Pacific"
         )
 
+        user_name = (
+            row.get("submission", {}).get("user_name", "") or ""
+        ).strip()
         description = row.get("submission", {}).get("description", "").strip()
+        auroc = row.get("scores", {}).get("average_auroc", None)
+        num_rads = row.get("scores", {}).get(
+            "average_num_rads_under_roc", None
+        )
+        # Skip rows with no values
+        if auroc is None or num_rads is None:
+            continue
+
+        if description == "" or (
+            description.startswith("{") and description.endswith("}")
+        ):
+            description = user_name
+            # If the description is still empty skip
+            if description == "":
+                continue
+
         # This peace of a the code is taken from gulpfile.js translated to py
         model_name = description[: description.rfind("(")].strip()
         # _first_part = description[: description.rfind("(") + 1]
@@ -38,14 +57,6 @@ def get_sota_rows(data):
             link = description[description.rfind("http") :].strip()
         else:
             link = ""
-
-        auroc = row.get("scores", {}).get("average_auroc", None)
-        num_rads = row.get("scores", {}).get(
-            "average_num_rads_under_roc", None
-        )
-        # Skip rows with no values
-        if auroc is None or num_rads is None:
-            continue
 
         sota_rows.append(
             SotaRow(
