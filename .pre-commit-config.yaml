@@ -1,5 +1,6 @@
+repos:
 - repo: https://github.com/ambv/black
-  rev: stable
+  rev: 21.6b0
   hooks:
       - id: black
         name: Format Python Code
@@ -11,7 +12,7 @@
             - --line-length=79
             - sota_extractor
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v2.1.0
+  rev: v4.0.1
   hooks:
       - id: requirements-txt-fixer
         name: Requirements file fixer
@@ -21,7 +22,7 @@
             - requirements-dev.txt
 
 - repo: https://gitlab.com/pycqa/flake8
-  rev: 3.7.9
+  rev: 3.9.2
   hooks:
       - id: flake8
         name: Flake8 Check
@@ -31,7 +32,7 @@
             - sota_extractor
 
 - repo: https://github.com/pycqa/pydocstyle
-  rev: master
+  rev: 6.1.1
   hooks:
       - id: pydocstyle
         name: Python Documentation Style Check

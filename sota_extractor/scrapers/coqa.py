@@ -71,7 +71,7 @@ def coqa() -> TaskDB:
     except Exception as e:
         raise HttpClientError(message=str(e))
 
-    dataset = Dataset(name=DATASET_NAME, is_subdataset=False,)
+    dataset = Dataset(name=DATASET_NAME, is_subdataset=False)
     task = Task(name=TASK_NAME)
     task.datasets = [dataset]
     task.source_link = Link(title="CoQA Leaderboard", url=URL)

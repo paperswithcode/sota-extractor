@@ -29,9 +29,9 @@ def sub_items(title, items, lines_func) -> List[str]:
 def dataset_lines(dataset: Dataset) -> List[str]:
     lines = [f"Name: {dataset.name}"]
     if dataset.description is None or dataset.description.strip() == "":
-        lines.append(f"Description: -")
+        lines.append("Description: -")
     else:
-        lines.append(f"Description:")
+        lines.append("Description:")
         lines.extend(wrap_lines(dataset.description))
     lines.append(f"Rows: {len(dataset.sota.rows)}")
 
@@ -42,16 +42,16 @@ def dataset_lines(dataset: Dataset) -> List[str]:
 def task_lines(task: Task) -> List[str]:
     lines = [f"Name: {task.name}"]
     if task.description is None or task.description.strip() == "":
-        lines.append(f"Description: -")
+        lines.append("Description: -")
     else:
-        lines.append(f"Description:")
+        lines.append("Description:")
         lines.extend(wrap_lines(task.description))
     if task.parent is None:
-        lines.append(f"Parent: -")
+        lines.append("Parent: -")
     else:
         lines.append(f"Parent: {task.parent.name}")
     if task.source_link is None:
-        lines.append(f"Source Link: -")
+        lines.append("Source Link: -")
     else:
         lines.append(f"Source Link: {task.source_link}")
 

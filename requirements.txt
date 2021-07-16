@@ -1,10 +1,9 @@
 beautifulsoup4~=4.9.0
-click~=7.1.1
-dataclasses~=0.6
+click~=8.0.1
 jsonnet~=0.17.0
 lxml>=4.6.2
-markdown~=3.2.1
-marshmallow~=3.5.1
+markdown~=3.3.4
+marshmallow~=3.12.2
 nltk~=3.4.5
 pandas
 pytz~=2021.1

@@ -1,12 +1,12 @@
 -r requirements.txt
-black==19.10b0
-flake8==3.7.9
+black==21.6b0
+flake8~=3.9.2
 jupyter
-pre-commit==2.2.0
-pydocstyle==5.0.2
-pytest==5.4.1
-pytest-cov==2.8.1
-recommonmark==0.6.0
-sphinx==3.0.2
-sphinx-rtd-theme==0.4.3
-twine==3.1.1
+pre-commit~=2.13.0
+pydocstyle~=6.1.1
+pytest~=6.2.4
+pytest-cov~=2.12.1
+recommonmark~=0.7.1
+sphinx~=4.1.1
+sphinx-rtd-theme~=0.5.2
+twine~=3.4.1

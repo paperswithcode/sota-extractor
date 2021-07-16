@@ -15,8 +15,8 @@ CMRC_2018_JSON_URL = (
     "raw_score.json"
 )
 CMRC_2019_JSON_URL = (
-    f"https://raw.githubusercontent.com/ymcui/cmrc2019/gh-pages/docs/"
-    f"raw_score.json"
+    "https://raw.githubusercontent.com/ymcui/cmrc2019/gh-pages/docs/"
+    "raw_score.json"
 )
 
 TASK_NAME = "Chinese Reading Comprehension"
