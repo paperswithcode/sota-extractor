@@ -47,6 +47,12 @@ DATA = [
 
 
 def get_sota_rows(url: str, dataset: Dataset):
+    paper_code_col = 6
+    date_col = 9
+    params_col = 7
+    metric_1_col = 2
+    metric_2_col = 3
+    metric_4_col = 4
     try:
         soup = get_soup(url)
 
@@ -54,26 +60,27 @@ def get_sota_rows(url: str, dataset: Dataset):
         table = h3.find_next_sibling("table")
 
         headers = table.find_all("th")
-        metric_1 = headers[2].text
-        metric_2 = headers[3].text
+        metric_1 = headers[metric_1_col].text
+        metric_2 = headers[metric_2_col].text
         metric_3 = "Number of params"
+        metric_4 = headers[metric_4_col].text
 
-        dataset.sota.metrics = [metric_1, metric_2, metric_3]
+        dataset.sota.metrics = [metric_1, metric_2, metric_3, metric_4]
         for tr in table.select("tbody > tr"):
             tds = tr.find_all("td")
 
             try:
-                paper_url = tds[5].find("a", text="Paper").attrs["href"]
+                paper_url = tds[paper_code_col].find("a", text="Paper").attrs["href"]
             except (AttributeError, KeyError):
                 paper_url = ""
 
             try:
-                paper_date = datetime.strptime(tds[8].text, "%b %d, %Y")
+                paper_date = datetime.strptime(tds[date_col].text, "%b %d, %Y")
             except ValueError:
                 paper_date = None
 
             try:
-                link = Link(url=tds[5].find("a", text="Code").attrs["href"])
+                link = Link(url=tds[paper_code_col].find("a", text="Code").attrs["href"])
                 code_links = [link]
             except (AttributeError, KeyError):
                 code_links = []
@@ -85,9 +92,10 @@ def get_sota_rows(url: str, dataset: Dataset):
                     paper_date=paper_date,
                     code_links=code_links,
                     metrics={
-                        metric_1: tds[2].text,
-                        metric_2: tds[3].text,
-                        metric_3: tds[6].text.replace(",", ""),
+                        metric_1: tds[metric_1_col].text,
+                        metric_2: tds[metric_2_col].text,
+                        metric_3: tds[params_col].text.replace(",", ""),
+                        metric_4: tds[metric_4_col].text,
                     },
                 )
             )
