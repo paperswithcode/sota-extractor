@@ -1,8 +1,8 @@
 # Automatic SOTA (state-of-the-art) extraction
 
-Aggregate public SOTA tables that are shared under **a free licences**. 
+Aggregate public SOTA tables that are shared under **free licences**. 
 
-Download the scrapped data or run the scrappers yourself the get the latest data. 
+Download the scraped data or run the scrapers yourself to get the latest data. 
 
 In the future, we are planning to automate the process of extracting tasks, datasets and results from papers. 
 
@@ -34,8 +34,8 @@ A `Dataset` consists of the following fields:
 - `description` - a short description in markdown (string)
 - `subdatasets` - zero or more children `Dataset` objects (e.g. dataset subsets or dataset partitions) (list)
 - `dataset_links` - zero or more `Link` objects, representing the links to the dataset download page or any other relevant external pages (list)
-- `dataset_citations"` - zero or more `Link` objects, representing the papers that are the primary citations for the dataset. 
-- `sota` - the `Sota` object representing the state-of-the-art table on this dataset. 
+- `dataset_citations"` - zero or more `Link` objects, representing the papers that are the primary citations for the dataset
+- `sota` - the `Sota` object representing the state-of-the-art table on this dataset
  
 #### `Link`
 
